@@ -113,19 +113,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: 12|KR_speednode_0014
-  network: ws
-  port: 50001
-  server: 61.74.149.202
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560fp=chrome
-- cipher: none
   name: 云机录-🇺🇸US_5|3.1MB/s|GPT⁺|NF|GM
   network: ws
   port: 2096
@@ -138,6 +125,41 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- cipher: none
+  name: 12|KR_speednode_0014
+  network: ws
+  port: 50001
+  server: 61.74.149.202
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560fp=chrome
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 云机录-🇺🇸US_3|3.4MB/s|GPT|NF
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
 - cipher: none
   name: RU_speednode_0060
   network: ws
@@ -152,10 +174,10 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
 - cipher: none
-  name: 云机录-🇺🇸US_3|3.4MB/s|GPT|NF
+  name: 云机录-🇰🇷KR_1|2.7MB/s|GM
   network: ws
-  port: 2096
-  server: 195.13.45.253
+  port: 50001
+  server: 220.90.247.28
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -163,25 +185,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
-  network: tcp
-  port: 50002
-  server: 112.132.215.12
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    path: /X@节点狂魔/?ed=2560
 - alterId: 0
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
@@ -200,19 +204,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 云机录-🇰🇷KR_1|2.7MB/s|GM
-  network: ws
-  port: 50001
-  server: 220.90.247.28
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
