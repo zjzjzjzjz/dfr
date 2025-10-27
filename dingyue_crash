@@ -1,11 +1,17 @@
 proxies:
-- name: 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 24392
-  server: 36.151.251.35
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+- cipher: none
+  name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+  tls: true
+  type: vless
+  uuid: a55538a5-2fd5-4e89-8c94-ef9b2da061ea
+  ws-opts:
+    headers:
+      Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+    path: /vuut6bvfxroxjbja?ed=2560
 - name: US_speednode_0080
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -21,15 +27,6 @@ proxies:
   sni: jobscareerfortoday.com
   type: trojan
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
-  network: tcp
-  port: 49212
-  server: 183.240.245.235
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -41,6 +38,15 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
+- alterId: 64
+  cipher: auto
+  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
+  network: tcp
+  port: 49212
+  server: 183.240.245.235
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: SE_speednode_0012
   password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
@@ -96,15 +102,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇰🇷KR_9|3.3MB/s|NF
   network: ws
@@ -132,32 +129,15 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560fp=chrome
-- cipher: none
-  name: RU_speednode_0060
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
-- cipher: none
-  name: 云机录-🇰🇷KR_1|2.7MB/s|GM
-  network: ws
-  port: 50001
-  server: 220.90.247.28
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_5|3.1MB/s|GPT⁺|NF|GM
   network: ws
@@ -184,28 +164,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram@freecodes/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
-  name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
+  name: RU_speednode_0060
   network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
-  uuid: a55538a5-2fd5-4e89-8c94-ef9b2da061ea
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
-      Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
-    path: /vuut6bvfxroxjbja?ed=2560
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
 - alterId: 0
   cipher: auto
   name: cn|9c67|puddincat07@Telegram
@@ -214,6 +185,15 @@ proxies:
   server: 39.107.155.11
   type: vmess
   udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
@@ -233,6 +213,26 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 云机录-🇰🇷KR_1|2.7MB/s|GM
+  network: ws
+  port: 50001
+  server: 220.90.247.28
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
+- name: 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 24392
+  server: 36.151.251.35
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: none
   name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
   network: ws
