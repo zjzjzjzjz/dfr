@@ -52,13 +52,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: none
-  name: 云机录-🇩🇪DE_9|3.1MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 443
-  server: a.de.maviks.ru
-  type: vless
-  uuid: ce13ec9d-0f04-49c0-9877-0e7d1e657895
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -91,20 +84,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: 云机录-🇰🇷KR_5|2.8MB/s|NF
-  network: ws
-  port: 50001
-  server: 182.210.59.164
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /?ed=2560
-- cipher: none
   name: 云机录-🇰🇷KR_9|3.3MB/s|NF
   network: ws
   port: 50001
@@ -118,6 +97,20 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /telegram @freecodes /?ed=2560
+- cipher: none
+  name: 云机录-🇰🇷KR_5|2.8MB/s|NF
+  network: ws
+  port: 50001
+  server: 182.210.59.164
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /?ed=2560
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -215,21 +208,21 @@ proxies:
     path: /X@节点狂魔/?ed=2560
 - alterId: 0
   cipher: auto
-  name: cn|9c67|puddincat07@Telegram
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
   network: tcp
   port: 30302
   server: 39.107.155.11
   type: vmess
   udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: cn|9c67|puddincat07@Telegram
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
@@ -244,15 +237,6 @@ proxies:
     headers:
       Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
     path: /
-- alterId: 64
-  cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-  network: tcp
-  port: 50002
-  server: 39.100.81.215
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇰🇷KR_13|4.6MB/s
   network: ws
@@ -267,6 +251,15 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔 /
+- alterId: 64
+  cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
+  network: tcp
+  port: 50002
+  server: 39.100.81.215
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
@@ -283,3 +276,23 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: none
+  name: 云机录-🇰🇷KR_28|4.6MB/s|GPT|NF
+  network: ws
+  port: 19413
+  server: 121.165.101.69
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
+- cipher: none
+  name: 云机录-🇩🇪DE_9|3.1MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 443
+  server: a.de.maviks.ru
+  type: vless
+  uuid: ce13ec9d-0f04-49c0-9877-0e7d1e657895
