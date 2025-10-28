@@ -17,10 +17,10 @@ proxies:
   ws-opts:
     path: /tr?ed=2560
 - cipher: none
-  name: 云机录-🇺🇸US_12|1.3MB/s|GPT|NF|GM
+  name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
   network: ws
   port: 2096
-  server: 159.112.235.253
+  server: 154.197.75.253
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -159,6 +159,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram@freecodes/?ed=2560
+- cipher: none
+  name: 云机录-🇺🇸US_12|1.3MB/s|GPT|NF|GM
+  network: ws
+  port: 2096
+  server: 159.112.235.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_12|10.8MB/s|0%|NF
@@ -213,32 +226,6 @@ proxies:
   network: ws
   port: 2096
   server: 139.64.235.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- cipher: none
-  name: 云机录-🇰🇷KR_1|2.7MB/s|GM
-  network: ws
-  port: 50001
-  server: 220.90.247.28
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- cipher: none
-  name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
-  network: ws
-  port: 2096
-  server: 154.197.75.253
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
