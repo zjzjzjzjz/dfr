@@ -6,19 +6,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: none
-  name: 云机录-🇺🇸US_3|3.4MB/s|GPT|NF
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
 - name: 云机录-🇳🇱NL_9|3.2MB/s|7%|GPT⁺|NF
   network: ws
   password: bpb-trojan
@@ -29,32 +16,6 @@ proxies:
   udp: true
   ws-opts:
     path: /tr?ed=2560
-- cipher: none
-  name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
-  network: ws
-  port: 2096
-  server: 154.197.75.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- cipher: none
-  name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
-  network: ws
-  port: 443
-  server: 104.24.0.0
-  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-  tls: true
-  type: vless
-  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
-  ws-opts:
-    headers:
-      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-    path: /
 - name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 24392
@@ -146,6 +107,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /telegram @freecodes /?ed=2560
+- cipher: none
+  name: 云机录-🇺🇸US_3|3.4MB/s|GPT|NF
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_12|10.8MB/s|0%|NF
@@ -160,6 +134,19 @@ proxies:
   network: ws
   port: 2096
   server: 159.112.235.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- cipher: none
+  name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
+  network: ws
+  port: 2096
+  server: 154.197.75.253
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -192,21 +179,21 @@ proxies:
     path: /vuut6bvfxroxjbja?ed=2560
 - alterId: 0
   cipher: auto
-  name: cn|9c67|puddincat07@Telegram
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
   network: tcp
   port: 30302
   server: 39.107.155.11
   type: vmess
   udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: cn|9c67|puddincat07@Telegram
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_5|3.1MB/s|GPT⁺|NF|GM
@@ -260,6 +247,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560fp=chrome
+- cipher: none
+  name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: 104.24.0.0
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
