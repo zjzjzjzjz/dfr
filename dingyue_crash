@@ -13,6 +13,19 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: /Telegram@freecodes/?ed=2560
 - cipher: none
+  name: 12|KR_speednode_0018
+  network: ws
+  port: 50001
+  server: 106.245.216.35
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560fp=chrome
+- cipher: none
   name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
   network: ws
   port: 443
@@ -61,19 +74,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
-- cipher: none
-  name: 12|KR_speednode_0014
-  network: ws
-  port: 50001
-  server: 61.74.149.202
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560fp=chrome
 - name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 24392
@@ -81,6 +81,13 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: none
+  name: 云机录-🇩🇪DE_9|3.1MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 443
+  server: a.de.maviks.ru
+  type: vless
+  uuid: ce13ec9d-0f04-49c0-9877-0e7d1e657895
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -193,19 +200,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- cipher: none
-  name: 12|KR_speednode_0018
-  network: ws
-  port: 50001
-  server: 106.245.216.35
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560fp=chrome
 - name: 美国3|@ripaojiedian
   password: BxceQaOe
   port: 26373
@@ -240,6 +234,19 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 12|KR_speednode_0014
+  network: ws
+  port: 50001
+  server: 61.74.149.202
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560fp=chrome
 - cipher: none
   name: 云机录-🇺🇸US_7|2.1MB/s|0%|GPT⁺|NF
   network: ws
@@ -296,13 +303,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔 /
-- cipher: none
-  name: 云机录-🇩🇪DE_9|3.1MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 443
-  server: a.de.maviks.ru
-  type: vless
-  uuid: ce13ec9d-0f04-49c0-9877-0e7d1e657895
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
