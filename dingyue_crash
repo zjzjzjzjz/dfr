@@ -1,4 +1,44 @@
 proxies:
+- cipher: none
+  name: 云机录-🇰🇷KR_9|3.3MB/s|NF
+  network: ws
+  port: 50001
+  server: 1.238.209.247
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /telegram @freecodes /?ed=2560
+- cipher: none
+  name: 云机录-🇺🇸US_12|1.3MB/s|GPT|NF|GM
+  network: ws
+  port: 2096
+  server: 159.112.235.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- cipher: none
+  name: 云机录-🇺🇸US_3|3.4MB/s|GPT|NF
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
 - name: 云机录-🇳🇱NL_9|3.2MB/s|7%|GPT⁺|NF
   network: ws
   password: bpb-trojan
@@ -9,19 +49,6 @@ proxies:
   udp: true
   ws-opts:
     path: /tr?ed=2560
-- cipher: none
-  name: RU_speednode_0060
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
 - cipher: none
   name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
   network: ws
@@ -85,20 +112,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 云机录-🇰🇷KR_9|3.3MB/s|NF
-  network: ws
-  port: 50001
-  server: 1.238.209.247
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /telegram @freecodes /?ed=2560
 - name: 11,12|新加坡|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 2283
@@ -145,32 +158,15 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: none
-  name: 云机录-🇺🇸US_12|1.3MB/s|GPT|NF|GM
-  network: ws
-  port: 2096
-  server: 159.112.235.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- cipher: none
-  name: 云机录-🇺🇸US_3|3.4MB/s|GPT|NF
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
   network: ws
@@ -184,12 +180,25 @@ proxies:
     headers:
       Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
     path: /vuut6bvfxroxjbja?ed=2560
+- cipher: none
+  name: RU_speednode_0060
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
 - alterId: 0
   cipher: auto
-  name: cn|9c44|puddincat07@Telegram
+  name: cn|9c67|puddincat07@Telegram
   network: tcp
-  port: 50002
-  server: 139.129.20.6
+  port: 30302
+  server: 39.107.155.11
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -206,15 +215,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560fp=chrome
-- alterId: 0
-  cipher: auto
-  name: cn|9c67|puddincat07@Telegram
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
