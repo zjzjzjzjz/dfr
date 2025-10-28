@@ -14,10 +14,10 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: /telegram @freecodes /?ed=2560
 - cipher: none
-  name: 云机录-🇺🇸US_12|1.3MB/s|GPT|NF|GM
+  name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
   network: ws
   port: 2096
-  server: 159.112.235.253
+  server: 154.197.75.253
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -26,6 +26,32 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- cipher: none
+  name: 云机录-🇺🇸US_3|3.4MB/s|GPT|NF
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
+- cipher: none
+  name: RU_speednode_0060
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
 - cipher: none
   name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
   network: ws
@@ -97,19 +123,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: none
-  name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
-  network: ws
-  port: 2096
-  server: 154.197.75.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -120,10 +133,10 @@ proxies:
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
-  name: 云机录-🇺🇸US_3|3.4MB/s|GPT|NF
+  name: 云机录-🇺🇸US_12|1.3MB/s|GPT|NF|GM
   network: ws
   port: 2096
-  server: 195.13.45.253
+  server: 159.112.235.253
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -131,7 +144,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_12|10.8MB/s|0%|NF
@@ -141,19 +154,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: RU_speednode_0060
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -214,19 +214,6 @@ proxies:
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
-  name: 12|KR_speednode_0014
-  network: ws
-  port: 50001
-  server: 61.74.149.202
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560fp=chrome
-- cipher: none
   name: 云机录-🇰🇷KR_28|4.6MB/s|GPT|NF
   network: ws
   port: 19413
@@ -239,6 +226,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram@freecodes/?ed=2560
+- cipher: none
+  name: 12|KR_speednode_0014
+  network: ws
+  port: 50001
+  server: 61.74.149.202
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560fp=chrome
 - cipher: none
   name: 云机录-🇰🇷KR_2|2.5MB/s
   network: ws
