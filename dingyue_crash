@@ -1,9 +1,9 @@
 proxies:
 - cipher: none
-  name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
+  name: 云机录-🇺🇸US_12|1.3MB/s|GPT|NF|GM
   network: ws
   port: 2096
-  server: 154.197.75.253
+  server: 159.112.235.253
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -94,15 +94,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 云机录-🇺🇸US_12|10.8MB/s|0%|NF
-  network: tcp
-  port: 37775
-  server: 183.240.245.237
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 11,12|新加坡|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 2283
@@ -139,32 +130,15 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔 /?ed=2560
-- cipher: none
-  name: 云机录-🇺🇸US_3|3.4MB/s|GPT|NF
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
-- cipher: none
-  name: 云机录-🇺🇸US_12|1.3MB/s|GPT|NF|GM
-  network: ws
-  port: 2096
-  server: 159.112.235.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- alterId: 64
+  cipher: auto
+  name: 云机录-🇺🇸US_12|10.8MB/s|0%|NF
+  network: tcp
+  port: 37775
+  server: 183.240.245.237
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 12|KR_speednode_0018
   network: ws
@@ -178,6 +152,32 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560fp=chrome
+- cipher: none
+  name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
+  network: ws
+  port: 2096
+  server: 154.197.75.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- cipher: none
+  name: 云机录-🇺🇸US_3|3.4MB/s|GPT|NF
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -235,19 +235,6 @@ proxies:
       Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
     path: /
 - cipher: none
-  name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
-  network: ws
-  port: 443
-  server: 104.24.0.0
-  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-  tls: true
-  type: vless
-  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
-  ws-opts:
-    headers:
-      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-    path: /
-- cipher: none
   name: 12|KR_speednode_0014
   network: ws
   port: 50001
@@ -260,6 +247,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560fp=chrome
+- cipher: none
+  name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: 104.24.0.0
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -267,15 +267,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-  network: tcp
-  port: 50002
-  server: 39.100.81.215
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇰🇷KR_13|4.6MB/s
   network: ws
@@ -290,6 +281,15 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔 /
+- alterId: 64
+  cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
+  network: tcp
+  port: 50002
+  server: 39.100.81.215
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
