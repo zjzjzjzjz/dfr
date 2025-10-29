@@ -1,18 +1,5 @@
 proxies:
 - cipher: none
-  name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
-  tls: true
-  type: vless
-  uuid: a55538a5-2fd5-4e89-8c94-ef9b2da061ea
-  ws-opts:
-    headers:
-      Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
-    path: /vuut6bvfxroxjbja?ed=2560
-- cipher: none
   name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
   network: ws
   port: 443
@@ -25,13 +12,6 @@ proxies:
     headers:
       Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
     path: /
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -160,6 +140,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /telegram @freecodes /?ed=2560
+- cipher: none
+  name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+  tls: true
+  type: vless
+  uuid: a55538a5-2fd5-4e89-8c94-ef9b2da061ea
+  ws-opts:
+    headers:
+      Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+    path: /vuut6bvfxroxjbja?ed=2560
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -274,6 +267,13 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
