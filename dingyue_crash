@@ -25,16 +25,6 @@ proxies:
     headers:
       Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
     path: /
-- name: 云机录-🇳🇱NL_9|3.2MB/s|7%|GPT⁺|NF
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 172.67.180.227
-  sni: mashdt.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /tr?ed=2560
 - cipher: none
   name: 云机录-🇩🇪DE_9|3.1MB/s|50%|GPT⁺|NF
   network: tcp
@@ -42,6 +32,13 @@ proxies:
   server: a.de.maviks.ru
   type: vless
   uuid: ce13ec9d-0f04-49c0-9877-0e7d1e657895
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -92,13 +89,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: US_speednode_0080
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 23.227.194.19
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
@@ -108,6 +98,13 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: US_speednode_0080
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 23.227.194.19
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - cipher: none
   name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
   network: ws
@@ -192,15 +189,16 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
-- alterId: 0
-  cipher: auto
-  name: cn|9c67|puddincat07@Telegram
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
+- name: 云机录-🇳🇱NL_9|3.2MB/s|7%|GPT⁺|NF
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 172.67.180.227
+  sni: mashdt.pages.dev
+  type: trojan
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /tr?ed=2560
 - alterId: 0
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
@@ -232,6 +230,15 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560fp=chrome
+- alterId: 0
+  cipher: auto
+  name: cn|9c67|puddincat07@Telegram
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇰🇷KR_2|2.5MB/s
   network: ws
@@ -267,13 +274,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
