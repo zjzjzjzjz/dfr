@@ -1,4 +1,12 @@
 proxies:
+- name: us|8a6b|puddincat07@Telegram
+  password: b4e8771997c94732acbc9ec4d19c2589
+  port: 443
+  server: 104.17.215.6
+  skip-cert-verify: true
+  sni: jobscareerfortoday.com
+  type: trojan
+  udp: true
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -10,18 +18,17 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- name: us|8a6b|puddincat07@Telegram
-  password: b4e8771997c94732acbc9ec4d19c2589
-  port: 443
-  server: 104.17.215.6
-  skip-cert-verify: true
-  sni: jobscareerfortoday.com
-  type: trojan
-  udp: true
 - name: 12,13|美国2|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
   server: 160.16.236.32
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: US_speednode_0080
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 23.227.194.19
   sni: www.nintendogames.net
   type: trojan
   udp: true
@@ -31,13 +38,6 @@ proxies:
   server: 45.91.171.116
   skip-cert-verify: true
   sni: sto.freeguard.org
-  type: trojan
-  udp: true
-- name: US_speednode_0080
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 23.227.194.19
-  sni: www.nintendogames.net
   type: trojan
   udp: true
 - name: 12,13|美国|@ripaojiedian
@@ -114,19 +114,6 @@ proxies:
     headers:
       Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
     path: /vuut6bvfxroxjbja?ed=2560
-- cipher: none
-  name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
-  network: ws
-  port: 443
-  server: 104.24.0.0
-  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-  tls: true
-  type: vless
-  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
-  ws-opts:
-    headers:
-      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-    path: /
 - alterId: 0
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
@@ -145,6 +132,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: 104.24.0.0
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
 - name: 云机录-🇳🇱NL_9|3.2MB/s|7%|GPT⁺|NF
   network: ws
   password: bpb-trojan
@@ -171,13 +171,6 @@ proxies:
   server: a.de.maviks.ru
   type: vless
   uuid: ce13ec9d-0f04-49c0-9877-0e7d1e657895
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
@@ -187,6 +180,13 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
