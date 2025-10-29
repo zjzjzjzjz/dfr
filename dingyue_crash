@@ -79,6 +79,15 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /telegram @freecodes /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
   network: ws
@@ -101,24 +110,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: cn|9c67|puddincat07@Telegram
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: RU_speednode_0060
   network: ws
@@ -132,6 +123,15 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
+- alterId: 0
+  cipher: auto
+  name: cn|9c67|puddincat07@Telegram
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
   network: ws
@@ -164,13 +164,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 云机录-🇩🇪DE_9|3.1MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 443
-  server: a.de.maviks.ru
-  type: vless
-  uuid: ce13ec9d-0f04-49c0-9877-0e7d1e657895
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
@@ -180,6 +173,13 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 云机录-🇩🇪DE_9|3.1MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 443
+  server: a.de.maviks.ru
+  type: vless
+  uuid: ce13ec9d-0f04-49c0-9877-0e7d1e657895
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
