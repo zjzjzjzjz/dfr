@@ -12,13 +12,6 @@ proxies:
     headers:
       Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
     path: /vuut6bvfxroxjbja?ed=2560
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: aes-256-cfb
   name: VN_speednode_0039
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -58,19 +51,6 @@ proxies:
   sni: sto.freeguard.org
   type: trojan
   udp: true
-- cipher: none
-  name: RU_speednode_0060
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -142,6 +122,13 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: cn|9833|puddincat07@Telegram
   password: BxceQaOe
   port: 194
