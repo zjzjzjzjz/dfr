@@ -1,5 +1,18 @@
 proxies:
 - cipher: none
+  name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+  tls: true
+  type: vless
+  uuid: a55538a5-2fd5-4e89-8c94-ef9b2da061ea
+  ws-opts:
+    headers:
+      Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+    path: /vuut6bvfxroxjbja?ed=2560
+- cipher: none
   name: 云机录-🇺🇸US_14|1.1MB/s|0%|GPT⁺|NF
   network: ws
   port: 443
@@ -46,19 +59,6 @@ proxies:
   sni: sto.freeguard.org
   type: trojan
   udp: true
-- cipher: none
-  name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
-  tls: true
-  type: vless
-  uuid: a55538a5-2fd5-4e89-8c94-ef9b2da061ea
-  ws-opts:
-    headers:
-      Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
-    path: /vuut6bvfxroxjbja?ed=2560
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_12|10.8MB/s|0%|NF
@@ -77,15 +77,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-  network: tcp
-  port: 50002
-  server: 39.100.81.215
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: RU_speednode_0060
   network: ws
@@ -99,6 +90,15 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
+- alterId: 64
+  cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
+  network: tcp
+  port: 50002
+  server: 39.100.81.215
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
@@ -139,13 +139,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: cn|9833|puddincat07@Telegram
-  password: BxceQaOe
-  port: 194
-  server: 36.156.102.72
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
@@ -157,6 +150,13 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.46.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: cn|9833|puddincat07@Telegram
+  password: BxceQaOe
+  port: 194
+  server: 36.156.102.72
   skip-cert-verify: true
   type: trojan
   udp: true
