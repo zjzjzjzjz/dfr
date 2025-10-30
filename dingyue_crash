@@ -13,6 +13,19 @@ proxies:
       Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
     path: /vuut6bvfxroxjbja?ed=2560
 - cipher: none
+  name: 云机录-🇺🇸US_17|3.2MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
+- cipher: none
   name: 云机录-🇺🇸US_14|1.1MB/s|0%|GPT⁺|NF
   network: ws
   port: 443
