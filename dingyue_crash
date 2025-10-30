@@ -24,14 +24,6 @@ proxies:
   port: 38388
   server: 103.186.154.250
   type: ss
-- name: us|8a6b|puddincat07@Telegram
-  password: b4e8771997c94732acbc9ec4d19c2589
-  port: 443
-  server: 104.17.215.6
-  skip-cert-verify: true
-  sni: jobscareerfortoday.com
-  type: trojan
-  udp: true
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -41,6 +33,14 @@ proxies:
   server: 89.117.158.245
   skip-cert-verify: true
   sni: esla.cestbon.work
+  type: trojan
+  udp: true
+- name: us|8a6b|puddincat07@Telegram
+  password: b4e8771997c94732acbc9ec4d19c2589
+  port: 443
+  server: 104.17.215.6
+  skip-cert-verify: true
+  sni: jobscareerfortoday.com
   type: trojan
   udp: true
 - name: SE_speednode_0012
