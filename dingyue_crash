@@ -71,15 +71,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: RU_speednode_0060
   network: ws
@@ -104,6 +95,15 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: cn|9c67|puddincat07@Telegram
   network: tcp
   port: 30302
@@ -111,13 +111,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: cn|9833|puddincat07@Telegram
-  password: BxceQaOe
-  port: 194
-  server: 36.156.102.72
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: none
   name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
   network: ws
@@ -131,6 +124,13 @@ proxies:
     headers:
       Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
     path: /
+- name: cn|9833|puddincat07@Telegram
+  password: BxceQaOe
+  port: 194
+  server: 36.156.102.72
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
