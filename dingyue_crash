@@ -11,6 +11,19 @@ proxies:
   port: 38388
   server: 103.186.155.237
   type: ss
+- cipher: none
+  name: 云机录-🇺🇸US_18|3.3MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: yxip.xxxxxxxx.tk
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -82,13 +95,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12,13|香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.3
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: cn|9c67|puddincat07@Telegram
@@ -120,6 +126,13 @@ proxies:
     headers:
       Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
     path: /
+- name: 12,13|香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.3
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
@@ -136,10 +149,3 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- name: cn|9833|puddincat07@Telegram
-  password: BxceQaOe
-  port: 194
-  server: 36.156.102.72
-  skip-cert-verify: true
-  type: trojan
-  udp: true
