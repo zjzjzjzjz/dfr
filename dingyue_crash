@@ -22,14 +22,6 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- name: SE_speednode_0012
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
-  type: trojan
-  udp: true
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -38,15 +30,14 @@ proxies:
   sni: jobscareerfortoday.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
+- name: SE_speednode_0012
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
+  skip-cert-verify: true
+  sni: sto.freeguard.org
+  type: trojan
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
   network: ws
@@ -60,6 +51,15 @@ proxies:
     headers:
       Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
     path: /vuut6bvfxroxjbja?ed=2560
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
   network: ws
@@ -73,6 +73,13 @@ proxies:
     headers:
       Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
     path: /
+- name: 12,13|香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.3
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
