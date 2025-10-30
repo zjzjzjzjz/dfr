@@ -31,19 +31,19 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- name: US_speednode_0080
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 23.227.194.19
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - name: SE_speednode_0012
   password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
   server: 45.91.171.116
   skip-cert-verify: true
   sni: sto.freeguard.org
+  type: trojan
+  udp: true
+- name: US_speednode_0080
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 23.227.194.19
+  sni: www.nintendogames.net
   type: trojan
   udp: true
 - alterId: 64
@@ -90,15 +90,6 @@ proxies:
     headers:
       Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
     path: /
-- alterId: 0
-  cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
@@ -116,6 +107,15 @@ proxies:
   server: 39.107.155.11
   type: vmess
   udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_14|1.1MB/s|0%|GPT⁺|NF
