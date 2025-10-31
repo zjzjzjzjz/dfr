@@ -1,11 +1,5 @@
 proxies:
 - cipher: aes-256-cfb
-  name: VN_speednode_0033
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.250
-  type: ss
-- cipher: aes-256-cfb
   name: VN_speednode_0039
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
@@ -64,6 +58,12 @@ proxies:
   sni: jobscareerfortoday.com
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0033
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.250
+  type: ss
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -99,6 +99,15 @@ proxies:
     headers:
       Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
     path: /
+- alterId: 0
+  cipher: auto
+  name: cn|9c67|puddincat07@Telegram
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 12,13|香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -114,15 +123,6 @@ proxies:
   server: 39.100.81.215
   type: vmess
   udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: cn|9c67|puddincat07@Telegram
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
