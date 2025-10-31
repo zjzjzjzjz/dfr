@@ -12,6 +12,19 @@ proxies:
     headers:
       Host: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
     path: //
+- cipher: none
+  name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: 104.24.0.0
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -113,19 +126,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
-  network: ws
-  port: 443
-  server: 104.24.0.0
-  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-  tls: true
-  type: vless
-  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
-  ws-opts:
-    headers:
-      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-    path: /
 - cipher: none
   name: 云机录-🇺🇸US_14|1.1MB/s|0%|GPT⁺|NF
   network: ws
