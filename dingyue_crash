@@ -6,6 +6,22 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 美国2|@ripaojiedian
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2381
+  server: 160.16.107.37
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: us|8a6b|puddincat07@Telegram
+  password: b4e8771997c94732acbc9ec4d19c2589
+  port: 443
+  server: 104.17.215.6
+  skip-cert-verify: true
+  sni: jobscareerfortoday.com
+  type: trojan
+  udp: true
 - name: 美国|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
@@ -13,12 +29,12 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 美国2|@ripaojiedian
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2381
-  server: 160.16.107.37
+- name: SE_speednode_0012
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: sto.freeguard.org
   type: trojan
   udp: true
 - grpc-opts:
@@ -32,31 +48,6 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- name: us|8a6b|puddincat07@Telegram
-  password: b4e8771997c94732acbc9ec4d19c2589
-  port: 443
-  server: 104.17.215.6
-  skip-cert-verify: true
-  sni: jobscareerfortoday.com
-  type: trojan
-  udp: true
-- name: SE_speednode_0012
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
@@ -65,6 +56,15 @@ proxies:
   server: 183.240.245.235
   type: vmess
   udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_16|2.3MB/s|7%|GPT⁺|NF|GM
