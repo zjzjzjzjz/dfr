@@ -26,6 +26,12 @@ proxies:
   sni: sto.freeguard.org
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0033
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.250
+  type: ss
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
@@ -35,12 +41,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: VN_speednode_0033
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.250
-  type: ss
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
