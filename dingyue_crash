@@ -156,10 +156,10 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12,13|香港5|@ripaojiedian
+- name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
-  server: 58.152.53.3
+  server: 58.152.46.98
   skip-cert-verify: true
   type: trojan
   udp: true
