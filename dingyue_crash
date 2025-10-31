@@ -5,32 +5,6 @@ proxies:
   port: 38388
   server: 103.186.155.237
   type: ss
-- cipher: none
-  name: 云机录-🇺🇸US_18|3.3MB/s|0%|GPT⁺|NF
-  network: ws
-  port: 443
-  server: yxip.xxxxxxxx.tk
-  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-  tls: true
-  type: vless
-  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
-  ws-opts:
-    headers:
-      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-    path: /
-- cipher: none
-  name: 云机录-🇺🇸US_14|1.1MB/s|0%|GPT⁺|NF
-  network: ws
-  port: 443
-  server: 104.21.0.0
-  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-  tls: true
-  type: vless
-  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
-  ws-opts:
-    headers:
-      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-    path: /
 - name: SE_speednode_0012
   password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
@@ -87,6 +61,19 @@ proxies:
       Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
     path: /vuut6bvfxroxjbja?ed=2560
 - cipher: none
+  name: 云机录-🇺🇸US_18|3.3MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: yxip.xxxxxxxx.tk
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
+- cipher: none
   name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
   network: ws
   port: 443
@@ -108,13 +95,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12,13|香港5|@ripaojiedian
-  password: BxceQaOe
+- cipher: none
+  name: 云机录-🇺🇸US_14|1.1MB/s|0%|GPT⁺|NF
+  network: ws
   port: 443
-  server: 58.152.53.3
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  server: 104.21.0.0
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
@@ -124,6 +117,13 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 12,13|香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.3
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
