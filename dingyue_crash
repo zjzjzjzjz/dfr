@@ -55,22 +55,16 @@ proxies:
   server: 103.186.154.216
   type: ss
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 20
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.64
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 27
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.221
   type: ss
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 15
+  name: 越南 - Hải Dương - FASTLY - 16
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.199
+  server: 103.186.154.219
   type: ss
 - grpc-opts:
     grpc-service-name: cestbon
@@ -150,15 +144,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: cn|9c67|puddincat07@Telegram
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
   network: tcp
   port: 30302
@@ -166,6 +151,21 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: cn|9c67|puddincat07@Telegram
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 20
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.64
+  type: ss
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
@@ -176,10 +176,10 @@ proxies:
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 16
+  name: 越南 - Hải Dương - FASTLY - 15
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.219
+  server: 103.186.154.199
   type: ss
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
