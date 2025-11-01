@@ -100,17 +100,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: 云机录-🇸🇬SG_2|5.9MB/s|3%|GPT⁺|NF|GM
-  network: ws
-  port: 2095
-  server: cf.090227.xyz
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.cf
-    path: /
-- cipher: none
   name: 云机录-🇺🇸US_13|3.2MB/s|0%|GPT⁺|NF|GM
   network: ws
   port: 2095
@@ -120,6 +109,17 @@ proxies:
   ws-opts:
     headers:
       Host: snippets.pusytroller.cf
+    path: /
+- cipher: none
+  name: 云机录-🇸🇬SG_2|5.9MB/s|3%|GPT⁺|NF|GM
+  network: ws
+  port: 2095
+  server: cf.090227.xyz
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.cf
     path: /
 - alterId: 64
   cipher: auto
