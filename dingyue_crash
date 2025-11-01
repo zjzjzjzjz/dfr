@@ -24,13 +24,6 @@ proxies:
       Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
     path: /EvKoNXrwjCJHL8UVhAglDbLesKm
 - cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: tcp
-  port: 443
-  server: 193.233.133.166
-  type: vless
-  uuid: ff3c6dcf-08ae-4165-a2a9-00cb9e7c361e
-- cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
   port: 25694
@@ -128,6 +121,13 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: tcp
+  port: 443
+  server: 193.233.133.166
+  type: vless
+  uuid: ff3c6dcf-08ae-4165-a2a9-00cb9e7c361e
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
