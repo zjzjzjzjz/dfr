@@ -23,6 +23,12 @@ proxies:
     headers:
       Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
     path: /EvKoNXrwjCJHL8UVhAglDbLesKm
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 12
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.234
+  type: ss
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -81,6 +87,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 9713
+  server: 36.150.215.197
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
@@ -90,13 +103,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 9713
-  server: 36.150.215.197
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -106,12 +112,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 12
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.234
-  type: ss
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
