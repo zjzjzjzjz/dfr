@@ -29,13 +29,6 @@ proxies:
   port: 38388
   server: 103.186.154.234
   type: ss
-- name: cn|23bb|puddincat07@Telegram
-  password: BxceQaOe
-  port: 43567
-  server: 36.156.102.74
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
