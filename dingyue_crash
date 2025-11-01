@@ -29,6 +29,18 @@ proxies:
   port: 38388
   server: 103.186.154.234
   type: ss
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 27
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.221
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 15
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.199
+  type: ss
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -130,13 +142,6 @@ proxies:
   server: 193.233.133.166
   type: vless
   uuid: ff3c6dcf-08ae-4165-a2a9-00cb9e7c361e
-- name: 12,13|香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.3
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
