@@ -23,13 +23,6 @@ proxies:
     headers:
       Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
     path: /EvKoNXrwjCJHL8UVhAglDbLesKm
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 12
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
