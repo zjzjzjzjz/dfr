@@ -65,22 +65,28 @@ proxies:
   server: 103.186.155.35
   type: ss
 - cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 21
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.34
+  type: ss
+- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 18
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.132
   type: ss
 - cipher: aes-256-cfb
-  name: 云机录-🇻🇳VN_3|1.1MB/s|GPT⁺|NF|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.203
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 12
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.234
+  type: ss
+- cipher: aes-256-cfb
+  name: 云机录-🇻🇳VN_3|1.1MB/s|GPT⁺|NF|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.203
   type: ss
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
@@ -112,14 +118,6 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- name: SE_speednode_0012
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
-  type: trojan
-  udp: true
 - name: 美国|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
@@ -127,17 +125,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: none
-  name: 云机录-🇺🇸US_13|3.2MB/s|0%|GPT⁺|NF|GM
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: snippets.pusytroller.cf
-    path: /
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
