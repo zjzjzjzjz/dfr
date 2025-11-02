@@ -8,6 +8,19 @@ proxies:
   tls: true
   type: vless
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
+- cipher: none
+  name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
+  network: ws
+  port: 443
+  server: 104.21.71.83
+  servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+  tls: true
+  type: vless
+  uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
+  ws-opts:
+    headers:
+      Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+    path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
 - alterId: 0
   cipher: auto
   name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
@@ -24,18 +37,18 @@ proxies:
       Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
     path: /EvKoNXrwjCJHL8UVhAglDbLesKm
 - cipher: none
-  name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
+  name: us|8920|puddincat07@Telegram
   network: ws
-  port: 443
-  server: 104.21.71.83
-  servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+  port: 2053
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
   tls: true
   type: vless
-  uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
   ws-opts:
     headers:
-      Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
-    path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
+      Host: om1.omidsuccess.uk
+    path: /containers/de
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 34
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -43,28 +56,10 @@ proxies:
   server: 103.186.154.216
   type: ss
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 12
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.234
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 20
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.64
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 29
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.182
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 15
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.199
   type: ss
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 1
@@ -101,6 +96,13 @@ proxies:
   server: 104.17.215.6
   skip-cert-verify: true
   sni: jobscareerfortoday.com
+  type: trojan
+  udp: true
+- name: 美国|@ripaojiedian
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2467
+  server: 117.172.176.24
+  sni: www.nintendogames.net
   type: trojan
   udp: true
 - cipher: none
@@ -160,6 +162,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: cn|21b8|puddincat07@Telegram
+  password: BxceQaOe
+  port: 194
+  server: 36.151.192.242
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
@@ -178,6 +187,12 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 12
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.234
+  type: ss
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
@@ -187,6 +202,12 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 15
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.199
+  type: ss
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
