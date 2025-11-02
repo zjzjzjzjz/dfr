@@ -175,13 +175,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: tcp
-  port: 443
-  server: 193.233.133.166
-  type: vless
-  uuid: ff3c6dcf-08ae-4165-a2a9-00cb9e7c361e
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
