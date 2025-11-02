@@ -36,6 +36,12 @@ proxies:
     headers:
       Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
     path: /EvKoNXrwjCJHL8UVhAglDbLesKm
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 15
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.199
+  type: ss
 - cipher: none
   name: us|8920|puddincat07@Telegram
   network: ws
@@ -50,22 +56,10 @@ proxies:
       Host: om1.omidsuccess.uk
     path: /containers/de
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 15
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.199
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 20
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.64
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 34
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.216
   type: ss
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 21
@@ -78,6 +72,12 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.35
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 34
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.216
   type: ss
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 12
@@ -110,14 +110,6 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- name: 美国2|@ripaojiedian
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2381
-  server: 117.172.176.24
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - cipher: none
   name: 云机录-🇸🇬SG_2|5.9MB/s|3%|GPT⁺|NF|GM
   network: ws
@@ -129,6 +121,14 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.cf
     path: /
+- name: 美国2|@ripaojiedian
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2381
+  server: 117.172.176.24
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - name: 美国|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
@@ -204,6 +204,13 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: cn|9b53|puddincat07@Telegram
@@ -213,13 +220,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 18
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
