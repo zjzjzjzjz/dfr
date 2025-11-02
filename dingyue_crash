@@ -27,6 +27,19 @@ proxies:
     headers:
       Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
     path: /EvKoNXrwjCJHL8UVhAglDbLesKm
+- cipher: none
+  name: us|8920|puddincat07@Telegram
+  network: ws
+  port: 2053
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
+  tls: true
+  type: vless
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  ws-opts:
+    headers:
+      Host: om1.omidsuccess.uk
+    path: /containers/de
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 15
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -34,16 +47,16 @@ proxies:
   server: 103.186.154.199
   type: ss
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 20
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.64
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 34
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.216
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 20
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.64
   type: ss
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 1
@@ -186,19 +199,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: us|8920|puddincat07@Telegram
-  network: ws
-  port: 2053
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
-  tls: true
-  type: vless
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    headers:
-      Host: om1.omidsuccess.uk
-    path: /containers/de
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
