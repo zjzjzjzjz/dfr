@@ -12,19 +12,6 @@ proxies:
     headers:
       Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
     path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
-- cipher: none
-  name: us|8920|puddincat07@Telegram
-  network: ws
-  port: 2053
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
-  tls: true
-  type: vless
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    headers:
-      Host: om1.omidsuccess.uk
-    path: /containers/de
 - alterId: 0
   cipher: auto
   name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
@@ -47,22 +34,16 @@ proxies:
   server: 103.186.155.64
   type: ss
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 15
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.199
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 34
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.216
   type: ss
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 12
+  name: 越南 - Hải Dương - FASTLY - 15
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.234
+  server: 103.186.154.199
   type: ss
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 1
@@ -75,6 +56,12 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.132
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 12
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.234
   type: ss
 - cipher: aes-256-cfb
   name: 云机录-🇻🇳VN_3|1.1MB/s|GPT⁺|NF|GM
@@ -101,13 +88,6 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.cf
     path: /
-- name: 美国|@ripaojiedian
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2467
-  server: 117.172.176.24
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -117,6 +97,13 @@ proxies:
   server: 89.117.158.245
   skip-cert-verify: true
   sni: esla.cestbon.work
+  type: trojan
+  udp: true
+- name: 美国|@ripaojiedian
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2467
+  server: 117.172.176.24
+  sni: www.nintendogames.net
   type: trojan
   udp: true
 - name: SE_speednode_0012
@@ -147,15 +134,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
-  network: tcp
-  port: 49212
-  server: 183.240.245.235
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -165,15 +143,22 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
   network: tcp
-  port: 30302
-  server: 39.107.155.11
+  port: 49212
+  server: 183.240.245.235
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: cn|21b8|puddincat07@Telegram
+  password: BxceQaOe
+  port: 194
+  server: 36.151.192.242
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: none
   name: 🇺🇸[openproxylist.com] vless-US
   network: grpc
@@ -183,13 +168,15 @@ proxies:
   tls: true
   type: vless
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
-- name: cn|21b8|puddincat07@Telegram
-  password: BxceQaOe
-  port: 194
-  server: 36.151.192.242
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: cn|9c67|puddincat07@Telegram
@@ -212,6 +199,19 @@ proxies:
     headers:
       Host: vless.aihi.uk
     path: /?ed=2048
+- cipher: none
+  name: us|8920|puddincat07@Telegram
+  network: ws
+  port: 2053
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
+  tls: true
+  type: vless
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  ws-opts:
+    headers:
+      Host: om1.omidsuccess.uk
+    path: /containers/de
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
