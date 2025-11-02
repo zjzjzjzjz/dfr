@@ -43,10 +43,10 @@ proxies:
       Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
     path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 20
+  name: 越南 - Hải Dương - FASTLY - 12
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.64
+  server: 103.186.154.234
   type: ss
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 15
@@ -55,16 +55,22 @@ proxies:
   server: 103.186.154.199
   type: ss
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 18
+  name: 越南 - Hải Dương - FASTLY - 20
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.132
+  server: 103.186.155.64
   type: ss
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.35
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 18
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.132
   type: ss
 - grpc-opts:
     grpc-service-name: cestbon
@@ -142,12 +148,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 12
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.234
-  type: ss
 - alterId: 0
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
