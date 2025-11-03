@@ -60,21 +60,6 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- name: 美国|@ripaojiedian
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2467
-  server: 117.172.176.24
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 美国2|@ripaojiedian
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2381
-  server: 117.172.176.24
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - cipher: none
   name: 云机录-🇸🇬SG_2|5.9MB/s|3%|GPT⁺|NF|GM
   network: ws
@@ -86,6 +71,29 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.cf
     path: /
+- name: 美国2|@ripaojiedian
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2381
+  server: 117.172.176.24
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 美国|@ripaojiedian
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2467
+  server: 117.172.176.24
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: SE_speednode_0012
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
+  skip-cert-verify: true
+  sni: sto.freeguard.org
+  type: trojan
+  udp: true
 - name: cn|21b8|puddincat07@Telegram
   password: BxceQaOe
   port: 194
