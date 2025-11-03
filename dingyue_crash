@@ -40,12 +40,19 @@ proxies:
     headers:
       Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
     path: /EvKoNXrwjCJHL8UVhAglDbLesKm
-- cipher: aes-256-cfb
-  name: 云机录-🇻🇳VN_1|1.7MB/s|GPT⁺|NF|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.142
-  type: ss
+- cipher: none
+  name: us|8920|puddincat07@Telegram
+  network: ws
+  port: 2053
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
+  tls: true
+  type: vless
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  ws-opts:
+    headers:
+      Host: om1.omidsuccess.uk
+    path: /containers/de
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 16
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -133,21 +140,21 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: cn|9c67|puddincat07@Telegram
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
   network: tcp
   port: 30302
   server: 39.107.155.11
   type: vmess
   udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: cn|9c67|puddincat07@Telegram
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 15
@@ -179,19 +186,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: us|8920|puddincat07@Telegram
-  network: ws
-  port: 2053
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
-  tls: true
-  type: vless
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    headers:
-      Host: om1.omidsuccess.uk
-    path: /containers/de
 - cipher: aes-256-cfb
   name: 云机录-🇻🇳VN_3|1.1MB/s|GPT⁺|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -210,6 +204,12 @@ proxies:
   port: 38388
   server: 103.186.155.35
   type: ss
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 34
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.216
+  type: ss
 - name: 12,13|香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -217,12 +217,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 34
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.216
-  type: ss
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
