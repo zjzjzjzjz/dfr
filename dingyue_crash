@@ -73,12 +73,6 @@ proxies:
   port: 38388
   server: 103.186.154.219
   type: ss
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 20
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.64
-  type: ss
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -237,6 +231,12 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 20
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.64
+  type: ss
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
