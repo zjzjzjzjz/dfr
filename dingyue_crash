@@ -12,19 +12,6 @@ proxies:
     headers:
       Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
     path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
-- cipher: none
-  name: us|8920|puddincat07@Telegram
-  network: ws
-  port: 2053
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
-  tls: true
-  type: vless
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    headers:
-      Host: om1.omidsuccess.uk
-    path: /containers/de
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -112,6 +99,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 4556
+  server: 36.151.192.242
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
@@ -190,6 +184,19 @@ proxies:
   server: 638975946113097669.berlin-drcn-aaaae.info
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- cipher: none
+  name: us|8920|puddincat07@Telegram
+  network: ws
+  port: 2053
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
+  tls: true
+  type: vless
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  ws-opts:
+    headers:
+      Host: om1.omidsuccess.uk
+    path: /containers/de
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 16
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
