@@ -46,14 +46,6 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- name: SE_speednode_0012
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
-  type: trojan
-  udp: true
 - cipher: none
   name: 云机录-🇸🇬SG_2|5.9MB/s|3%|GPT⁺|NF|GM
   network: ws
@@ -65,6 +57,14 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.cf
     path: /
+- name: SE_speednode_0012
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
+  skip-cert-verify: true
+  sni: sto.freeguard.org
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -92,12 +92,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 云机录-🇵🇱PL_2|2.3MB/s|25%|GPT⁺|NF
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 217.30.10.70
-  type: ss
 - alterId: 0
   cipher: auto
   name: cn|9c67|puddincat07@Telegram
@@ -106,6 +100,15 @@ proxies:
   server: 39.107.155.11
   type: vmess
   udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
+  network: tcp
+  port: 50002
+  server: 39.100.81.215
+  type: vmess
+  udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
@@ -123,28 +126,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-  network: tcp
-  port: 50002
-  server: 39.100.81.215
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: us|8920|puddincat07@Telegram
-  network: ws
-  port: 2053
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
-  tls: true
-  type: vless
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    headers:
-      Host: om1.omidsuccess.uk
-    path: /containers/de
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
