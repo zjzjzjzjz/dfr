@@ -83,12 +83,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 云机录-🇵🇱PL_2|2.3MB/s|25%|GPT⁺|NF
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 217.30.10.70
-  type: ss
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -98,6 +92,12 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 云机录-🇵🇱PL_2|2.3MB/s|25%|GPT⁺|NF
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 217.30.10.70
+  type: ss
 - alterId: 0
   cipher: auto
   name: cn|9c67|puddincat07@Telegram
