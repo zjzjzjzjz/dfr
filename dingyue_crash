@@ -6,6 +6,19 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+- cipher: none
+  name: us|8920|puddincat07@Telegram
+  network: ws
+  port: 2053
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
+  tls: true
+  type: vless
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  ws-opts:
+    headers:
+      Host: om1.omidsuccess.uk
+    path: /containers/de
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -129,15 +142,6 @@ proxies:
   tls: true
   type: vless
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
-- alterId: 64
-  cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-  network: tcp
-  port: 50002
-  server: 39.100.81.215
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
@@ -153,6 +157,15 @@ proxies:
     headers:
       Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
     path: /EvKoNXrwjCJHL8UVhAglDbLesKm
+- alterId: 64
+  cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
+  network: tcp
+  port: 50002
+  server: 39.100.81.215
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
@@ -169,19 +182,6 @@ proxies:
   server: 638975946113097669.berlin-drcn-aaaae.info
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: none
-  name: us|8920|puddincat07@Telegram
-  network: ws
-  port: 2053
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
-  tls: true
-  type: vless
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    headers:
-      Host: om1.omidsuccess.uk
-    path: /containers/de
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 16
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
