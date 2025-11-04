@@ -151,15 +151,6 @@ proxies:
     headers:
       Host: om1.omidsuccess.uk
     path: /containers/de
-- alterId: 0
-  cipher: auto
-  name: cn|9b53|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 106.14.75.114
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 12,13|香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
