@@ -12,6 +12,15 @@ proxies:
     headers:
       Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
     path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
+- cipher: none
+  name: 🇺🇸[openproxylist.com] vless-US
+  network: grpc
+  port: 443
+  server: all.tellmethetrue.shop
+  servername: pqh30v1.hiddendom.shop
+  tls: true
+  type: vless
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - alterId: 0
   cipher: auto
   name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
@@ -114,15 +123,6 @@ proxies:
   port: 9001
   server: 217.30.10.70
   type: ss
-- cipher: none
-  name: 🇺🇸[openproxylist.com] vless-US
-  network: grpc
-  port: 443
-  server: all.tellmethetrue.shop
-  servername: pqh30v1.hiddendom.shop
-  tls: true
-  type: vless
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
