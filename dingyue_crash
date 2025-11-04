@@ -1,5 +1,18 @@
 proxies:
 - cipher: none
+  name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
+  network: ws
+  port: 443
+  server: 104.21.71.83
+  servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+  tls: true
+  type: vless
+  uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
+  ws-opts:
+    headers:
+      Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+    path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
+- cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
   port: 25694
@@ -107,19 +120,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
-  network: ws
-  port: 443
-  server: 104.21.71.83
-  servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
-  tls: true
-  type: vless
-  uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
-  ws-opts:
-    headers:
-      Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
-    path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
