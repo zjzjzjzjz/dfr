@@ -90,15 +90,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
-  network: tcp
-  port: 49212
-  server: 183.240.245.235
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: cn|9c67|puddincat07@Telegram
