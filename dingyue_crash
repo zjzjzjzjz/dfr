@@ -10,19 +10,19 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK 01
+  name: 🇻🇳VN 01
   network: tcp
-  port: 39501
-  server: hkg.740710.xyz
+  port: 17858
+  server: as.wxowx.com
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇻🇳VN 01
+  name: 🇭🇰HK 01
   network: tcp
-  port: 17858
-  server: as.wxowx.com
+  port: 39501
+  server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
