@@ -46,19 +46,19 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇮🇳IN 01
+  name: 🇺🇸US 01
   network: tcp
-  port: 44191
-  server: as.wxowx.com
+  port: 39902
+  server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US 01
+  name: 🇮🇳IN 01
   network: tcp
-  port: 39902
-  server: jpsss.740710.xyz
+  port: 44191
+  server: as.wxowx.com
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
