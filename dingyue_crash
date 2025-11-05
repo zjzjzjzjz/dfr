@@ -35,15 +35,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE 01
-  network: tcp
-  port: 12356
-  server: eu.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
   network: ws
@@ -57,6 +48,15 @@ proxies:
     headers:
       Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
     path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE 01
+  network: tcp
+  port: 12356
+  server: eu.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
   name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
