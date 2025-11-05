@@ -44,6 +44,15 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US 01
+  network: tcp
+  port: 39902
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
   network: ws
@@ -99,6 +108,15 @@ proxies:
   sni: sto.freeguard.org
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK IX TX
+  network: tcp
+  port: 34520
+  server: txix.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 云机录-🇸🇬SG_2|5.9MB/s|3%|GPT⁺|NF|GM
   network: ws
@@ -110,15 +128,6 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.cf
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK IX TX
-  network: tcp
-  port: 34520
-  server: txix.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
   name: 🇹🇼TW 01
@@ -134,15 +143,6 @@ proxies:
   network: tcp
   port: 39803
   server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US 01
-  network: tcp
-  port: 39902
-  server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
