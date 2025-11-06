@@ -28,6 +28,15 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK 02
+  network: tcp
+  port: 39503
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
   name: 🇯🇵JP 02
   network: tcp
   port: 39602
@@ -137,15 +146,14 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 02
-  network: tcp
-  port: 39503
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 1655
+  server: 36.150.215.231
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK 03
@@ -155,14 +163,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- name: 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 1655
-  server: 36.150.215.231
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
