@@ -28,15 +28,6 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇻🇳VN 01
-  network: tcp
-  port: 17858
-  server: as.wxowx.com
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
   name: 🇸🇬SG 02
   network: tcp
   port: 39703
@@ -46,19 +37,19 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP 02
+  name: 🇻🇳VN 01
   network: tcp
-  port: 39602
-  server: jpsss.740710.xyz
+  port: 17858
+  server: as.wxowx.com
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 01
+  name: 🇯🇵JP 02
   network: tcp
-  port: 39801
-  server: hkg.740710.xyz
+  port: 39602
+  server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -80,6 +71,33 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US 01
+  network: tcp
+  port: 39902
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US 02
+  network: tcp
+  port: 39901
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE 01
+  network: tcp
+  port: 12356
+  server: eu.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
   network: ws
@@ -93,15 +111,6 @@ proxies:
     headers:
       Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
     path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE 01
-  network: tcp
-  port: 12356
-  server: eu.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
   name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
@@ -167,6 +176,15 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW 01
+  network: tcp
+  port: 39801
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 云机录-🇸🇬SG_2|5.9MB/s|3%|GPT⁺|NF|GM
   network: ws
@@ -178,15 +196,6 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.cf
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US 01
-  network: tcp
-  port: 39902
-  server: jpsss.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
