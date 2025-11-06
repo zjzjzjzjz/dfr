@@ -10,18 +10,18 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 01
+  name: 🇸🇬SG 01
   network: tcp
-  port: 39801
+  port: 39701
   server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG 01
+  name: 🇹🇼TW 01
   network: tcp
-  port: 39701
+  port: 39801
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -46,6 +46,15 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK 03
+  network: tcp
+  port: 49899
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
   name: 🇺🇸US 01
   network: tcp
   port: 39902
@@ -59,15 +68,6 @@ proxies:
   network: tcp
   port: 44191
   server: as.wxowx.com
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE 01
-  network: tcp
-  port: 12356
-  server: eu.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -154,15 +154,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 03
-  network: tcp
-  port: 49899
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -231,6 +222,15 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 🇩🇪DE 01
+  network: tcp
+  port: 12356
+  server: eu.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
   name: cn|9c44|puddincat07@Telegram
   network: tcp
   port: 50002
@@ -246,15 +246,6 @@ proxies:
   server: 39.107.155.11
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
-  type: vmess
-  udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
