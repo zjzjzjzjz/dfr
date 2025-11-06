@@ -19,18 +19,18 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG 01
+  name: 🇭🇰HK 02
   network: tcp
-  port: 39701
+  port: 39503
   server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK 02
+  name: 🇸🇬SG 01
   network: tcp
-  port: 39503
+  port: 39701
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -46,9 +46,9 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 02
+  name: 🇭🇰HK 03
   network: tcp
-  port: 39803
+  port: 49899
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -163,15 +163,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 03
-  network: tcp
-  port: 49899
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -199,6 +190,15 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW 02
+  network: tcp
+  port: 39803
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
   name: 🇺🇸US 02
