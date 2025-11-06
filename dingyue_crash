@@ -1,24 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK 03
-  network: tcp
-  port: 49899
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP 01
-  network: tcp
-  port: 39601
-  server: jpsss.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
   name: 🇸🇬SG 02
   network: tcp
   port: 39703
@@ -37,19 +19,19 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 01
+  name: 🇯🇵JP 02
   network: tcp
-  port: 39801
-  server: hkg.740710.xyz
+  port: 39602
+  server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP 02
+  name: 🇸🇬SG 01
   network: tcp
-  port: 39602
-  server: jpsss.740710.xyz
+  port: 39701
+  server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -133,6 +115,15 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 01
+  network: tcp
+  port: 39501
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
@@ -169,9 +160,27 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG 01
+  name: 🇭🇰HK 03
   network: tcp
-  port: 39701
+  port: 49899
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP 01
+  network: tcp
+  port: 39601
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW 01
+  network: tcp
+  port: 39801
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -236,15 +245,6 @@ proxies:
     headers:
       Host: vless.aihi.uk
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 01
-  network: tcp
-  port: 39501
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
