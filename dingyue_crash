@@ -28,18 +28,18 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 02
+  name: 🇹🇼TW 01
   network: tcp
-  port: 39803
+  port: 39801
   server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 01
+  name: 🇹🇼TW 02
   network: tcp
-  port: 39801
+  port: 39803
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -73,19 +73,19 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇮🇳IN 01
+  name: 🇺🇸US 02
   network: tcp
-  port: 44191
-  server: as.wxowx.com
+  port: 39901
+  server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US 02
+  name: 🇩🇪DE 01
   network: tcp
-  port: 39901
-  server: jpsss.740710.xyz
+  port: 12356
+  server: eu.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -104,15 +104,13 @@ proxies:
     headers:
       Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
     path: /EvKoNXrwjCJHL8UVhAglDbLesKm
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE 01
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
-  port: 12356
-  server: eu.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -221,6 +219,15 @@ proxies:
     path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
 - alterId: 0
   cipher: auto
+  name: 🇮🇳IN 01
+  network: tcp
+  port: 44191
+  server: as.wxowx.com
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
   name: cn|9c44|puddincat07@Telegram
   network: tcp
   port: 50002
@@ -236,13 +243,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
   name: cn|9c67|puddincat07@Telegram
