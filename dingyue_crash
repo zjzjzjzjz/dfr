@@ -1,19 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP IX
+  name: 🇯🇵JP 01
   network: tcp
-  port: 12354
-  server: jpix.740710.xyz
+  port: 39601
+  server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP 01
+  name: 🇯🇵JP IX
   network: tcp
-  port: 39601
-  server: jpsss.740710.xyz
+  port: 12354
+  server: jpix.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -49,15 +49,6 @@ proxies:
   name: 🇹🇼TW 01
   network: tcp
   port: 39801
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 03
-  network: tcp
-  port: 49899
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -164,6 +155,15 @@ proxies:
   sni: sto.freeguard.org
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 03
+  network: tcp
+  port: 49899
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
