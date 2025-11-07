@@ -10,6 +10,15 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
+  name: 🇸🇬SG 01
+  network: tcp
+  port: 39701
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
   name: 🇭🇰HK 02
   network: tcp
   port: 39503
@@ -37,19 +46,19 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇻🇳VN 01
+  name: 🇯🇵JP 01
   network: tcp
-  port: 17858
-  server: as.wxowx.com
+  port: 39601
+  server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP 01
+  name: 🇻🇳VN 01
   network: tcp
-  port: 39601
-  server: jpsss.740710.xyz
+  port: 17858
+  server: as.wxowx.com
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -125,6 +134,15 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US IX
+  network: tcp
+  port: 12355
+  server: jpix.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
@@ -140,15 +158,6 @@ proxies:
   sni: jobscareerfortoday.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG 01
-  network: tcp
-  port: 39701
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
@@ -201,15 +210,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US IX
-  network: tcp
-  port: 12355
-  server: jpix.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 云机录-🇩🇪DE_23|3.4MB/s|NF
   network: ws
