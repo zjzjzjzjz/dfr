@@ -10,15 +10,6 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 01
-  network: tcp
-  port: 39801
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
   name: 🇸🇬SG 01
   network: tcp
   port: 39701
@@ -37,10 +28,10 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP 02
+  name: 🇹🇼TW 01
   network: tcp
-  port: 39602
-  server: jpsss.740710.xyz
+  port: 39801
+  server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -49,15 +40,6 @@ proxies:
   name: 🇸🇬SG 02
   network: tcp
   port: 39703
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 02
-  network: tcp
-  port: 39503
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -85,15 +67,6 @@ proxies:
   name: 🇭🇰HK 01
   network: tcp
   port: 39501
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼TW 02
-  network: tcp
-  port: 39803
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -130,6 +103,15 @@ proxies:
   name: 🇩🇪DE 01
   network: tcp
   port: 12356
+  server: eu.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧UK 01
+  network: tcp
+  port: 12359
   server: eu.740710.xyz
   type: vmess
   udp: false
@@ -191,6 +173,15 @@ proxies:
   sni: sto.freeguard.org
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP 02
+  network: tcp
+  port: 39602
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: us|ed1a|puddincat07@Telegram
   password: be968c88-86db-48e7-b8f8-ecebb33a022f
   port: 443
@@ -198,6 +189,15 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 02
+  network: tcp
+  port: 39503
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -207,13 +207,15 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 新加坡2|@ripaojiedian
-  password: e4e262d453466988575c397a30562337
-  port: 2173
-  server: 117.172.176.23
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW 02
+  network: tcp
+  port: 39803
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
@@ -223,15 +225,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧UK 01
-  network: tcp
-  port: 12359
-  server: eu.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 云机录-🇩🇪DE_23|3.4MB/s|NF
   network: ws
