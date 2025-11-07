@@ -46,15 +46,6 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇻🇳VN 01
-  network: tcp
-  port: 17858
-  server: as.wxowx.com
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
   name: 🇯🇵JP IX
   network: tcp
   port: 12354
@@ -64,18 +55,27 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP 01
+  name: 🇯🇵JP 02
   network: tcp
-  port: 39601
+  port: 39602
   server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP 02
+  name: 🇻🇳VN 01
   network: tcp
-  port: 39602
+  port: 17858
+  server: as.wxowx.com
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP 01
+  network: tcp
+  port: 39601
   server: jpsss.740710.xyz
   type: vmess
   udp: false
@@ -122,6 +122,15 @@ proxies:
   network: tcp
   port: 12359
   server: eu.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 01
+  network: tcp
+  port: 39501
+  server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
