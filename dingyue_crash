@@ -28,9 +28,36 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
+  name: 🇭🇰HK 02
+  network: tcp
+  port: 39503
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
   name: 🇹🇼TW 01
   network: tcp
   port: 39801
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG 02
+  network: tcp
+  port: 39703
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 03
+  network: tcp
+  port: 49899
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -46,9 +73,9 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK 03
+  name: 🇭🇰HK 01
   network: tcp
-  port: 49899
+  port: 39501
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -59,15 +86,6 @@ proxies:
   network: tcp
   port: 44191
   server: as.wxowx.com
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 01
-  network: tcp
-  port: 39501
-  server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -98,21 +116,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
-  network: ws
-  port: 443
-  server: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
-  servername: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 8e39282a-8ca3-49f0-a378-79fcb460e6a9
-  ws-opts:
-    headers:
-      Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
-    path: /EvKoNXrwjCJHL8UVhAglDbLesKm
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
@@ -147,6 +150,13 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
+- name: us|ed1a|puddincat07@Telegram
+  password: be968c88-86db-48e7-b8f8-ecebb33a022f
+  port: 443
+  server: 45.79.9.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: SE_speednode_0012
   password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
@@ -155,37 +165,12 @@ proxies:
   sni: sto.freeguard.org
   type: trojan
   udp: true
-- name: us|ed1a|puddincat07@Telegram
-  password: be968c88-86db-48e7-b8f8-ecebb33a022f
-  port: 443
-  server: 45.79.9.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 02
-  network: tcp
-  port: 39503
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP IX
   network: tcp
   port: 12354
   server: jpix.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG 02
-  network: tcp
-  port: 39703
-  server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -238,6 +223,21 @@ proxies:
     headers:
       Host: vless.aihi.uk
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
+  network: ws
+  port: 443
+  server: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
+  servername: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 8e39282a-8ca3-49f0-a378-79fcb460e6a9
+  ws-opts:
+    headers:
+      Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
+    path: /EvKoNXrwjCJHL8UVhAglDbLesKm
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
