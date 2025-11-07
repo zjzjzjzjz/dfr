@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK 02
-  network: tcp
-  port: 39503
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
   name: 🇸🇬SG 02
   network: tcp
   port: 39703
@@ -19,9 +10,18 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG 01
+  name: 🇭🇰HK 02
   network: tcp
-  port: 39701
+  port: 39503
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 03
+  network: tcp
+  port: 49899
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -37,6 +37,15 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
+  name: 🇻🇳VN 01
+  network: tcp
+  port: 17858
+  server: as.wxowx.com
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
   name: 🇯🇵JP 01
   network: tcp
   port: 39601
@@ -46,10 +55,10 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇻🇳VN 01
+  name: 🇹🇼TW 01
   network: tcp
-  port: 17858
-  server: as.wxowx.com
+  port: 39801
+  server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -131,6 +140,15 @@ proxies:
   sni: jobscareerfortoday.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG 01
+  network: tcp
+  port: 39701
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
@@ -150,24 +168,6 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 03
-  network: tcp
-  port: 49899
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼TW 01
-  network: tcp
-  port: 39801
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: SE_speednode_0012
   password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
