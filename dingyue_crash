@@ -225,15 +225,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US 02
-  network: tcp
-  port: 39901
-  server: jpsss.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
   name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
   network: ws
   port: 443
