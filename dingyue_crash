@@ -10,15 +10,6 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK 03
-  network: tcp
-  port: 49899
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
   name: 🇸🇬SG 02
   network: tcp
   port: 39703
@@ -31,6 +22,15 @@ proxies:
   name: 🇸🇬SG 01
   network: tcp
   port: 39701
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 03
+  network: tcp
+  port: 49899
   server: hkg.740710.xyz
   type: vmess
   udp: false
