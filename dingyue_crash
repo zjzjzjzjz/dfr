@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG 02
+  name: 🇭🇰HK 03
   network: tcp
-  port: 39703
+  port: 49899
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -19,15 +19,6 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK 02
-  network: tcp
-  port: 39503
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
   name: 🇯🇵JP IX
   network: tcp
   port: 12354
@@ -37,18 +28,18 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP 01
+  name: 🇹🇼TW 01
   network: tcp
-  port: 39601
-  server: jpsss.740710.xyz
+  port: 39801
+  server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 01
+  name: 🇭🇰HK 02
   network: tcp
-  port: 39801
+  port: 39503
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -73,10 +64,19 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 02
+  name: 🇸🇬SG 02
   network: tcp
-  port: 39803
+  port: 39703
   server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP 01
+  network: tcp
+  port: 39601
+  server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -85,6 +85,15 @@ proxies:
   name: 🇭🇰HK 01
   network: tcp
   port: 39501
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW 02
+  network: tcp
+  port: 39803
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -109,19 +118,19 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇩🇪DE 01
+  name: 🇺🇸US IX
   network: tcp
-  port: 12356
-  server: eu.740710.xyz
+  port: 12355
+  server: jpix.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US IX
+  name: 🇩🇪DE 01
   network: tcp
-  port: 12355
-  server: jpix.740710.xyz
+  port: 12356
+  server: eu.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -175,15 +184,6 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 03
-  network: tcp
-  port: 49899
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
