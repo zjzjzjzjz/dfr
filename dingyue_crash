@@ -109,19 +109,19 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇬🇧UK 01
+  name: 🇹🇼TW 02
   network: tcp
-  port: 12359
-  server: eu.740710.xyz
+  port: 39803
+  server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 02
+  name: 🇬🇧UK 01
   network: tcp
-  port: 39803
-  server: hkg.740710.xyz
+  port: 12359
+  server: eu.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
