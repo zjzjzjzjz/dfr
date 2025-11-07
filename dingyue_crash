@@ -21,12 +21,6 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- cipher: aes-256-cfb
-  name: 🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.42
-  type: ss
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -46,19 +40,19 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
+- name: us|ed1a|puddincat07@Telegram
+  password: be968c88-86db-48e7-b8f8-ecebb33a022f
+  port: 443
+  server: 45.79.9.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
   server: 104.16.159.112
   skip-cert-verify: true
   sni: jobscareertoday.com
-  type: trojan
-  udp: true
-- name: us|ed1a|puddincat07@Telegram
-  password: be968c88-86db-48e7-b8f8-ecebb33a022f
-  port: 443
-  server: 45.79.9.98
-  skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 0
@@ -250,15 +244,6 @@ proxies:
   network: tcp
   port: 50002
   server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: cn|9c67|puddincat07@Telegram
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
