@@ -10,18 +10,18 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG 01
+  name: 🇭🇰HK 03
   network: tcp
-  port: 39701
+  port: 49899
   server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK 03
+  name: 🇸🇬SG 01
   network: tcp
-  port: 49899
+  port: 39701
   server: hkg.740710.xyz
   type: vmess
   udp: false
@@ -32,15 +32,6 @@ proxies:
   network: tcp
   port: 39503
   server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇻🇳VN 01
-  network: tcp
-  port: 17858
-  server: as.wxowx.com
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -73,6 +64,15 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
+  name: 🇻🇳VN 01
+  network: tcp
+  port: 17858
+  server: as.wxowx.com
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
   name: 🇹🇼TW 01
   network: tcp
   port: 39801
@@ -100,19 +100,19 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US 01
+  name: 🇭🇰HK 01
   network: tcp
-  port: 39902
-  server: jpsss.740710.xyz
+  port: 39501
+  server: hkg.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK 01
+  name: 🇺🇸US 01
   network: tcp
-  port: 39501
-  server: hkg.740710.xyz
+  port: 39902
+  server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -187,18 +187,18 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
+  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
   network: tcp
-  port: 59299
+  port: 49212
   server: 183.240.245.235
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
+  name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
   network: tcp
-  port: 49212
+  port: 59299
   server: 183.240.245.235
   type: vmess
   udp: false
