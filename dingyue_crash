@@ -81,15 +81,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-  network: tcp
-  port: 50002
-  server: 39.100.81.215
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -98,6 +89,15 @@ proxies:
   server: 139.129.20.6
   type: vmess
   udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
+  network: tcp
+  port: 50002
+  server: 39.100.81.215
+  type: vmess
+  udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 🇭🇰HK_6|2.3MB/s|GPT⁺|YT-HK|NF|D+
