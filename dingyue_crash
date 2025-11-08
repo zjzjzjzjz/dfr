@@ -14,27 +14,20 @@ proxies:
     headers:
       Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
     path: /EvKoNXrwjCJHL8UVhAglDbLesKm
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- name: us|451f|puddincat07@Telegram
-  password: 4aec4e7f8cf8454ea4613659822e1a61
-  port: 443
-  server: 104.16.159.112
-  skip-cert-verify: true
-  sni: jobscareertoday.com
-  type: trojan
-  udp: true
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
   server: 104.17.215.6
   skip-cert-verify: true
   sni: jobscareerfortoday.com
+  type: trojan
+  udp: true
+- name: us|451f|puddincat07@Telegram
+  password: 4aec4e7f8cf8454ea4613659822e1a61
+  port: 443
+  server: 104.16.159.112
+  skip-cert-verify: true
+  sni: jobscareertoday.com
   type: trojan
   udp: true
 - name: us|ed1a|puddincat07@Telegram
@@ -63,33 +56,6 @@ proxies:
   sni: sto.freeguard.org
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 02
-  network: tcp
-  port: 39503
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 01
-  network: tcp
-  port: 39501
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 64
-  cipher: auto
-  name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
-  network: tcp
-  port: 59299
-  server: 183.240.245.235
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -99,15 +65,22 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 🇬🇧UK 01
+  name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
   network: tcp
-  port: 12359
-  server: eu.740710.xyz
+  port: 59299
+  server: 183.240.245.235
   type: vmess
   udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
