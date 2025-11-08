@@ -144,6 +144,15 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 64
+  cipher: auto
+  name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
+  network: tcp
+  port: 59299
+  server: 183.240.245.235
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 🇻🇳VN 01
@@ -155,15 +164,6 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 64
   cipher: auto
-  name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
-  network: tcp
-  port: 59299
-  server: 183.240.245.235
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
   network: tcp
   port: 49212
@@ -171,15 +171,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼TW 02
-  network: tcp
-  port: 39803
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
   name: 🇮🇳IN 01
