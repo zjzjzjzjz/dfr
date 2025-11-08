@@ -55,15 +55,6 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP IX
-  network: tcp
-  port: 12354
-  server: jpix.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: SE_speednode_0012
   password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
