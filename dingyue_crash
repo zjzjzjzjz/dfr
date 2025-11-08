@@ -99,6 +99,20 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 🇭🇰HK_6|2.3MB/s|GPT⁺|YT-HK|NF|D+
+  network: ws
+  port: 443
+  server: wto.hhhhh.eu.org
+  servername: sp1.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ba90d59b-9801-46c7-8bb5-efb6deeb0b40
+  ws-opts:
+    headers:
+      Host: sp1.hhhhh.eu.org
+    path: /?proxyip=proxyip.sg.cmliussss.net
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
