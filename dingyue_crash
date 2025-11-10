@@ -6,6 +6,12 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+- cipher: aes-256-cfb
+  name: 🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.42
+  type: ss
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
