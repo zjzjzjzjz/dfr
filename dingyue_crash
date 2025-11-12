@@ -6,20 +6,20 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- name: us|451f|puddincat07@Telegram
-  password: 4aec4e7f8cf8454ea4613659822e1a61
-  port: 443
-  server: 104.16.159.112
-  skip-cert-verify: true
-  sni: jobscareertoday.com
-  type: trojan
-  udp: true
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
   server: 104.17.215.6
   skip-cert-verify: true
   sni: jobscareerfortoday.com
+  type: trojan
+  udp: true
+- name: us|451f|puddincat07@Telegram
+  password: 4aec4e7f8cf8454ea4613659822e1a61
+  port: 443
+  server: 104.16.159.112
+  skip-cert-verify: true
+  sni: jobscareertoday.com
   type: trojan
   udp: true
 - grpc-opts:
