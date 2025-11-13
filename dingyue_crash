@@ -7,14 +7,6 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
-- name: 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 2753
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -31,14 +23,6 @@ proxies:
   sni: uk1.connecton.surf
   type: trojan
   udp: true
-- name: SE_speednode_0012
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
-  type: trojan
-  udp: true
 - name: us|ed1a|puddincat07@Telegram
   password: be968c88-86db-48e7-b8f8-ecebb33a022f
   port: 443
@@ -52,6 +36,22 @@ proxies:
   server: 104.17.147.4
   skip-cert-verify: true
   sni: jobscareertoday.com
+  type: trojan
+  udp: true
+- name: SE_speednode_0012
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
+  skip-cert-verify: true
+  sni: sto.freeguard.org
+  type: trojan
+  udp: true
+- name: 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 2753
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - grpc-opts:
@@ -112,14 +112,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- name: 🇸🇬SG_1|2.5MB/s|GPT⁺|YT-SG|NF
-  password: BxceQaOe
-  port: 518
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
@@ -138,6 +130,14 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- name: 🇸🇬SG_1|2.5MB/s|GPT⁺|YT-SG|NF
+  password: BxceQaOe
+  port: 518
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - name: 香港4|@ripaojiedian
   password: BxceQaOe
   port: 1655
@@ -356,6 +356,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: grpc
+  port: 8880
+  server: 638976291607120660.oslo-drcn-aaaae.info
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - name: 🇨🇦[By EbraSha] trojan-CA 🔒
   network: grpc
   password: D3OJA7xY5U
@@ -366,6 +373,15 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 🇺🇸US IX
   network: tcp
   port: 12355
@@ -373,6 +389,13 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: grpc
+  port: 8880
+  server: 638975946113097669.berlin-drcn-aaaae.info
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - alterId: 0
   cipher: auto
   name: 🇮🇳IN 01
@@ -412,15 +435,6 @@ proxies:
     headers:
       Host: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
     path: //
-- alterId: 0
-  cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 12|KR_speednode_0018
   network: ws
@@ -533,13 +547,6 @@ proxies:
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
   port: 8880
-  server: 638976291607120660.oslo-drcn-aaaae.info
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: grpc
-  port: 8880
   server: 638975946113348099.berlin-drcn-aaaae.info
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
@@ -565,13 +572,6 @@ proxies:
     headers:
       Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
     path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: grpc
-  port: 8880
-  server: 638975946113097669.berlin-drcn-aaaae.info
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - alterId: 0
   cipher: auto
   name: 🇦🇺AU 01
@@ -581,6 +581,13 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
   name: 🇲🇴MO 01
@@ -717,13 +724,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram@freecodes/?ed=2560
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: aes-256-cfb
   name: 云机录-🇻🇳VN_3|1.1MB/s|GPT⁺|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -1007,6 +1007,18 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 🇮🇹[By EbraSha] trojan-IT 🔒
+  network: ws
+  password: d5a49621-b25c-4684-aea8-8389f3a8afaf
+  port: 8443
+  server: 94.177.199.119
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
 - name: 🇩🇰[By EbraSha] trojan-DK 🔒
   network: ws
   password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
@@ -1094,18 +1106,6 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
-- name: 🇮🇹[By EbraSha] trojan-IT 🔒
-  network: ws
-  password: d5a49621-b25c-4684-aea8-8389f3a8afaf
-  port: 8443
-  server: 94.177.199.119
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
 - cipher: none
   name: 🇭🇰HK_4|2.9MB/s|GPT⁺|YT-HK|NF|D+
   network: ws
@@ -1789,20 +1789,6 @@ proxies:
   server: 103.186.155.140
   type: ss
 - cipher: none
-  name: 🇰🇷KR_9|3.6MB/s|GPT⁺|YT-KR|NF|D+|GM
-  network: ws
-  port: 10943
-  server: 218.155.242.108
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2b97c245-b1db-4604-aaae-cdbfb51c2f8f
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
   name: 🇰🇷KR_8|3.2MB/s|GPT⁺|YT-KR|NF|D+|GM|6%
   network: ws
   port: 50001
@@ -1822,20 +1808,6 @@ proxies:
   port: 38388
   server: 103.186.154.250
   type: ss
-- cipher: none
-  name: 🇺🇸US_15|2.6MB/s|GPT⁺|YT-US|NF|D+|6%
-  network: ws
-  port: 443
-  server: 154.17.229.174
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f2ab4a4d-945f-40fc-91e2-641319f1502f
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
 - cipher: none
   name: 🇰🇷KR_1|3.7MB/s|GPT⁺|YT-KR|NF|D+|GM|6%
   network: ws
@@ -2477,20 +2449,6 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇬🇧GB_2|2.6MB/s|GPT⁺|YT-GB|NF|D+|6%
-  network: ws
-  port: 8443
-  server: 152.67.159.253
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 9c6f266c-59cf-438d-9dbc-c40acb09d446
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
 - name: ru|1913|puddincat07@Telegram
   network: ws
   password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
@@ -2517,6 +2475,12 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: aes-256-cfb
+  name: 🇻🇳VN_4|1.1MB/s|GPT⁺|YT-US|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.153
+  type: ss
 - cipher: none
   name: 🇹🇼TW_3|2.7MB/s|GPT⁺|YT-TW|NF|D+|GM
   network: ws
@@ -2531,12 +2495,6 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: aes-256-cfb
-  name: 🇻🇳VN_4|1.1MB/s|GPT⁺|YT-US|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.153
-  type: ss
 - cipher: none
   name: 🇸🇬SG_1|3.7MB/s|GPT⁺|YT-SG|NF|D+|GM|6%
   network: ws
