@@ -364,13 +364,6 @@ proxies:
   sni: cloudflare.com
   type: trojan
   udp: true
-- name: 新加坡|@ripaojiedian
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 2283
-  server: 117.172.176.24
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸US IX
@@ -459,6 +452,13 @@ proxies:
   port: 4556
   server: 36.151.192.242
   skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 新加坡|@ripaojiedian
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 2283
+  server: 117.172.176.24
+  sni: www.nintendogames.net
   type: trojan
   udp: true
 - cipher: none
@@ -737,20 +737,6 @@ proxies:
   server: 103.186.155.142
   type: ss
 - cipher: none
-  name: 云机录-🇰🇷KR_13|4.6MB/s
-  network: ws
-  port: 50000
-  server: 115.93.169.180
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
   port: 8880
@@ -850,6 +836,20 @@ proxies:
     headers:
       Host: 765bcf12-7d35-b90d-2383-17ec5be67cd7.huangshang.site
     path: /ri9mOOVJuAimB74kgXZ
+- cipher: none
+  name: 云机录-🇰🇷KR_13|4.6MB/s
+  network: ws
+  port: 50000
+  server: 115.93.169.180
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
 - cipher: aes-256-cfb
   name: 🇻🇳VN_1|1.8MB/s|GPT⁺|YT-US|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -923,13 +923,6 @@ proxies:
   port: 443
   server: 45.144.31.24
   type: ss
-- cipher: none
-  name: 🇰🇿[By EbraSha] vless-KZ 🔒
-  network: tcp
-  port: 443
-  server: 91.224.74.178
-  type: vless
-  uuid: b25e3c62-f4eb-45df-adda-eb738959b845
 - alterId: 0
   cipher: auto
   name: cn|b1d5|puddincat07@Telegram
@@ -973,6 +966,13 @@ proxies:
     headers:
       Host: private.besttotaldns.com
     path: /J5aKLOY1R7ONXYCM
+- cipher: none
+  name: 🇰🇿[By EbraSha] vless-KZ 🔒
+  network: tcp
+  port: 443
+  server: 91.224.74.178
+  type: vless
+  uuid: b25e3c62-f4eb-45df-adda-eb738959b845
 - cipher: none
   name: us|8920|puddincat07@Telegram
   network: ws
@@ -2309,34 +2309,6 @@ proxies:
   tls: true
   type: vless
   uuid: c8891f6c-81a4-45d6-9fde-2d97e47a435a
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇺🇸US_22|3.2MB/s|GPT⁺|YT-US|NF|D+|GM|6%
-  network: ws
-  port: 443
-  server: dx.2.hhhhh.eu.org
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 50331e77-0e96-4da3-8dba-5ad29997bc4b
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇺🇸US_18|3.1MB/s|GPT⁺|YT-US|NF|D+|GM|6%
-  network: ws
-  port: 443
-  server: dx.3.hhhhh.eu.org
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 58c704c4-259a-46c7-8eed-1af9f3d20024
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
