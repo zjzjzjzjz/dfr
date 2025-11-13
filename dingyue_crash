@@ -79,6 +79,393 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 🇯🇵JP IX
+  network: tcp
+  port: 12354
+  server: jpix.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW 01
+  network: tcp
+  port: 39801
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG 01
+  network: tcp
+  port: 39701
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP 02
+  network: tcp
+  port: 39602
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 01
+  network: tcp
+  port: 39501
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 云机录-🇸🇬SG_2|5.9MB/s|3%|GPT⁺|NF|GM
+  network: ws
+  port: 2095
+  server: cf.090227.xyz
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.cf
+    path: /
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 1655
+  server: 36.150.215.231
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: US_speednode_0080
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 23.227.194.19
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 美国2|@ripaojiedian
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2381
+  server: 117.172.176.24
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 03
+  network: tcp
+  port: 49899
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP 01
+  network: tcp
+  port: 39601
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- name: 美国|@ripaojiedian
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2467
+  server: 160.16.107.37
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 02
+  network: tcp
+  port: 39503
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 云机录-🇺🇸US_13|3.2MB/s|0%|GPT⁺|NF|GM
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: snippets.pusytroller.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG 02
+  network: tcp
+  port: 39703
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇻🇳VN 01
+  network: tcp
+  port: 17858
+  server: as.wxowx.com
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- name: 11,12|新加坡|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2283
+  server: 160.16.138.24
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 美国|@ripaojiedian
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2467
+  server: 117.172.176.24
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 新加坡2|@ripaojiedian
+  password: e4e262d453466988575c397a30562337
+  port: 2173
+  server: 117.172.176.23
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
+  network: tcp
+  port: 49212
+  server: 183.240.245.235
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US IX
+  network: tcp
+  port: 12355
+  server: jpix.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK IX TX
+  network: tcp
+  port: 34520
+  server: txix.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW 02
+  network: tcp
+  port: 39803
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN 01
+  network: tcp
+  port: 44191
+  server: as.wxowx.com
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US 01
+  network: tcp
+  port: 39902
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- name: cn|21b8|puddincat07@Telegram
+  password: BxceQaOe
+  port: 194
+  server: 36.151.192.242
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE 01
+  network: tcp
+  port: 12356
+  server: eu.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 云机录-🇺🇸US_16|2.3MB/s|7%|GPT⁺|NF|GM
+  network: ws
+  port: 443
+  server: wwwopensignalcom-goodspeed-8xx.pages.dev.
+  servername: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
+    path: //
+- cipher: none
+  name: 12|KR_speednode_0018
+  network: ws
+  port: 50001
+  server: 106.245.216.35
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560fp=chrome
+- cipher: none
+  name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
+  network: ws
+  port: 2096
+  server: 154.197.75.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 4556
+  server: 36.151.192.242
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧UK 01
+  network: tcp
+  port: 12359
+  server: eu.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺AU 01
+  network: tcp
+  port: 12357
+  server: as.wxowx.com
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US 02
+  network: tcp
+  port: 39901
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 云机录-🇩🇪DE_23|3.4MB/s|NF
+  network: ws
+  port: 443
+  server: 172.67.72.73
+  servername: vless.aihi.uk
+  tls: true
+  type: vless
+  uuid: 99ce9188-20c8-437c-b68d-0a6ed701c744
+  ws-opts:
+    headers:
+      Host: vless.aihi.uk
+    path: /?ed=2048
+- cipher: none
+  name: 云机录-🇰🇷KR_9|3.3MB/s|NF
+  network: ws
+  port: 50001
+  server: 1.238.209.247
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /telegram @freecodes /?ed=2560
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: grpc
+  port: 8880
+  server: 638975946113348099.berlin-drcn-aaaae.info
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- cipher: aes-256-cfb
+  name: 云机录-🇵🇱PL_2|2.3MB/s|25%|GPT⁺|NF
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 217.30.10.70
+  type: ss
+- cipher: none
+  name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
+  network: ws
+  port: 443
+  server: 104.21.71.83
+  servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+  tls: true
+  type: vless
+  uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
+  ws-opts:
+    headers:
+      Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+    path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
+- cipher: none
+  name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: 104.24.0.0
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 15
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.199
+  type: ss
+- name: 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 9713
+  server: 36.150.215.137
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   name: cn|9c44|puddincat07@Telegram
   network: tcp
   port: 50002
@@ -86,6 +473,99 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 云机录-🇺🇸US_2|6.3MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: 104.20.0.0
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
+- name: 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 9713
+  server: 36.150.215.197
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 12
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.234
+  type: ss
+- cipher: none
+  name: 🇺🇸[openproxylist.com] vless-US
+  network: grpc
+  port: 443
+  server: all.tellmethetrue.shop
+  servername: pqh30v1.hiddendom.shop
+  tls: true
+  type: vless
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+- name: 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 24392
+  server: 36.151.251.35
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 29
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.182
+  type: ss
+- cipher: aes-256-cfb
+  name: 云机录-🇻🇳VN_3|1.1MB/s|GPT⁺|NF|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.203
+  type: ss
+- cipher: none
+  name: 云机录-🇺🇸US_30|4.5MB/s|3%|GPT⁺|NF
+  network: ws
+  port: 2095
+  server: namemc.com
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: 114514.pusytroller.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
+  network: ws
+  port: 443
+  server: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
+  servername: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 8e39282a-8ca3-49f0-a378-79fcb460e6a9
+  ws-opts:
+    headers:
+      Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
+    path: /EvKoNXrwjCJHL8UVhAglDbLesKm
+- cipher: none
+  name: 云机录-🇺🇸US_18|3.3MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: yxip.xxxxxxxx.tk
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
 - cipher: none
   name: cdns.doon.eu.org
   network: ws
@@ -100,6 +580,69 @@ proxies:
     headers:
       Host: 2.294294.xyz
     path: /snippets
+- cipher: aes-256-cfb
+  name: 云机录-🇻🇳VN_1|1.7MB/s|GPT⁺|NF|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.142
+  type: ss
+- cipher: none
+  name: 云机录-🇰🇷KR_13|4.6MB/s
+  network: ws
+  port: 50000
+  server: 115.93.169.180
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- cipher: none
+  name: 云机录-🇭🇰HK_3|2.7MB/s|0%|NF
+  network: tcp
+  port: 40721
+  server: 189.1.247.15
+  type: vless
+  uuid: e0aafde7-37e2-486b-eb30-efa71166bf7e
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 21
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.34
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: cn|9c67|puddincat07@Telegram
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 27
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.221
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 云机录-🇺🇸US_27|2.9MB/s|GPT⁺|NF|GM
+  network: ws
+  port: 443
+  server: 104.21.9.137
+  servername: 765bcf12-7d35-b90d-2383-17ec5be67cd7.huangshang.site
+  tls: true
+  type: vmess
+  udp: false
+  uuid: e053ff61-f350-4fe8-9a45-56da927d417c
+  ws-opts:
+    headers:
+      Host: 765bcf12-7d35-b90d-2383-17ec5be67cd7.huangshang.site
+    path: /ri9mOOVJuAimB74kgXZ
 - alterId: 64
   cipher: auto
   name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
@@ -109,6 +652,75 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 云机录-🇺🇸US_26|1.1MB/s|0%|GPT⁺|NF
+  network: ws
+  port: 443
+  server: 104.26.0.0
+  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+  tls: true
+  type: vless
+  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
+  ws-opts:
+    headers:
+      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: grpc
+  port: 8880
+  server: 185.234.64.5
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: cn|23bb|puddincat07@Telegram
+  password: BxceQaOe
+  port: 43567
+  server: 36.156.102.74
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: none
+  name: us|8920|puddincat07@Telegram
+  network: ws
+  port: 2053
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
+  tls: true
+  type: vless
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  ws-opts:
+    headers:
+      Host: om1.omidsuccess.uk
+    path: /containers/de
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: tcp
+  port: 443
+  server: 193.233.133.166
+  type: vless
+  uuid: ff3c6dcf-08ae-4165-a2a9-00cb9e7c361e
+- cipher: none
+  name: 🇺🇸[By EbraSha] vless-US 🔒
+  network: grpc
+  port: 8880
+  server: 638971077544307182.oslo-blkaft-aaav.info
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- cipher: aes-256-cfb
+  name: 🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ
+  port: 443
+  server: ''
+  type: ss
 - cipher: none
   name: 🇭🇰HK_6|2.3MB/s|GPT⁺|YT-HK|NF|D+
   network: ws
@@ -123,11 +735,43 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: none
+  name: 秋名山维护优选
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: 2.294294.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: dea991b4-696f-4e9e-9761-1e1b31bb02de
+  ws-opts:
+    headers:
+      Host: 2.294294.xyz
+    path: /snippets
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 20
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.64
+  type: ss
+- cipher: aes-256-cfb
+  name: 云机录-🇻🇳VN_2|1.1MB/s|GPT|NF|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.223
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.28
+  type: ss
+- cipher: aes-256-cfb
+  name: VN_speednode_0033
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.250
   type: ss
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
@@ -136,3 +780,22 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0039
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.237
+  type: ss
+- name: 12,13|香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.3
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.42
+  type: ss
