@@ -88,6 +88,18 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- name: NL_speednode_0015
+  network: ws
+  password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
+  port: 443
+  server: 86.107.197.239
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
 - name: 🇭🇰HK_2|2.9MB/s|YT-CN|NF|2%
   password: BxceQaOe
   port: 443
@@ -96,13 +108,30 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: de|ffc2|puddincat07@Telegram
-  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
+- name: SE_speednode_0020
+  network: ws
+  password: edeff73d-065d-4b0a-b848-aad9d3380223
   port: 443
-  server: 164.90.167.242
-  skip-cert-verify: true
+  server: 77.221.141.207
+  sni: joss.dus.biz.id
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
+- name: BE_speednode_0001
+  network: ws
+  password: 88701884-7690-4b79-ac5d-36d299e05e83
+  port: 443
+  server: 34.22.190.30
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP IX
@@ -162,6 +191,20 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: grpc
+  port: 8880
+  server: 638975946113097669.berlin-drcn-aaaae.info
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: grpc
+  port: 8880
+  server: 638976291607120660.oslo-drcn-aaaae.info
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - name: 美国|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
@@ -187,6 +230,13 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- name: de|ffc2|puddincat07@Telegram
+  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
+  port: 443
+  server: 164.90.167.242
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: none
   name: 云机录-🇺🇸US_13|3.2MB/s|0%|GPT⁺|NF|GM
   network: ws
@@ -226,13 +276,15 @@ proxies:
   sni: cloudflare.com
   type: trojan
   udp: true
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: grpc
-  port: 8880
-  server: 638975946113097669.berlin-drcn-aaaae.info
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP 01
@@ -242,13 +294,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: grpc
-  port: 8880
-  server: 638976291607120660.oslo-drcn-aaaae.info
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK 03
@@ -266,15 +311,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 美国|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
@@ -322,6 +358,13 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK 02
@@ -379,14 +422,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 🇨🇦[By EbraSha] trojan-CA 🔒
-  network: grpc
-  password: D3OJA7xY5U
-  port: 10785
-  server: 209.200.246.53
-  sni: cloudflare.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸US IX
@@ -396,13 +431,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
   name: 🇮🇳IN 01
@@ -442,6 +470,14 @@ proxies:
     headers:
       Host: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
     path: //
+- name: 🇨🇦[By EbraSha] trojan-CA 🔒
+  network: grpc
+  password: D3OJA7xY5U
+  port: 10785
+  server: 209.200.246.53
+  sni: cloudflare.com
+  type: trojan
+  udp: true
 - cipher: none
   name: 12|KR_speednode_0018
   network: ws
@@ -724,6 +760,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram@freecodes/?ed=2560
+- name: 🇮🇹[By EbraSha] trojan-IT 🔒
+  network: ws
+  password: d5a49621-b25c-4684-aea8-8389f3a8afaf
+  port: 8443
+  server: 94.177.199.119
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
 - cipher: aes-256-cfb
   name: 云机录-🇻🇳VN_3|1.1MB/s|GPT⁺|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -808,20 +856,6 @@ proxies:
   server: 638974363192992700.budapest-blkaft-aaav.info
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: none
-  name: 云机录-🇰🇷KR_15|2.7MB/s|GPT
-  network: ws
-  port: 50003
-  server: 175.215.175.175
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /telegram @freecodes /?ed=2560
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 27
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -864,18 +898,6 @@ proxies:
   skip-cert-verify: true
   type: vless
   uuid: 30015fb1-adb4-4435-ab93-601692d012a3
-- name: 🇮🇹[By EbraSha] trojan-IT 🔒
-  network: ws
-  password: d5a49621-b25c-4684-aea8-8389f3a8afaf
-  port: 8443
-  server: 94.177.199.119
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
@@ -952,6 +974,14 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- name: 🇺🇸US_1|3.3MB/s|GPT⁺|YT-US|NF|D+|GM|28%
+  password: BxceQaOe
+  port: 4569
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: 🇬🇧[By EbraSha] vless-GB 🔒
   network: grpc
@@ -1005,14 +1035,6 @@ proxies:
   server: 193.233.133.166
   type: vless
   uuid: ff3c6dcf-08ae-4165-a2a9-00cb9e7c361e
-- name: 🇺🇸US_1|3.3MB/s|GPT⁺|YT-US|NF|D+|GM|28%
-  password: BxceQaOe
-  port: 4569
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: none
   name: 🇺🇸[By EbraSha] vless-US 🔒
   network: grpc
