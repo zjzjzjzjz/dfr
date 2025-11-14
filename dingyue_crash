@@ -649,6 +649,18 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 🇫🇷[By EbraSha] trojan-FR 🔒
+  network: ws
+  password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
+  port: 2053
+  server: 51.38.226.4
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/51.38.226.4=2053
 - cipher: none
   name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
   network: ws
@@ -662,18 +674,6 @@ proxies:
     headers:
       Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
     path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
-- name: 🇫🇷[By EbraSha] trojan-FR 🔒
-  network: ws
-  password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
-  port: 2053
-  server: 51.38.226.4
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/51.38.226.4=2053
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 15
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -1106,34 +1106,6 @@ proxies:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053
 - cipher: none
-  name: 🇭🇰HK_1|3.0MB/s|GPT⁺|YT-HK|NF|D+|6%
-  network: ws
-  port: 443
-  server: openai.hhhhh.eu.org
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1ad64ce1-3afe-4234-b524-77884fa921ae
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇭🇰HK_3|3.0MB/s|GPT|YT-HK|NF|D+|6%
-  network: ws
-  port: 443
-  server: sy.1.hhhhh.eu.org
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 9cc01702-92a5-473f-8832-04f9871b62b0
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
   name: 🇭🇰HK_4|2.9MB/s|GPT⁺|YT-HK|NF|D+
   network: ws
   port: 443
@@ -1288,6 +1260,20 @@ proxies:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
 - cipher: none
+  name: 🇭🇰HK_1|3.0MB/s|GPT⁺|YT-HK|NF|D+|6%
+  network: ws
+  port: 443
+  server: openai.hhhhh.eu.org
+  servername: sp1.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1ad64ce1-3afe-4234-b524-77884fa921ae
+  ws-opts:
+    headers:
+      Host: sp1.hhhhh.eu.org
+    path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: none
   name: 🇺🇸US_28|3.7MB/s|GPT⁺|YT-US|NF|D+|GM
   network: ws
   port: 443
@@ -1297,6 +1283,20 @@ proxies:
   tls: true
   type: vless
   uuid: 0a828776-b761-42df-bb43-b41bb5d8188b
+  ws-opts:
+    headers:
+      Host: sp1.hhhhh.eu.org
+    path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: none
+  name: 🇭🇰HK_3|3.0MB/s|GPT|YT-HK|NF|D+|6%
+  network: ws
+  port: 443
+  server: sy.1.hhhhh.eu.org
+  servername: sp1.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 9cc01702-92a5-473f-8832-04f9871b62b0
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
@@ -1384,20 +1384,6 @@ proxies:
   server: 103.186.155.64
   type: ss
 - cipher: none
-  name: 🇭🇰HK_2|3.1MB/s|GPT⁺|YT-HK|NF|D+|6%
-  network: ws
-  port: 30701
-  server: 47.239.128.184
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 55b4e7c0-0afc-4b8f-8280-071cbddaa0bd
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
   name: 🇹🇼TW_1|2.1MB/s|GPT⁺|YT-TW|NF|D+|GM
   network: ws
   port: 12486
@@ -1474,20 +1460,6 @@ proxies:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
 - cipher: none
-  name: 🇹🇼TW_2|2.1MB/s|GPT⁺|YT-TW|NF|D+|GM|6%
-  network: ws
-  port: 12485
-  server: 125.227.162.252
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 734810d5-4c66-4dab-8f4c-2e4cb7a94034
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
   name: 🇭🇰HK_16|3.1MB/s|GPT⁺|YT-HK|NF|D+|6%
   network: ws
   port: 443
@@ -1511,6 +1483,20 @@ proxies:
   tls: true
   type: vless
   uuid: b528c786-af97-400b-9eef-04d73740efc8
+  ws-opts:
+    headers:
+      Host: sp1.hhhhh.eu.org
+    path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: none
+  name: 🇭🇰HK_2|3.1MB/s|GPT⁺|YT-HK|NF|D+|6%
+  network: ws
+  port: 30701
+  server: 47.239.128.184
+  servername: sp1.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55b4e7c0-0afc-4b8f-8280-071cbddaa0bd
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
@@ -1543,20 +1529,6 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇰🇷KR_3|3.3MB/s|GPT⁺|YT-KR|NF|D+|GM
-  network: ws
-  port: 30029
-  server: 117.123.23.173
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 84a5ef33-5a68-4010-9b96-421319098a2e
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
 - cipher: aes-256-cfb
   name: 云机录-🇻🇳VN_2|1.1MB/s|GPT|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -1564,15 +1536,15 @@ proxies:
   server: 103.186.155.223
   type: ss
 - cipher: none
-  name: 🇰🇷KR_2|3.3MB/s|GPT⁺|YT-KR|NF|D+|GM
+  name: 🇹🇼TW_2|2.1MB/s|GPT⁺|YT-TW|NF|D+|GM|6%
   network: ws
-  port: 50001
-  server: 121.131.104.228
+  port: 12485
+  server: 125.227.162.252
   servername: sp1.hhhhh.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 6b85c388-08fa-4d2e-bcae-7b1e83a0f1f8
+  uuid: 734810d5-4c66-4dab-8f4c-2e4cb7a94034
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
@@ -1605,26 +1577,26 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇯🇵JP_1|2.8MB/s|GPT⁺|YT-JP|NF|D+|GM
-  network: ws
-  port: 443
-  server: 47.79.33.119
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 43f4fd1b-3f21-4be6-be85-30682de85fca
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
 - cipher: aes-256-cfb
   name: 🇻🇳VN_9|1.4MB/s|GPT⁺|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.206
   type: ss
+- cipher: none
+  name: 🇰🇷KR_2|3.3MB/s|GPT⁺|YT-KR|NF|D+|GM
+  network: ws
+  port: 50001
+  server: 121.131.104.228
+  servername: sp1.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6b85c388-08fa-4d2e-bcae-7b1e83a0f1f8
+  ws-opts:
+    headers:
+      Host: sp1.hhhhh.eu.org
+    path: /?proxyip=proxyip.sg.cmliussss.net
 - cipher: aes-256-cfb
   name: 🇻🇳VN_2|1.3MB/s|GPT⁺|YT-US|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -1657,6 +1629,34 @@ proxies:
   port: 38388
   server: 103.186.154.230
   type: ss
+- cipher: none
+  name: 🇯🇵JP_1|2.8MB/s|GPT⁺|YT-JP|NF|D+|GM
+  network: ws
+  port: 443
+  server: 47.79.33.119
+  servername: sp1.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 43f4fd1b-3f21-4be6-be85-30682de85fca
+  ws-opts:
+    headers:
+      Host: sp1.hhhhh.eu.org
+    path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: none
+  name: 🇰🇷KR_3|3.3MB/s|GPT⁺|YT-KR|NF|D+|GM
+  network: ws
+  port: 30029
+  server: 117.123.23.173
+  servername: sp1.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 84a5ef33-5a68-4010-9b96-421319098a2e
+  ws-opts:
+    headers:
+      Host: sp1.hhhhh.eu.org
+    path: /?proxyip=proxyip.sg.cmliussss.net
 - cipher: aes-256-cfb
   name: VN_speednode_0033
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -1754,20 +1754,6 @@ proxies:
   tls: true
   type: vless
   uuid: d84ebcec-6d16-43b1-b040-410f9b8180f1
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇺🇸US_1|2.9MB/s|GPT⁺|YT-US|NF|D+|GM
-  network: ws
-  port: 443
-  server: 27.50.48.13
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: a72c2df5-16e9-4b96-ad8d-526c7d92f1e4
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
@@ -1908,6 +1894,20 @@ proxies:
   tls: true
   type: vless
   uuid: 1b6dc51e-986f-4b64-817a-9bda783557b1
+  ws-opts:
+    headers:
+      Host: sp1.hhhhh.eu.org
+    path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: none
+  name: 🇺🇸US_1|2.9MB/s|GPT⁺|YT-US|NF|D+|GM
+  network: ws
+  port: 443
+  server: 27.50.48.13
+  servername: sp1.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a72c2df5-16e9-4b96-ad8d-526c7d92f1e4
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
@@ -2212,12 +2212,6 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: aes-256-cfb
-  name: 🇻🇳VN_7|2.3MB/s|GPT⁺|YT-US|NF|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.147
-  type: ss
 - cipher: none
   name: 🇺🇸US_17|3.5MB/s|GPT⁺|YT-US|NF|D+|GM
   network: ws
@@ -2232,6 +2226,12 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: aes-256-cfb
+  name: 🇻🇳VN_7|2.3MB/s|GPT⁺|YT-US|NF|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.147
+  type: ss
 - name: 美国|@ripaojiedian
   password: e4e262d453466988575c397a30562337
   port: 4553
