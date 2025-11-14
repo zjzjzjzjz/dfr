@@ -1398,20 +1398,6 @@ proxies:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
 - cipher: none
-  name: 🇭🇰HK_16|3.1MB/s|GPT⁺|YT-HK|NF|D+|6%
-  network: ws
-  port: 443
-  server: sy.2.hhhhh.eu.org
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c6a419ea-a60a-4e36-9d86-3b493ae3933d
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
   name: 🇺🇸US_11|3.2MB/s|GPT⁺|YT-US|NF|D+|GM|6%
   network: ws
   port: 443
@@ -1421,20 +1407,6 @@ proxies:
   tls: true
   type: vless
   uuid: 9e139310-6cb8-4194-ace2-d0bccc194988
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇭🇰HK_14|3.5MB/s|GPT⁺|YT-HK|NF|D+|6%
-  network: ws
-  port: 443
-  server: openai.1.hhhhh.eu.org
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 22480633-7b32-4ee2-b5ac-d59c334f3214
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
@@ -1603,6 +1575,18 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
+- name: 🇵🇱[By EbraSha] trojan-PL 🔒
+  network: ws
+  password: 49d416e1-4cec-41e1-bff6-3748c466f275
+  port: 8443
+  server: 45.144.48.158
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
 - cipher: none
   name: 🇰🇷KR_10|3.5MB/s|GPT⁺|YT-KR|NF|D+|GM|6%
   network: ws
@@ -1643,18 +1627,6 @@ proxies:
   port: 38388
   server: 103.186.154.250
   type: ss
-- name: 🇵🇱[By EbraSha] trojan-PL 🔒
-  network: ws
-  password: 49d416e1-4cec-41e1-bff6-3748c466f275
-  port: 8443
-  server: 45.144.48.158
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
 - cipher: none
   name: 🇰🇷KR_1|3.7MB/s|GPT⁺|YT-KR|NF|D+|GM|6%
   network: ws
@@ -1837,20 +1809,6 @@ proxies:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
 - cipher: none
-  name: 🇺🇸US_13|3.7MB/s|GPT⁺|YT-US|NF|D+|GM|6%
-  network: ws
-  port: 443
-  server: cm.hhhhh.eu.org
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: fd37111d-e13e-4a07-b289-309537ab6133
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
   name: 🇺🇸US_11|3.6MB/s|GPT|YT-JP|GM|6%
   network: ws
   port: 443
@@ -1860,20 +1818,6 @@ proxies:
   tls: true
   type: vless
   uuid: 52cd2bb0-a05d-413f-a6b4-51ea9c8c363c
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇺🇸US_10|3.2MB/s|GPT⁺|YT-US|NF|D+|GM
-  network: ws
-  port: 443
-  server: bp.2.hhhhh.eu.org
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d79e5124-f3ff-425c-9ca6-12362c29b205
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
@@ -1958,6 +1902,20 @@ proxies:
   tls: true
   type: vless
   uuid: e961276b-e815-49a0-9c1f-9f05924af4b2
+  ws-opts:
+    headers:
+      Host: sp1.hhhhh.eu.org
+    path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: none
+  name: 🇺🇸US_10|3.2MB/s|GPT⁺|YT-US|NF|D+|GM
+  network: ws
+  port: 443
+  server: bp.2.hhhhh.eu.org
+  servername: sp1.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d79e5124-f3ff-425c-9ca6-12362c29b205
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
@@ -2160,20 +2118,6 @@ proxies:
   tls: true
   type: vless
   uuid: dfb430b6-1ccc-44ff-8a09-40e395db63cf
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇺🇸US_17|3.5MB/s|GPT⁺|YT-US|NF|D+|GM
-  network: ws
-  port: 2087
-  server: 27.50.48.72
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f2706980-3dea-4bd3-af1e-b8c9078afa0d
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
