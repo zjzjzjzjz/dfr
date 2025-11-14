@@ -183,13 +183,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: grpc
-  port: 8880
-  server: 638975946113097669.berlin-drcn-aaaae.info
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - alterId: 0
   cipher: auto
   name: 🇹🇼TW 01
@@ -214,6 +207,13 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: grpc
+  port: 8880
+  server: 638975946113097669.berlin-drcn-aaaae.info
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
@@ -970,6 +970,18 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
+- name: ru|1913|puddincat07@Telegram
+  network: ws
+  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+  port: 2053
+  server: 213.159.208.88
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
 - cipher: none
   name: 🇬🇧[By EbraSha] vless-GB 🔒
   network: grpc
@@ -991,18 +1003,6 @@ proxies:
   server: 185.138.164.186
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: ru|1913|puddincat07@Telegram
-  network: ws
-  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
-  port: 2053
-  server: 213.159.208.88
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
@@ -1056,19 +1056,6 @@ proxies:
   server: 62.133.60.43
   type: ss
 - cipher: none
-  name: 🇬🇧[By EbraSha] vless-GB 🔒
-  network: grpc
-  port: 8880
-  server: 45.140.167.173
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: aes-256-cfb
-  name: 云机录-🇻🇳VN_4|1.2MB/s|GPT⁺|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.16
-  type: ss
-- cipher: none
   name: 🇫🇮[By EbraSha] vless-FI 🔒
   network: ws
   port: 8443
@@ -1081,6 +1068,19 @@ proxies:
     headers:
       Host: private.besttotaldns.com
     path: /J5aKLOY1R7ONXYCM
+- cipher: none
+  name: 🇬🇧[By EbraSha] vless-GB 🔒
+  network: grpc
+  port: 8880
+  server: 45.140.167.173
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- cipher: aes-256-cfb
+  name: 云机录-🇻🇳VN_4|1.2MB/s|GPT⁺|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.16
+  type: ss
 - cipher: none
   name: 🇰🇿[By EbraSha] vless-KZ 🔒
   network: tcp
