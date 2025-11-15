@@ -63,6 +63,14 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: us|3d4e|puddincat07@Telegram
+  password: 01596265-168b-46a7-bcb7-25662c7a9546
+  port: 443
+  server: 188.114.98.0
+  skip-cert-verify: true
+  sni: hdfy7c1.foriran2.eu.org
+  type: trojan
+  udp: true
 - name: au|d0b6|puddincat07@Telegram
   password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
   port: 443
@@ -742,13 +750,6 @@ proxies:
   server: 185.234.64.66
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: 🇫🇷[By EbraSha] trojan-FR 🔒
   network: ws
   password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
@@ -872,6 +873,13 @@ proxies:
   skip-cert-verify: true
   type: vless
   uuid: 30015fb1-adb4-4435-ab93-601692d012a3
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
   name: 云机录-🇺🇸US_27|2.9MB/s|GPT⁺|NF|GM
