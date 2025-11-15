@@ -23,6 +23,13 @@ proxies:
   sni: uk1.connecton.surf
   type: trojan
   udp: true
+- name: us|ed1a|puddincat07@Telegram
+  password: be968c88-86db-48e7-b8f8-ecebb33a022f
+  port: 443
+  server: 45.79.9.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
@@ -31,17 +38,17 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
-- name: us|ed1a|puddincat07@Telegram
-  password: be968c88-86db-48e7-b8f8-ecebb33a022f
-  port: 443
-  server: 45.79.9.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: nl|47e3|puddincat07@Telegram
   password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
   port: 443
   server: 142.93.226.128
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: de|ffc2|puddincat07@Telegram
+  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
+  port: 443
+  server: 164.90.167.242
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -60,13 +67,6 @@ proxies:
   password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
   port: 443
   server: 194.195.123.173
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: de|ffc2|puddincat07@Telegram
-  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
-  port: 443
-  server: 164.90.167.242
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -146,15 +146,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: 🇹🇼TW 01
   network: tcp
   port: 39801
@@ -164,13 +155,13 @@ proxies:
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 日本4|@ripaojiedian
+  name: cn|9c44|puddincat07@Telegram
   network: tcp
-  port: 47083
-  server: 114.98.183.61
+  port: 50002
+  server: 139.129.20.6
   type: vmess
-  udp: false
-  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: us|ab0b|puddincat07@Telegram
   password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
   port: 2083
@@ -188,6 +179,13 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 🇸🇰[By EbraSha] vless-SK 🔒
+  network: tcp
+  port: 7079
+  server: sk3.node.ibst.me
+  type: vless
+  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK 01
@@ -216,13 +214,6 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.cf
     path: /
-- cipher: none
-  name: 🇸🇰[By EbraSha] vless-SK 🔒
-  network: tcp
-  port: 7079
-  server: sk3.node.ibst.me
-  type: vless
-  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
 - name: 🇸🇬SG_1|2.5MB/s|GPT⁺|YT-SG|NF
   password: BxceQaOe
   port: 518
@@ -240,6 +231,15 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本4|@ripaojiedian
+  network: tcp
+  port: 47083
+  server: 114.98.183.61
+  type: vmess
+  udp: false
+  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - name: 美国2|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
@@ -525,13 +525,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: tcp
-  port: 443
-  server: 45.67.139.37
-  type: vless
-  uuid: 3557aa39-7564-4362-9713-8a2dd2a98830
 - alterId: 0
   cipher: auto
   name: 🇩🇪DE 01
@@ -673,6 +666,13 @@ proxies:
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: tcp
+  port: 443
+  server: 45.67.139.37
+  type: vless
+  uuid: 3557aa39-7564-4362-9713-8a2dd2a98830
+- cipher: none
   name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
   network: ws
   port: 443
@@ -783,21 +783,6 @@ proxies:
   server: 185.234.64.66
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- alterId: 0
-  cipher: auto
-  name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
-  network: ws
-  port: 443
-  server: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
-  servername: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 8e39282a-8ca3-49f0-a378-79fcb460e6a9
-  ws-opts:
-    headers:
-      Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
-    path: /EvKoNXrwjCJHL8UVhAglDbLesKm
 - name: BE_speednode_0001
   network: ws
   password: 88701884-7690-4b79-ac5d-36d299e05e83
@@ -830,6 +815,21 @@ proxies:
   server: 189.1.247.15
   type: vless
   uuid: e0aafde7-37e2-486b-eb30-efa71166bf7e
+- alterId: 0
+  cipher: auto
+  name: 云机录-🇺🇸US_12|3.4MB/s|27%|GPT⁺|NF|GM
+  network: ws
+  port: 443
+  server: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
+  servername: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 8e39282a-8ca3-49f0-a378-79fcb460e6a9
+  ws-opts:
+    headers:
+      Host: C4-e0a3771d-e553-24Ba-3dC5-5B086f8639c7.131.PP.Ua
+    path: /EvKoNXrwjCJHL8UVhAglDbLesKm
 - cipher: none
   name: cdns.doon.eu.org
   network: ws
