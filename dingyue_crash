@@ -1,17 +1,17 @@
 proxies:
+- name: nl|47e3|puddincat07@Telegram
+  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
+  port: 443
+  server: 142.93.226.128
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
   server: 104.16.159.112
   skip-cert-verify: true
   sni: jobscareertoday.com
-  type: trojan
-  udp: true
-- name: nl|47e3|puddincat07@Telegram
-  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
-  port: 443
-  server: 142.93.226.128
-  skip-cert-verify: true
   type: trojan
   udp: true
 - name: us|8a6b|puddincat07@Telegram
