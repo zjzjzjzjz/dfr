@@ -41,19 +41,19 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: au|d0b6|puddincat07@Telegram
+  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
+  port: 443
+  server: 194.195.123.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: us|9514|puddincat07@Telegram
   password: 4732adfa16c6450bbef87264e41332db
   port: 443
   server: 104.17.147.4
   skip-cert-verify: true
   sni: jobscareertoday.com
-  type: trojan
-  udp: true
-- name: au|d0b6|puddincat07@Telegram
-  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
-  port: 443
-  server: 194.195.123.173
-  skip-cert-verify: true
   type: trojan
   udp: true
 - name: de|ffc2|puddincat07@Telegram
@@ -605,15 +605,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇲🇴MO 01
-  network: tcp
-  port: 39805
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: 美国3|@ripaojiedian
   password: BxceQaOe
   port: 9269
@@ -846,12 +837,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 27
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.221
-  type: ss
 - name: 🇮🇱[By EbraSha] trojan-IL 🔒
   network: ws
   password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
