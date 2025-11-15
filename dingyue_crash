@@ -34,6 +34,12 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_2|2.2MB/s|GPT⁺|YT-NL|NF
+  password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG
+  port: 443
+  server: 51.158.204.165
+  type: ss
 - name: us|3d4e|puddincat07@Telegram
   password: 01596265-168b-46a7-bcb7-25662c7a9546
   port: 443
@@ -79,12 +85,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_2|2.2MB/s|GPT⁺|YT-NL|NF
-  password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG
-  port: 443
-  server: 51.158.204.165
-  type: ss
 - name: 10,11|美国3|@ripaojiedian
   password: BxceQaOe
   port: 2173
