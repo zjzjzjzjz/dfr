@@ -7,6 +7,13 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
+- name: nl|47e3|puddincat07@Telegram
+  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
+  port: 443
+  server: 142.93.226.128
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -32,13 +39,6 @@ proxies:
   server: 89.117.158.245
   skip-cert-verify: true
   sni: esla.cestbon.work
-  type: trojan
-  udp: true
-- name: nl|47e3|puddincat07@Telegram
-  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
-  port: 443
-  server: 142.93.226.128
-  skip-cert-verify: true
   type: trojan
   udp: true
 - name: us|3d4e|puddincat07@Telegram
@@ -457,13 +457,6 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: /telegram @freecodes /?ed=2560
 - cipher: none
-  name: 🇷🇺[By EbraSha] vless-RU 🔒
-  network: tcp
-  port: 4442
-  server: 193.124.182.224
-  type: vless
-  uuid: 9429f5ce-ed0f-48e7-afda-12f7b23441af
-- cipher: none
   name: 🇬🇧[By EbraSha] vless-GB 🔒
   network: grpc
   port: 8880
@@ -504,14 +497,6 @@ proxies:
     headers:
       Host: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
     path: //
-- name: 🇭🇰HK_1|3.1MB/s|YT-CN|NF|D+|3%
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.97
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: SE_speednode_0020
   network: ws
   password: edeff73d-065d-4b0a-b848-aad9d3380223
@@ -593,6 +578,13 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 🇷🇺[By EbraSha] vless-RU 🔒
+  network: tcp
+  port: 4442
+  server: 193.124.182.224
+  type: vless
+  uuid: 9429f5ce-ed0f-48e7-afda-12f7b23441af
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -1604,20 +1596,6 @@ proxies:
   tls: true
   type: vless
   uuid: 6509532f-fb19-4ebd-b32c-902576578482
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
-  name: 🇺🇸US_11|3.6MB/s|GPT|YT-JP|GM|6%
-  network: ws
-  port: 443
-  server: 5.34.222.200
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 52cd2bb0-a05d-413f-a6b4-51ea9c8c363c
   ws-opts:
     headers:
       Host: sp1.hhhhh.eu.org
