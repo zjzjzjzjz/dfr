@@ -1,11 +1,4 @@
 proxies:
-- name: us|ed1a|puddincat07@Telegram
-  password: be968c88-86db-48e7-b8f8-ecebb33a022f
-  port: 443
-  server: 45.79.9.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
@@ -63,6 +56,13 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: us|ed1a|puddincat07@Telegram
+  password: be968c88-86db-48e7-b8f8-ecebb33a022f
+  port: 443
+  server: 45.79.9.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: us|9514|puddincat07@Telegram
   password: 4732adfa16c6450bbef87264e41332db
   port: 443
@@ -103,19 +103,19 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: de|ffc2|puddincat07@Telegram
-  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
-  port: 443
-  server: 164.90.167.242
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 美国3|@ripaojiedian
   password: BxceQaOe
   port: 4094
   server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: de|ffc2|puddincat07@Telegram
+  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
+  port: 443
+  server: 164.90.167.242
+  skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 0
@@ -137,15 +137,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW 01
-  network: tcp
-  port: 39801
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
   name: 🇯🇵JP IX
   network: tcp
   port: 12354
@@ -161,6 +152,15 @@ proxies:
   sni: taqboostan.zagros.top
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW 01
+  network: tcp
+  port: 39801
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: 🇭🇰HK_2|2.9MB/s|YT-CN|NF|2%
   password: BxceQaOe
   port: 443
@@ -169,24 +169,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG 01
-  network: tcp
-  port: 39701
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 01
-  network: tcp
-  port: 39501
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: 香港4|@ripaojiedian
   password: BxceQaOe
   port: 1655
@@ -216,15 +198,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP 02
-  network: tcp
-  port: 39602
-  server: jpsss.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
   name: 🇯🇵 日本4|@ripaojiedian
   network: tcp
   port: 47083
@@ -248,24 +221,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP 01
-  network: tcp
-  port: 39601
-  server: jpsss.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 03
-  network: tcp
-  port: 49899
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: NL_speednode_0015
   network: ws
   password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
@@ -289,6 +244,24 @@ proxies:
     headers:
       Host: snippets.pusytroller.cf
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 01
+  network: tcp
+  port: 39501
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG 01
+  network: tcp
+  port: 39701
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: 🇺🇸[By EbraSha] trojan-US 🔒
   network: ws
   password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
@@ -301,15 +274,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/65.109.227.138=2053
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK 02
-  network: tcp
-  port: 39503
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: 🇮🇹[By EbraSha] trojan-IT 🔒
   network: ws
   password: d5a49621-b25c-4684-aea8-8389f3a8afaf
@@ -324,10 +288,10 @@ proxies:
     path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
 - alterId: 0
   cipher: auto
-  name: 🇻🇳VN 01
+  name: 🇯🇵JP 02
   network: tcp
-  port: 17858
-  server: as.wxowx.com
+  port: 39602
+  server: jpsss.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
@@ -338,15 +302,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG 02
-  network: tcp
-  port: 39703
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: 新加坡2|@ripaojiedian
   password: e4e262d453466988575c397a30562337
   port: 2173
@@ -354,6 +309,24 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP 01
+  network: tcp
+  port: 39601
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK 03
+  network: tcp
+  port: 49899
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK IX TX
@@ -372,9 +345,9 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - alterId: 0
   cipher: auto
-  name: 🇮🇳IN 01
+  name: 🇻🇳VN 01
   network: tcp
-  port: 44191
+  port: 17858
   server: as.wxowx.com
   type: vmess
   udp: false
@@ -409,15 +382,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US 01
-  network: tcp
-  port: 39902
-  server: jpsss.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: 🇭🇰HK_7|1.7MB/s|YT-CN|NF|D+|2%
   password: BxceQaOe
   port: 443
@@ -461,15 +425,6 @@ proxies:
   port: 443
   server: 51.158.204.165
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE 01
-  network: tcp
-  port: 12356
-  server: eu.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: 🇸🇬SG_1|2.0MB/s|GPT⁺|YT-SG|NF|GM
   password: BxceQaOe
   port: 2753
@@ -478,6 +433,15 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN 01
+  network: tcp
+  port: 44191
+  server: as.wxowx.com
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 云机录-🇰🇷KR_9|3.3MB/s|NF
   network: ws
@@ -527,15 +491,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧UK 01
-  network: tcp
-  port: 12359
-  server: eu.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 云机录-🇺🇸US_16|2.3MB/s|7%|GPT⁺|NF|GM
   network: ws
@@ -569,6 +524,15 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US 01
+  network: tcp
+  port: 39902
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
@@ -604,6 +568,15 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE 01
+  network: tcp
+  port: 12356
+  server: eu.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
@@ -611,6 +584,15 @@ proxies:
   server: 638975946113348099.berlin-drcn-aaaae.info
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧UK 01
+  network: tcp
+  port: 12359
+  server: eu.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -656,13 +638,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: 🇸🇰[By EbraSha] vless-SK 🔒
-  network: tcp
-  port: 7079
-  server: sk3.node.ibst.me
-  type: vless
-  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
-- cipher: none
   name: 云机录-🇺🇸US_2|6.3MB/s|0%|GPT⁺|NF
   network: ws
   port: 443
@@ -704,6 +679,13 @@ proxies:
   tls: true
   type: vless
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
+- cipher: none
+  name: 🇸🇰[By EbraSha] vless-SK 🔒
+  network: tcp
+  port: 7079
+  server: sk3.node.ibst.me
+  type: vless
+  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 29
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -1484,20 +1466,6 @@ proxies:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
 - cipher: none
-  name: 🇯🇵JP_2|3.2MB/s|GPT⁺|YT-JP|NF|D+|GM
-  network: ws
-  port: 12476
-  server: 210.96.127.37
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 98f9cbb5-71f0-439b-9c0e-36c391f02f0c
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: none
   name: 🇰🇷KR_10|3.5MB/s|GPT⁺|YT-KR|NF|D+|GM|6%
   network: ws
   port: 37080
@@ -2007,20 +1975,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: none
-  name: 🇹🇼TW_3|2.7MB/s|GPT⁺|YT-TW|NF|D+|GM
-  network: ws
-  port: 10004
-  server: 114.34.202.224
-  servername: sp1.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 425477fc-e1f1-47d2-934a-01df37ebdd4f
-  ws-opts:
-    headers:
-      Host: sp1.hhhhh.eu.org
-    path: /?proxyip=proxyip.sg.cmliussss.net
 - cipher: aes-256-cfb
   name: 🇻🇳VN_4|1.1MB/s|GPT⁺|YT-US|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
