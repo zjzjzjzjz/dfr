@@ -146,6 +146,13 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -155,13 +162,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: none
   name: 🇸🇰[By EbraSha] vless-SK 🔒
   network: tcp
@@ -277,15 +277,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP 01
-  network: tcp
-  port: 39601
-  server: jpsss.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
@@ -295,6 +286,15 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP 01
+  network: tcp
+  port: 39601
+  server: jpsss.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK 03
