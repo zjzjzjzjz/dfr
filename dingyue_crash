@@ -56,17 +56,17 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
-- name: au|d0b6|puddincat07@Telegram
-  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
-  port: 443
-  server: 194.195.123.173
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: de|ffc2|puddincat07@Telegram
   password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
   port: 443
   server: 164.90.167.242
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: au|d0b6|puddincat07@Telegram
+  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
+  port: 443
+  server: 194.195.123.173
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -436,13 +436,6 @@ proxies:
   sni: cloudflare.com
   type: trojan
   udp: true
-- name: 香港3|@ripaojiedian
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 443
-  server: 58.152.110.9
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - cipher: none
   name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
   network: ws
@@ -567,6 +560,13 @@ proxies:
   port: 4054
   server: 117.172.176.25
   skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 香港3|@ripaojiedian
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 443
+  server: 58.152.110.9
   sni: www.nintendogames.net
   type: trojan
   udp: true
@@ -749,13 +749,6 @@ proxies:
   server: 103.186.154.234
   type: ss
 - cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- cipher: none
   name: 🇺🇸[openproxylist.com] vless-US
   network: grpc
   port: 443
@@ -809,6 +802,13 @@ proxies:
   server: 103.186.155.142
   type: ss
 - cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+- cipher: none
   name: 云机录-🇭🇰HK_3|2.7MB/s|0%|NF
   network: tcp
   port: 40721
@@ -844,6 +844,13 @@ proxies:
     headers:
       Host: 2.294294.xyz
     path: /snippets
+- cipher: none
+  name: 🇩🇪[By EbraSha] vless-DE 🔒
+  network: tcp
+  port: 443
+  server: vp9.myphotomoments.ir
+  type: vless
+  uuid: Warpi-Free-Vpn-In-GooglePlay
 - alterId: 0
   cipher: auto
   name: cn|9c67|puddincat07@Telegram
@@ -969,14 +976,6 @@ proxies:
   type: vmess
   udp: false
   uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
-- name: 🇺🇸US_1|4.7MB/s|GPT⁺|YT-US|NF|GM
-  password: BxceQaOe
-  port: 25891
-  server: 36.151.251.38
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: ru|1913|puddincat07@Telegram
   network: ws
   password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
@@ -994,6 +993,14 @@ proxies:
   port: 443
   server: 58.152.46.98
   skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇺🇸US_1|4.7MB/s|GPT⁺|YT-US|NF|GM
+  password: BxceQaOe
+  port: 25891
+  server: 36.151.251.38
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - cipher: none
@@ -1088,18 +1095,6 @@ proxies:
     headers:
       Host: paloma.hidencloud.com
     path: /@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------
-- name: PL_speednode_0016
-  network: ws
-  password: 55d19115-ec40-407b-a674-74e6a948347a
-  port: 2053
-  server: 45.144.48.55
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053
 - cipher: none
   name: 🇭🇰HK_6|2.3MB/s|GPT⁺|YT-HK|NF|D+
   network: ws
