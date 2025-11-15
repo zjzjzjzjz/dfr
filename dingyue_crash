@@ -15,13 +15,6 @@ proxies:
   sni: jobscareerfortoday.com
   type: trojan
   udp: true
-- name: nl|47e3|puddincat07@Telegram
-  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
-  port: 443
-  server: 142.93.226.128
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -33,19 +26,19 @@ proxies:
   sni: esla.cestbon.work
   type: trojan
   udp: true
-- name: us|ed1a|puddincat07@Telegram
-  password: be968c88-86db-48e7-b8f8-ecebb33a022f
-  port: 443
-  server: 45.79.9.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: gb|dbcb|puddincat07@Telegram
   password: 47b1daf173
   port: 443
   server: 198.244.252.93
   skip-cert-verify: true
   sni: uk1.connecton.surf
+  type: trojan
+  udp: true
+- name: us|ed1a|puddincat07@Telegram
+  password: be968c88-86db-48e7-b8f8-ecebb33a022f
+  port: 443
+  server: 45.79.9.98
+  skip-cert-verify: true
   type: trojan
   udp: true
 - name: us|9514|puddincat07@Telegram
@@ -60,6 +53,13 @@ proxies:
   password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
   port: 443
   server: 164.90.167.242
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: nl|47e3|puddincat07@Telegram
+  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
+  port: 443
+  server: 142.93.226.128
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -307,15 +307,6 @@ proxies:
     path: /Free-VPN-CF-Geo-Project/65.109.227.138=2053
 - alterId: 0
   cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: 🇭🇰HK 02
   network: tcp
   port: 39503
@@ -364,6 +355,15 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 🇺🇸US IX
@@ -871,6 +871,13 @@ proxies:
   server: 144.124.234.87
   type: vless
   uuid: KOSMOVPN_999232169
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: aes-256-cfb
   name: 🇻🇳VN_1|1.8MB/s|GPT⁺|YT-US|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -915,13 +922,6 @@ proxies:
   server: 185.138.164.67
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
