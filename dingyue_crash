@@ -56,17 +56,17 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
-- name: de|ffc2|puddincat07@Telegram
-  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
-  port: 443
-  server: 164.90.167.242
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: au|d0b6|puddincat07@Telegram
   password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
   port: 443
   server: 194.195.123.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: de|ffc2|puddincat07@Telegram
+  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
+  port: 443
+  server: 164.90.167.242
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -314,6 +314,15 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -332,15 +341,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 51825
