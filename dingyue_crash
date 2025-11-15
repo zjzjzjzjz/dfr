@@ -15,11 +15,12 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
-- name: us|ed1a|puddincat07@Telegram
-  password: be968c88-86db-48e7-b8f8-ecebb33a022f
+- name: us|8a6b|puddincat07@Telegram
+  password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
-  server: 45.79.9.98
+  server: 104.17.215.6
   skip-cert-verify: true
+  sni: jobscareerfortoday.com
   type: trojan
   udp: true
 - name: gb|dbcb|puddincat07@Telegram
@@ -30,18 +31,10 @@ proxies:
   sni: uk1.connecton.surf
   type: trojan
   udp: true
-- name: us|8a6b|puddincat07@Telegram
-  password: b4e8771997c94732acbc9ec4d19c2589
+- name: us|ed1a|puddincat07@Telegram
+  password: be968c88-86db-48e7-b8f8-ecebb33a022f
   port: 443
-  server: 104.17.215.6
-  skip-cert-verify: true
-  sni: jobscareerfortoday.com
-  type: trojan
-  udp: true
-- name: au|d0b6|puddincat07@Telegram
-  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
-  port: 443
-  server: 194.195.123.173
+  server: 45.79.9.98
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -54,6 +47,13 @@ proxies:
   server: 89.117.158.245
   skip-cert-verify: true
   sni: esla.cestbon.work
+  type: trojan
+  udp: true
+- name: au|d0b6|puddincat07@Telegram
+  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
+  port: 443
+  server: 194.195.123.173
+  skip-cert-verify: true
   type: trojan
   udp: true
 - name: de|ffc2|puddincat07@Telegram
@@ -87,6 +87,14 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- name: 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 2753
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -96,14 +104,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 2753
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 美国3|@ripaojiedian
   password: BxceQaOe
   port: 4094
@@ -146,13 +146,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -162,13 +155,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 🇸🇰[By EbraSha] vless-SK 🔒
-  network: tcp
-  port: 7079
-  server: sk3.node.ibst.me
-  type: vless
-  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
 - alterId: 0
   cipher: auto
   name: 🇹🇼TW 01
@@ -178,6 +164,13 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
   name: 🇯🇵 日本4|@ripaojiedian
@@ -187,6 +180,13 @@ proxies:
   type: vmess
   udp: false
   uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
+- cipher: none
+  name: 🇸🇰[By EbraSha] vless-SK 🔒
+  network: tcp
+  port: 7079
+  server: sk3.node.ibst.me
+  type: vless
+  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
 - name: us|ab0b|puddincat07@Telegram
   password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
   port: 2083
@@ -277,15 +277,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
-  network: tcp
-  port: 59299
-  server: 183.240.245.235
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP 01
@@ -380,6 +371,15 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 64
+  cipher: auto
+  name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
+  network: tcp
+  port: 59299
+  server: 183.240.245.235
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 新加坡2|@ripaojiedian
   password: e4e262d453466988575c397a30562337
   port: 2173
@@ -690,15 +690,6 @@ proxies:
   port: 9001
   server: 217.30.10.70
   type: ss
-- cipher: none
-  name: 🇺🇸[openproxylist.com] vless-US
-  network: grpc
-  port: 443
-  server: all.tellmethetrue.shop
-  servername: pqh30v1.hiddendom.shop
-  tls: true
-  type: vless
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 9713
@@ -763,6 +754,15 @@ proxies:
   port: 38388
   server: 103.186.154.234
   type: ss
+- cipher: none
+  name: 🇺🇸[openproxylist.com] vless-US
+  network: grpc
+  port: 443
+  server: all.tellmethetrue.shop
+  servername: pqh30v1.hiddendom.shop
+  tls: true
+  type: vless
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 29
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
