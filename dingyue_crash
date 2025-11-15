@@ -49,6 +49,13 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
+- name: au|d0b6|puddincat07@Telegram
+  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
+  port: 443
+  server: 194.195.123.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: de|ffc2|puddincat07@Telegram
   password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
   port: 443
@@ -60,13 +67,6 @@ proxies:
   password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
   port: 443
   server: 142.93.226.128
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: au|d0b6|puddincat07@Telegram
-  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
-  port: 443
-  server: 194.195.123.173
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -491,15 +491,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇰🇷KR_9|3.3MB/s|NF
   network: ws
@@ -658,6 +649,15 @@ proxies:
   server: 45.67.139.37
   type: vless
   uuid: 3557aa39-7564-4362-9713-8a2dd2a98830
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: none
   name: 云机录-🇺🇸US_21|3.6MB/s|44%|GPT⁺|NF|GM
   network: ws
@@ -719,18 +719,6 @@ proxies:
     headers:
       Host: latte.gejeh683bm.ir
     path: /index.html?ed=2560
-- name: 🇫🇷[By EbraSha] trojan-FR 🔒
-  network: ws
-  password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
-  port: 2053
-  server: 51.38.226.4
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/51.38.226.4=2053
 - cipher: none
   name: 云机录-🇺🇸US_30|4.5MB/s|3%|GPT⁺|NF
   network: ws
@@ -776,6 +764,18 @@ proxies:
   server: 185.234.64.66
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 🇫🇷[By EbraSha] trojan-FR 🔒
+  network: ws
+  password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
+  port: 2053
+  server: 51.38.226.4
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/51.38.226.4=2053
 - name: BE_speednode_0001
   network: ws
   password: 88701884-7690-4b79-ac5d-36d299e05e83
@@ -886,6 +886,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+- cipher: none
   name: 🇩🇪DE_1|3.2MB/s|GPT⁺|YT-DE|NF|11%
   network: tcp
   port: 10808
@@ -908,13 +915,6 @@ proxies:
     headers:
       Host: 765bcf12-7d35-b90d-2383-17ec5be67cd7.huangshang.site
     path: /ri9mOOVJuAimB74kgXZ
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: none
   name: 🇬🇧[By EbraSha] vless-GB 🔒
   network: grpc
@@ -976,18 +976,6 @@ proxies:
   type: vmess
   udp: false
   uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
-- name: ru|1913|puddincat07@Telegram
-  network: ws
-  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
-  port: 2053
-  server: 213.159.208.88
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -1028,6 +1016,18 @@ proxies:
   port: 36456
   server: 62.133.60.43
   type: ss
+- name: ru|1913|puddincat07@Telegram
+  network: ws
+  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+  port: 2053
+  server: 213.159.208.88
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: tcp
@@ -1960,18 +1960,6 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
-- name: NL_speednode_0037
-  network: ws
-  password: f5eaa93a-4660-46a8-a1fd-bf993c7da57c
-  port: 8443
-  server: 185.121.233.231
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/185.121.233.231=8443
 - cipher: none
   name: 🇺🇸US_14|3.2MB/s|GPT⁺|YT-US|NF|D+|GM|6%
   network: ws
@@ -2076,6 +2064,18 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
+- name: NL_speednode_0037
+  network: ws
+  password: f5eaa93a-4660-46a8-a1fd-bf993c7da57c
+  port: 8443
+  server: 185.121.233.231
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/185.121.233.231=8443
 - cipher: aes-256-cfb
   name: 🇻🇳VN_7|2.3MB/s|GPT⁺|YT-US|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
