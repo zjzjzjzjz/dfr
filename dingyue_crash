@@ -388,15 +388,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼TW 02
-  network: tcp
-  port: 39803
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: 🇨🇦[By EbraSha] trojan-CA 🔒
   network: grpc
   password: D3OJA7xY5U
