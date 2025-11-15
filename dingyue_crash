@@ -1009,13 +1009,6 @@ proxies:
     headers:
       Host: paloma.hidencloud.com
     path: /@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: tcp
-  port: 443
-  server: 45.67.139.37
-  type: vless
-  uuid: 3557aa39-7564-4362-9713-8a2dd2a98830
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪[By EbraSha] ss-DE 🔒
   password: AHFn8RPF2GSxX4BX9i9a16
@@ -1754,6 +1747,13 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: tcp
+  port: 443
+  server: 45.67.139.37
+  type: vless
+  uuid: 3557aa39-7564-4362-9713-8a2dd2a98830
 - cipher: none
   name: 🇺🇸US_30|3.1MB/s|GPT⁺|YT-US|NF|D+|GM|6%
   network: ws
