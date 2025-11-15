@@ -1,4 +1,11 @@
 proxies:
+- name: au|d0b6|puddincat07@Telegram
+  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
+  port: 443
+  server: 194.195.123.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -48,13 +55,6 @@ proxies:
   port: 443
   server: 51.158.204.165
   type: ss
-- name: au|d0b6|puddincat07@Telegram
-  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
-  port: 443
-  server: 194.195.123.173
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: us|3d4e|puddincat07@Telegram
   password: 01596265-168b-46a7-bcb7-25662c7a9546
   port: 443
@@ -109,14 +109,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 4094
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 2753
@@ -138,6 +130,14 @@ proxies:
   port: 50191
   server: 91.108.250.230
   sni: cloudflare.com
+  type: trojan
+  udp: true
+- name: 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 4094
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - alterId: 0
