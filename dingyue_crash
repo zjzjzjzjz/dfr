@@ -1,23 +1,4 @@
 proxies:
-- name: gb|dbcb|puddincat07@Telegram
-  password: 47b1daf173
-  port: 443
-  server: 198.244.252.93
-  skip-cert-verify: true
-  sni: uk1.connecton.surf
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: cestbon
-  name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
-  network: grpc
-  password: '745654'
-  port: 8000
-  server: 89.117.158.245
-  skip-cert-verify: true
-  sni: esla.cestbon.work
-  type: trojan
-  udp: true
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
@@ -49,11 +30,30 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
+- name: gb|dbcb|puddincat07@Telegram
+  password: 47b1daf173
+  port: 443
+  server: 198.244.252.93
+  skip-cert-verify: true
+  sni: uk1.connecton.surf
+  type: trojan
+  udp: true
 - name: de|ffc2|puddincat07@Telegram
   password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
   port: 443
   server: 164.90.167.242
   skip-cert-verify: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: cestbon
+  name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
+  network: grpc
+  password: '745654'
+  port: 8000
+  server: 89.117.158.245
+  skip-cert-verify: true
+  sni: esla.cestbon.work
   type: trojan
   udp: true
 - name: nl|47e3|puddincat07@Telegram
@@ -240,18 +240,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 🇮🇹[By EbraSha] trojan-IT 🔒
-  network: ws
-  password: d5a49621-b25c-4684-aea8-8389f3a8afaf
-  port: 8443
-  server: 94.177.199.119
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
 - name: 🇭🇰HK_6|4.4MB/s|YT-CN|NF|D+|2%
   password: BxceQaOe
   port: 443
@@ -322,6 +310,18 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- name: 🇮🇹[By EbraSha] trojan-IT 🔒
+  network: ws
+  password: d5a49621-b25c-4684-aea8-8389f3a8afaf
+  port: 8443
+  server: 94.177.199.119
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -949,13 +949,6 @@ proxies:
   type: vmess
   udp: false
   uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -1061,6 +1054,13 @@ proxies:
     headers:
       Host: paloma.hidencloud.com
     path: /@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: none
   name: 🇭🇰HK_6|2.3MB/s|GPT⁺|YT-HK|NF|D+
   network: ws
