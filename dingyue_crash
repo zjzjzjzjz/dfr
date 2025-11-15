@@ -138,14 +138,6 @@ proxies:
   sni: cloudflare.com
   type: trojan
   udp: true
-- name: 🇭🇰HK_2|2.9MB/s|YT-CN|NF|2%
-  password: BxceQaOe
-  port: 443
-  server: 219.77.239.35
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -155,15 +147,14 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼TW 01
-  network: tcp
-  port: 39801
-  server: hkg.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- name: 🇭🇰HK_2|2.9MB/s|YT-CN|NF|2%
+  password: BxceQaOe
+  port: 443
+  server: 219.77.239.35
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
@@ -173,6 +164,15 @@ proxies:
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
+  name: 🇹🇼TW 01
+  network: tcp
+  port: 39801
+  server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
   name: 🇯🇵 日本4|@ripaojiedian
   network: tcp
   port: 47083
@@ -180,6 +180,13 @@ proxies:
   type: vmess
   udp: false
   uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
+- cipher: none
+  name: 🇸🇰[By EbraSha] vless-SK 🔒
+  network: tcp
+  port: 7079
+  server: sk3.node.ibst.me
+  type: vless
+  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
 - name: us|ab0b|puddincat07@Telegram
   password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
   port: 2083
@@ -206,13 +213,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- cipher: none
-  name: 🇸🇰[By EbraSha] vless-SK 🔒
-  network: tcp
-  port: 7079
-  server: sk3.node.ibst.me
-  type: vless
-  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
 - name: 香港4|@ripaojiedian
   password: BxceQaOe
   port: 1655
@@ -357,6 +357,13 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: tcp
+  port: 443
+  server: 45.67.139.37
+  type: vless
+  uuid: 3557aa39-7564-4362-9713-8a2dd2a98830
 - name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 51825
@@ -380,13 +387,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: tcp
-  port: 443
-  server: 45.67.139.37
-  type: vless
-  uuid: 3557aa39-7564-4362-9713-8a2dd2a98830
 - alterId: 0
   cipher: auto
   name: 🇺🇸US IX
@@ -459,6 +459,13 @@ proxies:
   sni: cloudflare.com
   type: trojan
   udp: true
+- cipher: none
+  name: 🇬🇧[By EbraSha] vless-GB 🔒
+  network: grpc
+  port: 8880
+  server: 185.138.164.186
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - name: 香港3|@ripaojiedian
   password: 2274c52572e721086f8bd8f88984643c
   port: 443
@@ -612,13 +619,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- cipher: none
-  name: 🇬🇧[By EbraSha] vless-GB 🔒
-  network: grpc
-  port: 8880
-  server: 185.138.164.186
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - alterId: 0
   cipher: auto
   name: 🇺🇸US 02
