@@ -1,11 +1,4 @@
 proxies:
-- name: au|d0b6|puddincat07@Telegram
-  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
-  port: 443
-  server: 194.195.123.173
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -47,6 +40,13 @@ proxies:
   server: 89.117.158.245
   skip-cert-verify: true
   sni: esla.cestbon.work
+  type: trojan
+  udp: true
+- name: au|d0b6|puddincat07@Telegram
+  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
+  port: 443
+  server: 194.195.123.173
+  skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
