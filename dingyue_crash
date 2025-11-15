@@ -270,15 +270,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- alterId: 0
-  cipher: auto
-  name: cn|9c44|puddincat07@Telegram
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: NL_speednode_0015
   network: ws
   password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
@@ -341,6 +332,15 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: cn|9c44|puddincat07@Telegram
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 51825
@@ -499,13 +499,6 @@ proxies:
   port: 443
   server: 51.158.204.165
   type: ss
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: SE_speednode_0020
   network: ws
   password: edeff73d-065d-4b0a-b848-aad9d3380223
@@ -518,13 +511,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
-- cipher: none
-  name: 🇸🇰[By EbraSha] vless-SK 🔒
-  network: tcp
-  port: 7079
-  server: sk3.node.ibst.me
-  type: vless
-  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
 - alterId: 0
   cipher: auto
   name: 🇩🇪DE 01
@@ -700,6 +686,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
+  name: 🇸🇰[By EbraSha] vless-SK 🔒
+  network: tcp
+  port: 7079
+  server: sk3.node.ibst.me
+  type: vless
+  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
+- cipher: none
   name: 云机录-🇺🇸US_2|6.3MB/s|0%|GPT⁺|NF
   network: ws
   port: 443
@@ -755,6 +748,13 @@ proxies:
   port: 38388
   server: 103.186.154.234
   type: ss
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: none
   name: 🇺🇸[openproxylist.com] vless-US
   network: grpc
