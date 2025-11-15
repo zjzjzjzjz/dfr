@@ -1,17 +1,17 @@
 proxies:
+- name: us|ed1a|puddincat07@Telegram
+  password: be968c88-86db-48e7-b8f8-ecebb33a022f
+  port: 443
+  server: 45.79.9.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
   server: 104.16.159.112
   skip-cert-verify: true
   sni: jobscareertoday.com
-  type: trojan
-  udp: true
-- name: us|ed1a|puddincat07@Telegram
-  password: be968c88-86db-48e7-b8f8-ecebb33a022f
-  port: 443
-  server: 45.79.9.98
-  skip-cert-verify: true
   type: trojan
   udp: true
 - name: us|8a6b|puddincat07@Telegram
@@ -22,27 +22,12 @@ proxies:
   sni: jobscareerfortoday.com
   type: trojan
   udp: true
-- name: us|9514|puddincat07@Telegram
-  password: 4732adfa16c6450bbef87264e41332db
-  port: 443
-  server: 104.17.147.4
-  skip-cert-verify: true
-  sni: jobscareertoday.com
-  type: trojan
-  udp: true
 - name: gb|dbcb|puddincat07@Telegram
   password: 47b1daf173
   port: 443
   server: 198.244.252.93
   skip-cert-verify: true
   sni: uk1.connecton.surf
-  type: trojan
-  udp: true
-- name: de|ffc2|puddincat07@Telegram
-  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
-  port: 443
-  server: 164.90.167.242
-  skip-cert-verify: true
   type: trojan
   udp: true
 - grpc-opts:
@@ -78,6 +63,14 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: us|9514|puddincat07@Telegram
+  password: 4732adfa16c6450bbef87264e41332db
+  port: 443
+  server: 104.17.147.4
+  skip-cert-verify: true
+  sni: jobscareertoday.com
+  type: trojan
+  udp: true
 - name: SE_speednode_0012
   password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
@@ -110,6 +103,13 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- name: de|ffc2|puddincat07@Telegram
+  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
+  port: 443
+  server: 164.90.167.242
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 美国3|@ripaojiedian
   password: BxceQaOe
   port: 4094
@@ -127,15 +127,6 @@ proxies:
   type: vmess
   udp: false
   uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP IX
-  network: tcp
-  port: 12354
-  server: jpix.740710.xyz
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - name: 🇵🇱[By EbraSha] trojan-PL 🔒
   network: grpc
   password: 3BLPOJr3OY
@@ -150,6 +141,15 @@ proxies:
   network: tcp
   port: 39801
   server: hkg.740710.xyz
+  type: vmess
+  udp: false
+  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP IX
+  network: tcp
+  port: 12354
+  server: jpix.740710.xyz
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
