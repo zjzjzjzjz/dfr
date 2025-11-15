@@ -41,13 +41,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: au|d0b6|puddincat07@Telegram
-  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
-  port: 443
-  server: 194.195.123.173
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: us|9514|puddincat07@Telegram
   password: 4732adfa16c6450bbef87264e41332db
   port: 443
@@ -67,6 +60,13 @@ proxies:
   password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
   port: 443
   server: 142.93.226.128
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: au|d0b6|puddincat07@Telegram
+  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
+  port: 443
+  server: 194.195.123.173
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -614,19 +614,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: 云机录-🇺🇸US_25|1.5MB/s|0%|GPT⁺|NF
-  network: ws
-  port: 443
-  server: 104.24.0.0
-  servername: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-  tls: true
-  type: vless
-  uuid: 7a267555-e822-480a-b867-0675a3ed04a2
-  ws-opts:
-    headers:
-      Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
-    path: /
-- cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
   port: 8880
@@ -780,6 +767,13 @@ proxies:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
 - cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+- cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
   port: 8880
@@ -893,13 +887,6 @@ proxies:
     headers:
       Host: 765bcf12-7d35-b90d-2383-17ec5be67cd7.huangshang.site
     path: /ri9mOOVJuAimB74kgXZ
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: none
   name: 🇬🇧[By EbraSha] vless-GB 🔒
   network: grpc
