@@ -1,12 +1,4 @@
 proxies:
-- name: us|8a6b|puddincat07@Telegram
-  password: b4e8771997c94732acbc9ec4d19c2589
-  port: 443
-  server: 104.17.215.6
-  skip-cert-verify: true
-  sni: jobscareerfortoday.com
-  type: trojan
-  udp: true
 - name: gb|dbcb|puddincat07@Telegram
   password: 47b1daf173
   port: 443
@@ -39,6 +31,14 @@ proxies:
   port: 443
   server: 45.79.9.98
   skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: us|8a6b|puddincat07@Telegram
+  password: b4e8771997c94732acbc9ec4d19c2589
+  port: 443
+  server: 104.17.215.6
+  skip-cert-verify: true
+  sni: jobscareerfortoday.com
   type: trojan
   udp: true
 - name: us|9514|puddincat07@Telegram
@@ -873,13 +873,6 @@ proxies:
   skip-cert-verify: true
   type: vless
   uuid: 30015fb1-adb4-4435-ab93-601692d012a3
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 0
   cipher: auto
   name: 云机录-🇺🇸US_27|2.9MB/s|GPT⁺|NF|GM
@@ -956,6 +949,13 @@ proxies:
   type: vmess
   udp: false
   uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -1008,13 +1008,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: tcp
-  port: 443
-  server: 193.233.133.166
-  type: vless
-  uuid: ff3c6dcf-08ae-4165-a2a9-00cb9e7c361e
 - cipher: none
   name: 🇰🇿[By EbraSha] vless-KZ 🔒
   network: tcp
