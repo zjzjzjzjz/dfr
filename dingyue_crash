@@ -48,19 +48,19 @@ proxies:
   port: 443
   server: 51.158.204.165
   type: ss
+- name: au|d0b6|puddincat07@Telegram
+  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
+  port: 443
+  server: 194.195.123.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: us|3d4e|puddincat07@Telegram
   password: 01596265-168b-46a7-bcb7-25662c7a9546
   port: 443
   server: 188.114.98.0
   skip-cert-verify: true
   sni: hdfy7c1.foriran2.eu.org
-  type: trojan
-  udp: true
-- name: au|d0b6|puddincat07@Telegram
-  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
-  port: 443
-  server: 194.195.123.173
-  skip-cert-verify: true
   type: trojan
   udp: true
 - name: us|ed1a|puddincat07@Telegram
