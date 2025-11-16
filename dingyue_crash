@@ -1,4 +1,15 @@
 proxies:
+- grpc-opts:
+    grpc-service-name: cestbon
+  name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
+  network: grpc
+  password: '745654'
+  port: 8000
+  server: 89.117.158.245
+  skip-cert-verify: true
+  sni: esla.cestbon.work
+  type: trojan
+  udp: true
 - name: us|3d4e|puddincat07@Telegram
   password: 01596265-168b-46a7-bcb7-25662c7a9546
   port: 443
@@ -13,17 +24,6 @@ proxies:
   server: 104.19.171.9
   skip-cert-verify: true
   sni: jobscareerfortoday.com
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: cestbon
-  name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
-  network: grpc
-  password: '745654'
-  port: 8000
-  server: 89.117.158.245
-  skip-cert-verify: true
-  sni: esla.cestbon.work
   type: trojan
   udp: true
 - name: us|451f|puddincat07@Telegram
@@ -41,12 +41,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_2|2.2MB/s|GPT⁺|YT-NL|NF
-  password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG
-  port: 443
-  server: 51.158.204.165
-  type: ss
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -93,6 +87,12 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_2|2.2MB/s|GPT⁺|YT-NL|NF
+  password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG
+  port: 443
+  server: 51.158.204.165
+  type: ss
 - name: 10,11|美国3|@ripaojiedian
   password: BxceQaOe
   port: 2173
@@ -158,6 +158,13 @@ proxies:
   type: vmess
   udp: false
   uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: us|ab0b|puddincat07@Telegram
   password: 5041df4c-b3ae-481d-adf9-79b39f4810f2
   port: 2083
@@ -717,13 +724,6 @@ proxies:
   port: 38388
   server: 103.186.155.142
   type: ss
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: none
   name: 云机录-🇭🇰HK_3|2.7MB/s|0%|NF
   network: tcp
