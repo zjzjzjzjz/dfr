@@ -1,10 +1,10 @@
 proxies:
-- name: us|8a6b|puddincat07@Telegram
-  password: b4e8771997c94732acbc9ec4d19c2589
+- name: us|3d4e|puddincat07@Telegram
+  password: 01596265-168b-46a7-bcb7-25662c7a9546
   port: 443
-  server: 104.17.215.6
+  server: 188.114.98.0
   skip-cert-verify: true
-  sni: jobscareerfortoday.com
+  sni: hdfy7c1.foriran2.eu.org
   type: trojan
   udp: true
 - name: us|a5ce|puddincat07@Telegram
@@ -49,20 +49,20 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: us|3d4e|puddincat07@Telegram
-  password: 01596265-168b-46a7-bcb7-25662c7a9546
-  port: 443
-  server: 188.114.98.0
-  skip-cert-verify: true
-  sni: hdfy7c1.foriran2.eu.org
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_2|2.2MB/s|GPT⁺|YT-NL|NF
   password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG
   port: 443
   server: 51.158.204.165
   type: ss
+- name: us|8a6b|puddincat07@Telegram
+  password: b4e8771997c94732acbc9ec4d19c2589
+  port: 443
+  server: 104.17.215.6
+  skip-cert-verify: true
+  sni: jobscareerfortoday.com
+  type: trojan
+  udp: true
 - name: us|ed1a|puddincat07@Telegram
   password: be968c88-86db-48e7-b8f8-ecebb33a022f
   port: 443
