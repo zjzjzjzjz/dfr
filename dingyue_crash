@@ -1,12 +1,4 @@
 proxies:
-- name: SE_speednode_0012
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
-  type: trojan
-  udp: true
 - name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 3579
@@ -32,6 +24,14 @@ proxies:
   server: 89.117.158.245
   skip-cert-verify: true
   sni: esla.cestbon.work
+  type: trojan
+  udp: true
+- name: SE_speednode_0012
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
+  skip-cert-verify: true
+  sni: sto.freeguard.org
   type: trojan
   udp: true
 - name: au|d0b6|puddincat07@Telegram
@@ -1225,6 +1225,12 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.230
+  type: ss
 - cipher: none
   name: 🇭🇰HK_10|2.6MB/s|GPT⁺|YT-HK|NF|D+
   network: ws
@@ -1459,12 +1465,6 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: aes-256-cfb
-  name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.230
-  type: ss
 - cipher: none
   name: 🇯🇵JP_1|2.8MB/s|GPT⁺|YT-JP|NF|D+|GM
   network: ws
