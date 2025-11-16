@@ -49,6 +49,14 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: SE_speednode_0012
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
+  skip-cert-verify: true
+  sni: sto.freeguard.org
+  type: trojan
+  udp: true
 - name: us|8a6b|puddincat07@Telegram
   password: b4e8771997c94732acbc9ec4d19c2589
   port: 443
@@ -78,14 +86,6 @@ proxies:
   port: 443
   server: 45.79.9.98
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SE_speednode_0012
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
   type: trojan
   udp: true
 - name: nl|47e3|puddincat07@Telegram
@@ -128,14 +128,6 @@ proxies:
   password: BxceQaOe
   port: 2753
   server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.26.173
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -189,6 +181,14 @@ proxies:
   port: 50191
   server: 91.108.250.230
   sni: cloudflare.com
+  type: trojan
+  udp: true
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - name: 香港4|@ripaojiedian
@@ -292,14 +292,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
-- name: 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 219.79.165.55
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 🇭🇰HK_2|2.9MB/s|YT-CN|NF|2%
   password: BxceQaOe
   port: 443
@@ -378,6 +370,14 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- name: 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 219.79.165.55
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: 🇺🇸[By EbraSha] trojan-US 🔒
   network: ws
   password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
@@ -800,14 +800,6 @@ proxies:
   server: 144.124.234.87
   type: vless
   uuid: KOSMOVPN_999232169
-- name: 🇺🇸US_1|3.3MB/s|GPT⁺|YT-US|NF|D+|GM|28%
-  password: BxceQaOe
-  port: 4569
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 云机录-🇺🇸US_27|2.9MB/s|GPT⁺|NF|GM
@@ -841,6 +833,14 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/94.131.114.50=81
+- name: 🇺🇸US_1|3.3MB/s|GPT⁺|YT-US|NF|D+|GM|28%
+  password: BxceQaOe
+  port: 4569
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: 🇩🇪DE_1|3.2MB/s|GPT⁺|YT-DE|NF|11%
   network: tcp
@@ -849,13 +849,6 @@ proxies:
   skip-cert-verify: true
   type: vless
   uuid: 30015fb1-adb4-4435-ab93-601692d012a3
-- cipher: none
-  name: 🇬🇧[By EbraSha] vless-GB 🔒
-  network: grpc
-  port: 8880
-  server: 185.138.164.67
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
