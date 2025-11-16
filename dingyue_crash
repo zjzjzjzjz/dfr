@@ -7,6 +7,25 @@ proxies:
   sni: steampipe.akamaized.net
   type: trojan
   udp: true
+- name: 🇺🇸[By EbraSha] trojan-US 🔒
+  network: ws
+  password: 3ea503c7-2e03-424a-812d-6f0d803e73dc
+  port: 443
+  server: 138.124.15.75
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/138.124.15.75=443
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
@@ -16,22 +35,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- cipher: none
-  name: 🇺🇸[openproxylist.com] vless-US
-  network: grpc
-  port: 443
-  server: all.tellmethetrue.shop
-  servername: pqh30v1.hiddendom.shop
-  tls: true
-  type: vless
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - cipher: aes-256-cfb
   name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -44,3 +47,31 @@ proxies:
   port: 38388
   server: 103.186.154.250
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷[By EbraSha] ss-TR 🔒
+  password: tJlEWh2PzDMew8qo9YkPEA
+  port: 443
+  server: 38.180.105.12
+  type: ss
+- cipher: none
+  name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+  tls: true
+  type: vless
+  uuid: a55538a5-2fd5-4e89-8c94-ef9b2da061ea
+  ws-opts:
+    headers:
+      Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+    path: /vuut6bvfxroxjbja?ed=2560
+- cipher: none
+  name: 🇺🇸[openproxylist.com] vless-US
+  network: grpc
+  port: 443
+  server: all.tellmethetrue.shop
+  servername: pqh30v1.hiddendom.shop
+  tls: true
+  type: vless
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
