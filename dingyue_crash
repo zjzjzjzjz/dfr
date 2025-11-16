@@ -1,4 +1,12 @@
 proxies:
+- name: 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 3579
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: us|451f|puddincat07@Telegram
   password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
@@ -80,17 +88,17 @@ proxies:
   sni: sto.freeguard.org
   type: trojan
   udp: true
-- name: de|ffc2|puddincat07@Telegram
-  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
-  port: 443
-  server: 164.90.167.242
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: nl|47e3|puddincat07@Telegram
   password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
   port: 443
   server: 142.93.226.128
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: de|ffc2|puddincat07@Telegram
+  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
+  port: 443
+  server: 164.90.167.242
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -120,6 +128,14 @@ proxies:
   password: BxceQaOe
   port: 2753
   server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -276,6 +292,14 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
+- name: 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 219.79.165.55
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: 🇭🇰HK_2|2.9MB/s|YT-CN|NF|2%
   password: BxceQaOe
   port: 443
