@@ -21,6 +21,12 @@ proxies:
   port: 38388
   server: 103.186.154.250
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷[By EbraSha] ss-TR 🔒
+  password: tJlEWh2PzDMew8qo9YkPEA
+  port: 443
+  server: 38.180.105.12
+  type: ss
 - cipher: aes-256-cfb
   name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -47,12 +53,6 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/138.124.15.75=443
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷[By EbraSha] ss-TR 🔒
-  password: tJlEWh2PzDMew8qo9YkPEA
-  port: 443
-  server: 38.180.105.12
-  type: ss
 - cipher: none
   name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
   network: ws
