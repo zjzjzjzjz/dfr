@@ -118,3 +118,9 @@ proxies:
   port: 38388
   server: 103.186.154.250
   type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.230
+  type: ss
