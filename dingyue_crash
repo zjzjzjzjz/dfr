@@ -1,10 +1,10 @@
 proxies:
-- name: us|451f|puddincat07@Telegram
-  password: 4aec4e7f8cf8454ea4613659822e1a61
+- name: SE_speednode_0012
+  password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
-  server: 104.16.159.112
+  server: 45.91.171.116
   skip-cert-verify: true
-  sni: jobscareertoday.com
+  sni: sto.freeguard.org
   type: trojan
   udp: true
 - name: 新加坡3|@ripaojiedian
@@ -23,22 +23,6 @@ proxies:
   sni: hdfy7c1.foriran2.eu.org
   type: trojan
   udp: true
-- name: SE_speednode_0012
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
-  type: trojan
-  udp: true
-- name: us|a5ce|puddincat07@Telegram
-  password: 984e400bf5d541b7b0815913fe0c432a
-  port: 443
-  server: 104.19.171.9
-  skip-cert-verify: true
-  sni: jobscareerfortoday.com
-  type: trojan
-  udp: true
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -55,6 +39,22 @@ proxies:
   port: 443
   server: 194.195.123.173
   skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: us|451f|puddincat07@Telegram
+  password: 4aec4e7f8cf8454ea4613659822e1a61
+  port: 443
+  server: 104.16.159.112
+  skip-cert-verify: true
+  sni: jobscareertoday.com
+  type: trojan
+  udp: true
+- name: us|a5ce|puddincat07@Telegram
+  password: 984e400bf5d541b7b0815913fe0c432a
+  port: 443
+  server: 104.19.171.9
+  skip-cert-verify: true
+  sni: jobscareerfortoday.com
   type: trojan
   udp: true
 - name: us|8a6b|puddincat07@Telegram
@@ -191,17 +191,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 云机录-🇸🇬SG_2|5.9MB/s|3%|GPT⁺|NF|GM
-  network: ws
-  port: 2095
-  server: cf.090227.xyz
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.cf
-    path: /
 - name: 美国2|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
@@ -271,6 +260,17 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 云机录-🇸🇬SG_2|5.9MB/s|3%|GPT⁺|NF|GM
+  network: ws
+  port: 2095
+  server: cf.090227.xyz
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.cf
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇯🇵 日本4|@ripaojiedian
