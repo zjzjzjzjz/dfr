@@ -190,6 +190,15 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- alterId: 64
+  cipher: auto
+  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
+  network: tcp
+  port: 49212
+  server: 183.240.245.235
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 香港4|@ripaojiedian
   password: BxceQaOe
   port: 1655
@@ -374,15 +383,6 @@ proxies:
   sni: cloudflare.com
   type: trojan
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
-  network: tcp
-  port: 49212
-  server: 183.240.245.235
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 🇭🇰HK_7|1.7MB/s|YT-CN|NF|D+|2%
   password: BxceQaOe
   port: 443
