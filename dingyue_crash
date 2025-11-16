@@ -634,20 +634,6 @@ proxies:
     headers:
       Host: fache.2.5.4.b.0.d.0.0.1.0.a.2.ip6.arpa
     path: /
-- cipher: none
-  name: 🇫🇮FI_2|3.8MB/s|GPT⁺|YT-US|NF|6%
-  network: ws
-  port: 2087
-  server: axe.soyet2j.ir
-  servername: latte.gejeh683bm.ir.
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 792638c8-8eb5-4128-b838-0e9ff584d51f
-  ws-opts:
-    headers:
-      Host: latte.gejeh683bm.ir
-    path: /index.html?ed=2560
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -685,6 +671,20 @@ proxies:
   tls: true
   type: vless
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
+- cipher: none
+  name: 🇫🇮FI_2|3.8MB/s|GPT⁺|YT-US|NF|6%
+  network: ws
+  port: 2087
+  server: axe.soyet2j.ir
+  servername: latte.gejeh683bm.ir.
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 792638c8-8eb5-4128-b838-0e9ff584d51f
+  ws-opts:
+    headers:
+      Host: latte.gejeh683bm.ir
+    path: /index.html?ed=2560
 - cipher: none
   name: 🇸🇰[By EbraSha] vless-SK 🔒
   network: tcp
@@ -1225,12 +1225,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.230
-  type: ss
 - cipher: none
   name: 🇭🇰HK_10|2.6MB/s|GPT⁺|YT-HK|NF|D+
   network: ws
@@ -1245,6 +1239,12 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
+- cipher: aes-256-cfb
+  name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.230
+  type: ss
 - cipher: none
   name: 🇭🇰HK_14|2.8MB/s|GPT⁺|YT-HK|NF|D+
   network: ws
