@@ -16,14 +16,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 3579
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: us|ed1a|puddincat07@Telegram
   password: be968c88-86db-48e7-b8f8-ecebb33a022f
   port: 443
@@ -54,6 +46,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- name: au|d0b6|puddincat07@Telegram
+  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
+  port: 443
+  server: 194.195.123.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: cn|9c44|puddincat07@Telegram
@@ -63,13 +62,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: au|d0b6|puddincat07@Telegram
-  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
-  port: 443
-  server: 194.195.123.173
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
