@@ -109,6 +109,15 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- alterId: 64
+  cipher: auto
+  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
+  network: tcp
+  port: 49212
+  server: 183.240.245.235
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 2753
@@ -132,15 +141,6 @@ proxies:
   sni: cloudflare.com
   type: trojan
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
-  network: tcp
-  port: 49212
-  server: 183.240.245.235
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 美国3|@ripaojiedian
   password: BxceQaOe
   port: 4094
@@ -407,6 +407,17 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- cipher: none
+  name: 云机录-🇳🇱NL_3|4.9MB/s|8%|GPT⁺|NF
+  network: ws
+  port: 80
+  server: 104.21.80.1
+  type: vless
+  uuid: 81caa837-c213-4731-a02e-662380ad1e2f
+  ws-opts:
+    headers:
+      Host: cxrolvpn.freev2-edb.workers.dev
+    path: /BJMz0Rpb9gejBzKP?ed=2560
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
