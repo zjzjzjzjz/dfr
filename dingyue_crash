@@ -1,7 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  name: 🇻🇳VN_4|1.1MB/s|GPT⁺|YT-US|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.153
-  type: ss
+proxies: []
