@@ -34,6 +34,13 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
+- name: us|ed1a|puddincat07@Telegram
+  password: be968c88-86db-48e7-b8f8-ecebb33a022f
+  port: 443
+  server: 45.79.9.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: au|d0b6|puddincat07@Telegram
   password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
   port: 443
@@ -57,10 +64,10 @@ proxies:
   sni: jobscareertoday.com
   type: trojan
   udp: true
-- name: us|ed1a|puddincat07@Telegram
-  password: be968c88-86db-48e7-b8f8-ecebb33a022f
+- name: de|ffc2|puddincat07@Telegram
+  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
   port: 443
-  server: 45.79.9.98
+  server: 164.90.167.242
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -109,11 +116,12 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: de|ffc2|puddincat07@Telegram
-  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
-  port: 443
-  server: 164.90.167.242
-  skip-cert-verify: true
+- name: 🇵🇱[By EbraSha] trojan-PL 🔒
+  network: grpc
+  password: 3BLPOJr3OY
+  port: 50191
+  server: 91.108.250.230
+  sni: cloudflare.com
   type: trojan
   udp: true
 - name: 新加坡3|@ripaojiedian
@@ -124,14 +132,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 🇵🇱[By EbraSha] trojan-PL 🔒
-  network: grpc
-  password: 3BLPOJr3OY
-  port: 50191
-  server: 91.108.250.230
-  sni: cloudflare.com
-  type: trojan
-  udp: true
 - name: 美国3|@ripaojiedian
   password: BxceQaOe
   port: 4094
@@ -140,15 +140,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
-  network: tcp
-  port: 49212
-  server: 183.240.245.235
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP IX
@@ -262,6 +253,15 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 64
+  cipher: auto
+  name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
+  network: tcp
+  port: 49212
+  server: 183.240.245.235
+  type: vmess
+  udp: false
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 🇸🇬SG 01
