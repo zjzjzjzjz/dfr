@@ -243,6 +243,17 @@ proxies:
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: none
+  name: 云机录-🇳🇱NL_3|4.9MB/s|8%|GPT⁺|NF
+  network: ws
+  port: 80
+  server: 104.21.80.1
+  type: vless
+  uuid: 81caa837-c213-4731-a02e-662380ad1e2f
+  ws-opts:
+    headers:
+      Host: cxrolvpn.freev2-edb.workers.dev
+    path: /BJMz0Rpb9gejBzKP?ed=2560
+- cipher: none
   name: 云机录-🇺🇸US_13|3.2MB/s|0%|GPT⁺|NF|GM
   network: ws
   port: 2095
@@ -407,17 +418,6 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
-- cipher: none
-  name: 云机录-🇳🇱NL_3|4.9MB/s|8%|GPT⁺|NF
-  network: ws
-  port: 80
-  server: 104.21.80.1
-  type: vless
-  uuid: 81caa837-c213-4731-a02e-662380ad1e2f
-  ws-opts:
-    headers:
-      Host: cxrolvpn.freev2-edb.workers.dev
-    path: /BJMz0Rpb9gejBzKP?ed=2560
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: grpc
