@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: jp|e43b|puddincat07@Telegram
+  password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
+  port: 3443
+  server: 151.242.164.127
+  skip-cert-verify: true
+  sni: steampipe.akamaized.net
+  type: trojan
+  udp: true
