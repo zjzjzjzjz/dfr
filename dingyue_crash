@@ -124,6 +124,14 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 🇵🇱[By EbraSha] trojan-PL 🔒
+  network: grpc
+  password: 3BLPOJr3OY
+  port: 50191
+  server: 91.108.250.230
+  sni: cloudflare.com
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: 云机录-🇺🇸US_25|4.9MB/s|0%|NF
@@ -133,14 +141,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 🇵🇱[By EbraSha] trojan-PL 🔒
-  network: grpc
-  password: 3BLPOJr3OY
-  port: 50191
-  server: 91.108.250.230
-  sni: cloudflare.com
-  type: trojan
-  udp: true
 - name: 美国3|@ripaojiedian
   password: BxceQaOe
   port: 4094
@@ -219,15 +219,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本4|@ripaojiedian
-  network: tcp
-  port: 47083
-  server: 114.98.183.61
-  type: vmess
-  udp: false
-  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - name: 美国2|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
@@ -280,6 +271,15 @@ proxies:
   type: vmess
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本4|@ripaojiedian
+  network: tcp
+  port: 47083
+  server: 114.98.183.61
+  type: vmess
+  udp: false
+  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - name: 🇮🇹[By EbraSha] trojan-IT 🔒
   network: ws
   password: d5a49621-b25c-4684-aea8-8389f3a8afaf
@@ -432,20 +432,6 @@ proxies:
   udp: false
   uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - cipher: none
-  name: 云机录-🇰🇷KR_9|3.3MB/s|NF
-  network: ws
-  port: 50001
-  server: 1.238.209.247
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /telegram @freecodes /?ed=2560
-- cipher: none
   name: 🇬🇧[By EbraSha] vless-GB 🔒
   network: grpc
   port: 8880
@@ -522,15 +508,6 @@ proxies:
   type: vmess
   udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺AU 01
-  network: tcp
-  port: 12357
-  server: as.wxowx.com
-  type: vmess
-  udp: false
-  uuid: e9772a27-8706-4903-aa20-9a73abc22d9f
 - alterId: 0
   cipher: auto
   name: 🇺🇸US 02
