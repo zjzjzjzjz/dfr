@@ -141,26 +141,12 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: none
-  name: 🇸🇰[By EbraSha] vless-SK 🔒
-  network: tcp
-  port: 7079
-  server: sk3.node.ibst.me
-  type: vless
-  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
 - cipher: aes-256-cfb
   name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.230
   type: ss
-- cipher: none
-  name: 🇩🇪[By EbraSha] vless-DE 🔒
-  network: tcp
-  port: 8443
-  server: 91.107.154.115
-  type: vless
-  uuid: 269134a7-6f44-4f03-8fb7-560875e19f77
 - cipher: none
   name: 🇺🇸US_24|3.5MB/s|GPT⁺|YT-US|NF|D+|GM
   network: ws
