@@ -15,6 +15,13 @@ proxies:
   sni: hdfy7c1.foriran2.eu.org
   type: trojan
   udp: true
+- name: au|d0b6|puddincat07@Telegram
+  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
+  port: 443
+  server: 194.195.123.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - grpc-opts:
     grpc-service-name: cestbon
   name: 云机录-🇺🇸US_16|3.0MB/s|29%|GPT⁺|NF
@@ -32,13 +39,6 @@ proxies:
   server: 45.91.171.116
   skip-cert-verify: true
   sni: sto.freeguard.org
-  type: trojan
-  udp: true
-- name: au|d0b6|puddincat07@Telegram
-  password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
-  port: 443
-  server: 194.195.123.173
-  skip-cert-verify: true
   type: trojan
   udp: true
 - name: us|451f|puddincat07@Telegram
@@ -950,6 +950,12 @@ proxies:
     headers:
       Host: om1.omidsuccess.uk
     path: /containers/de
+- cipher: aes-256-cfb
+  name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.230
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪[By EbraSha] ss-DE 🔒
   password: AHFn8RPF2GSxX4BX9i9a16
@@ -1239,12 +1245,6 @@ proxies:
     headers:
       Host: sp1.hhhhh.eu.org
     path: /?proxyip=proxyip.sg.cmliussss.net
-- cipher: aes-256-cfb
-  name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.230
-  type: ss
 - cipher: none
   name: 🇭🇰HK_14|2.8MB/s|GPT⁺|YT-HK|NF|D+
   network: ws
