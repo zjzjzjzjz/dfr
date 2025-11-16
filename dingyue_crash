@@ -33,14 +33,6 @@ proxies:
   port: 38388
   server: 103.186.154.230
   type: ss
-- name: jp|e43b|puddincat07@Telegram
-  password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
-  port: 3443
-  server: 151.242.164.127
-  skip-cert-verify: true
-  sni: steampipe.akamaized.net
-  type: trojan
-  udp: true
 - name: 🇺🇸[By EbraSha] trojan-US 🔒
   network: ws
   password: 3ea503c7-2e03-424a-812d-6f0d803e73dc
@@ -53,6 +45,14 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/138.124.15.75=443
+- name: jp|e43b|puddincat07@Telegram
+  password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
+  port: 3443
+  server: 151.242.164.127
+  skip-cert-verify: true
+  sni: steampipe.akamaized.net
+  type: trojan
+  udp: true
 - cipher: none
   name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
   network: ws
