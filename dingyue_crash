@@ -192,6 +192,12 @@ proxies:
   server: 46.17.103.204
   type: vless
   uuid: f7312d02-d520-4e15-8266-fb2ec831ac66
+- cipher: aes-256-cfb
+  name: 🇻🇳VN_2|1.3MB/s|GPT⁺|YT-US|NF|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.140
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇯🇵 日本4|@ripaojiedian
@@ -201,12 +207,6 @@ proxies:
   type: vmess
   udp: false
   uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
-- cipher: aes-256-cfb
-  name: 🇻🇳VN_2|1.3MB/s|GPT⁺|YT-US|NF|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.140
-  type: ss
 - name: 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -353,18 +353,6 @@ proxies:
     path: /Free-VPN-CF-Geo-Project/45.83.20.29=443
 - name: '@v2FreeHub 🇵🇹'
   network: ws
-  password: cc09e855-dfad-4587-9775-369a2df36a1f
-  port: 81
-  server: 45.159.251.8
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
-- name: '@v2FreeHub 🇵🇹'
-  network: ws
   password: 6fbbc277-f6b6-4ce5-a7b3-23ecbeb88140
   port: 443
   server: 45.12.131.34
@@ -423,6 +411,18 @@ proxies:
     headers:
       Host: eiiim.danesh-bonyan.Store
     path: join.----------------Telegram-EiiiM----------------Telegram-EiiiM---------------.Telegram-EiiiM.
+- name: '@v2FreeHub 🇵🇹'
+  network: ws
+  password: cc09e855-dfad-4587-9775-369a2df36a1f
+  port: 81
+  server: 45.159.251.8
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
 - name: '[OpenRay] 🇺🇸 US-3529'
   network: ws
   password: '0'
@@ -442,6 +442,18 @@ proxies:
   server: 164.92.143.135
   type: vless
   uuid: 02529660-52bf-4896-951a-1857c88d1dba
+- name: '@v2FreeHub 🇪🇸'
+  network: ws
+  password: fa115af5-0647-4549-acd9-5166695ea2de
+  port: 2053
+  server: 185.114.72.31
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/185.114.72.31=2053
 - cipher: none
   name: '@Filter_breaker-10'
   network: tcp
@@ -463,18 +475,6 @@ proxies:
   server: magnataur.fonixapp.org
   type: vless
   uuid: 07b21c46-7b7a-4af8-aec9-a0f0c63ccff8
-- name: '@v2FreeHub 🇪🇸'
-  network: ws
-  password: fa115af5-0647-4549-acd9-5166695ea2de
-  port: 2053
-  server: 185.114.72.31
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/185.114.72.31=2053
 - cipher: none
   name: 🇳🇱 Netherlands | @confegraigan```
   network: tcp
@@ -506,12 +506,6 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/145.239.88.255=8443
-- cipher: aes-256-cfb
-  name: 🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.53
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇧🇷[openproxylist.com] ss-BR
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
@@ -523,4 +517,10 @@ proxies:
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   port: 443
   server: 167.150.100.115
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.53
   type: ss
