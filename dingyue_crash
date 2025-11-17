@@ -75,3 +75,9 @@ proxies:
   tls: true
   type: vless
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
+- cipher: aes-256-cfb
+  name: 🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ
+  port: 443
+  server: ''
+  type: ss
