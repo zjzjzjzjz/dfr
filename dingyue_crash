@@ -143,16 +143,16 @@ proxies:
       Host: 114514.pusytroller.cf
     path: /
 - cipher: aes-256-cfb
-  name: 🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ
-  port: 443
-  server: ''
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 27
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.221
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ
+  port: 443
+  server: ''
   type: ss
 - cipher: none
   name: 云机录-🇳🇱NL_3|4.9MB/s|8%|GPT⁺|NF
@@ -367,18 +367,6 @@ proxies:
   server: graygoat.fonixapp.org
   type: vless
   uuid: 8d5bca78-f49f-4e49-ad7b-bb58da44d40b
-- name: '@v2FreeHub 🇪🇸'
-  network: ws
-  password: fa115af5-0647-4549-acd9-5166695ea2de
-  port: 2053
-  server: 185.114.72.31
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/185.114.72.31=2053
 - name: 未知18
   network: ws
   password: 17178783-0dd7-4544-bf6b-e0694a1e3da7
@@ -506,6 +494,18 @@ proxies:
   server: 164.92.143.135
   type: vless
   uuid: 02529660-52bf-4896-951a-1857c88d1dba
+- name: '@v2FreeHub 🇪🇸'
+  network: ws
+  password: fa115af5-0647-4549-acd9-5166695ea2de
+  port: 2053
+  server: 185.114.72.31
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/185.114.72.31=2053
 - name: '@v2FreeHub 🇵🇱'
   network: ws
   password: 823f57d2-d271-48a6-859e-d041179e1c6b
