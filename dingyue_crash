@@ -135,6 +135,13 @@ proxies:
     headers:
       Host: 114514.pusytroller.cf
     path: /
+- cipher: none
+  name: 🇸🇰[By EbraSha] vless-SK 🔒
+  network: tcp
+  port: 7079
+  server: sk3.node.ibst.me
+  type: vless
+  uuid: a54c3b5a-5f44-4411-8c1e-7bf52a567d7f
 - cipher: aes-256-cfb
   name: 🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ
@@ -202,6 +209,15 @@ proxies:
   port: 38388
   server: 103.186.155.153
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本4|@ripaojiedian
+  network: tcp
+  port: 47083
+  server: 114.98.183.61
+  type: vmess
+  udp: false
+  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - cipher: none
   name: 云机录-🇸🇬SG_5|4.1MB/s|3%|GPT⁺|NF|GM
   network: ws
@@ -226,6 +242,31 @@ proxies:
   port: 38388
   server: 103.186.155.140
   type: ss
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 日本4|@ripaojiedian
+  network: tcp
+  port: 47083
+  server: 114.98.183.61
+  type: vmess
+  udp: false
+  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
+- name: 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 219.79.165.55
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 🇻🇳VN_2|1.5MB/s|GPT⁺|YT-US|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
