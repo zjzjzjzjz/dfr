@@ -411,18 +411,6 @@ proxies:
     headers:
       Host: eiiim.danesh-bonyan.Store
     path: join.----------------Telegram-EiiiM----------------Telegram-EiiiM---------------.Telegram-EiiiM.
-- name: '@v2FreeHub 🇵🇹'
-  network: ws
-  password: cc09e855-dfad-4587-9775-369a2df36a1f
-  port: 81
-  server: 45.159.251.8
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
 - name: '[OpenRay] 🇺🇸 US-3529'
   network: ws
   password: '0'
@@ -435,6 +423,18 @@ proxies:
     headers:
       Host: snippets.sbak.netlib.re
     path: /proxyip=d23d61f1.tp81.ip.090227.xyz
+- name: '@v2FreeHub 🇵🇹'
+  network: ws
+  password: cc09e855-dfad-4587-9775-369a2df36a1f
+  port: 81
+  server: 45.159.251.8
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
 - cipher: none
   name: '[OpenRay] 🇩🇪 DE-1396'
   network: grpc
