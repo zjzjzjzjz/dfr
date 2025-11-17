@@ -219,17 +219,6 @@ proxies:
   udp: false
   uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - cipher: none
-  name: 云机录-🇸🇬SG_5|4.1MB/s|3%|GPT⁺|NF|GM
-  network: ws
-  port: 2095
-  server: www.wto.org
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: freedom.pusytroller.cf
-    path: /
-- cipher: none
   name: 云机录-🇳🇱NL_5|2.3MB/s|0%|GPT⁺|NF
   network: tcp
   port: 443
