@@ -165,19 +165,6 @@ proxies:
     headers:
       Host: cxrolvpn.freev2-edb.workers.dev
     path: /BJMz0Rpb9gejBzKP?ed=2560
-- cipher: none
-  name: 云机录-🇰🇷KR_15|1.4MB/s|GPT|GM
-  network: ws
-  port: 12176
-  server: 218.54.55.117
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
 - cipher: aes-256-cfb
   name: 🇻🇳VN_4|1.1MB/s|GPT⁺|YT-US|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -530,10 +517,3 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/38.180.72.65=8443
-- cipher: none
-  name: '@Filter_breaker-7'
-  network: tcp
-  port: 54376
-  server: tidehunter.fonixapp.org
-  type: vless
-  uuid: 1bd7dd56-94c5-4e30-8d99-e1e40e1b84fa
