@@ -81,3 +81,136 @@ proxies:
   port: 443
   server: ''
   type: ss
+- cipher: none
+  name: 云机录-🇳🇱NL_3|4.9MB/s|8%|GPT⁺|NF
+  network: ws
+  port: 80
+  server: 104.21.80.1
+  type: vless
+  uuid: 81caa837-c213-4731-a02e-662380ad1e2f
+  ws-opts:
+    headers:
+      Host: cxrolvpn.freev2-edb.workers.dev
+    path: /BJMz0Rpb9gejBzKP?ed=2560
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 27
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.221
+  type: ss
+- cipher: none
+  name: 云机录-🇺🇸US_30|4.5MB/s|3%|GPT⁺|NF
+  network: ws
+  port: 2095
+  server: namemc.com
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: 114514.pusytroller.cf
+    path: /
+- cipher: none
+  name: 云机录-🇰🇷KR_13|4.6MB/s
+  network: ws
+  port: 50000
+  server: 115.93.169.180
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- cipher: none
+  name: 12|KR_speednode_0018
+  network: ws
+  port: 50001
+  server: 106.245.216.35
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560fp=chrome
+- name: 云机录-🇳🇱NL_9|3.2MB/s|7%|GPT⁺|NF
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 172.67.180.227
+  sni: mashdt.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /tr?ed=2560
+- cipher: none
+  name: 云机录-🇰🇷KR_15|1.4MB/s|GPT|GM
+  network: ws
+  port: 12176
+  server: 218.54.55.117
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
+- cipher: none
+  name: 云机录-🇺🇸US_21|2.1MB/s|GPT|NF|GM
+  network: ws
+  port: 2096
+  server: 154.197.75.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- cipher: none
+  name: 云机录-🇳🇱NL_5|2.3MB/s|0%|GPT⁺|NF
+  network: tcp
+  port: 443
+  server: 46.17.103.204
+  type: vless
+  uuid: f7312d02-d520-4e15-8266-fb2ec831ac66
+- cipher: none
+  name: 云机录-🇺🇸US_24|2.6MB/s|0%|GPT⁺|NF|GM
+  network: ws
+  port: 2095
+  server: cdnjs.com
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: snippets.pusytroller.cf
+    path: /
+- cipher: none
+  name: RU_speednode_0060
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
+- cipher: none
+  name: 云机录-🇸🇬SG_5|4.1MB/s|3%|GPT⁺|NF|GM
+  network: ws
+  port: 2095
+  server: www.wto.org
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: freedom.pusytroller.cf
+    path: /
