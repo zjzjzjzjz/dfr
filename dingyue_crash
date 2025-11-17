@@ -171,6 +171,18 @@ proxies:
   port: 38388
   server: 103.186.155.153
   type: ss
+- name: 🇺🇸[By EbraSha] trojan-US 🔒
+  network: ws
+  password: 3ea503c7-2e03-424a-812d-6f0d803e73dc
+  port: 443
+  server: 138.124.15.75
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/138.124.15.75=443
 - cipher: none
   name: 12|KR_speednode_0018
   network: ws
@@ -184,18 +196,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560fp=chrome
-- name: 🇺🇸[By EbraSha] trojan-US 🔒
-  network: ws
-  password: 3ea503c7-2e03-424a-812d-6f0d803e73dc
-  port: 443
-  server: 138.124.15.75
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/138.124.15.75=443
 - alterId: 0
   cipher: auto
   name: 🇯🇵 日本4|@ripaojiedian
@@ -312,13 +312,6 @@ proxies:
   server: windrunner.fonixapp.org
   type: vless
   uuid: f07cb7d9-36d3-4b65-b4dd-186be58218dd
-- cipher: none
-  name: 🇳🇱 Netherlands | @confegraigan```
-  network: tcp
-  port: 443
-  server: nld-0001-xr.packet-drop-society.net
-  type: vless
-  uuid: c14ab4eb-178f-47ca-a597-4eb585bab261
 - cipher: none
   name: '@Filter_breaker-30'
   network: tcp
@@ -481,6 +474,13 @@ proxies:
   server: 164.92.143.135
   type: vless
   uuid: 02529660-52bf-4896-951a-1857c88d1dba
+- cipher: none
+  name: 🇳🇱 Netherlands | @confegraigan```
+  network: tcp
+  port: 443
+  server: nld-0001-xr.packet-drop-society.net
+  type: vless
+  uuid: c14ab4eb-178f-47ca-a597-4eb585bab261
 - name: '@v2FreeHub 🇪🇸'
   network: ws
   password: fa115af5-0647-4549-acd9-5166695ea2de
