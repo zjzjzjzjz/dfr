@@ -93,12 +93,6 @@ proxies:
   server: antimage.fonixapp.org
   type: vless
   uuid: 58a3efa1-94a6-4e03-b5b7-c4a398585979
-- cipher: aes-256-cfb
-  name: 🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.53
-  type: ss
 - cipher: none
   name: '@Filter_breaker-14'
   network: tcp
@@ -118,6 +112,12 @@ proxies:
     headers:
       Host: snippets.sbak.netlib.re
     path: /proxyip=d23d61f1.tp81.ip.090227.xyz
+- cipher: aes-256-cfb
+  name: 🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.53
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: US_speednode_0014
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
