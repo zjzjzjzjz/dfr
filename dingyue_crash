@@ -246,6 +246,13 @@ proxies:
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - cipher: none
+  name: '@Filter_breaker-9'
+  network: tcp
+  port: 38390
+  server: tuskar.fonixapp.org
+  type: vless
+  uuid: f36312ed-c887-48a5-a803-22ca16a153c5
+- cipher: none
   name: '@Filter_breaker-17'
   network: tcp
   port: 28924
@@ -267,13 +274,6 @@ proxies:
   type: vless
   uuid: e78339f1-2a10-4b9a-ab97-154fb53affbf
 - cipher: none
-  name: '@Filter_breaker-9'
-  network: tcp
-  port: 38390
-  server: tuskar.fonixapp.org
-  type: vless
-  uuid: f36312ed-c887-48a5-a803-22ca16a153c5
-- cipher: none
   name: '@Filter_breaker-29'
   network: tcp
   port: 21763
@@ -288,20 +288,6 @@ proxies:
   type: vless
   uuid: f99cc0f1-d1a3-45f9-a13b-b33c8d3e0f10
 - cipher: none
-  name: '@Filter_breaker-33'
-  network: tcp
-  port: 27274
-  server: windrunner.fonixapp.org
-  type: vless
-  uuid: f07cb7d9-36d3-4b65-b4dd-186be58218dd
-- cipher: none
-  name: '@Filter_breaker-30'
-  network: tcp
-  port: 31502
-  server: silverzebra.fonixapp.org
-  type: vless
-  uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
-- cipher: none
   name: '@Filter_breaker-23'
   network: tcp
   port: 29000
@@ -315,6 +301,32 @@ proxies:
   server: graygoat.fonixapp.org
   type: vless
   uuid: 8d5bca78-f49f-4e49-ad7b-bb58da44d40b
+- name: '[OpenRay] 🇺🇸 US-3529'
+  network: ws
+  password: '0'
+  port: 443
+  server: 8.39.125.151
+  sni: snippets.sbak.netlib.re
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.sbak.netlib.re
+    path: /proxyip=d23d61f1.tp81.ip.090227.xyz
+- cipher: none
+  name: '@Filter_breaker-33'
+  network: tcp
+  port: 27274
+  server: windrunner.fonixapp.org
+  type: vless
+  uuid: f07cb7d9-36d3-4b65-b4dd-186be58218dd
+- cipher: none
+  name: '@Filter_breaker-30'
+  network: tcp
+  port: 31502
+  server: silverzebra.fonixapp.org
+  type: vless
+  uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
 - name: 未知18
   network: ws
   password: 17178783-0dd7-4544-bf6b-e0694a1e3da7
@@ -399,18 +411,6 @@ proxies:
     headers:
       Host: eiiim.danesh-bonyan.Store
     path: join.----------------Telegram-EiiiM----------------Telegram-EiiiM---------------.Telegram-EiiiM.
-- name: '[OpenRay] 🇺🇸 US-3529'
-  network: ws
-  password: '0'
-  port: 443
-  server: 8.39.125.151
-  sni: snippets.sbak.netlib.re
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.sbak.netlib.re
-    path: /proxyip=d23d61f1.tp81.ip.090227.xyz
 - name: '@v2FreeHub 🇫🇷'
   network: ws
   password: a25e963f-8f68-4b28-8c11-5d721f616434
