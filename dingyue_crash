@@ -30,12 +30,6 @@ proxies:
   server: graygoat.fonixapp.org
   type: vless
   uuid: 8d5bca78-f49f-4e49-ad7b-bb58da44d40b
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[openproxylist.com] ss-BR
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
 - cipher: none
   name: '@Filter_breaker-30'
   network: tcp
@@ -112,11 +106,23 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/62.60.246.168=443
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷[openproxylist.com] ss-BR
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
 - cipher: aes-256-cfb
   name: 🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.53
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱[openproxylist.com] ss-NL
+  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
+  port: 443
+  server: 45.14.245.2
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: US_speednode_0014
@@ -237,14 +243,6 @@ proxies:
   server: drow-ranger.fonixapp.org
   type: vless
   uuid: 119b539d-e4ac-464d-a389-ace2e388b805
-- name: 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.26.173
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: none
   name: '@Filter_breaker-35'
   network: tcp
@@ -259,6 +257,14 @@ proxies:
   server: 164.92.143.135
   type: vless
   uuid: 02529660-52bf-4896-951a-1857c88d1dba
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: '@Filter_breaker-33'
   network: tcp
