@@ -1,11 +1,4 @@
 proxies:
-- cipher: none
-  name: '@Filter_breaker-12'
-  network: tcp
-  port: 26861
-  server: shadowshaman.fonixapp.org
-  type: vless
-  uuid: 04db6938-72dc-42b4-a096-cc6a5e8316d2
 - name: 未知18
   network: ws
   password: 17178783-0dd7-4544-bf6b-e0694a1e3da7
@@ -30,13 +23,6 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
-- cipher: none
-  name: '@Filter_breaker-14'
-  network: tcp
-  port: 40875
-  server: magnataur.fonixapp.org
-  type: vless
-  uuid: 07b21c46-7b7a-4af8-aec9-a0f0c63ccff8
 - name: '@v2FreeHub 🇵🇹'
   network: ws
   password: 6fbbc277-f6b6-4ce5-a7b3-23ecbeb88140
@@ -69,6 +55,13 @@ proxies:
   server: silverzebra.fonixapp.org
   type: vless
   uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
+- cipher: none
+  name: '@Filter_breaker-12'
+  network: tcp
+  port: 26861
+  server: shadowshaman.fonixapp.org
+  type: vless
+  uuid: 04db6938-72dc-42b4-a096-cc6a5e8316d2
 - name: '[OpenRay] 🇺🇸 US-4497'
   network: ws
   password: qYtgglHpzo
@@ -106,6 +99,13 @@ proxies:
   port: 38388
   server: 103.186.154.53
   type: ss
+- cipher: none
+  name: '@Filter_breaker-14'
+  network: tcp
+  port: 40875
+  server: magnataur.fonixapp.org
+  type: vless
+  uuid: 07b21c46-7b7a-4af8-aec9-a0f0c63ccff8
 - name: '[OpenRay] 🇺🇸 US-3529'
   network: ws
   password: '0'
