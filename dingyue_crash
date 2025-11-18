@@ -74,18 +74,6 @@ proxies:
     headers:
       Host: eiiim.danesh-bonyan.Store
     path: join.----------------Telegram-EiiiM----------------Telegram-EiiiM---------------.Telegram-EiiiM.
-- name: '@v2FreeHub 🇫🇷'
-  network: ws
-  password: a25e963f-8f68-4b28-8c11-5d721f616434
-  port: 443
-  server: 62.60.246.168
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/62.60.246.168=443
 - cipher: none
   name: '@Filter_breaker-23'
   network: tcp
@@ -112,6 +100,18 @@ proxies:
     headers:
       Host: snippets.sbak.netlib.re
     path: /proxyip=d23d61f1.tp81.ip.090227.xyz
+- name: '@v2FreeHub 🇫🇷'
+  network: ws
+  password: a25e963f-8f68-4b28-8c11-5d721f616434
+  port: 443
+  server: 62.60.246.168
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/62.60.246.168=443
 - cipher: aes-256-cfb
   name: 🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
