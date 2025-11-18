@@ -13,18 +13,6 @@ proxies:
     path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
 - name: '@v2FreeHub 🇵🇹'
   network: ws
-  password: cc09e855-dfad-4587-9775-369a2df36a1f
-  port: 81
-  server: 45.159.251.8
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
-- name: '@v2FreeHub 🇵🇹'
-  network: ws
   password: 6fbbc277-f6b6-4ce5-a7b3-23ecbeb88140
   port: 443
   server: 45.12.131.34
@@ -55,6 +43,18 @@ proxies:
   server: silverzebra.fonixapp.org
   type: vless
   uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
+- name: '@v2FreeHub 🇵🇹'
+  network: ws
+  password: cc09e855-dfad-4587-9775-369a2df36a1f
+  port: 81
+  server: 45.159.251.8
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
 - cipher: none
   name: '@Filter_breaker-12'
   network: tcp
