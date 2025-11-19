@@ -6,14 +6,18 @@ proxies:
   server: 45.140.167.172
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 3127
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷[openproxylist.com] ss-BR
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 16
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.219
+  type: ss
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
@@ -21,10 +25,10 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- name: 香港4|@ripaojiedian
+- name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
-  server: 58.152.26.173
+  server: 219.79.165.55
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
