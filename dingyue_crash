@@ -55,13 +55,6 @@ proxies:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/45.12.131.34=443
 - cipher: none
-  name: '@Filter_breaker-12'
-  network: tcp
-  port: 26861
-  server: shadowshaman.fonixapp.org
-  type: vless
-  uuid: 04db6938-72dc-42b4-a096-cc6a5e8316d2
-- cipher: none
   name: '@Filter_breaker-30'
   network: tcp
   port: 31502
@@ -69,12 +62,12 @@ proxies:
   type: vless
   uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
 - cipher: none
-  name: '@Filter_breaker-14'
+  name: '@Filter_breaker-12'
   network: tcp
-  port: 40875
-  server: magnataur.fonixapp.org
+  port: 26861
+  server: shadowshaman.fonixapp.org
   type: vless
-  uuid: 07b21c46-7b7a-4af8-aec9-a0f0c63ccff8
+  uuid: 04db6938-72dc-42b4-a096-cc6a5e8316d2
 - cipher: none
   name: '@Filter_breaker-23'
   network: tcp
@@ -94,6 +87,13 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/62.60.246.168=443
+- cipher: none
+  name: '@Filter_breaker-14'
+  network: tcp
+  port: 40875
+  server: magnataur.fonixapp.org
+  type: vless
+  uuid: 07b21c46-7b7a-4af8-aec9-a0f0c63ccff8
 - name: '[OpenRay] 🇺🇸 US-3529'
   network: ws
   password: '0'
@@ -106,12 +106,14 @@ proxies:
     headers:
       Host: snippets.sbak.netlib.re
     path: /proxyip=d23d61f1.tp81.ip.090227.xyz
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[openproxylist.com] ss-BR
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+- name: CH_speednode_0001
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
   port: 443
-  server: 213.159.66.206
-  type: ss
+  server: 194.87.18.124
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
 - name: '@v2FreeHub 🇩🇰'
   network: ws
   password: de3bc763-2fc6-46aa-aec7-a52a0d1c0550
@@ -124,6 +126,13 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/38.180.72.65=8443
+- cipher: none
+  name: 'Channel : @SHOP_GAMING1011 🏴🏳'
+  network: grpc
+  port: 8880
+  server: 94.131.110.115
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - name: '@v2FreeHub 🇪🇸'
   network: ws
   password: fa115af5-0647-4549-acd9-5166695ea2de
@@ -136,13 +145,6 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/185.114.72.31=2053
-- cipher: none
-  name: 'Channel : @SHOP_GAMING1011 🏴🏳'
-  network: grpc
-  port: 8880
-  server: 94.131.110.115
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - name: 未知4
   network: ws
   password: ff022848-4fb7-465a-9e6f-756d3dfc2c6a
@@ -155,6 +157,13 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/45.83.20.29=443
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: aes-256-cfb
   name: 🇻🇳VN_3|2.6MB/s|GPT⁺|YT-VN|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -276,13 +285,6 @@ proxies:
   port: 38388
   server: 103.186.155.140
   type: ss
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - name: 🇺🇸[By EbraSha] trojan-US 🔒
   network: ws
   password: 3ea503c7-2e03-424a-812d-6f0d803e73dc
@@ -329,13 +331,6 @@ proxies:
   port: 38388
   server: 103.186.154.221
   type: ss
-- cipher: none
-  name: '@Filter_breaker-10'
-  network: tcp
-  port: 22155
-  server: facelessvoid.fonixapp.org
-  type: vless
-  uuid: 1d83ca4e-9708-4338-b177-403aa258488b
 - cipher: aes-256-cfb
   name: 🇻🇳VN_2|1.5MB/s|GPT⁺|YT-US|NF|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -352,6 +347,13 @@ proxies:
   udp: true
   ws-opts:
     path: /tr?ed=2560
+- cipher: none
+  name: '@Filter_breaker-10'
+  network: tcp
+  port: 22155
+  server: facelessvoid.fonixapp.org
+  type: vless
+  uuid: 1d83ca4e-9708-4338-b177-403aa258488b
 - cipher: aes-256-cfb
   name: 🇻🇳VN_4|1.1MB/s|GPT⁺|YT-US|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
