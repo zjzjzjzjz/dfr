@@ -12,17 +12,56 @@ proxies:
   server: 103.186.154.168
   type: ss
 - cipher: aes-256-cfb
+  name: 🇲🇩MD-185.153.197.5-0331
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
 - cipher: aes-256-cfb
-  name: 🇲🇩MD-185.153.197.5-0331
+  name: 🇵🇹PT-185.231.233.112-0351
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 185.153.197.5
+  server: 185.231.233.112
   type: ss
+- cipher: none
+  name: râ™¡ya
+  network: ws
+  port: 24443
+  server: 178.239.123.216
+  servername: vless3.datatestvless.click
+  tls: true
+  type: vless
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  ws-opts:
+    headers:
+      Host: vless3.datatestvless.click
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷[openproxylist.com] ss-BR
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- cipher: none
+  name: Reality25 | @SpringHQ
+  network: grpc
+  port: 443
+  server: 65.109.220.108
+  type: vless
+  uuid: cb11729b-5e0f-4b2f-ab24-c46447d70ffd
+- cipher: none
+  name: BESTIIVPNBOT تست و خرید 💲
+  network: grpc
+  port: 8880
+  server: 45.140.167.172
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - cipher: chacha20-ietf-poly1305
   name: 🇧🇷[By EbraSha] ss-BR 🔒
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
@@ -35,32 +74,6 @@ proxies:
   port: 443
   server: 213.159.66.206
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[openproxylist.com] ss-BR
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇵🇹PT-185.231.233.112-0351
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
-- cipher: none
-  name: BESTIIVPNBOT تست و خرید 💲
-  network: grpc
-  port: 8880
-  server: 45.140.167.172
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: none
   name: 🇮🇳[By EbraSha] vless-IN 🔒
   network: grpc
