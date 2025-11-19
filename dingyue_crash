@@ -6,42 +6,22 @@ proxies:
   server: 103.186.155.64
   type: ss
 - cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|c602|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 47
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.168
   type: ss
 - cipher: aes-256-cfb
-  name: 🇲🇩MD-185.153.197.5-0331
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
-- name: 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 3127
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: 🇵🇹PT-185.231.233.112-0351
+  name: 🇲🇩MD-185.153.197.5-0331
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 185.231.233.112
+  server: 185.153.197.5
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇧🇷[By EbraSha] ss-BR 🔒
@@ -50,24 +30,23 @@ proxies:
   server: 213.159.66.206
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
-  password: yprgZbB7xDL4PSvE4wJU4m
-  port: 53672
-  server: 81.90.29.126
+  name: br|c602|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: râ™¡ya
-  password: yprgZbB7xDL4PSvE4wJU4m
-  port: 53672
-  server: 81.90.29.126
-  type: ss
-- cipher: none
-  name: Reality25 | @SpringHQ
-  network: grpc
+  name: 🇧🇷[openproxylist.com] ss-BR
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
-  server: 65.109.220.108
-  type: vless
-  uuid: cb11729b-5e0f-4b2f-ab24-c46447d70ffd
+  server: 213.159.66.206
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇵🇹PT-185.231.233.112-0351
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
+  type: ss
 - cipher: none
   name: BESTIIVPNBOT تست و خرید 💲
   network: grpc
@@ -75,22 +54,6 @@ proxies:
   server: 45.140.167.172
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 219.79.165.55
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.26.173
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
@@ -98,20 +61,6 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- cipher: none
-  name: 🇨🇦[By EbraSha] vless-CA 🔒
-  network: tcp
-  port: 60552
-  server: 81.19.140.202
-  type: vless
-  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
-- cipher: none
-  name: râ™¡ya
-  network: tcp
-  port: 51224
-  server: ru-msk.shvurgceo.online
-  type: vless
-  uuid: 14305246-dc93-4b3c-9f6c-d0b29fa7e4fa
 - cipher: none
   name: 🇮🇳[By EbraSha] vless-IN 🔒
   network: grpc
