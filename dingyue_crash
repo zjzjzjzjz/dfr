@@ -12,12 +12,26 @@ proxies:
   port: 443
   server: 213.159.66.206
   type: ss
+- cipher: none
+  name: 🇸🇪|•Sweden | @confegraiagn```
+  network: tcp
+  port: 443
+  server: sweden-57.ptu.ink
+  type: vless
+  uuid: 30e77c60-5e2e-4e10-9a33-4d9f1fc43a7d
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 16
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.219
   type: ss
+- name: 香港3|@ripaojiedian
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  port: 443
+  server: 58.152.110.206
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
@@ -25,6 +39,14 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
