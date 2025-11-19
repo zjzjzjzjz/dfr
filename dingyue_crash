@@ -1,11 +1,5 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 47
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.168
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 20
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
@@ -18,10 +12,22 @@ proxies:
   server: 185.153.197.5
   type: ss
 - cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 47
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.168
+  type: ss
+- cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇵🇹PT-185.231.233.112-0351
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
   type: ss
 - cipher: none
   name: BESTIIVPNBOT تست و خرید 💲
@@ -30,12 +36,13 @@ proxies:
   server: 45.140.167.172
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: aes-256-cfb
-  name: 🇵🇹PT-185.231.233.112-0351
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
+- cipher: none
+  name: 🇬🇧TM (@AZARBAYJAB1) GPRS
+  network: grpc
+  port: 8880
+  server: 45.140.167.172
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - cipher: none
   name: râ™¡ya
   network: ws
@@ -49,19 +56,13 @@ proxies:
     headers:
       Host: vless3.datatestvless.click
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[By EbraSha] ss-BR 🔒
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
 - cipher: none
-  name: 🇮🇳[By EbraSha] vless-IN 🔒
-  network: grpc
-  port: 443
-  server: 194.61.31.126
+  name: 🇩🇪(@armanstore2)-کانفیگ نامحدود  29 هزار تومان
+  network: tcp
+  port: 53132
+  server: telegram-armanstore2.dynv6.net
   type: vless
-  uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
+  uuid: 6c446fb0-2fb3-4558-abcf-e497438ef091
 - name: 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -70,6 +71,19 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: 🇮🇳[By EbraSha] vless-IN 🔒
+  network: grpc
+  port: 443
+  server: 194.61.31.126
+  type: vless
+  uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷[By EbraSha] ss-BR 🔒
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: br|c602|puddincat07@Telegram
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
