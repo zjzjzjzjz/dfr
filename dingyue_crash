@@ -1,9 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
-  password: yprgZbB7xDL4PSvE4wJU4m
-  port: 53672
-  server: 81.90.29.126
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: râ™¡ya
@@ -11,30 +11,11 @@ proxies:
   port: 53672
   server: 81.90.29.126
   type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇩MD-185.153.197.5-0331
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: none
-  name: BESTIIVPNBOT تست و خرید 💲
-  network: grpc
-  port: 8880
-  server: 45.140.167.172
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - cipher: chacha20-ietf-poly1305
-  name: br|c602|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
+  name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
+  password: yprgZbB7xDL4PSvE4wJU4m
+  port: 53672
+  server: 81.90.29.126
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇧🇷[By EbraSha] ss-BR 🔒
@@ -42,13 +23,12 @@ proxies:
   port: 443
   server: 213.159.66.206
   type: ss
-- cipher: none
-  name: azadiiivpn
-  network: tcp
-  port: 10343
-  server: 145.249.109.54
-  type: vless
-  uuid: 6f0d0074-c227-4370-84aa-4b198955398a
+- cipher: chacha20-ietf-poly1305
+  name: br|c602|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
 - cipher: none
   name: râ™¡ya
   network: tcp
@@ -57,32 +37,39 @@ proxies:
   type: vless
   uuid: 14305246-dc93-4b3c-9f6c-d0b29fa7e4fa
 - cipher: none
+  name: azadiiivpn
+  network: tcp
+  port: 10343
+  server: 145.249.109.54
+  type: vless
+  uuid: 6f0d0074-c227-4370-84aa-4b198955398a
+- cipher: none
   name: Reality25 | @SpringHQ
   network: grpc
   port: 443
   server: 65.109.220.108
   type: vless
   uuid: cb11729b-5e0f-4b2f-ab24-c46447d70ffd
+- cipher: none
+  name: râ™¡ya
+  network: tcp
+  port: 29453
+  server: 185.243.99.104
+  type: vless
+  uuid: a9457db5-e0b8-4a86-bb33-957c99b235c0
+- cipher: none
+  name: 🇨🇦[By EbraSha] vless-CA 🔒
+  network: tcp
+  port: 60552
+  server: 81.19.140.202
+  type: vless
+  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
 - cipher: aes-256-cfb
   name: 🇵🇹PT-185.231.233.112-0351
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.231.233.112
   type: ss
-- name: 香港3|@ripaojiedian
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 443
-  server: 58.152.110.206
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- cipher: none
-  name: râ™¡ya
-  network: tcp
-  port: 443
-  server: 151.236.93.102
-  type: vless
-  uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
@@ -97,6 +84,13 @@ proxies:
   server: 194.61.31.126
   type: vless
   uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
+- cipher: none
+  name: râ™¡ya
+  network: tcp
+  port: 443
+  server: 151.236.93.102
+  type: vless
+  uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
 - cipher: none
   name: 云机录-🇩🇪DE_23|3.4MB/s|NF
   network: ws
