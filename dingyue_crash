@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: râ™¡ya
   password: yprgZbB7xDL4PSvE4wJU4m
@@ -17,18 +11,6 @@ proxies:
   port: 53672
   server: 81.90.29.126
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[By EbraSha] ss-BR 🔒
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|c602|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
 - cipher: none
   name: râ™¡ya
   network: tcp
@@ -36,13 +18,30 @@ proxies:
   server: ru-msk.shvurgceo.online
   type: vless
   uuid: 14305246-dc93-4b3c-9f6c-d0b29fa7e4fa
-- cipher: none
-  name: azadiiivpn
-  network: tcp
-  port: 10343
-  server: 145.249.109.54
-  type: vless
-  uuid: 6f0d0074-c227-4370-84aa-4b198955398a
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷[By EbraSha] ss-BR 🔒
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: br|c602|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇲🇩MD-185.153.197.5-0331
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
 - cipher: none
   name: Reality25 | @SpringHQ
   network: grpc
@@ -51,19 +50,12 @@ proxies:
   type: vless
   uuid: cb11729b-5e0f-4b2f-ab24-c46447d70ffd
 - cipher: none
-  name: râ™¡ya
+  name: azadiiivpn
   network: tcp
-  port: 29453
-  server: 185.243.99.104
+  port: 10343
+  server: 145.249.109.54
   type: vless
-  uuid: a9457db5-e0b8-4a86-bb33-957c99b235c0
-- cipher: none
-  name: 🇨🇦[By EbraSha] vless-CA 🔒
-  network: tcp
-  port: 60552
-  server: 81.19.140.202
-  type: vless
-  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
+  uuid: 6f0d0074-c227-4370-84aa-4b198955398a
 - cipher: aes-256-cfb
   name: 🇵🇹PT-185.231.233.112-0351
   password: f8f7aCzcPKbsF8p3
@@ -71,19 +63,20 @@ proxies:
   server: 185.231.233.112
   type: ss
 - cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  name: râ™¡ya
   network: tcp
-  port: 25694
-  server: 23.94.211.92
+  port: 29453
+  server: 185.243.99.104
   type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- cipher: none
-  name: 🇮🇳[By EbraSha] vless-IN 🔒
-  network: grpc
+  uuid: a9457db5-e0b8-4a86-bb33-957c99b235c0
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
   port: 443
-  server: 194.61.31.126
-  type: vless
-  uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
+  server: 58.152.26.173
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: râ™¡ya
   network: tcp
@@ -91,6 +84,13 @@ proxies:
   server: 151.236.93.102
   type: vless
   uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
+- cipher: none
+  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
+  network: tcp
+  port: 25694
+  server: 23.94.211.92
+  type: vless
+  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
 - cipher: none
   name: 云机录-🇩🇪DE_23|3.4MB/s|NF
   network: ws
@@ -104,3 +104,10 @@ proxies:
     headers:
       Host: vless.aihi.uk
     path: /?ed=2048
+- cipher: none
+  name: 🇮🇳[By EbraSha] vless-IN 🔒
+  network: grpc
+  port: 443
+  server: 194.61.31.126
+  type: vless
+  uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
