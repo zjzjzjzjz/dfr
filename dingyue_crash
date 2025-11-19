@@ -18,6 +18,12 @@ proxies:
   server: 103.186.155.64
   type: ss
 - cipher: aes-256-cfb
+  name: 云机录-🇻🇳VN_4|1.2MB/s|GPT⁺|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.16
+  type: ss
+- cipher: aes-256-cfb
   name: 🇲🇩MD-185.153.197.5-0331
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -29,6 +35,13 @@ proxies:
   port: 989
   server: 185.231.233.112
   type: ss
+- cipher: none
+  name: râ™¡ya
+  network: tcp
+  port: 51224
+  server: ru-msk.shvurgceo.online
+  type: vless
+  uuid: 14305246-dc93-4b3c-9f6c-d0b29fa7e4fa
 - name: 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -44,8 +57,16 @@ proxies:
   server: 104.238.189.224
   type: vless
   uuid: e85bb8f0-0baf-40f9-a012-3be7b4755715
+- name: 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 219.79.165.55
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
+  name: râ™¡ya
   password: yprgZbB7xDL4PSvE4wJU4m
   port: 53672
   server: 81.90.29.126
@@ -57,8 +78,8 @@ proxies:
   server: 213.159.66.206
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: br|c602|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
+  name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
+  password: yprgZbB7xDL4PSvE4wJU4m
+  port: 53672
+  server: 81.90.29.126
   type: ss
