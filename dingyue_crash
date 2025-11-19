@@ -1,29 +1,5 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
-  password: yprgZbB7xDL4PSvE4wJU4m
-  port: 53672
-  server: 81.90.29.126
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: râ™¡ya
-  password: yprgZbB7xDL4PSvE4wJU4m
-  port: 53672
-  server: 81.90.29.126
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[By EbraSha] ss-BR 🔒
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇩MD-185.153.197.5-0331
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: br|c602|puddincat07@Telegram
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
@@ -35,6 +11,32 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
+  password: yprgZbB7xDL4PSvE4wJU4m
+  port: 53672
+  server: 81.90.29.126
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: râ™¡ya
+  password: yprgZbB7xDL4PSvE4wJU4m
+  port: 53672
+  server: 81.90.29.126
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇲🇩MD-185.153.197.5-0331
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- name: 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 3127
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: BESTIIVPNBOT تست و خرید 💲
   network: grpc
@@ -42,13 +44,12 @@ proxies:
   server: 45.140.167.172
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: none
-  name: Reality25 | @SpringHQ
-  network: grpc
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷[By EbraSha] ss-BR 🔒
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
-  server: 65.109.220.108
-  type: vless
-  uuid: cb11729b-5e0f-4b2f-ab24-c46447d70ffd
+  server: 213.159.66.206
+  type: ss
 - cipher: none
   name: 🇨🇦[By EbraSha] vless-CA 🔒
   network: tcp
@@ -63,13 +64,6 @@ proxies:
   server: 213.159.66.206
   type: ss
 - cipher: none
-  name: râ™¡ya
-  network: tcp
-  port: 51224
-  server: ru-msk.shvurgceo.online
-  type: vless
-  uuid: 14305246-dc93-4b3c-9f6c-d0b29fa7e4fa
-- cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
   port: 25694
@@ -83,3 +77,16 @@ proxies:
   server: 194.61.31.126
   type: vless
   uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
+- cipher: none
+  name: 云机录-🇩🇪DE_23|3.4MB/s|NF
+  network: ws
+  port: 443
+  server: 172.67.72.73
+  servername: vless.aihi.uk
+  tls: true
+  type: vless
+  uuid: 99ce9188-20c8-437c-b68d-0a6ed701c744
+  ws-opts:
+    headers:
+      Host: vless.aihi.uk
+    path: /?ed=2048
