@@ -426,19 +426,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: 云机录-🇺🇸US_12|3.4MB/s|0%|NF
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
-  tls: true
-  type: vless
-  uuid: a55538a5-2fd5-4e89-8c94-ef9b2da061ea
-  ws-opts:
-    headers:
-      Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
-    path: /vuut6bvfxroxjbja?ed=2560
-- cipher: none
   name: 12|KR_speednode_0018
   network: ws
   port: 50001
@@ -452,20 +439,6 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560fp=chrome
 - cipher: none
-  name: 云机录-🇰🇷KR_13|4.6MB/s
-  network: ws
-  port: 50000
-  server: 115.93.169.180
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- cipher: none
   name: 云机录-🇳🇱NL_3|4.9MB/s|8%|GPT⁺|NF
   network: ws
   port: 80
@@ -476,12 +449,6 @@ proxies:
     headers:
       Host: cxrolvpn.freev2-edb.workers.dev
     path: /BJMz0Rpb9gejBzKP?ed=2560
-- cipher: aes-256-cfb
-  name: VN_speednode_0033
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.250
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇷[By EbraSha] ss-TR 🔒
   password: tJlEWh2PzDMew8qo9YkPEA
