@@ -1,15 +1,15 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 20
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.64
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 47
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.168
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 20
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.64
   type: ss
 - cipher: aes-256-cfb
   name: 🇲🇩MD-185.153.197.5-0331
@@ -23,6 +23,13 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
+- cipher: none
+  name: BESTIIVPNBOT تست و خرید 💲
+  network: grpc
+  port: 8880
+  server: 45.140.167.172
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - cipher: aes-256-cfb
   name: 🇵🇹PT-185.231.233.112-0351
   password: f8f7aCzcPKbsF8p3
@@ -43,33 +50,7 @@ proxies:
       Host: vless3.datatestvless.click
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[openproxylist.com] ss-BR
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: none
-  name: Reality25 | @SpringHQ
-  network: grpc
-  port: 443
-  server: 65.109.220.108
-  type: vless
-  uuid: cb11729b-5e0f-4b2f-ab24-c46447d70ffd
-- cipher: none
-  name: BESTIIVPNBOT تست و خرید 💲
-  network: grpc
-  port: 8880
-  server: 45.140.167.172
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: chacha20-ietf-poly1305
   name: 🇧🇷[By EbraSha] ss-BR 🔒
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|c602|puddincat07@Telegram
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
@@ -81,3 +62,17 @@ proxies:
   server: 194.61.31.126
   type: vless
   uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: br|c602|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
