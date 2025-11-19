@@ -1,4 +1,16 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇲🇩MD-185.153.197.5-0331
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
+  password: yprgZbB7xDL4PSvE4wJU4m
+  port: 53672
+  server: 81.90.29.126
+  type: ss
 - cipher: none
   name: BESTIIVPNBOT تست و خرید 💲
   network: grpc
@@ -7,28 +19,22 @@ proxies:
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - cipher: chacha20-ietf-poly1305
-  name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
+  name: râ™¡ya
   password: yprgZbB7xDL4PSvE4wJU4m
   port: 53672
   server: 81.90.29.126
   type: ss
 - cipher: aes-256-cfb
-  name: 🇲🇩MD-185.153.197.5-0331
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[openproxylist.com] ss-BR
+  name: 🇧🇷[By EbraSha] ss-BR 🔒
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: râ™¡ya
-  password: yprgZbB7xDL4PSvE4wJU4m
-  port: 53672
-  server: 81.90.29.126
   type: ss
 - cipher: none
   name: azadiiivpn
@@ -37,20 +43,26 @@ proxies:
   server: 145.249.109.54
   type: vless
   uuid: 6f0d0074-c227-4370-84aa-4b198955398a
-- name: 香港3|@ripaojiedian
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+- cipher: chacha20-ietf-poly1305
+  name: br|c602|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
-  server: 58.152.110.206
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
+  server: 213.159.66.206
+  type: ss
 - cipher: none
   name: râ™¡ya
   network: tcp
-  port: 443
-  server: 217.12.40.91
+  port: 29453
+  server: 185.243.99.104
   type: vless
-  uuid: 74946f36-45d7-436c-b24e-ba5002cad041
+  uuid: a9457db5-e0b8-4a86-bb33-957c99b235c0
+- cipher: none
+  name: 🇨🇦[By EbraSha] vless-CA 🔒
+  network: tcp
+  port: 60552
+  server: 81.19.140.202
+  type: vless
+  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
@@ -66,3 +78,16 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: 云机录-🇩🇪DE_23|3.4MB/s|NF
+  network: ws
+  port: 443
+  server: 172.67.72.73
+  servername: vless.aihi.uk
+  tls: true
+  type: vless
+  uuid: 99ce9188-20c8-437c-b68d-0a6ed701c744
+  ws-opts:
+    headers:
+      Host: vless.aihi.uk
+    path: /?ed=2048
