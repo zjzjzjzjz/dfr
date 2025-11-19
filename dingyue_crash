@@ -1,5 +1,27 @@
 proxies:
 - cipher: none
+  name: BESTIIVPNBOT تست و خرید 💲
+  network: grpc
+  port: 8880
+  server: 45.140.167.172
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 3127
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 香港3|@ripaojiedian
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  port: 443
+  server: 58.152.110.206
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- cipher: none
   name: 'Channel : @SHOP_GAMING1011 🏴🏳'
   network: grpc
   port: 8880
@@ -13,24 +35,11 @@ proxies:
   server: 23.94.211.92
   type: vless
   uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- name: 🇺🇸[By EbraSha] trojan-US 🔒
-  network: ws
-  password: 3ea503c7-2e03-424a-812d-6f0d803e73dc
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
   port: 443
-  server: 138.124.15.75
-  sni: joss.gpj.web.id
+  server: 58.152.26.173
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/138.124.15.75=443
-- alterId: 64
-  cipher: auto
-  name: 云机录-🇺🇸US_33|4.2MB/s|0%|NF
-  network: tcp
-  port: 59299
-  server: 183.240.245.235
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
