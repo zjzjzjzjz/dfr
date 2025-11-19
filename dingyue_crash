@@ -6,6 +6,12 @@ proxies:
   server: 45.140.167.172
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- cipher: chacha20-ietf-poly1305
+  name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
+  password: yprgZbB7xDL4PSvE4wJU4m
+  port: 53672
+  server: 81.90.29.126
+  type: ss
 - cipher: aes-256-cfb
   name: 🇲🇩MD-185.153.197.5-0331
   password: f8f7aCzcPKbsF8p3
@@ -24,6 +30,13 @@ proxies:
   port: 53672
   server: 81.90.29.126
   type: ss
+- cipher: none
+  name: azadiiivpn
+  network: tcp
+  port: 10343
+  server: 145.249.109.54
+  type: vless
+  uuid: 6f0d0074-c227-4370-84aa-4b198955398a
 - name: 香港3|@ripaojiedian
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 443
@@ -32,18 +45,12 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: azadiiivpn
+  name: râ™¡ya
   network: tcp
-  port: 10343
-  server: 145.249.109.54
+  port: 443
+  server: 217.12.40.91
   type: vless
-  uuid: 6f0d0074-c227-4370-84aa-4b198955398a
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 16
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.219
-  type: ss
+  uuid: 74946f36-45d7-436c-b24e-ba5002cad041
 - cipher: none
   name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
   network: tcp
