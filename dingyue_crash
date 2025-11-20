@@ -17,24 +17,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/57.129.16.72=2053
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 20
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.64
-  type: ss
-- name: '@v2FreeHub 🇵🇹'
-  network: ws
-  password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
-  port: 81
-  server: 45.159.251.8
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
 - name: '@v2FreeHub 🇮🇱'
   network: ws
   password: 8f58ba37-a117-4ad3-9422-37b62e01d2e6
@@ -47,44 +29,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/77.91.74.6=443
-- name: '@v2FreeHub 🇵🇱'
-  network: ws
-  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
-  port: 8443
-  server: 217.30.10.31
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443
-- name: '@v2FreeHub 🇫🇷'
-  network: ws
-  password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
-  port: 443
-  server: 51.15.210.1
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: grpc
-  port: 8880
-  server: 45.12.133.212
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: none
-  name: 🇬🇧[By EbraSha] vless-GB 🔒
-  network: grpc
-  port: 8880
-  server: 45.140.167.173
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - name: '@v2FreeHub 🇨🇿'
   network: ws
   password: f583143c-2cbe-47f5-804d-27efa55442a1
@@ -97,6 +41,42 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/81.91.214.162=443
+- name: '@v2FreeHub 🇵🇱'
+  network: ws
+  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
+  port: 8443
+  server: 217.30.10.31
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443
+- name: '@v2FreeHub 🇵🇹'
+  network: ws
+  password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
+  port: 81
+  server: 45.159.251.8
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
+- name: '@v2FreeHub 🇫🇷'
+  network: ws
+  password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
+  port: 443
+  server: 51.15.210.1
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
 - name: '@v2FreeHub 🇳🇱'
   network: ws
   password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
@@ -109,6 +89,31 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇲🇩MD-185.153.197.5-0331
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南 - Hải Dương - FASTLY - 20
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.64
+  type: ss
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: grpc
+  port: 8880
+  server: 45.12.133.212
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - name: '@v2FreeHub 🇪🇪'
   network: ws
   password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
@@ -121,30 +126,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
-- cipher: aes-256-cfb
-  name: 🇲🇩MD-185.153.197.5-0331
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[openproxylist.com] ss-BR
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|c602|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
 - name: '@v2FreeHub 🇬🇧'
   network: ws
   password: 8b7d4642-dff2-4c16-81a4-88ca738d6718
@@ -157,6 +138,12 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/91.199.32.191=2053
+- cipher: chacha20-ietf-poly1305
+  name: br|c602|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
 - name: '@v2FreeHub 🇩🇰'
   network: ws
   password: eb7339c5-70e4-4c7b-b5ef-4128adc8136a
@@ -169,11 +156,11 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/38.180.72.162=2053
-- cipher: aes-256-cfb
-  name: 🇵🇹PT-185.231.233.112-0351
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷[openproxylist.com] ss-BR
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
   type: ss
 - name: 香港5|@ripaojiedian
   password: BxceQaOe
@@ -183,34 +170,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 云机录-🇺🇸US_32|2.3MB/s|50%|GPT⁺|NF
-  network: tcp
-  port: 25694
-  server: 23.94.211.92
-  type: vless
-  uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-- cipher: none
-  name: 🇨🇦[By EbraSha] vless-CA 🔒
-  network: tcp
-  port: 60552
-  server: 81.19.140.202
-  type: vless
-  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
-- cipher: none
-  name: 🇩🇪(@armanstore2)-کانفیگ نامحدود  29 هزار تومان
-  network: tcp
-  port: 53132
-  server: telegram-armanstore2.dynv6.net
-  type: vless
-  uuid: 6c446fb0-2fb3-4558-abcf-e497438ef091
-- cipher: none
-  name: 🇮🇳[By EbraSha] vless-IN 🔒
-  network: grpc
-  port: 443
-  server: 194.61.31.126
-  type: vless
-  uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
 - cipher: none
   name: 🇩🇪(@armanstore2)-کانفیگ نامحدود 29 هزار تومان
   network: ws
@@ -225,15 +184,23 @@ proxies:
       Host: telewebion.com
     path: /@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----
 - cipher: none
-  name: 云机录-🇩🇪DE_23|3.4MB/s|NF
-  network: ws
-  port: 443
-  server: 172.67.72.73
-  servername: vless.aihi.uk
-  tls: true
+  name: 🇩🇪(@armanstore2)-کانفیگ نامحدود  29 هزار تومان
+  network: tcp
+  port: 53132
+  server: telegram-armanstore2.dynv6.net
   type: vless
-  uuid: 99ce9188-20c8-437c-b68d-0a6ed701c744
-  ws-opts:
-    headers:
-      Host: vless.aihi.uk
-    path: /?ed=2048
+  uuid: 6c446fb0-2fb3-4558-abcf-e497438ef091
+- cipher: none
+  name: 🇨🇦[By EbraSha] vless-CA 🔒
+  network: tcp
+  port: 60552
+  server: 81.19.140.202
+  type: vless
+  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
+- cipher: none
+  name: 🇮🇳[By EbraSha] vless-IN 🔒
+  network: grpc
+  port: 443
+  server: 194.61.31.126
+  type: vless
+  uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
