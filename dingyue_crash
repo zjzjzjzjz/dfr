@@ -1,15 +1,15 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 云机录-🇻🇳VN_4|1.2MB/s|GPT⁺|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.16
-  type: ss
-- cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 20
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.64
+  type: ss
+- cipher: aes-256-cfb
+  name: 云机录-🇻🇳VN_4|1.2MB/s|GPT⁺|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.16
   type: ss
 - name: '@v2FreeHub 🇨🇿'
   network: ws
@@ -23,54 +23,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/81.91.214.162=443
-- name: '@v2FreeHub 🇵🇹'
-  network: ws
-  password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
-  port: 81
-  server: 45.159.251.8
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
-- name: '@v2FreeHub 🇵🇱'
-  network: ws
-  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
-  port: 8443
-  server: 217.30.10.31
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443
-- name: '@v2FreeHub 🇮🇱'
-  network: ws
-  password: 8f58ba37-a117-4ad3-9422-37b62e01d2e6
-  port: 443
-  server: 77.91.74.6
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/77.91.74.6=443
-- name: '@v2FreeHub 🇪🇪'
-  network: ws
-  password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
-  port: 443
-  server: 37.252.5.75
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
 - cipher: aes-256-cfb
   name: 越南 - Hải Dương - FASTLY - 47
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -89,6 +41,48 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- name: '@v2FreeHub 🇮🇱'
+  network: ws
+  password: 8f58ba37-a117-4ad3-9422-37b62e01d2e6
+  port: 443
+  server: 77.91.74.6
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/77.91.74.6=443
+- name: '@v2FreeHub 🇵🇱'
+  network: ws
+  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
+  port: 8443
+  server: 217.30.10.31
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443
+- name: '@v2FreeHub 🇵🇹'
+  network: ws
+  password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
+  port: 81
+  server: 45.159.251.8
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
 - name: '@v2FreeHub 🇩🇪'
   network: ws
   password: 38af00d3-7c80-49fe-b91a-34d0d8044ee2
@@ -101,14 +95,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/57.129.16.72=2053
-- name: 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.241
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: '@v2FreeHub 🇬🇧'
   network: ws
   password: 8b7d4642-dff2-4c16-81a4-88ca738d6718
@@ -121,13 +107,26 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/91.199.32.191=2053
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: grpc
-  port: 8880
-  server: 45.12.133.212
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.241
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: '@v2FreeHub 🇪🇪'
+  network: ws
+  password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
+  port: 443
+  server: 37.252.5.75
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
 - name: '@v2FreeHub 🇳🇱'
   network: ws
   password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
@@ -140,19 +139,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
-- cipher: none
-  name: 🇬🇧[By EbraSha] vless-GB 🔒
-  network: grpc
-  port: 8880
-  server: 45.140.167.173
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- cipher: chacha20-ietf-poly1305
-  name: br|c602|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
 - cipher: aes-256-cfb
   name: 🇲🇩MD-185.153.197.5-0331
   password: f8f7aCzcPKbsF8p3
@@ -165,26 +151,21 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
-- name: '@v2FreeHub 🇪🇸'
-  network: ws
-  password: 1e1a7efa-a4f1-4936-a470-a001e0c3c85b
-  port: 8443
-  server: 212.227.144.37
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/212.227.144.37=8443
 - cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[openproxylist.com] ss-BR
+  name: br|c602|puddincat07@Telegram
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
   type: ss
+- cipher: none
+  name: 🇫🇷[By EbraSha] vless-FR 🔒
+  network: grpc
+  port: 8880
+  server: 45.12.133.212
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[By EbraSha] ss-BR 🔒
+  name: 🇧🇷[openproxylist.com] ss-BR
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
@@ -201,6 +182,13 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/38.180.72.162=2053
+- cipher: none
+  name: 🇩🇪(@armanstore2)-کانفیگ نامحدود  29 هزار تومان
+  network: tcp
+  port: 53132
+  server: telegram-armanstore2.dynv6.net
+  type: vless
+  uuid: 6c446fb0-2fb3-4558-abcf-e497438ef091
 - cipher: aes-256-cfb
   name: 🇵🇹PT-185.231.233.112-0351
   password: f8f7aCzcPKbsF8p3
@@ -220,20 +208,6 @@ proxies:
     headers:
       Host: telewebion.com
     path: /@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----
-- cipher: none
-  name: 🇩🇪(@armanstore2)-کانفیگ نامحدود  29 هزار تومان
-  network: tcp
-  port: 53132
-  server: telegram-armanstore2.dynv6.net
-  type: vless
-  uuid: 6c446fb0-2fb3-4558-abcf-e497438ef091
-- name: 🇭🇰 香港3|@ripaojiedian
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 443
-  server: 58.152.18.124
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - cipher: none
   name: 云机录-🇩🇪DE_23|3.4MB/s|NF
   network: ws
