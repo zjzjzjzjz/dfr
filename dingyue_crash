@@ -5,36 +5,6 @@ proxies:
   port: 38388
   server: 103.186.155.64
   type: ss
-- name: '@v2FreeHub 🇪🇸'
-  network: ws
-  password: 1e1a7efa-a4f1-4936-a470-a001e0c3c85b
-  port: 8443
-  server: 212.227.144.37
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/212.227.144.37=8443
-- name: '@v2FreeHub 🇩🇪'
-  network: ws
-  password: 38af00d3-7c80-49fe-b91a-34d0d8044ee2
-  port: 2053
-  server: 57.129.16.72
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/57.129.16.72=2053
-- cipher: aes-256-cfb
-  name: 越南 - Hải Dương - FASTLY - 47
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.168
-  type: ss
 - name: '@v2FreeHub 🇵🇹'
   network: ws
   password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
@@ -47,30 +17,24 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
-- cipher: aes-256-cfb
-  name: 云机录-🇻🇳VN_4|1.2MB/s|GPT⁺|GM
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.16
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇵🇹PT-185.231.233.112-0351
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
-- name: '@v2FreeHub 🇮🇱'
+- name: '@v2FreeHub 🇪🇸'
   network: ws
-  password: 8f58ba37-a117-4ad3-9422-37b62e01d2e6
-  port: 443
-  server: 77.91.74.6
+  password: 1e1a7efa-a4f1-4936-a470-a001e0c3c85b
+  port: 8443
+  server: 212.227.144.37
   sni: joss.gpj1.web.id
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/77.91.74.6=443
+    path: /Free-VPN-CF-Geo-Project/212.227.144.37=8443
+- cipher: aes-256-cfb
+  name: 云机录-🇻🇳VN_4|1.2MB/s|GPT⁺|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.16
+  type: ss
 - name: '@v2FreeHub 🇬🇧'
   network: ws
   password: 8b7d4642-dff2-4c16-81a4-88ca738d6718
@@ -83,18 +47,18 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/91.199.32.191=2053
-- name: '@v2FreeHub 🇨🇿'
+- name: '@v2FreeHub 🇩🇪'
   network: ws
-  password: f583143c-2cbe-47f5-804d-27efa55442a1
-  port: 443
-  server: 81.91.214.162
+  password: 38af00d3-7c80-49fe-b91a-34d0d8044ee2
+  port: 2053
+  server: 57.129.16.72
   sni: joss.gpj1.web.id
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/81.91.214.162=443
+    path: /Free-VPN-CF-Geo-Project/57.129.16.72=2053
 - name: '@v2FreeHub 🇪🇪'
   network: ws
   password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
@@ -107,6 +71,48 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
+- cipher: aes-256-cfb
+  name: 🇲🇩MD-185.153.197.5-0331
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- name: '@v2FreeHub 🇵🇱'
+  network: ws
+  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
+  port: 8443
+  server: 217.30.10.31
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443
+- name: '@v2FreeHub 🇨🇿'
+  network: ws
+  password: f583143c-2cbe-47f5-804d-27efa55442a1
+  port: 443
+  server: 81.91.214.162
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/81.91.214.162=443
+- name: '@v2FreeHub 🇮🇱'
+  network: ws
+  password: 8f58ba37-a117-4ad3-9422-37b62e01d2e6
+  port: 443
+  server: 77.91.74.6
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/77.91.74.6=443
 - name: '@v2FreeHub 🇫🇷'
   network: ws
   password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
@@ -125,23 +131,11 @@ proxies:
   port: 443
   server: 213.159.66.206
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[openproxylist.com] ss-BR
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
 - cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  name: 🇵🇹PT-185.231.233.112-0351
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
+  server: 185.231.233.112
   type: ss
 - name: '@v2FreeHub 🇳🇱'
   network: ws
@@ -155,31 +149,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
-- cipher: aes-256-cfb
-  name: 🇲🇩MD-185.153.197.5-0331
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: none
-  name: râ™¡ya
-  network: tcp
-  port: 443
-  server: 151.236.93.102
-  type: vless
-  uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
-- name: '@v2FreeHub 🇵🇱'
-  network: ws
-  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
-  port: 8443
-  server: 217.30.10.31
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443
 - name: '@v2FreeHub 🇩🇰'
   network: ws
   password: eb7339c5-70e4-4c7b-b5ef-4128adc8136a
