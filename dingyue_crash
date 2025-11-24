@@ -83,6 +83,12 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[By EbraSha] ss-US 🔒
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
 - name: '@v2FreeHub 🇩🇰'
   network: ws
   password: eb7339c5-70e4-4c7b-b5ef-4128adc8136a
@@ -95,12 +101,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/38.180.72.162=2053
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[By EbraSha] ss-US 🔒
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
-  port: 443
-  server: 23.95.72.81
-  type: ss
 - cipher: none
   name: 'Channel : @SHOP_GAMING1011 🏴🏳`'
   network: grpc
