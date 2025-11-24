@@ -11,30 +11,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
-- name: '@v2FreeHub 🇧🇪'
-  network: ws
-  password: 0a477acf-1f95-47cb-b4a5-a627b4c57de3
-  port: 443
-  server: 34.22.190.30
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- name: '@v2FreeHub 🇧🇪'
-  network: ws
-  password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb
-  port: 443
-  server: 34.22.190.30
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
 - name: '@v2FreeHub 🇨🇭'
   network: ws
   password: 8d047125-8467-4724-bb62-ef64405dca78
@@ -53,6 +29,18 @@ proxies:
   port: 443
   server: 213.159.67.124
   type: ss
+- name: '@v2FreeHub 🇧🇪'
+  network: ws
+  password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb
+  port: 443
+  server: 34.22.190.30
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
 - cipher: chacha20-ietf-poly1305
   name: ğŸ‡³ğŸ‡± - NL - @freeOnlineVPN
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -132,6 +120,18 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
+- name: '@v2FreeHub 🇧🇪'
+  network: ws
+  password: 0a477acf-1f95-47cb-b4a5-a627b4c57de3
+  port: 443
+  server: 34.22.190.30
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
 - name: '@v2FreeHub 🇨🇦 153ms | trojan'
   network: ws
   password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6
