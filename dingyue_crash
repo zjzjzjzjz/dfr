@@ -83,6 +83,18 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
+- name: '@v2FreeHub 🇩🇰'
+  network: ws
+  password: eb7339c5-70e4-4c7b-b5ef-4128adc8136a
+  port: 2053
+  server: 38.180.72.162
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/38.180.72.162=2053
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸[By EbraSha] ss-US 🔒
   password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
@@ -128,18 +140,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
-- name: '@v2FreeHub 🇩🇰'
-  network: ws
-  password: eb7339c5-70e4-4c7b-b5ef-4128adc8136a
-  port: 2053
-  server: 38.180.72.162
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/38.180.72.162=2053
 - cipher: ''
   name: '%3E%3E%40DailyV2RY::US'
   password: ''
