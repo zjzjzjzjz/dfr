@@ -1,1 +1,103 @@
-proxies: []
+proxies:
+- name: '@v2FreeHub 🇪🇪'
+  network: ws
+  password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
+  port: 443
+  server: 37.252.5.75
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
+- name: '@v2FreeHub 🇫🇷'
+  network: ws
+  password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
+  port: 443
+  server: 51.15.210.1
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
+- name: '@v2FreeHub 🇩🇰'
+  network: ws
+  password: eb7339c5-70e4-4c7b-b5ef-4128adc8136a
+  port: 2053
+  server: 38.180.72.162
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/38.180.72.162=2053
+- name: '@v2FreeHub 🇬🇧'
+  network: ws
+  password: d69e725c-7c7e-4c75-9786-4859b4e0bbc6
+  port: 443
+  server: 109.169.76.23
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/109.169.76.23=443
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- name: '@v2FreeHub 🇳🇱'
+  network: ws
+  password: ee339912-0c35-4fac-8d85-180b65bcd49c
+  port: 443
+  server: 81.22.132.183
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/81.22.132.183=443
+- cipher: chacha20-ietf-poly1305
+  name: br|c602|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- name: '@v2FreeHub 🇨🇿'
+  network: ws
+  password: f583143c-2cbe-47f5-804d-27efa55442a1
+  port: 443
+  server: 81.91.214.162
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/81.91.214.162=443
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷[By EbraSha] ss-BR 🔒
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- name: '@v2FreeHub 🇳🇱'
+  network: ws
+  password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
+  port: 443
+  server: 138.124.30.8
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
