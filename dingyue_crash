@@ -29,6 +29,18 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
+- name: '@v2FreeHub 🇩🇰'
+  network: ws
+  password: eb7339c5-70e4-4c7b-b5ef-4128adc8136a
+  port: 2053
+  server: 38.180.72.162
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/38.180.72.162=2053
 - name: '@v2FreeHub 🇳🇱'
   network: ws
   password: ee339912-0c35-4fac-8d85-180b65bcd49c
@@ -89,18 +101,6 @@ proxies:
   port: 443
   server: 23.95.72.81
   type: ss
-- name: '@v2FreeHub 🇩🇰'
-  network: ws
-  password: eb7339c5-70e4-4c7b-b5ef-4128adc8136a
-  port: 2053
-  server: 38.180.72.162
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/38.180.72.162=2053
 - cipher: none
   name: 'Channel : @SHOP_GAMING1011 🏴🏳`'
   network: grpc
