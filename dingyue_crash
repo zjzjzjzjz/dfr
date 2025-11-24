@@ -11,11 +11,29 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[openproxylist.com] ss-BR
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+- name: '@v2FreeHub 🇧🇪'
+  network: ws
+  password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb
   port: 443
-  server: 213.159.66.206
+  server: 34.22.190.30
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
+- cipher: ''
+  name: '%3E%3E%40DailyV2RY::ES'
+  password: ''
+  port: 443
+  server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYmhxc1N0bkZRVDFjVFpZQ2RzbWt1Z0dVQzZHVDZycA%3D%3D@213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[By EbraSha] ss-US 🔒
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
   type: ss
 - name: '@v2FreeHub 🇪🇪'
   network: ws
@@ -29,36 +47,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
-- cipher: aes-256-cfb
-  name: 🇲🇩MD-185.153.197.5-0331
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- name: '@v2FreeHub 🇧🇪'
-  network: ws
-  password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb
-  port: 443
-  server: 34.22.190.30
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[By EbraSha] ss-US 🔒
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
 - name: '@v2FreeHub 🇨🇿'
   network: ws
   password: f583143c-2cbe-47f5-804d-27efa55442a1
@@ -72,10 +60,22 @@ proxies:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/81.91.214.162=443
 - cipher: ''
-  name: '%3E%3E%40DailyV2RY::ES'
+  name: '%3E%3E%40DailyV2RY::HR'
   password: ''
   port: 443
-  server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYmhxc1N0bkZRVDFjVFpZQ2RzbWt1Z0dVQzZHVDZycA%3D%3D@213.159.67.124
+  server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnWE9YazJGSndzejlQNm5YSUlDdUROT3FGOWdXWDFkbg%3D%3D@185.156.110.92
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷[openproxylist.com] ss-BR
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇧🇷[By EbraSha] ss-BR 🔒
@@ -83,41 +83,17 @@ proxies:
   port: 443
   server: 213.159.66.206
   type: ss
-- name: '@v2FreeHub 🇳🇱'
-  network: ws
-  password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
-  port: 443
-  server: 138.124.30.8
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
-- cipher: chacha20-ietf-poly1305
-  name: '%3E%3E%40oneclickvpnkeys::XX'
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: WiFi-@V2ray_Alpha--3
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
-  port: 443
-  server: 23.95.72.81
+- cipher: aes-256-cfb
+  name: 🇲🇩MD-185.153.197.5-0331
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: br|c602|puddincat07@Telegram
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
-  type: ss
-- cipher: ''
-  name: '%3E%3E%40DailyV2RY::HR'
-  password: ''
-  port: 443
-  server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnWE9YazJGSndzejlQNm5YSUlDdUROT3FGOWdXWDFkbg%3D%3D@185.156.110.92
   type: ss
 - name: '@v2FreeHub 🇩🇰'
   network: ws
@@ -131,31 +107,29 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/38.180.72.162=2053
-- cipher: ''
-  name: '%3E%3E%40DailyV2RY::XX'
-  password: ''
+- cipher: chacha20-ietf-poly1305
+  name: WiFi-@V2ray_Alpha--3
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
   port: 443
-  server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTE9ydkxXa0NCQkJ4THFTRWU5UzhsbkM1UExzTmZSaA%3D%3D@103.75.118.125
+  server: 23.95.72.81
   type: ss
-- name: 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.241
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸[By EbraSha] ss-US 🔒
   password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
   port: 443
   server: 23.95.72.81
   type: ss
-- cipher: aes-256-cfb
-  name: 🇵🇹PT-185.231.233.112-0351
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
+- cipher: chacha20-ietf-poly1305
+  name: '%3E%3E%40oneclickvpnkeys::XX'
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- cipher: ''
+  name: '%3E%3E%40DailyV2RY::XX'
+  password: ''
+  port: 443
+  server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTE9ydkxXa0NCQkJ4THFTRWU5UzhsbkM1UExzTmZSaA%3D%3D@103.75.118.125
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '@V2rayNG3'
@@ -169,9 +143,28 @@ proxies:
   port: 23344
   server: 103.219.103.217
   type: ss
+- name: '@v2FreeHub 🇳🇱'
+  network: ws
+  password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
+  port: 443
+  server: 138.124.30.8
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
 - cipher: aes-128-gcm
   name: 亚太地区 V2CROSS.COM
   password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
   port: 21712
   server: 103.219.103.217
   type: ss
+- cipher: none
+  name: 🇮🇳[By EbraSha] vless-IN 🔒
+  network: grpc
+  port: 443
+  server: 194.61.31.126
+  type: vless
+  uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
