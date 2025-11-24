@@ -162,6 +162,18 @@ proxies:
   port: 443
   server: 213.159.66.206
   type: ss
+- name: 未知51
+  network: ws
+  password: abb96ae5-8337-4719-b300-fc3b2efbd14d
+  port: 21575
+  server: 47.89.150.45
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/47.89.150.45=21575
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬[By EbraSha] ss-SG 🔒
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
@@ -307,18 +319,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/176.97.66.175=443
-- name: 未知51
-  network: ws
-  password: abb96ae5-8337-4719-b300-fc3b2efbd14d
-  port: 21575
-  server: 47.89.150.45
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/47.89.150.45=21575
 - name: '@V2rayNGVPN <= Ú©Ø§Ù†Ù�ÛŒÚ¯ Ø±Ø§ÛŒÚ¯Ø§Ù†'
   network: ws
   password: ec8ce181-e3bf-4cdd-99d6-65e786657146
