@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷[openproxylist.com] ss-BR
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
 - cipher: aes-256-cfb
   name: 🇳🇱NL-51.15.17.169-0239
   password: f8f7aCzcPKbsF8p3
@@ -6,28 +12,10 @@ proxies:
   server: 51.15.17.169
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇧🇷[openproxylist.com] ss-BR
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '%3E%3E%40oneclickvpnkeys::XX'
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: ''
-  name: '%3E%3E%40DailyV2RY::HR'
-  password: ''
-  port: 443
-  server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnWE9YazJGSndzejlQNm5YSUlDdUROT3FGOWdXWDFkbg%3D%3D@185.156.110.92
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇷HR-185.156.110.92-0377
-  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
-  port: 443
-  server: 185.156.110.92
+  name: '@Rayan_Config-82.38.31.190-@beepassvpn_bot'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.190
   type: ss
 - cipher: none
   name: '@V2rayNGVPN+<=+Ú©Ø§Ù†Ù�ÛŒÚ¯+Ø±Ø§ÛŒÚ¯Ø§Ù†'
@@ -36,11 +24,23 @@ proxies:
   server: 209.97.174.62
   type: vless
   uuid: 6fb221c1-118d-40f4-9ad0-3003ab057ac6
-- cipher: aes-128-gcm
-  name: CN_speednode_0006
-  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
-  port: 23344
-  server: 103.219.103.217
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇷HR-185.156.110.92-0377
+  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+  port: 443
+  server: 185.156.110.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇷[By EbraSha] ss-HR 🔒
+  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+  port: 443
+  server: 185.156.110.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: t.me/entryNET/config=1849617605331845
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
   type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
@@ -56,3 +56,22 @@ proxies:
   port: 443
   server: 23.95.72.81
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: WiFi-@V2ray_Alpha--3
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
+- cipher: none
+  name: '@Filter_breaker-5'
+  network: ws
+  port: 8443
+  server: zcreat.ethervpn.fun
+  servername: zcreat.ethervpn.fun
+  tls: true
+  type: vless
+  uuid: a47595a8-1add-401a-8189-e6799f8d8628
+  ws-opts:
+    headers:
+      Host: zcreat.ethervpn.fun
+    path: /websocketpl?ed=2047
