@@ -1,9 +1,59 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: '%3E%3E%40DailyV2RY::NL'
+  password: HWNsKy61qPyoDtrEYEtZuk
+  port: 6403
+  server: 5.129.214.186
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳 VN | 🔒 SS | @v2ray_free_conf [20]
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.144
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|d958|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|ae60|puddincat07@Telegram
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  port: 443
+  server: 167.150.100.115
+  type: ss
+- name: RU_speednode_0030
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: us|4f77|puddincat07@Telegram
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: br|c602|puddincat07@Telegram
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|9c9e|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: jp|379a|puddincat07@Telegram
+  password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh
+  port: 443
+  server: 103.75.118.125
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇧🇷[By EbraSha] ss-BR 🔒
@@ -11,6 +61,20 @@ proxies:
   port: 443
   server: 213.159.66.206
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: jp|379a|puddincat07@Telegram
+  password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh
+  port: 443
+  server: 103.75.118.125
+  type: ss
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.22
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: ''
   name: '%3E%3E%40DailyV2RY::HR'
   password: ''
@@ -23,11 +87,37 @@ proxies:
   port: 443
   server: 103.75.118.125
   type: ss
+- cipher: none
+  name: t.me/entryNET/config=1849701286070171
+  network: tcp
+  port: 443
+  server: 45.144.50.162
+  type: vless
+  uuid: 39198da5-1cd5-4d48-b70a-af5a454a22d2
 - cipher: chacha20-ietf-poly1305
   name: lt|4abc|puddincat07@Telegram
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 443
   server: 45.87.175.166
+  type: ss
+- cipher: none
+  name: Reality27 | @SpringHQ
+  network: grpc
+  port: 443
+  server: 91.107.179.149
+  type: vless
+  uuid: d655f9da-9868-443d-ae51-d222a84b1316
+- cipher: chacha20-ietf-poly1305
+  name: br|4628|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: hr|e650|puddincat07@Telegram
+  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+  port: 443
+  server: 185.156.110.92
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: t.me/entryNET/config=1849617605331845
@@ -93,12 +183,43 @@ proxies:
   port: 443
   server: 185.156.110.92
   type: ss
+- cipher: none
+  name: t.me/entryNET/config=1849741547091620
+  network: tcp
+  port: 443
+  server: us.node.vpnpplvpn.top
+  type: vless
+  uuid: 16c0d635-5084-49fa-950a-0d6fc81cfc71
+- cipher: none
+  name: 🇺🇸 @G0dv2ray
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  type: vless
+  uuid: 4b6accb6-db3d-48d6-a9e7-95611b928613
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
 - cipher: chacha20-ietf-poly1305
   name: WiFi-@V2ray_Alpha--3
   password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
   port: 443
   server: 23.95.72.81
   type: ss
+- cipher: none
+  name: 👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:66ms
+  network: ws
+  port: 443
+  server: axe.soyet2j.ir
+  servername: menu.gejeh683bm.ir
+  tls: true
+  type: vless
+  uuid: 2ded7c98-9fdd-4005-8366-5bf2d9c419bd
+  ws-opts:
+    headers:
+      Host: menu.gejeh683bm.ir
+    path: /77d76f3d-5da8-4198-b5d2-9634d3059ad0
 - cipher: none
   name: 🇸🇪•|•Sweden•|•@confegraigan
   network: tcp
