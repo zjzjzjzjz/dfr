@@ -1,17 +1,24 @@
 proxies:
+- name: RU_speednode_0031
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: us|7615|puddincat07@Telegram
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  port: 443
+  server: 167.150.100.115
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: es|8554|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|2b91|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- name: 🇭🇰 香港5|@ripaojiedian
+- name: 🇭🇰[By EbraSha] trojan-HK 🔒
   password: BxceQaOe
   port: 443
   server: 112.120.31.179
@@ -20,21 +27,29 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: hr|c5d7|puddincat07@Telegram
-  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+  name: es|6aa2|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
-  server: 185.156.110.92
+  server: 213.159.67.124
   type: ss
-- name: 🇭🇰 香港5|@stairnode
+- name: 🇷🇺[By EbraSha] trojan-RU 🔒
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
+- name: 🇭🇰[openproxylist.com] trojan-HK
   password: BxceQaOe
   port: 443
-  server: 112.120.31.179
+  server: 58.152.53.8
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: es|8554|puddincat07@Telegram
+  name: es|6aa2|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
@@ -46,12 +61,50 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: us|8fb1|puddincat07@Telegram
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+- name: 🇭🇰 香港5|@ripaojiedian
+  password: BxceQaOe
   port: 443
-  server: 23.95.72.81
-  type: ss
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
+  name: 🇫🇷[openproxylist.com] vless-FR
+  network: ws
+  port: 443
+  server: brenna.ns.cloudflare.com
+  servername: 638996620466180706.passat-amsih.info
+  tls: true
+  type: vless
+  uuid: 65a9530f-4a4e-4db1-9689-9213385e9dfb
+  ws-opts:
+    headers:
+      Host: 638996620466180706.passat-amsih.info
+    path: /dweubbws
+- name: 14|RU_speednode_0030
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
+- name: 香港3|@ripaojiedian
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 443
+  server: 58.152.110.120
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇷🇺[openproxylist.com] trojan-RU
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: us|692e|puddincat07@Telegram
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
@@ -73,7 +126,15 @@ proxies:
     headers:
       Host: foxlux.fovi.tk
     path: /eisasqa
-- name: 香港5|@ripaojiedian
+- name: 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港5|@stairnode
   password: BxceQaOe
   port: 443
   server: 112.120.31.179
@@ -82,16 +143,22 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: us|aa12|puddincat07@Telegram
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  name: hr|c5d7|puddincat07@Telegram
+  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
   port: 443
-  server: 167.150.100.115
+  server: 185.156.110.92
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|692e|puddincat07@Telegram
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  name: es|6aa2|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
-  server: 167.150.100.115
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|c4a2|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
   type: ss
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
@@ -112,33 +179,27 @@ proxies:
   port: 443
   server: 45.87.175.166
   type: ss
-- name: 香港4|@ripaojiedian
-  password: BxceQaOe
+- cipher: chacha20-ietf-poly1305
+  name: es|6aa2|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 香港3|@ripaojiedian
+  server: 213.159.67.124
+  type: ss
+- name: 🇭🇰 香港3|@ripaojiedian
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 443
   server: 58.152.110.120
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱[By EbraSha] ss-NL 🔒
-  password: 8HtC7rj6NfZncXYvAjDV5t
-  port: 7022
-  server: 213.176.16.77
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|97de|puddincat07@Telegram
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+- name: 香港5|@ripaojiedian
+  password: BxceQaOe
   port: 443
-  server: 23.95.72.81
-  type: ss
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
@@ -147,55 +208,25 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 🇭🇰 香港3|@ripaojiedian
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 443
-  server: 58.152.110.120
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: gb|63b1|puddincat07@Telegram
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  port: 443
-  server: 146.19.49.251
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|97de|puddincat07@Telegram
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
-  port: 443
-  server: 23.95.72.81
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|97de|puddincat07@Telegram
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
-  port: 443
-  server: 23.95.72.81
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|c1e6|puddincat07@Telegram
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 443
-  server: 45.87.175.166
-  type: ss
-- name: 🇭🇰 香港3|@stairnode
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 443
-  server: 58.152.110.120
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: gb|7cd1|puddincat07@Telegram
   password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
   port: 443
   server: 146.19.49.251
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[By EbraSha] ss-US 🔒
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+- name: 🇭🇰[openproxylist.com] trojan-HK
+  password: BxceQaOe
   port: 443
-  server: 23.95.72.81
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱[By EbraSha] ss-NL 🔒
+  password: 8HtC7rj6NfZncXYvAjDV5t
+  port: 7022
+  server: 213.176.16.77
   type: ss
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
@@ -214,6 +245,86 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: gb|7cd1|puddincat07@Telegram
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 _FR_法国
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|aa12|puddincat07@Telegram
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  port: 443
+  server: 167.150.100.115
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇷[openproxylist.com] ss-HR
+  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+  port: 443
+  server: 185.156.110.92
+  type: ss
+- name: 🇭🇰[By EbraSha] trojan-HK 🔒
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
+  name: 🇰🇿[By EbraSha] vless-KZ 🔒
+  network: tcp
+  port: 35728
+  server: 178.236.16.98
+  type: vless
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- cipher: chacha20-ietf-poly1305
+  name: us|97de|puddincat07@Telegram
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+  network: tcp
+  port: 30812
+  server: 144.48.180.187
+  type: vmess
+  udp: false
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: us|8fb1|puddincat07@Telegram
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
+- name: 🇭🇰 香港3|@stairnode
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 443
+  server: 58.152.110.120
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- cipher: none
+  name: 🇫🇮[By EbraSha] vless-FI 🔒
+  network: tcp
+  port: 443
+  server: 144.31.18.7
+  type: vless
+  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[By EbraSha] ss-US 🔒
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: us|112e|puddincat07@Telegram
   password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
@@ -228,22 +339,22 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: us|1f95|puddincat07@Telegram
+  name: us|112e|puddincat07@Telegram
   password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
   server: 23.95.75.146
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|1f95|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  name: 🇭🇷[By EbraSha] ss-HR 🔒
+  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
   port: 443
-  server: 23.95.75.146
+  server: 185.156.110.92
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|1f95|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  name: us|664c|puddincat07@Telegram
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
   port: 443
-  server: 23.95.75.146
+  server: 23.95.72.81
   type: ss
 - alterId: 0
   cipher: auto
@@ -254,9 +365,3 @@ proxies:
   type: vmess
   udp: false
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: lt|0f4b|puddincat07@Telegram
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 443
-  server: 45.87.175.166
-  type: ss
