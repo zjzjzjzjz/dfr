@@ -1,90 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: us|5a6d|puddincat07@Telegram
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
-  port: 443
-  server: 23.95.72.81
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|0873|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|0873|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|0873|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|5a6d|puddincat07@Telegram
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
-  port: 443
-  server: 23.95.72.81
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|5a6d|puddincat07@Telegram
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
-  port: 443
-  server: 23.95.72.81
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|0873|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|02bf|puddincat07@Telegram
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  port: 443
-  server: 167.150.100.115
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|fb73|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|fb73|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|7390|puddincat07@Telegram
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 443
-  server: 45.87.175.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|fb73|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|fb73|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|7390|puddincat07@Telegram
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 443
-  server: 45.87.175.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|fb73|puddincat07@Telegram
+  name: br|1e66|puddincat07@Telegram
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
@@ -95,101 +11,120 @@ proxies:
   port: 443
   server: 23.95.72.81
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|fb73|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|02bf|puddincat07@Telegram
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  port: 443
-  server: 167.150.100.115
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|5a6d|puddincat07@Telegram
-  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
-  port: 443
-  server: 23.95.72.81
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: hr|ce11|puddincat07@Telegram
-  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
-  port: 443
-  server: 185.156.110.92
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|02bf|puddincat07@Telegram
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  port: 443
-  server: 167.150.100.115
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: hr|ce11|puddincat07@Telegram
-  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
-  port: 443
-  server: 185.156.110.92
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: br|fb73|puddincat07@Telegram
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱[By EbraSha] ss-NL 🔒
-  password: 8HtC7rj6NfZncXYvAjDV5t
-  port: 7022
-  server: 213.176.16.77
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|0873|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: hr|ce11|puddincat07@Telegram
-  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
-  port: 443
-  server: 185.156.110.92
-  type: ss
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.179
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇷[By EbraSha] ss-TR 🔒
   password: depjSbjv2Uql6W4Vge7sDf
   port: 34085
   server: 185.39.204.189
   type: ss
-- name: 香港3|@ripaojiedian
-  password: 2cf6d686799e6fa95316394064f26c0a
+- cipher: chacha20-ietf-poly1305
+  name: us|02bf|puddincat07@Telegram
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   port: 443
-  server: 58.152.110.120
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
+  server: 167.150.100.115
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|5a6d|puddincat07@Telegram
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: hr|ce11|puddincat07@Telegram
   password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
   port: 443
   server: 185.156.110.92
   type: ss
-- name: 香港5|@ripaojiedian
-  password: BxceQaOe
+- cipher: chacha20-ietf-poly1305
+  name: us|5a6d|puddincat07@Telegram
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
   port: 443
-  server: 112.120.31.179
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  server: 23.95.72.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|51d1|puddincat07@Telegram
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 443
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: br|fb73|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|02bf|puddincat07@Telegram
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  port: 443
+  server: 167.150.100.115
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬[openproxylist.com] ss-SG
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  port: 443
+  server: 167.150.100.115
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|7390|puddincat07@Telegram
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 443
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: br|fb73|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|0873|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|7390|puddincat07@Telegram
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 443
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf
+  name: hk|cdf9|puddincat07@Telegram
+  password: asd123456
+  port: 8388
+  server: 103.149.182.38
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|5a6d|puddincat07@Telegram
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬[By EbraSha] ss-SG 🔒
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  port: 443
+  server: 167.150.100.115
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|0873|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|0873|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|0873|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: br|fb73|puddincat07@Telegram
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
@@ -202,14 +137,18 @@ proxies:
   port: 38388
   server: 103.186.154.144
   type: ss
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
+- cipher: chacha20-ietf-poly1305
+  name: es|055a|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
-  server: 112.120.31.179
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱[openproxylist.com] ss-NL
+  password: 8HtC7rj6NfZncXYvAjDV5t
+  port: 7022
+  server: 213.176.16.77
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: br|fb73|puddincat07@Telegram
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
@@ -217,25 +156,13 @@ proxies:
   server: 213.159.66.206
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|02bf|puddincat07@Telegram
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  port: 443
-  server: 167.150.100.115
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: hr|ce11|puddincat07@Telegram
-  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
-  port: 443
-  server: 185.156.110.92
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|02bf|puddincat07@Telegram
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  port: 443
-  server: 167.150.100.115
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: lt|7390|puddincat07@Telegram
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 443
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|51d1|puddincat07@Telegram
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 443
   server: 45.87.175.166
@@ -247,16 +174,40 @@ proxies:
   server: 23.95.72.81
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: br|fb73|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|5a6d|puddincat07@Telegram
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: hr|ce11|puddincat07@Telegram
+  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+  port: 443
+  server: 185.156.110.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|5a6d|puddincat07@Telegram
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: br|1e66|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: '%3E%3E%40DailyV2RY::NL'
   password: HWNsKy61qPyoDtrEYEtZuk
   port: 6403
   server: 5.129.214.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|7390|puddincat07@Telegram
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 443
-  server: 45.87.175.166
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇷[By EbraSha] ss-TR 🔒
@@ -271,22 +222,40 @@ proxies:
   server: 45.87.175.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: lt|a628|puddincat07@Telegram
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.193
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: hr|ce11|puddincat07@Telegram
   password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
   port: 443
   server: 185.156.110.92
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: br|fb73|puddincat07@Telegram
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|5a6d|puddincat07@Telegram
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|a628|puddincat07@Telegram
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.193
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 🇯🇵[By EbraSha] ss-JP 🔒
   password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh
   port: 443
   server: 103.75.118.125
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: hr|ce11|puddincat07@Telegram
+  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+  port: 443
+  server: 185.156.110.92
   type: ss
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
@@ -308,16 +277,16 @@ proxies:
   server: 213.176.16.77
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 🇳🇱[By EbraSha] ss-NL 🔒
+  password: 8HtC7rj6NfZncXYvAjDV5t
+  port: 7022
+  server: 213.176.16.77
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 🇪🇸[By EbraSha] ss-ES 🔒
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|7390|puddincat07@Telegram
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 443
-  server: 45.87.175.166
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: br|c602|puddincat07@Telegram
@@ -326,18 +295,17 @@ proxies:
   server: 213.159.66.206
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 🇭🇷[openproxylist.com] ss-HR
+  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+  port: 443
+  server: 185.156.110.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: lt|7390|puddincat07@Telegram
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 443
   server: 45.87.175.166
   type: ss
-- cipher: none
-  name: 🇮🇱[By EbraSha] vless-IL 🔒
-  network: tcp
-  port: 443
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  type: vless
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - cipher: chacha20-ietf-poly1305
   name: 🇭🇷HR-185.156.110.92-0377
   password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
@@ -390,3 +358,10 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: 🇩🇪[openproxylist.com] vless-DE
+  network: grpc
+  port: 8880
+  server: 91.107.139.110
+  type: vless
+  uuid: cfe554a3-4cd5-4fe1-9951-e6b65fc52a74
