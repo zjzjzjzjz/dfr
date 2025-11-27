@@ -1,5 +1,5 @@
 proxies:
-- name: RU TROJAN-60@free-nodes
+- name: 🇷🇺 俄罗斯 V2CROSS.COM
   password: Qzy7tgpRhu
   port: 443
   server: 37.18.14.33
@@ -8,11 +8,26 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: lt|621a|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
+  name: es|87ff|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
+- name: RU TROJAN-60@free-nodes
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
+- cipher: none
+  name: DE VLESS-115@free-nodes
+  network: tcp
+  port: 38395
+  server: de-2.shvurgceo.online
+  type: vless
+  uuid: 0f8e2cfc-fdf2-46c7-bfcd-ce8273d5ff13
 - name: '[OpenRay] 🇫🇷 FR-1969'
   network: ws
   password: 17178783-0dd7-4544-bf6b-e0694a1e3da7
@@ -25,12 +40,6 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
-- cipher: chacha20-ietf-poly1305
-  name: lt|4f85|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
-  type: ss
 - cipher: aes-256-cfb
   name: de|5835|puddincat07@Telegram
   password: amazonskr05
@@ -38,13 +47,7 @@ proxies:
   server: 3.65.219.59
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: es|6114|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|26a9|puddincat07@Telegram
+  name: es|5d69|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
@@ -56,13 +59,6 @@ proxies:
   server: mos-drywall.shop
   type: vless
   uuid: 1066d126-3412-4dfd-ab5d-42cfb26572f6
-- cipher: none
-  name: 未知 VLESS-36@free-nodes
-  network: tcp
-  port: 443
-  server: 144.31.18.7
-  type: vless
-  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
 - name: '[OpenRay] 🇺🇸 US-8580'
   network: ws
   password: bb824a22-b7ce-427b-9ed6-1adf0751da02
