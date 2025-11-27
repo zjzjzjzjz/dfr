@@ -1,27 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: es|f300|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|dfe8|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: lt|401a|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 45.87.175.155
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: gb|5627|puddincat07@Telegram
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  port: 443
-  server: 146.19.49.251
   type: ss
 - cipher: aes-256-cfb
   name: 🇻🇳 VN | 🔒 SS | @v2ray_free_conf [20]
@@ -30,13 +12,7 @@ proxies:
   server: 103.186.154.144
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: lt|401a|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|61c4|puddincat07@Telegram
+  name: es|f300|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
@@ -53,34 +29,14 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
-- name: hk|5bf4|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.179
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: lt|6d79|puddincat07@Telegram
+  name: lt|401a|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 45.87.175.155
   type: ss
 - cipher: aes-256-cfb
   name: de|5835|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 3.65.219.59
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|098d|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: aes-256-cfb
-  name: de|2c2c|puddincat07@Telegram
   password: amazonskr05
   port: 443
   server: 3.65.219.59
@@ -93,39 +49,7 @@ proxies:
   type: vless
   uuid: c9798bcb-59ca-4d2a-b858-d577405cdb8b
 - cipher: chacha20-ietf-poly1305
-  name: lt|6d79|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: gb|5627|puddincat07@Telegram
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  port: 443
-  server: 146.19.49.251
-  type: ss
-- cipher: none
-  name: '[OpenRay] 🇩🇪 DE-2101'
-  network: tcp
-  port: 21423
-  server: 95.179.253.176
-  type: vless
-  uuid: 55b7d103-5d93-4835-80d8-3074774d574e
-- cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: ws
-  port: 443
-  server: brenna.ns.cloudflare.com
-  servername: 638996620466180706.passat-amsih.info
-  tls: true
-  type: vless
-  uuid: 65a9530f-4a4e-4db1-9689-9213385e9dfb
-  ws-opts:
-    headers:
-      Host: 638996620466180706.passat-amsih.info
-    path: /dweubbws
-- cipher: chacha20-ietf-poly1305
-  name: lt|8359|puddincat07@Telegram
+  name: lt|dfe8|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 45.87.175.174
@@ -136,18 +60,6 @@ proxies:
   port: 443
   server: 213.159.67.124
   type: ss
-- cipher: aes-256-cfb
-  name: de|2c2c|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 3.65.219.59
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|8359|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
-  type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-8671'
   network: tcp
@@ -155,12 +67,6 @@ proxies:
   server: mos-drywall.shop
   type: vless
   uuid: 1066d126-3412-4dfd-ab5d-42cfb26572f6
-- cipher: chacha20-ietf-poly1305
-  name: lt|8359|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱[By EbraSha] ss-NL 🔒
   password: 8HtC7rj6NfZncXYvAjDV5t
@@ -174,12 +80,6 @@ proxies:
   server: 62.113.42.65
   type: vless
   uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
-- cipher: chacha20-ietf-poly1305
-  name: lt|8359|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
-  type: ss
 - name: '[OpenRay] 🇺🇸 US-8580'
   network: ws
   password: bb824a22-b7ce-427b-9ed6-1adf0751da02
