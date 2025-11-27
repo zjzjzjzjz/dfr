@@ -25,28 +25,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: lt|d0fc|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
-- name: 未知 TROJAN-186@free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+- cipher: none
+  name: DE VLESS-115@free-nodes
+  network: tcp
+  port: 38395
+  server: de-2.shvurgceo.online
+  type: vless
+  uuid: 0f8e2cfc-fdf2-46c7-bfcd-ce8273d5ff13
 - cipher: aes-256-cfb
   name: de|5835|puddincat07@Telegram
   password: amazonskr05
@@ -54,7 +39,48 @@ proxies:
   server: 3.65.219.59
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: lt|936f|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: lt|1f90|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
+  type: ss
+- cipher: none
+  name: ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn کانال تلگرام🇱🇻`
+  network: tcp
+  port: 443
+  server: sligvpn.isgood.host
+  type: vless
+  uuid: c9798bcb-59ca-4d2a-b858-d577405cdb8b
+- name: 🇭🇰 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: es|7e20|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|936f|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 45.87.175.174
@@ -65,21 +91,6 @@ proxies:
   port: 8080
   server: 45.87.175.155
   type: ss
-- cipher: none
-  name: ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn کانال تلگرام🇱🇻`
-  network: tcp
-  port: 443
-  server: sligvpn.isgood.host
-  type: vless
-  uuid: c9798bcb-59ca-4d2a-b858-d577405cdb8b
-- name: 🇭🇰 香港 电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: lt|1f90|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -93,10 +104,16 @@ proxies:
   server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: lt|1f90|puddincat07@Telegram
+  name: lt|936f|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 45.87.175.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|dc1f|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-8671'
@@ -110,12 +127,6 @@ proxies:
   password: 8HtC7rj6NfZncXYvAjDV5t
   port: 7022
   server: 213.176.16.77
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|dc1f|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
   type: ss
 - cipher: none
   name: t.me/entryNET/config=1849725828639752
@@ -137,10 +148,10 @@ proxies:
   server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: lt|1f98|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
+  name: es|7e20|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: lt|d0fc|puddincat07@Telegram
@@ -160,6 +171,12 @@ proxies:
     headers:
       Host: 107.174.82.102.sslip.io
     path: /gXKGj8a1tp1nNbZEcRugowKV
+- cipher: chacha20-ietf-poly1305
+  name: lt|936f|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
+  type: ss
 - cipher: none
   name: '[OpenRay] 🇬🇧 GB-966'
   network: ws
