@@ -5,6 +5,20 @@ proxies:
   port: 8080
   server: 45.87.175.174
   type: ss
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: es|6114|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
 - name: '[OpenRay] 🇫🇷 FR-1969'
   network: ws
   password: 17178783-0dd7-4544-bf6b-e0694a1e3da7
@@ -17,19 +31,62 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
+- cipher: chacha20-ietf-poly1305
+  name: es|6114|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: gb|67a6|puddincat07@Telegram
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
 - cipher: aes-256-cfb
   name: de|5835|puddincat07@Telegram
   password: amazonskr05
   port: 443
   server: 3.65.219.59
   type: ss
-- cipher: none
-  name: ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn کانال تلگرام🇱🇻`
-  network: tcp
+- cipher: chacha20-ietf-poly1305
+  name: lt|4f85|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
+  type: ss
+- name: 🇭🇰 香港 电讯盈科有限公司
+  password: BxceQaOe
   port: 443
-  server: sligvpn.isgood.host
-  type: vless
-  uuid: c9798bcb-59ca-4d2a-b858-d577405cdb8b
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: HK TROJAN-21@free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: '[OpenRay] Dynamic-8671'
   network: tcp
@@ -38,10 +95,30 @@ proxies:
   type: vless
   uuid: 1066d126-3412-4dfd-ab5d-42cfb26572f6
 - cipher: chacha20-ietf-poly1305
-  name: gb|f0ca|puddincat07@Telegram
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  name: es|6114|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
-  server: 146.19.49.251
+  server: 213.159.67.124
+  type: ss
+- name: HK TROJAN-20@free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: es|6114|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|6114|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: es|6114|puddincat07@Telegram
