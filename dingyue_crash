@@ -5,18 +5,6 @@ proxies:
   port: 443
   server: 213.159.67.124
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: gb|aa1c|puddincat07@Telegram
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  port: 443
-  server: 146.19.49.251
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|5085|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
 - cipher: aes-256-cfb
   name: 🇻🇳 VN | 🔒 SS | @v2ray_free_conf [20]
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -24,7 +12,7 @@ proxies:
   server: 103.186.154.144
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: es|5085|puddincat07@Telegram
+  name: es|d1c5|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
@@ -42,6 +30,12 @@ proxies:
   server: sligvpn.isgood.host
   type: vless
   uuid: c9798bcb-59ca-4d2a-b858-d577405cdb8b
+- cipher: chacha20-ietf-poly1305
+  name: lt|7e4d|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.155
+  type: ss
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
   network: ws
@@ -55,12 +49,12 @@ proxies:
     headers:
       Host: 638996620466180706.passat-amsih.info
     path: /dweubbws
-- name: RU TROJAN-60@free-nodes
-  password: Qzy7tgpRhu
+- name: 🇭🇰 香港 电讯盈科有限公司
+  password: BxceQaOe
   port: 443
-  server: 37.18.14.33
+  server: 112.120.31.179
   skip-cert-verify: true
-  sni: m.vk.com
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -82,18 +76,6 @@ proxies:
   server: mos-drywall.shop
   type: vless
   uuid: 1066d126-3412-4dfd-ab5d-42cfb26572f6
-- cipher: chacha20-ietf-poly1305
-  name: lt|3af9|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
-- cipher: aes-256-cfb
-  name: de|6283|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 3.65.219.59
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱[By EbraSha] ss-NL 🔒
   password: 8HtC7rj6NfZncXYvAjDV5t
