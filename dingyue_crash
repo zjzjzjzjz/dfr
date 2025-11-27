@@ -1,10 +1,10 @@
 proxies:
-- name: RU TROJAN-60@free-nodes
-  password: Qzy7tgpRhu
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
   port: 443
-  server: 37.18.14.33
+  server: 112.120.31.179
   skip-cert-verify: true
-  sni: m.vk.com
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -13,11 +13,53 @@ proxies:
   port: 38388
   server: 103.186.154.144
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|afe8|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+- name: HK TROJAN-20@free-nodes
+  password: BxceQaOe
   port: 443
-  server: 213.159.67.124
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: lt|ea3b|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.155
+  type: ss
+- cipher: aes-256-cfb
+  name: de|6e8d|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 3.65.219.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|ea3b|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.155
+  type: ss
+- name: RU TROJAN-60@free-nodes
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: de|5835|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 3.65.219.59
   type: ss
 - alterId: 0
   cipher: auto
@@ -29,42 +71,11 @@ proxies:
   udp: false
   uuid: 90afa47d-341a-497d-ae25-1d81258804d5
 - cipher: chacha20-ietf-poly1305
-  name: es|afe8|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  name: us|b047|puddincat07@Telegram
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   port: 443
-  server: 213.159.67.124
+  server: 167.150.100.115
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[OpenRay] 🇺🇸 US-8947'
-  network: tcp
-  port: 59807
-  server: 38.14.99.179
-  type: vmess
-  udp: false
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: de|5835|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 3.65.219.59
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[OpenRay] 🇷🇺 RU-104'
-  network: tcp
-  port: 49934
-  server: 45.136.244.201
-  type: vmess
-  udp: false
-  uuid: 90afa47d-341a-497d-ae25-1d81258804d5
-- cipher: none
-  name: '[OpenRay] 🇹🇷 TR-38'
-  network: grpc
-  port: 2080
-  server: 198.105.123.182
-  type: vless
-  uuid: 684ead3d-43b1-4707-904a-24e3e9e91fb1
 - cipher: none
   name: ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn کانال تلگرام🇱🇻`
   network: tcp
@@ -72,23 +83,35 @@ proxies:
   server: sligvpn.isgood.host
   type: vless
   uuid: c9798bcb-59ca-4d2a-b858-d577405cdb8b
-- cipher: chacha20-ietf-poly1305
-  name: us|f3b1|puddincat07@Telegram
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+- alterId: 0
+  cipher: auto
+  name: '[OpenRay] 🇷🇺 RU-113'
+  network: tcp
+  port: 49934
+  server: 45.136.244.201
+  type: vmess
+  udp: false
+  uuid: 90afa47d-341a-497d-ae25-1d81258804d5
+- name: 未知 TROJAN-138@free-nodes
+  password: 2cf6d686799e6fa95316394064f26c0a
   port: 443
-  server: 167.150.100.115
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|5d02|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  server: 58.152.110.120
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港4|@ripaojiedian
+  password: BxceQaOe
   port: 443
-  server: 23.95.75.146
-  type: ss
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: gb|af64|puddincat07@Telegram
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  name: es|b942|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
-  server: 146.19.49.251
+  server: 213.159.67.124
   type: ss
 - cipher: none
   name: 🇫🇷[By EbraSha] vless-FR 🔒
@@ -103,38 +126,11 @@ proxies:
     headers:
       Host: 638996620466180706.passat-amsih.info
     path: /dweubbws
-- alterId: 0
-  cipher: auto
-  name: '[OpenRay] 🇷🇺 RU-110'
-  network: tcp
-  port: 49934
-  server: 45.136.244.201
-  type: vmess
-  udp: false
-  uuid: 90afa47d-341a-497d-ae25-1d81258804d5
 - cipher: chacha20-ietf-poly1305
-  name: us|5d02|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  name: gb|da64|puddincat07@Telegram
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
   port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|9665|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|5d02|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|f3b1|puddincat07@Telegram
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  port: 443
-  server: 167.150.100.115
+  server: 146.19.49.251
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: lt|4abc|puddincat07@Telegram
@@ -148,28 +144,28 @@ proxies:
   port: 443
   server: 213.159.67.124
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|afe8|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+- name: 未知 TROJAN-217@free-nodes
+  password: 2cf6d686799e6fa95316394064f26c0a
   port: 443
-  server: 213.159.67.124
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[OpenRay] 🇷🇺 RU-113'
-  network: tcp
-  port: 49934
-  server: 45.136.244.201
-  type: vmess
-  udp: false
-  uuid: 90afa47d-341a-497d-ae25-1d81258804d5
+  server: 58.152.110.120
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: RU TROJAN-53@日日分享
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: us|f3b1|puddincat07@Telegram
+  name: SG SS-125@free-nodes
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   port: 443
   server: 167.150.100.115
   type: ss
-- name: 🇭🇰 香港3|@stairnode
+- name: 🇭🇰 香港3|@ripaojiedian
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 443
   server: 58.152.110.120
@@ -189,24 +185,17 @@ proxies:
   server: 62.113.42.65
   type: vless
   uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
-- cipher: chacha20-ietf-poly1305
-  name: gb|af64|puddincat07@Telegram
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+- name: 未知 TROJAN-186@free-nodes
+  password: BxceQaOe
   port: 443
-  server: 146.19.49.251
-  type: ss
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '[OpenRay] 🇷🇺 RU-109'
-  network: tcp
-  port: 49934
-  server: 45.136.244.201
-  type: vmess
-  udp: false
-  uuid: 90afa47d-341a-497d-ae25-1d81258804d5
-- alterId: 0
-  cipher: auto
-  name: '[OpenRay] 🇷🇺 RU-99'
+  name: '[OpenRay] 🇷🇺 RU-101'
   network: tcp
   port: 49934
   server: 45.136.244.201
@@ -219,15 +208,13 @@ proxies:
   port: 443
   server: 23.95.72.81
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[OpenRay] 🇷🇺 RU-101'
-  network: tcp
-  port: 49934
-  server: 45.136.244.201
-  type: vmess
-  udp: false
-  uuid: 90afa47d-341a-497d-ae25-1d81258804d5
+- name: 🇭🇰 香港3|@stairnode
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 443
+  server: 58.152.110.120
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - name: 12,13|香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -236,18 +223,17 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 CloudFlare节点
-  network: ws
+- name: 未知 TROJAN-173@free-nodes
+  password: 2cf6d686799e6fa95316394064f26c0a
   port: 443
-  server: cf.fovi.tk
-  servername: foxlux.fovi.tk
-  tls: true
-  type: vmess
-  udp: false
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    headers:
-      Host: foxlux.fovi.tk
-    path: /eisasqa
+  server: 58.152.110.120
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇭🇰HK香港2 1.1MB/s
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 443
+  server: 58.152.110.120
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
