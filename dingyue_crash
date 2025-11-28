@@ -24,16 +24,16 @@ proxies:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
 - cipher: chacha20-ietf-poly1305
-  name: lt|24ae|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
+  name: us|0bba|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: lt|24ae|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
+  name: us|0bba|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
   type: ss
 - name: RU TROJAN-60@free-nodes
   password: Qzy7tgpRhu
@@ -43,6 +43,36 @@ proxies:
   sni: m.vk.com
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: lt|24ae|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|0bba|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|afbc|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|0bba|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|5eaa|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-8671'
   network: tcp
@@ -50,6 +80,18 @@ proxies:
   server: mos-drywall.shop
   type: vless
   uuid: 1066d126-3412-4dfd-ab5d-42cfb26572f6
+- cipher: chacha20-ietf-poly1305
+  name: es|5eaa|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|dd80|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
 - name: '[OpenRay] 🇺🇸 US-8580'
   network: ws
   password: bb824a22-b7ce-427b-9ed6-1adf0751da02
@@ -62,11 +104,30 @@ proxies:
     headers:
       Host: 107.174.82.102.sslip.io
     path: /gXKGj8a1tp1nNbZEcRugowKV
+- cipher: chacha20-ietf-poly1305
+  name: es|5eaa|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
 - cipher: none
   name: '[OpenRay] 🇬🇧 GB-966'
   network: ws
   port: 2053
   server: 5.144.182.158
+  servername: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- cipher: none
+  name: '[OpenRay] Dynamic-1947'
+  network: ws
+  port: 2096
+  server: freeyx.cloudflare88.eu.org
   servername: kuangbao.xiejiang.dpdns.org
   tls: true
   type: vless
