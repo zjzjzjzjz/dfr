@@ -1,5 +1,5 @@
 proxies:
-- name: 🇭🇰 香港 电讯盈科有限公司
+- name: HK TROJAN-20@free-nodes
   password: BxceQaOe
   port: 443
   server: 112.120.31.179
@@ -8,24 +8,17 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: lt|9b44|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
+  name: us|7518|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: lt|9b44|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
+  name: es|ad1c|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
-- cipher: none
-  name: 未知 VLESS-91@free-nodes
-  network: tcp
-  port: 35728
-  server: 178.236.16.98
-  type: vless
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
 - name: '[OpenRay] 🇫🇷 FR-1969'
   network: ws
   password: 17178783-0dd7-4544-bf6b-e0694a1e3da7
@@ -39,10 +32,10 @@ proxies:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
 - cipher: chacha20-ietf-poly1305
-  name: es|5eaa|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
+  name: lt|9b44|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: es|ad1c|puddincat07@Telegram
@@ -50,15 +43,13 @@ proxies:
   port: 443
   server: 213.159.67.124
   type: ss
-- name: RU TROJAN-60@free-nodes
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: m.vk.com
-  type: trojan
-  udp: true
-- name: HK TROJAN-20@free-nodes
+- cipher: chacha20-ietf-poly1305
+  name: lt|9b44|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
+  type: ss
+- name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 112.120.31.179
@@ -66,21 +57,14 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 🇭🇰 香港4|@stairnode
+- name: 🇭🇰 香港 电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 58.152.53.8
+  server: 112.120.31.179
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: '[OpenRay] Dynamic-8671'
-  network: tcp
-  port: 443
-  server: mos-drywall.shop
-  type: vless
-  uuid: 1066d126-3412-4dfd-ab5d-42cfb26572f6
 - name: HK TROJAN-21@free-nodes
   password: BxceQaOe
   port: 443
@@ -89,7 +73,21 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: hk|6e66|puddincat07@Telegram
+- cipher: none
+  name: 🚴‍♂🚴3
+  network: xhttp
+  port: 80
+  server: sdct.sernett.ir
+  type: vless
+  uuid: SERVERNETT-SERVERNETT1
+- cipher: none
+  name: 未知 VLESS-91@free-nodes
+  network: tcp
+  port: 35728
+  server: 178.236.16.98
+  type: vless
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- name: hk|ee96|puddincat07@Telegram
   password: BxceQaOe
   port: 443
   server: 112.120.31.179
@@ -97,6 +95,28 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- name: RU TROJAN-60@free-nodes
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
+- cipher: none
+  name: '[OpenRay] 🇫🇷 FR-1951'
+  network: grpc
+  port: 8880
+  server: 45.77.61.28
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- cipher: none
+  name: '[OpenRay] Dynamic-8671'
+  network: tcp
+  port: 443
+  server: mos-drywall.shop
+  type: vless
+  uuid: 1066d126-3412-4dfd-ab5d-42cfb26572f6
 - name: '[OpenRay] 🇺🇸 US-8580'
   network: ws
   password: bb824a22-b7ce-427b-9ed6-1adf0751da02
