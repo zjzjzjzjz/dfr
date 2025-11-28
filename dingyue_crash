@@ -11,12 +11,6 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
-- cipher: chacha20-ietf-poly1305
-  name: us|8d51|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
 - name: RU TROJAN-60@free-nodes
   password: Qzy7tgpRhu
   port: 443
