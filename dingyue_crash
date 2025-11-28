@@ -1,83 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: es|0d9e|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|9ae2|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|379c|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|ddc0|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|0d9e|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: us|9eea|puddincat07@Telegram
   password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
   server: 23.95.75.146
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: es|9ae2|puddincat07@Telegram
+  name: us|89e3|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|27a0|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: es|379c|puddincat07@Telegram
+  name: es|0d9e|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|9487|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  name: es|0d9e|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
-  server: 23.95.75.146
-  type: ss
-- name: 🇭🇰 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: us|9487|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
+  server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|9487|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  name: es|0d9e|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
-  server: 23.95.75.146
+  server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|9487|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  name: es|0d9e|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
-  server: 23.95.75.146
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|0d9e|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: es|379c|puddincat07@Telegram
@@ -105,10 +73,10 @@ proxies:
   server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: gb|830f|puddincat07@Telegram
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  name: us|9eea|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
-  server: 146.19.49.251
+  server: 23.95.75.146
   type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
@@ -118,6 +86,12 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: us|9487|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
 - name: RU TROJAN-60@free-nodes
   password: Qzy7tgpRhu
   port: 443
@@ -144,13 +118,6 @@ proxies:
     headers:
       Host: www.speedtest.net.b.1.speedtest2029.com.v2logy.ir
     path: /ali
-- cipher: none
-  name: '[OpenRay] Dynamic-114'
-  network: tcp
-  port: 22231
-  server: ru4.ultima.foundation
-  type: vless
-  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
 - name: 🇭🇰 香港3|@ripaojiedian
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 443
@@ -158,6 +125,13 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- cipher: none
+  name: '[OpenRay] Dynamic-114'
+  network: tcp
+  port: 22231
+  server: ru4.ultima.foundation
+  type: vless
+  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
 - cipher: none
   name: '[OpenRay] Dynamic-558'
   network: tcp
