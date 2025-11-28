@@ -26,18 +26,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: '[OpenRay] 🇺🇸 US-8580'
-  network: ws
-  password: bb824a22-b7ce-427b-9ed6-1adf0751da02
-  port: 443
-  server: 107.174.82.102
-  sni: 107.174.82.102.sslip.io
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 107.174.82.102.sslip.io
-    path: /gXKGj8a1tp1nNbZEcRugowKV
 - cipher: none
   name: '[OpenRay] Dynamic-1947'
   network: ws
