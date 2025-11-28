@@ -1,5 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: es|1803|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|c697|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|c697|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: es|c697|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
@@ -18,24 +36,6 @@ proxies:
   server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|e7be|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|c697|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|d3b3|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: es|c697|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
@@ -48,37 +48,7 @@ proxies:
   server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|e7be|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: es|c697|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|e7be|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|c697|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|e7be|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|d3b3|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
@@ -96,6 +66,42 @@ proxies:
     headers:
       Host: darknet-free.alexid.org
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: us|e7be|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|e7be|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|c697|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|e7be|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|e7be|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|e7be|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
 - cipher: none
   name: '[OpenRay] 🇩🇪 DE-2131'
   network: tcp
@@ -103,24 +109,14 @@ proxies:
   server: che.aliusvpn.ru
   type: vless
   uuid: cc911fb3-c8b5-4cad-8bfe-d2fb240a788f
-- cipher: chacha20-ietf-poly1305
-  name: us|e7be|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+- name: 🇭🇰 香港4|@ripaojiedian
+  password: BxceQaOe
   port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|e7be|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|e7be|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: '[OpenRay] 🇫🇷 FR-1969'
   network: ws
   password: 17178783-0dd7-4544-bf6b-e0694a1e3da7
@@ -133,17 +129,6 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
-- cipher: none
-  name: '[OpenRay] Dynamic-6861'
-  network: ws
-  port: 2052
-  server: www.visa.com.sg
-  type: vless
-  uuid: 363a6072-05d7-48d5-8f19-312b05fdd9cd
-  ws-opts:
-    headers:
-      Host: chosenflyesqt-q3y28ipf-v3.chosen-fly-esqt.workers.dev
-    path: /?ed=2560
 - name: RU TROJAN-60@free-nodes
   password: Qzy7tgpRhu
   port: 443
@@ -170,20 +155,6 @@ proxies:
       Host: www.speedtest.net.b.1.speedtest2029.com.v2logy.ir
     path: /ali
 - cipher: none
-  name: '[OpenRay] 🇬🇧 GB-977'
-  network: tcp
-  port: 8443
-  server: lb9.aliusvpn.ru
-  type: vless
-  uuid: cc911fb3-c8b5-4cad-8bfe-d2fb240a788f
-- cipher: none
-  name: '[OpenRay] 🇸🇬 SG-20'
-  network: tcp
-  port: 54441
-  server: 64.120.94.37
-  type: vless
-  uuid: 142898fa-2e41-4651-88e0-cec9e88721bf
-- cipher: none
   name: '[OpenRay] Dynamic-114'
   network: tcp
   port: 22231
@@ -198,13 +169,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: '[OpenRay] Dynamic-558'
-  network: tcp
-  port: 22230
-  server: nl.ultima.foundation
-  type: vless
-  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-- cipher: none
   name: '[OpenRay] Dynamic-4'
   network: tcp
   port: 22231
@@ -212,10 +176,10 @@ proxies:
   type: vless
   uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
 - cipher: none
-  name: '[OpenRay] Dynamic-5'
+  name: '[OpenRay] Dynamic-558'
   network: tcp
-  port: 22231
-  server: lv2.ultima.foundation
+  port: 22230
+  server: nl.ultima.foundation
   type: vless
   uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
 - cipher: none
@@ -232,9 +196,9 @@ proxies:
       Host: kuangbao.xiejiang.dpdns.org
     path: /?ed=2560
 - cipher: none
-  name: '[OpenRay] 🇺🇸 US-9164'
+  name: '[OpenRay] Dynamic-5'
   network: tcp
-  port: 8080
-  server: 77.110.124.137
+  port: 22231
+  server: lv2.ultima.foundation
   type: vless
-  uuid: 2760d350-75cc-4fea-a901-7da24dcb57f0
+  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
