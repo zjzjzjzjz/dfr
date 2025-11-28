@@ -1,23 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: lt|90bd|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|24ae|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
-  type: ss
-- cipher: none
-  name: 未知 VLESS-35@free-nodes
-  network: tcp
-  port: 443
-  server: 213.176.16.74
-  type: vless
-  uuid: d7fbe279896e40118c23d15fe537dddd
 - name: '[OpenRay] 🇫🇷 FR-1969'
   network: ws
   password: 17178783-0dd7-4544-bf6b-e0694a1e3da7
@@ -30,12 +11,13 @@ proxies:
     headers:
       Host: joss.gpj.web.id
     path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
-- cipher: chacha20-ietf-poly1305
-  name: lt|24ae|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
-  type: ss
+- cipher: none
+  name: 未知 VLESS-35@free-nodes
+  network: tcp
+  port: 443
+  server: 213.176.16.74
+  type: vless
+  uuid: d7fbe279896e40118c23d15fe537dddd
 - name: RU TROJAN-60@free-nodes
   password: Qzy7tgpRhu
   port: 443
@@ -44,6 +26,12 @@ proxies:
   sni: m.vk.com
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: lt|24ae|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
+  type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-8671'
   network: tcp
@@ -57,20 +45,12 @@ proxies:
   port: 443
   server: 213.159.67.124
   type: ss
-- cipher: none
-  name: 未知 VLESS-36@free-nodes
-  network: tcp
-  port: 443
-  server: 144.31.18.7
-  type: vless
-  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
-- cipher: none
-  name: 未知 VLESS-91@free-nodes
-  network: tcp
-  port: 35728
-  server: 178.236.16.98
-  type: vless
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- cipher: chacha20-ietf-poly1305
+  name: lt|24ae|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
+  type: ss
 - name: '[OpenRay] 🇺🇸 US-8580'
   network: ws
   password: bb824a22-b7ce-427b-9ed6-1adf0751da02
@@ -83,6 +63,14 @@ proxies:
     headers:
       Host: 107.174.82.102.sslip.io
     path: /gXKGj8a1tp1nNbZEcRugowKV
+- name: 🇭🇰 香港 电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: '[OpenRay] 🇬🇧 GB-966'
   network: ws
@@ -96,3 +84,11 @@ proxies:
     headers:
       Host: kuangbao.xiejiang.dpdns.org
     path: /?ed=2560
+- name: hk|7511|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
