@@ -1,39 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: es|68b6|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|68b6|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|1654|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|27a0|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|27a0|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- name: hk|2e33|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: us|89e3|puddincat07@Telegram
   password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
   server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|89e3|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|27a0|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|27a0|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|27a0|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|27a0|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
   type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-9313'
@@ -55,19 +63,11 @@ proxies:
   server: 23.95.75.146
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|89e3|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  name: es|68b6|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
-  server: 23.95.75.146
+  server: 213.159.67.124
   type: ss
-- name: hk|f940|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.179
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: es|27a0|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
@@ -75,19 +75,13 @@ proxies:
   server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: us|89e3|puddincat07@Telegram
+  name: us|690a|puddincat07@Telegram
   password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
   server: 23.95.75.146
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: ae|45ce|puddincat07@Telegram
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.147
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: us|89e3|puddincat07@Telegram
+  name: us|e6c5|puddincat07@Telegram
   password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
   server: 23.95.75.146
@@ -113,31 +107,22 @@ proxies:
   server: che.aliusvpn.ru
   type: vless
   uuid: cc911fb3-c8b5-4cad-8bfe-d2fb240a788f
-- cipher: chacha20-ietf-poly1305
-  name: ae|45ce|puddincat07@Telegram
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.147
-  type: ss
-- cipher: none
-  name: '[OpenRay] Dynamic-9313'
-  network: ws
-  port: 8443
-  server: ev.zoom.us
-  servername: darknet-free.alexid.org
-  tls: true
-  type: vless
-  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
-  ws-opts:
-    headers:
-      Host: darknet-free.alexid.org
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: ae|45ce|puddincat07@Telegram
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.147
-  type: ss
+- name: HK TROJAN-21@free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: HK TROJAN-20@free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: '[OpenRay] Dynamic-6937'
   network: ws
@@ -155,11 +140,12 @@ proxies:
   port: 8080
   server: 151.242.251.147
   type: ss
-- name: 🇭🇰 香港3|@ripaojiedian
-  password: 2cf6d686799e6fa95316394064f26c0a
+- name: 未知 TROJAN-451@free-nodes
+  password: BxceQaOe
   port: 443
-  server: 58.152.18.55
-  sni: www.nintendogames.net
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -168,6 +154,19 @@ proxies:
   port: 8080
   server: 151.242.251.147
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: ae|45ce|puddincat07@Telegram
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.147
+  type: ss
+- name: 🇭🇰 香港3|@ripaojiedian
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 443
+  server: 58.152.18.55
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - cipher: none
   name: '[OpenRay] Dynamic-114'
   network: tcp
@@ -175,12 +174,6 @@ proxies:
   server: ru4.ultima.foundation
   type: vless
   uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-- cipher: chacha20-ietf-poly1305
-  name: ae|45ce|puddincat07@Telegram
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.147
-  type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-558'
   network: tcp
@@ -216,6 +209,17 @@ proxies:
   server: lv3.ultima.foundation
   type: vless
   uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- cipher: none
+  name: '[OpenRay] Dynamic-6937'
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  type: vless
+  uuid: 55905cc3-e9d8-4458-8ab6-3df29b5bba5c
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.b.1.speedtest2029.com.v2logy.ir
+    path: /ali
 - cipher: none
   name: '[OpenRay] Dynamic-1947'
   network: ws
