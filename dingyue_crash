@@ -26,24 +26,26 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: '@Daily_Configs'
+  name: 未知 VLESS-97@free-nodes
   network: tcp
   port: 443
-  server: 179.61.251.78
+  server: nld26.luckernld.org
   type: vless
-  uuid: fabc8a38-76c5-48fe-ada7-a9e52dd16225
-- cipher: chacha20-ietf-poly1305
-  name: es|de79|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  uuid: 40d7798a-6c76-4298-a9d4-9e6181cd2dd7
+- cipher: none
+  name: 🇳🇱[openproxylist.com] vless-NL
+  network: tcp
   port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: aes-256-cfb
-  name: hr|9a05|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.60
-  type: ss
+  server: 45.136.125.213
+  type: vless
+  uuid: 40d7798a-6c76-4298-a9d4-9e6181cd2dd7
+- cipher: none
+  name: ♨️ @PlanB_net منبع کانفیگ و پروکسی رایگان```
+  network: tcp
+  port: 8080
+  server: 144.31.1.122
+  type: vless
+  uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
 - cipher: none
   name: '[OpenRay] Dynamic-9357'
   network: ws
@@ -59,6 +61,12 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   name: SS-@V2rayAlpha--98
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|de79|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
@@ -82,18 +90,34 @@ proxies:
   port: 443
   server: 213.159.67.124
   type: ss
+- name: 🇷🇺[By EbraSha] trojan-RU 🔒
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: es|de79|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|07ac|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
+- cipher: aes-256-cfb
+  name: hr|9a05|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
   type: ss
+- name: 🇷🇺[openproxylist.com] trojan-RU
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
 - cipher: none
   name: '@Filter_breaker-2'
   network: tcp
@@ -102,40 +126,22 @@ proxies:
   type: vless
   uuid: 4b83aa50-6adf-4759-a928-b4a974e2ece6
 - cipher: aes-256-cfb
-  name: gr|bb98|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: nl|c41b|puddincat07@Telegram
-  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
-  port: 443
-  server: 45.14.245.2
-  type: ss
-- cipher: aes-256-cfb
-  name: hr|9a05|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.60
-  type: ss
-- cipher: aes-256-cfb
   name: hr|51ce|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.184.60
   type: ss
 - cipher: aes-256-cfb
-  name: gr|e70c|puddincat07@Telegram
+  name: gr|bb98|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
   type: ss
 - cipher: aes-256-cfb
-  name: hr|9a05|puddincat07@Telegram
+  name: gr|bb98|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 46.183.184.60
+  server: 192.71.166.100
   type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-2'
@@ -144,6 +150,24 @@ proxies:
   server: at.ultima.foundation
   type: vless
   uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- cipher: aes-256-cfb
+  name: gr|bb98|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
+  name: hr|9a05|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
+- cipher: aes-256-cfb
+  name: hr|9e66|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-4'
   network: tcp
@@ -151,6 +175,12 @@ proxies:
   server: lv3.ultima.foundation
   type: vless
   uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- cipher: aes-256-cfb
+  name: hr|9e66|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
 - cipher: none
   name: '[OpenRay] 🇫🇷 FR-1970'
   network: grpc
@@ -165,10 +195,10 @@ proxies:
   server: 46.183.184.60
   type: ss
 - cipher: aes-256-cfb
-  name: hr|9a05|puddincat07@Telegram
+  name: gr|d92d|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 46.183.184.60
+  server: 192.71.166.100
   type: ss
 - cipher: none
   name: '@Filter_breaker-3'
