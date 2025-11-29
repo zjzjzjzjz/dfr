@@ -1,18 +1,36 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: gb|2750|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
+- cipher: aes-256-cfb
+  name: gr|d036|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|d036|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|d036|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: es|ed65|puddincat07@Telegram
+  name: es|f8db|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|f8db|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
   type: ss
 - cipher: aes-256-cfb
-  name: gr|3843|puddincat07@Telegram
+  name: gr|18cf|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
@@ -29,6 +47,12 @@ proxies:
   port: 989
   server: 192.71.166.100
   type: ss
+- cipher: aes-256-cfb
+  name: gr|d036|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
 - name: 12,13|新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 1196
@@ -37,12 +61,20 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: gr|3843|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
+- name: 🇸🇬SG新加坡 73.4KB/s
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 127
+  server: 160.16.89.176
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡2|@ripaojiedian
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 127
+  server: 160.16.89.176
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: hk|27ed|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -68,12 +100,6 @@ proxies:
   port: 443
   server: 213.159.67.124
   type: ss
-- cipher: aes-256-cfb
-  name: gr|3843|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-9313'
   network: ws
@@ -87,18 +113,6 @@ proxies:
     headers:
       Host: darknet-free.alexid.org
     path: /
-- cipher: aes-256-cfb
-  name: hk|a9a2|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 216.250.97.82
-  type: ss
-- cipher: aes-256-cfb
-  name: hk|a9a2|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 216.250.97.82
-  type: ss
 - cipher: none
   name: t.me/entryNET/config=1849725828639752
   network: tcp
@@ -107,11 +121,30 @@ proxies:
   type: vless
   uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
 - cipher: aes-256-cfb
-  name: hk|a9a2|puddincat07@Telegram
+  name: hk|baa5|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 216.250.97.82
   type: ss
+- cipher: aes-256-cfb
+  name: hk|baa5|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
+- cipher: aes-256-cfb
+  name: hk|baa5|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
+- cipher: none
+  name: ♨️ @PlanB_net منبع کانفیگ و پروکسی رایگان
+  network: tcp
+  port: 443
+  server: autos.jykvpn.com
+  type: vless
+  uuid: 4b0735b5-672b-468f-af98-d6901d620e50
 - cipher: none
   name: '[OpenRay] Dynamic-2'
   network: tcp
@@ -133,13 +166,12 @@ proxies:
   server: 62.60.248.14
   type: vless
   uuid: 76f5e2e8-8970-4873-9332-6a1ffbb3abb0
-- cipher: none
-  name: '@Filter_breaker-3'
-  network: tcp
-  port: 45352
-  server: tuskar.fonixapp.org
-  type: vless
-  uuid: 6873298f-8256-4315-88c8-13dc8da308cf
+- cipher: aes-256-cfb
+  name: hk|46db|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
 - cipher: aes-256-cfb
   name: hk|a9a2|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -147,9 +179,23 @@ proxies:
   server: 216.250.97.82
   type: ss
 - cipher: none
+  name: '@Filter_breaker-3'
+  network: tcp
+  port: 45352
+  server: tuskar.fonixapp.org
+  type: vless
+  uuid: 6873298f-8256-4315-88c8-13dc8da308cf
+- cipher: none
   name: '@Filter_breaker-2'
   network: tcp
   port: 44144
   server: graygoat.fonixapp.org
   type: vless
   uuid: 4b83aa50-6adf-4759-a928-b4a974e2ece6
+- cipher: none
+  name: '@Daily_Configs'
+  network: tcp
+  port: 443
+  server: autos.jykvpn.com
+  type: vless
+  uuid: 4b0735b5-672b-468f-af98-d6901d620e50
