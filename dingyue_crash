@@ -6,16 +6,10 @@ proxies:
   server: 103.186.154.140
   type: ss
 - cipher: aes-256-cfb
-  name: vn|dc08|puddincat07@Telegram
+  name: vn|8161|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.140
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|c29d|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
   type: ss
 - cipher: aes-256-cfb
   name: vn|8161|puddincat07@Telegram
@@ -24,34 +18,10 @@ proxies:
   server: 103.186.154.140
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: es|c29d|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: es|51e3|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|c29d|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|c29d|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: aes-256-cfb
-  name: hk|57bf|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 216.250.97.82
   type: ss
 - cipher: aes-256-cfb
   name: hk|27ed|puddincat07@Telegram
@@ -59,6 +29,25 @@ proxies:
   port: 38388
   server: 216.250.97.82
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|51e3|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: none
+  name: '[OpenRay] Dynamic-9313'
+  network: ws
+  port: 8443
+  server: ev.zoom.us
+  servername: darknet-free.alexid.org
+  tls: true
+  type: vless
+  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+  ws-opts:
+    headers:
+      Host: darknet-free.alexid.org
+    path: /
 - name: 🇭🇰 香港5|@stairnode
   password: BxceQaOe
   port: 443
@@ -67,49 +56,19 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- name: HK TROJAN-20@free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: es|c29d|puddincat07@Telegram
+  name: es|51e3|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
-  type: ss
-- cipher: aes-256-cfb
-  name: hk|57bf|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 216.250.97.82
-  type: ss
-- cipher: none
-  name: '[OpenRay] Dynamic-9313'
-  network: ws
-  port: 8443
-  server: ev.zoom.us
-  servername: darknet-free.alexid.org
-  tls: true
-  type: vless
-  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
-  ws-opts:
-    headers:
-      Host: darknet-free.alexid.org
-    path: /
-- cipher: none
-  name: '[OpenRay] Dynamic-9313'
-  network: ws
-  port: 8443
-  server: ev.zoom.us
-  servername: darknet-free.alexid.org
-  tls: true
-  type: vless
-  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
-  ws-opts:
-    headers:
-      Host: darknet-free.alexid.org
-    path: /
-- cipher: aes-256-cfb
-  name: hk|57bf|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 216.250.97.82
   type: ss
 - cipher: none
   name: '[OpenRay] 🇩🇪 DE-2131'
@@ -129,13 +88,14 @@ proxies:
     headers:
       Host: www.speedtest.net.b.1.speedtest2029.com.v2logy.ir
     path: /ali
-- cipher: none
-  name: 未知 VLESS-35@free-nodes
-  network: tcp
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
   port: 443
-  server: 213.176.16.74
-  type: vless
-  uuid: d7fbe279896e40118c23d15fe537dddd
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: t.me/entryNET/config=1849725828639752
   network: tcp
@@ -143,14 +103,26 @@ proxies:
   server: 62.113.42.65
   type: vless
   uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
-- name: 🇭🇰 香港5|@ripaojiedian
+- cipher: aes-256-cfb
+  name: hk|2d21|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
+- name: hk|1a52|puddincat07@Telegram
   password: BxceQaOe
   port: 443
-  server: 112.120.31.179
+  server: 58.152.18.95
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: hk|2d21|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-558'
   network: tcp
@@ -172,6 +144,14 @@ proxies:
   server: at.ultima.foundation
   type: vless
   uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- name: 🇭🇰 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: '[OpenRay] 🇫🇮 FI-61'
   network: tcp
