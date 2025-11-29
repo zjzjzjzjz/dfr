@@ -26,30 +26,23 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: ♨️ @PlanB_net منبع کانفیگ و پروکسی رایگان```
+  name: '@Daily_Configs'
   network: tcp
-  port: 8080
-  server: 144.31.1.122
+  port: 443
+  server: 179.61.251.78
   type: vless
-  uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
+  uuid: fabc8a38-76c5-48fe-ada7-a9e52dd16225
 - cipher: chacha20-ietf-poly1305
-  name: es|028e|puddincat07@Telegram
+  name: es|de79|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
   type: ss
-- cipher: none
-  name: '@Daily_Configs'
-  network: tcp
-  port: 443
-  server: autos.jykvpn.com
-  type: vless
-  uuid: 4b0735b5-672b-468f-af98-d6901d620e50
 - cipher: aes-256-cfb
-  name: gr|bb98|puddincat07@Telegram
+  name: hr|9a05|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 192.71.166.100
+  server: 46.183.184.60
   type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-9357'
@@ -84,34 +77,22 @@ proxies:
       Host: darknet-free.alexid.org
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: es|028e|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: aes-256-cfb
-  name: hr|9a05|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.60
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇪🇸[By EbraSha] ss-ES 🔒
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
   type: ss
-- cipher: aes-256-cfb
-  name: gr|f4a5|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
+- cipher: chacha20-ietf-poly1305
+  name: es|de79|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
-- cipher: aes-256-cfb
-  name: gr|f4a5|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
+- cipher: chacha20-ietf-poly1305
+  name: es|07ac|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
 - cipher: none
   name: '@Filter_breaker-2'
@@ -121,13 +102,37 @@ proxies:
   type: vless
   uuid: 4b83aa50-6adf-4759-a928-b4a974e2ece6
 - cipher: aes-256-cfb
+  name: gr|bb98|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: nl|c41b|puddincat07@Telegram
+  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
+  port: 443
+  server: 45.14.245.2
+  type: ss
+- cipher: aes-256-cfb
+  name: hr|9a05|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
+- cipher: aes-256-cfb
   name: hr|51ce|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.184.60
   type: ss
 - cipher: aes-256-cfb
-  name: hr|5f14|puddincat07@Telegram
+  name: gr|e70c|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
+  name: hr|9a05|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.184.60
@@ -139,15 +144,6 @@ proxies:
   server: at.ultima.foundation
   type: vless
   uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-- alterId: 0
-  cipher: auto
-  name: '@Daily_Configs'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: none
   name: '[OpenRay] Dynamic-4'
   network: tcp
@@ -163,20 +159,17 @@ proxies:
   type: vless
   uuid: 76f5e2e8-8970-4873-9332-6a1ffbb3abb0
 - cipher: aes-256-cfb
-  name: hr|5f14|puddincat07@Telegram
+  name: hr|9a05|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.184.60
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-256-cfb
+  name: hr|9a05|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
 - cipher: none
   name: '@Filter_breaker-3'
   network: tcp
