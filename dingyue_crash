@@ -1,24 +1,54 @@
 proxies:
+- cipher: aes-256-cfb
+  name: vn|4ef6|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.140
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|d824|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: aes-256-cfb
+  name: vn|4ef6|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.140
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: gb|597d|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.179
   type: ss
-- cipher: aes-256-cfb
-  name: vn|42fc|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.140
+- cipher: chacha20-ietf-poly1305
+  name: es|d824|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|d824|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
 - cipher: aes-256-cfb
-  name: vn|42fc|puddincat07@Telegram
+  name: vn|4ef6|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.140
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱[Telegram:NetifyVpn]-1
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: gb|597d|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.179
@@ -32,22 +62,34 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: es|9188|puddincat07@Telegram
+  name: es|d824|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: es|e4e2|puddincat07@Telegram
+  name: es|d824|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: ae|6d9c|puddincat07@Telegram
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.153
   type: ss
 - cipher: aes-256-cfb
   name: hk|27ed|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 216.250.97.82
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: gb|597d|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
   type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-9357'
@@ -87,6 +129,12 @@ proxies:
   port: 8080
   server: 151.242.251.153
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: ae|6d9c|puddincat07@Telegram
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.153
+  type: ss
 - cipher: none
   name: '[OpenRay] 🇩🇪 DE-2131'
   network: tcp
@@ -94,12 +142,19 @@ proxies:
   server: che.aliusvpn.ru
   type: vless
   uuid: cc911fb3-c8b5-4cad-8bfe-d2fb240a788f
-- cipher: aes-256-cfb
-  name: hk|1a7e|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 216.250.97.82
+- cipher: chacha20-ietf-poly1305
+  name: ae|6d9c|puddincat07@Telegram
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.153
   type: ss
+- cipher: none
+  name: RU VLESS-98@free-nodes
+  network: tcp
+  port: 27121
+  server: wolfy.ufavpn.ru
+  type: vless
+  uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
 - cipher: none
   name: t.me/entryNET/config=1849725828639752
   network: tcp
@@ -107,29 +162,32 @@ proxies:
   server: 62.113.42.65
   type: vless
   uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
-- cipher: chacha20-ietf-poly1305
-  name: ae|fd48|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 151.242.251.133
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ae|d2b5|puddincat07@Telegram
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 151.242.251.144
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ae|9564|puddincat07@Telegram
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 151.242.251.144
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ae|db8d|puddincat07@Telegram
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.153
+- cipher: none
+  name: '[OpenRay] Dynamic-9313'
+  network: ws
+  port: 8443
+  server: ev.zoom.us
+  servername: darknet-free.alexid.org
+  tls: true
+  type: vless
+  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+  ws-opts:
+    headers:
+      Host: darknet-free.alexid.org
+    path: /
+- name: HK TROJAN-21@free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: hk|ce2c|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
   type: ss
 - cipher: none
   name: '[OpenRay] Dynamic-114'
@@ -139,8 +197,34 @@ proxies:
   type: vless
   uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
 - cipher: chacha20-ietf-poly1305
-  name: ae|f9e4|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: ae|6d9c|puddincat07@Telegram
+  password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
-  server: 151.242.251.133
+  server: 151.242.251.153
   type: ss
+- cipher: aes-256-cfb
+  name: hk|ce2c|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: ae|9564|puddincat07@Telegram
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 151.242.251.144
+  type: ss
+- cipher: none
+  name: '[OpenRay] Dynamic-2'
+  network: tcp
+  port: 22231
+  server: at.ultima.foundation
+  type: vless
+  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- cipher: none
+  name: '[OpenRay] Dynamic-4'
+  network: tcp
+  port: 22231
+  server: lv3.ultima.foundation
+  type: vless
+  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
