@@ -1,12 +1,12 @@
 proxies:
 - cipher: aes-256-cfb
-  name: vn|7c98|puddincat07@Telegram
+  name: vn|6e0a|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.222
   type: ss
 - cipher: aes-256-cfb
-  name: gr|2ce9|puddincat07@Telegram
+  name: gr|069a|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
@@ -24,19 +24,7 @@ proxies:
   server: 103.186.154.222
   type: ss
 - cipher: aes-256-cfb
-  name: vn|6e0a|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.222
-  type: ss
-- cipher: aes-256-cfb
   name: gr|069a|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: aes-256-cfb
-  name: gr|2ce9|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
@@ -53,14 +41,6 @@ proxies:
   port: 989
   server: 192.71.166.100
   type: ss
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 2752
-  server: 52.199.129.13
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: us|83a5|puddincat07@Telegram
   network: ws
   password: iwangjie
@@ -74,19 +54,6 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: /?ed=2560
-- cipher: none
-  name: '@Daily_Configs'
-  network: tcp
-  port: 443
-  server: autos.jykvpn.com
-  type: vless
-  uuid: 4b0735b5-672b-468f-af98-d6901d620e50
-- cipher: chacha20-ietf-poly1305
-  name: es|0648|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
 - name: 🇯🇵 日本2|@stairnode
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 3169
@@ -94,12 +61,14 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: es|c446|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
+- name: 🇸🇬 新加坡3|@ripaojiedian
+  password: BxceQaOe
+  port: 2752
+  server: 52.199.129.13
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱[Telegram:NetifyVpn]-1
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -107,10 +76,16 @@ proxies:
   server: 82.38.31.179
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: es|c446|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  name: gb|41f1|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|50be|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
-  server: 213.159.67.124
+  server: 23.95.75.146
   type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
@@ -120,19 +95,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: '[OpenRay] Dynamic-9313'
-  network: ws
-  port: 8443
-  server: ev.zoom.us
-  servername: darknet-free.alexid.org
-  tls: true
-  type: vless
-  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
-  ws-opts:
-    headers:
-      Host: darknet-free.alexid.org
-    path: /
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -169,11 +131,18 @@ proxies:
   server: fr.atlanta-internet.ru
   type: vless
   uuid: 669be00c-67b4-4b87-b08f-311c45abced2
-- cipher: aes-256-gcm
-  name: HK SS-80@free-nodes
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 188.116.22.96
+- name: 🇭🇰 香港3|@ripaojiedian
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 443
+  server: 58.152.18.192
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: es|0648|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
 - name: 🇭🇰 香港3|@stairnode
   password: 2cf6d686799e6fa95316394064f26c0a
@@ -182,23 +151,19 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 112.118.116.66
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: gb|bed8|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: gb|bed8|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
-- cipher: aes-256-gcm
-  name: HK SS-80@free-nodes
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 188.116.22.96
+  name: es|0648|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
 - cipher: none
   name: 🇨🇦•|•🚀•|•@confegraigan```
@@ -214,17 +179,19 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: KR SS-90@free-nodes
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: KR SS-90@free-nodes
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
+- name: 🇸🇬 新加坡3|@stairnode
+  password: BxceQaOe
+  port: 2752
+  server: 52.199.129.13
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: gb|41f1|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
   type: ss
 - cipher: none
   name: '@Mohammadzadeh_ads-6'
@@ -239,32 +206,29 @@ proxies:
   port: 8080
   server: 82.38.31.179
   type: ss
-- name: 🇯🇵 日本3|@ripaojiedian
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 1331
-  server: 160.16.136.130
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡3|@stairnode
-  password: BxceQaOe
-  port: 2752
-  server: 52.199.129.13
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: KR SS-90@free-nodes
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: gb|bed8|puddincat07@Telegram
+  name: gb|41f1|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|0648|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: aes-256-gcm
+  name: HK SS-80@free-nodes
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 188.116.22.96
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|0648|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
 - cipher: none
   name: '@Mohammadzadeh_ads-3'
@@ -273,11 +237,9 @@ proxies:
   server: greenwolf.fonixapp.org
   type: vless
   uuid: 90def0cf-d5c6-4c15-8ed0-405e6ba56c1b
-- name: 🇺🇸 美国2|@ripaojiedian
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 4054
-  server: 160.16.136.130
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: gb|41f1|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
