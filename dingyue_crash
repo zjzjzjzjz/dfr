@@ -1,21 +1,64 @@
 proxies:
 - cipher: aes-256-cfb
-  name: vn|8680|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.222
-  type: ss
-- cipher: aes-256-cfb
-  name: vn|8680|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.222
+  name: gr|e3f5|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
   type: ss
 - cipher: aes-256-cfb
   name: gr|e3f5|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|e3f5|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
+  name: vn|8680|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.222
+  type: ss
+- cipher: aes-256-cfb
+  name: vn|8680|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.222
+  type: ss
+- cipher: none
+  name: '[OpenRay] Dynamic-9313'
+  network: ws
+  port: 8443
+  server: ev.zoom.us
+  servername: darknet-free.alexid.org
+  tls: true
+  type: vless
+  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+  ws-opts:
+    headers:
+      Host: darknet-free.alexid.org
+    path: /
+- cipher: aes-256-cfb
+  name: vn|8680|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.222
+  type: ss
+- cipher: aes-256-cfb
+  name: vn|8680|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.222
+  type: ss
+- cipher: aes-256-cfb
+  name: vn|8680|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.222
   type: ss
 - name: us|83a5|puddincat07@Telegram
   network: ws
@@ -31,40 +74,10 @@ proxies:
       Host: nodes.830901.xyz
     path: /?ed=2560
 - cipher: aes-256-cfb
-  name: gr|e3f5|puddincat07@Telegram
+  name: gr|055c|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
-  type: ss
-- cipher: aes-256-cfb
-  name: gr|d01d|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|1c87|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|1c87|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|6e50|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: aes-256-gcm
-  name: KR SS-90@free-nodes
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: ae|5275|puddincat07@Telegram
@@ -73,24 +86,23 @@ proxies:
   server: 151.242.251.131
   type: ss
 - cipher: aes-256-cfb
-  name: gr|055c|puddincat07@Telegram
+  name: gr|e3f5|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|e3f5|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱[Telegram:NetifyVpn]-1
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
+  name: es|1c87|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
   type: ss
-- cipher: none
-  name: 'Channel : @SHOP_GAMING1011 🏴🏳'
-  network: tcp
-  port: 1888
-  server: inst.faceppm.ru
-  type: vless
-  uuid: 0f3c5d1e-21e7-4f5d-b57e-a308686e22f3
 - name: 12,13|新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 1196
@@ -99,6 +111,24 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  name: KR SS-90@free-nodes
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱[Telegram:NetifyVpn]-1
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|1c87|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: es|1c87|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
@@ -118,6 +148,14 @@ proxies:
     headers:
       Host: darknet-free.alexid.org
     path: /
+- name: 未知 TROJAN-186@free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇪🇸[By EbraSha] ss-ES 🔒
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
@@ -126,6 +164,12 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: SS-@V2rayAlpha--98
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|1c87|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
