@@ -1,11 +1,4 @@
 proxies:
-- cipher: none
-  name: 未知 VLESS-35@free-nodes
-  network: tcp
-  port: 443
-  server: 213.176.16.74
-  type: vless
-  uuid: d7fbe279896e40118c23d15fe537dddd
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱[Telegram:NetifyVpn]-1
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -32,27 +25,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: '@Daily_Configs'
-  network: tcp
-  port: 8080
-  server: 144.31.1.122
-  type: vless
-  uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
-- cipher: none
-  name: '@Filter_breaker-9'
-  network: tcp
-  port: 27121
-  server: wolfy.ufavpn.ru
-  type: vless
-  uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
-- cipher: none
-  name: 🇳🇱[openproxylist.com] vless-NL
-  network: tcp
-  port: 443
-  server: 213.176.16.74
-  type: vless
-  uuid: d7fbe279896e40118c23d15fe537dddd
 - cipher: none
   name: '[OpenRay] Dynamic-9357'
   network: ws
@@ -91,27 +63,47 @@ proxies:
   port: 443
   server: 213.159.67.124
   type: ss
-- name: 🇷🇺[By EbraSha] trojan-RU 🔒
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: m.vk.com
-  type: trojan
-  udp: true
-- name: hk|b370|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.95
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  name: gr|d01d|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇪🇸[By EbraSha] ss-ES 🔒
+  name: es|6e50|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|d01d|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|6e50|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|d01d|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|6e50|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|d01d|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: es|6e50|puddincat07@Telegram
@@ -126,12 +118,6 @@ proxies:
   server: graygoat.fonixapp.org
   type: vless
   uuid: 4b83aa50-6adf-4759-a928-b4a974e2ece6
-- cipher: aes-256-cfb
-  name: gr|d01d|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
 - cipher: aes-256-cfb
   name: hr|51ce|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
@@ -159,12 +145,6 @@ proxies:
   server: 62.60.248.14
   type: vless
   uuid: 76f5e2e8-8970-4873-9332-6a1ffbb3abb0
-- cipher: aes-256-cfb
-  name: gr|d01d|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
 - cipher: none
   name: '@Filter_breaker-3'
   network: tcp
@@ -172,9 +152,3 @@ proxies:
   server: tuskar.fonixapp.org
   type: vless
   uuid: 6873298f-8256-4315-88c8-13dc8da308cf
-- cipher: aes-256-cfb
-  name: hr|9e66|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.60
-  type: ss
