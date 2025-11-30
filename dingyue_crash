@@ -1,9 +1,27 @@
 proxies:
 - cipher: aes-256-cfb
+  name: vn|55bc|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.222
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: gb|3062|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: aes-256-cfb
   name: vn|8680|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.222
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|a2c9|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
   type: ss
 - cipher: aes-256-cfb
   name: gr|69fc|puddincat07@Telegram
@@ -12,7 +30,7 @@ proxies:
   server: 192.71.166.100
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: gb|0b16|puddincat07@Telegram
+  name: gb|3062|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.179
@@ -35,6 +53,18 @@ proxies:
   port: 38388
   server: 103.186.154.222
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: gb|3062|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|ba19|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
 - name: us|83a5|puddincat07@Telegram
   network: ws
   password: iwangjie
@@ -48,18 +78,11 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: /?ed=2560
-- cipher: none
-  name: 'Channel : @SHOP_GAMING1011 🏴🏳'
-  network: tcp
-  port: 1888
-  server: inst.faceppm.ru
-  type: vless
-  uuid: 0f3c5d1e-21e7-4f5d-b57e-a308686e22f3
 - cipher: chacha20-ietf-poly1305
-  name: es|ba19|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
+  name: gb|ccc6|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱[Telegram:NetifyVpn]-1
@@ -67,24 +90,20 @@ proxies:
   port: 8080
   server: 82.38.31.179
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: gb|7598|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|a0c5|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: es|0760|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
+- cipher: none
+  name: '@Filter_breaker-9'
+  network: tcp
+  port: 27121
+  server: wolfy.ufavpn.ru
+  type: vless
+  uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
+- cipher: none
+  name: 'Channel : @SHOP_GAMING1011 🏴🏳'
+  network: tcp
+  port: 1888
+  server: inst.faceppm.ru
+  type: vless
+  uuid: 0f3c5d1e-21e7-4f5d-b57e-a308686e22f3
 - cipher: none
   name: '[OpenRay] Dynamic-9313'
   network: ws
@@ -117,6 +136,13 @@ proxies:
   server: graygoat.fonixapp.org
   type: vless
   uuid: 4b83aa50-6adf-4759-a928-b4a974e2ece6
+- cipher: none
+  name: '@Daily_Configs'
+  network: tcp
+  port: 8080
+  server: 144.31.1.122
+  type: vless
+  uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
 - cipher: aes-256-cfb
   name: hr|51ce|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
