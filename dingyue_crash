@@ -1,4 +1,38 @@
 proxies:
+- name: 🇸🇬 新加坡|@ripaojiedian
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2760
+  server: 160.16.214.6
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: us|05a7|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- name: 🇺🇸 美国2|@ripaojiedian
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 4054
+  server: 160.16.214.6
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡|@stairnode
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2760
+  server: 160.16.214.6
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: us|05a7|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
 - name: 12,13|美国2|@ripaojiedian
   password: 79314e99f0a473fe86efc7827942ad00
   port: 4054
@@ -21,17 +55,32 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: vn|8680|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.222
-  type: ss
-- cipher: aes-256-cfb
   name: gr|be09|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
   type: ss
+- name: 🇭🇰 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.175
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: vn|8680|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.222
+  type: ss
+- name: 🇺🇸 美国2|@stairnode
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 4054
+  server: 160.16.214.6
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - name: 🇸🇬 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 2752
@@ -51,6 +100,18 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.228
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|be09|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: us|05a7|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
   type: ss
 - name: 12,13|新加坡3|@ripaojiedian
   password: BxceQaOe
@@ -83,17 +144,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 14|SE_speednode_0059
-  network: ws
-  port: 2052
-  server: 185.146.173.185
-  type: vless
-  uuid: 08363e87-5f9e-46e3-8854-89fa0190fa1d
-  ws-opts:
-    headers:
-      Host: fggvggvvgv.fggghbvhh-ghvghggg-fgvg-mahdi-net-irancel.BLOG
-    path: /Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-
 - name: 12,13|香港3|@ripaojiedian
   password: 79314e99f0a473fe86efc7827942ad00
   port: 443
@@ -115,12 +165,23 @@ proxies:
       Host: nodes.830901.xyz
     path: /?ed=2560
 - cipher: none
-  name: ♨️ @PlanB_net منبع کانفیگ و پروکسی رایگان
-  network: tcp
-  port: 22231
-  server: nl5.ultima.foundation
+  name: 14|SE_speednode_0059
+  network: ws
+  port: 2052
+  server: 185.146.173.185
   type: vless
-  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+  uuid: 08363e87-5f9e-46e3-8854-89fa0190fa1d
+  ws-opts:
+    headers:
+      Host: fggvggvvgv.fggghbvhh-ghvghggg-fgvg-mahdi-net-irancel.BLOG
+    path: /Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-
+- name: 🇭🇰 香港3|@ripaojiedian
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 443
+  server: 58.152.18.192
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: ae|dabc|puddincat07@Telegram
   password: o5osZg269v5zHpYjr1xY9s
@@ -142,17 +203,18 @@ proxies:
   type: vless
   uuid: 669be00c-67b4-4b87-b08f-311c45abced2
 - cipher: chacha20-ietf-poly1305
-  name: ae|8901|puddincat07@Telegram
-  password: o5osZg269v5zHpYjr1xY9s
-  port: 8080
-  server: 151.242.251.137
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱[Telegram:NetifyVpn]-1
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.179
   type: ss
+- cipher: none
+  name: 未知 VLESS-91@free-nodes
+  network: tcp
+  port: 35728
+  server: 178.236.16.98
+  type: vless
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
 - name: 12,13|新加坡2|@ripaojiedian
   password: 79314e99f0a473fe86efc7827942ad00
   port: 2760
@@ -164,6 +226,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 112.118.116.66
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 未知 TROJAN-186@free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -195,20 +265,14 @@ proxies:
   server: graygoat.fonixapp.org
   type: vless
   uuid: 4b83aa50-6adf-4759-a928-b4a974e2ece6
-- cipher: none
-  name: BESTIIVPNBOT
-  network: tcp
-  port: 36134
-  server: lifestealer.fonixapp.org
-  type: vless
-  uuid: 2efbb638-c1ae-46bd-b418-b1f9c265e2d1
-- cipher: none
-  name: ♨️ @PlanB_net منبع کانفیگ و پروکسی رایگان```
-  network: tcp
-  port: 28351
-  server: greenwolf.fonixapp.org
-  type: vless
-  uuid: 90def0cf-d5c6-4c15-8ed0-405e6ba56c1b
+- name: jp|1e57|puddincat07@Telegram
+  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
+  port: 25010
+  server: 37.202.200.19
+  skip-cert-verify: true
+  sni: 37.202.200.19
+  type: trojan
+  udp: true
 - cipher: none
   name: '@Mohammadzadeh_ads-3'
   network: tcp
