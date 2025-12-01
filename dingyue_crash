@@ -6,13 +6,37 @@ proxies:
   server: 103.186.155.228
   type: ss
 - cipher: aes-256-cfb
-  name: vn|4c92|puddincat07@Telegram
+  name: vn|fbb3|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.222
+  server: 103.186.155.228
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: es|bd84|puddincat07@Telegram
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: il|a7f4|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: il|a7f4|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: gb|33b9|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
   type: ss
 - cipher: aes-256-cfb
-  name: vn|c71f|puddincat07@Telegram
+  name: vn|4c92|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.222
@@ -24,43 +48,13 @@ proxies:
   server: 213.159.67.124
   type: ss
 - cipher: aes-256-cfb
+  name: gr|2fb4|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
   name: 12|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.222
-  type: ss
-- cipher: aes-256-cfb
-  name: vn|c71f|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.222
-  type: ss
-- cipher: aes-256-cfb
-  name: vn|fbb3|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.228
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: gb|7e38|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: il|fd23|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
-  type: ss
-- cipher: aes-256-cfb
-  name: vn|c71f|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.222
-  type: ss
-- cipher: aes-256-cfb
-  name: vn|8680|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.222
@@ -72,24 +66,23 @@ proxies:
   server: 192.71.166.100
   type: ss
 - cipher: aes-256-cfb
-  name: vn|4c92|puddincat07@Telegram
+  name: vn|fbb3|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.228
+  type: ss
+- cipher: aes-256-cfb
+  name: vn|8680|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.222
   type: ss
-- name: us|83a5|puddincat07@Telegram
-  network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: il|a7f4|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
 - name: 🇸🇬 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 2752
@@ -104,33 +97,13 @@ proxies:
   port: 443
   server: 95.111.222.113
   type: ss
-- name: jp|86a4|puddincat07@Telegram
-  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
-  port: 25010
-  server: 37.202.200.19
-  skip-cert-verify: true
-  sni: 37.202.200.19
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: gb|7e38|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: il|fd23|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: es|bd84|puddincat07@Telegram
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
   type: ss
-- name: us|7290|puddincat07@Telegram
+- name: us|83a5|puddincat07@Telegram
   network: ws
   password: iwangjie
   port: 15805
@@ -143,12 +116,37 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: es|8596|puddincat07@Telegram
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+- name: jp|86a4|puddincat07@Telegram
+  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
+  port: 25010
+  server: 37.202.200.19
+  skip-cert-verify: true
+  sni: 37.202.200.19
+  type: trojan
+  udp: true
+- cipher: none
+  name: '@Daily_Configs'
+  network: tcp
   port: 443
-  server: 213.159.67.124
-  type: ss
+  server: 84.32.64.39
+  type: vless
+  uuid: 793099c5-0712-4ea0-bbe1-455da88fc671
+- cipher: none
+  name: '@Daily_Configs'
+  network: grpc
+  port: 443
+  server: all.tellmethetrue.shop
+  servername: pqh27v5.hiddendom.shop
+  tls: true
+  type: vless
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+- cipher: none
+  name: ♨️ @PlanB_net منبع کانفیگ و پروکسی رایگان```
+  network: tcp
+  port: 28351
+  server: greenwolf.fonixapp.org
+  type: vless
+  uuid: 90def0cf-d5c6-4c15-8ed0-405e6ba56c1b
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -159,24 +157,18 @@ proxies:
   udp: false
   uuid: a4b41dc8-b684-49e4-b3db-ade382c113d3
 - cipher: chacha20-ietf-poly1305
-  name: il|fd23|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
-  type: ss
-- cipher: none
-  name: BESTIIVPNBOT
-  network: tcp
-  port: 36134
-  server: lifestealer.fonixapp.org
-  type: vless
-  uuid: 2efbb638-c1ae-46bd-b418-b1f9c265e2d1
-- cipher: chacha20-ietf-poly1305
   name: 🇪🇸[By EbraSha] ss-ES 🔒
   password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
   port: 443
   server: 213.159.67.124
   type: ss
+- cipher: none
+  name: '[OpenRay] Dynamic-8671'
+  network: tcp
+  port: 443
+  server: mos-drywall.shop
+  type: vless
+  uuid: 1066d126-3412-4dfd-ab5d-42cfb26572f6
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -193,6 +185,12 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: gb|33b9|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
 - cipher: none
   name: '@Mohammadzadeh_ads-11'
   network: tcp
@@ -200,6 +198,19 @@ proxies:
   server: bountyhunter.fonixapp.org
   type: vless
   uuid: fea633c3-cacf-41d7-951a-a04b578b0dcf
+- cipher: none
+  name: '[OpenRay] 🇺🇸 US-6406'
+  network: ws
+  port: 443
+  server: 8.39.125.158
+  servername: bp.suoni.nyc.mn
+  tls: true
+  type: vless
+  uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58
+  ws-opts:
+    headers:
+      Host: bp.suoni.nyc.mn
+    path: /proxyip=ProxyIP.SG.CMLiussss.net
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -212,12 +223,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.179
-  type: ss
-- cipher: aes-256-gcm
-  name: HK SS-80@free-nodes
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 188.116.22.96
   type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
@@ -234,13 +239,14 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: none
-  name: '@Filter_breaker-9'
-  network: tcp
-  port: 27121
-  server: wolfy.ufavpn.ru
-  type: vless
-  uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
+- name: HK TROJAN-21@free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: 🇨🇦•|•🚀•|•@confegraigan```
   network: tcp
@@ -260,6 +266,18 @@ proxies:
   password: ''
   port: 443
   server: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYmhxc1N0bkZRVDFjVFpZQ2RzbWt1Z0dVQzZHVDZycA%3D%3D@213.159.67.124
+  type: ss
+- cipher: aes-256-gcm
+  name: HK SS-80@free-nodes
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 188.116.22.96
+  type: ss
+- cipher: aes-256-gcm
+  name: HK SS-80@free-nodes
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 188.116.22.96
   type: ss
 - cipher: none
   name: '@Mohammadzadeh_ads-6'
