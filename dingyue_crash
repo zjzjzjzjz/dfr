@@ -1,18 +1,4 @@
 proxies:
-- name: 🇭🇰 香港 电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: gr|4c28|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -21,38 +7,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: il|e00e|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
-  type: ss
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: gr|4c28|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: aes-256-cfb
-  name: gr|25a2|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: aes-256-cfb
-  name: gr|25a2|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
 - name: 未知33
   network: ws
   password: e0a8e825-f800-4ec5-a2f3-ca8264911cf8
@@ -66,16 +20,57 @@ proxies:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/82.97.254.184=2053
 - cipher: chacha20-ietf-poly1305
+  name: il|b26c|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.175
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港3|@stairnode
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 443
+  server: 58.152.18.192
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: il|0567|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
+- name: '@v2FreeHub 🇪🇪'
+  network: ws
+  password: e5e79b65-c5fd-4b06-8f56-6bf8c44a61d9
+  port: 2053
+  server: 193.42.112.66
+  sni: joss.gpj4.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj4.web.id
+    path: /Free-VPN-CF-Geo-Project/193.42.112.66=2053
+- cipher: chacha20-ietf-poly1305
   name: 🇰🇿[By EbraSha] ss-KZ 🔒
   password: 4SaCIazlgumYkM8FkPzlmwjpyWBDZFBk
   port: 443
   server: 103.106.3.82
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: il|e00e|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇦🇺[By EbraSha] ss-AU 🔒
@@ -98,12 +93,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: il|e00e|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇮🇱[By EbraSha] ss-IL 🔒
   password: 4lUEC91c1d8oeClzDbYpXA
   port: 8618
@@ -115,13 +104,12 @@ proxies:
   port: 8080
   server: 82.38.31.205
   type: ss
-- cipher: none
-  name: RU VLESS-98@free-nodes
-  network: tcp
-  port: 27121
-  server: wolfy.ufavpn.ru
-  type: vless
-  uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
+- cipher: chacha20-ietf-poly1305
+  name: il|b26c|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
 - name: '@v2FreeHub 🇺🇸'
   network: ws
   password: 034299f4-a5d4-4bdd-a6b0-a2a308ffe6be
@@ -146,6 +134,14 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/5.182.39.57=443
+- name: 🇭🇰 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: '@v2FreeHub 🇫🇮'
   network: ws
   password: 1e791d71-7981-4b86-902e-a034f2f3706b
@@ -158,18 +154,20 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/91.217.76.237=443
-- name: '@v2FreeHub 🇪🇪'
-  network: ws
-  password: e5e79b65-c5fd-4b06-8f56-6bf8c44a61d9
-  port: 2053
-  server: 193.42.112.66
-  sni: joss.gpj4.web.id
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj4.web.id
-    path: /Free-VPN-CF-Geo-Project/193.42.112.66=2053
+- cipher: chacha20-ietf-poly1305
+  name: il|43d0|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
 - name: '@v2FreeHub 🇩🇰'
   network: ws
   password: bacfc529-f2d0-466d-bf2e-7cd35a49b72f
@@ -201,14 +199,6 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/45.149.63.235=2053
-- name: 未知 TROJAN-186@free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: '@v2FreeHub 🇨🇭`'
   network: ws
   password: f42d1b0d-c398-43cb-be37-d739b1477a5d
@@ -227,18 +217,19 @@ proxies:
   port: 443
   server: 213.159.67.124
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: il|43d0|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
-  type: ss
 - name: 12,13|香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 58.152.30.175
   skip-cert-verify: true
   sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港3|@ripaojiedian
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 443
+  server: 58.152.18.192
+  sni: www.nintendogames.net
   type: trojan
   udp: true
 - cipher: none
@@ -261,23 +252,11 @@ proxies:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/83.147.192.71=443
 - cipher: chacha20-ietf-poly1305
-  name: il|43d0|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
+  name: nl|af76|puddincat07@Telegram
+  password: YQCSKoCF3QazW8YlvDBWA4
+  port: 56689
+  server: 109.71.246.210
   type: ss
-- name: 未知52
-  network: ws
-  password: ecdc060b-e749-45b8-961d-207fd99b2a13
-  port: 443
-  server: 83.147.192.71
-  sni: joss.gpj4.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj4.web.id
-    path: /Free-VPN-CF-Geo-Project/83.147.192.71=443
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -317,12 +296,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: il|43d0|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
-  type: ss
 - name: '@v2FreeHub 🇹🇷'
   network: ws
   password: cb57093e-f983-4e87-b9fb-3b35aa5f9777
@@ -400,3 +373,27 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/87.236.146.76=443
+- name: 未知14
+  network: ws
+  password: 68b147df-fec7-4859-8f67-3ef0a3d8d3b4
+  port: 443
+  server: 87.236.146.76
+  sni: joss.gpj4.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj4.web.id
+    path: /Free-VPN-CF-Geo-Project/87.236.146.76=443
+- name: 未知52
+  network: ws
+  password: ecdc060b-e749-45b8-961d-207fd99b2a13
+  port: 443
+  server: 83.147.192.71
+  sni: joss.gpj4.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj4.web.id
+    path: /Free-VPN-CF-Geo-Project/83.147.192.71=443
