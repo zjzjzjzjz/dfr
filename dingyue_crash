@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: nl|9157|puddincat07@Telegram
+  password: YQCSKoCF3QazW8YlvDBWA4
+  port: 56689
+  server: 109.71.246.210
+  type: ss
 - name: '@v2FreeHub 🇪🇪'
   network: ws
   password: ee1ff898-84c2-4910-b663-08884a428742
@@ -292,15 +298,6 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/154.53.166.238=2083
-- cipher: none
-  name: '@Filter_breaker-15'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - name: '@v2FreeHub 🇪🇪'
   network: ws
   password: e5e79b65-c5fd-4b06-8f56-6bf8c44a61d9
