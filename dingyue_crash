@@ -1,4 +1,137 @@
 proxies:
+- name: '[OpenRay] 🇺🇸 US-6962'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.149.244
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
+- name: '[OpenRay] 🇺🇸 US-6958'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.148.4
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
+- name: '[OpenRay] 🇺🇸 US-6959'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.148.6
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
+- name: '[OpenRay] 🇺🇸 US-6955'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.148.11
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
+- name: '[OpenRay] 🇺🇸 US-6956'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.149.6
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
+- name: '[OpenRay] 🇺🇸 US-6957'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.149.8
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
+- name: '[OpenRay] 🇺🇸 US-6963'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.148.9
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
+- name: '[OpenRay] 🇺🇸 US-6954'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.148.244
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
+- name: '[OpenRay] 🇺🇸 US-6965'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.148.8
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
+- cipher: chacha20-ietf-poly1305
+  name: il|a833|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
+- cipher: none
+  name: '@Filter_breaker-13'
+  network: tcp
+  port: 27121
+  server: wolfy.ufavpn.ru
+  type: vless
+  uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
+- cipher: chacha20-ietf-poly1305
+  name: il|a833|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: il|a833|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
@@ -17,6 +150,13 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/109.235.246.34=443
+- cipher: none
+  name: RU VLESS-98@free-nodes
+  network: tcp
+  port: 27121
+  server: wolfy.ufavpn.ru
+  type: vless
+  uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
 - name: '@v2FreeHub 🇪🇸'
   network: ws
   password: bca06828-fc98-4aab-ac9a-99b618badefc
