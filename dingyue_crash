@@ -1,16 +1,4 @@
 proxies:
-- name: '[OpenRay] 🇺🇸 US-6957'
-  network: ws
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  port: 443
-  server: 104.16.149.8
-  sni: cm3-bpg.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=tw.ttzxw.cf:443
 - name: '[OpenRay] 🇺🇸 US-6959'
   network: ws
   password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
@@ -23,23 +11,11 @@ proxies:
     headers:
       Host: cm3-bpg.filegear-sg.me
     path: /proxyip=tw.ttzxw.cf:443
-- name: '[OpenRay] 🇺🇸 US-6955'
+- name: '[OpenRay] 🇺🇸 US-6957'
   network: ws
   password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
   port: 443
-  server: 104.16.148.11
-  sni: cm3-bpg.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=tw.ttzxw.cf:443
-- name: '[OpenRay] 🇺🇸 US-6962'
-  network: ws
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  port: 443
-  server: 104.16.149.244
+  server: 104.16.149.8
   sni: cm3-bpg.filegear-sg.me
   type: trojan
   udp: true
@@ -59,18 +35,6 @@ proxies:
     headers:
       Host: cm3-bpg.filegear-sg.me
     path: /proxyip=tw.ttzxw.cf:443
-- name: '[OpenRay] 🇺🇸 US-6954'
-  network: ws
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  port: 443
-  server: 104.16.148.244
-  sni: cm3-bpg.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=tw.ttzxw.cf:443
 - name: '[OpenRay] 🇺🇸 US-6956'
   network: ws
   password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
@@ -83,12 +47,24 @@ proxies:
     headers:
       Host: cm3-bpg.filegear-sg.me
     path: /proxyip=tw.ttzxw.cf:443
-- name: hk|60b4|puddincat07@Telegram
+- name: '[OpenRay] 🇺🇸 US-6963'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.148.9
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
+- name: hk|9add|puddincat07@Telegram
   password: BxceQaOe
   port: 443
-  server: 58.152.30.175
+  server: 58.152.18.95
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - name: '[OpenRay] 🇺🇸 US-6964'
@@ -103,10 +79,18 @@ proxies:
     headers:
       Host: cm3-bpg.filegear-sg.me
     path: /proxyip=tw.ttzxw.cf:443
-- name: hk|2b47|puddincat07@Telegram
+- name: hk|d39f|puddincat07@Telegram
   password: BxceQaOe
   port: 443
-  server: 58.152.18.95
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -130,7 +114,7 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
-- name: 🇭🇰 香港5|@stairnode
+- name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 58.152.30.175
@@ -138,10 +122,18 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: hk|977d|puddincat07@Telegram
+- name: hk|2b47|puddincat07@Telegram
   password: BxceQaOe
   port: 443
-  server: 58.152.25.20
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.175
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -153,6 +145,14 @@ proxies:
   server: plr.strelkavpn.ru
   type: vless
   uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- name: 🇭🇰 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: '@v2FreeHub 🇮🇱'
   network: ws
   password: 394a715e-3ef1-4aae-bb5e-a48857ed00b7
@@ -165,6 +165,15 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/77.91.69.146=443
+- cipher: none
+  name: '@Filter_breaker-16'
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
