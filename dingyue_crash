@@ -1,16 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: vn|0f23|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.52
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
 - name: '@v2FreeHub 🇪🇪'
   network: ws
   password: ee1ff898-84c2-4910-b663-08884a428742
@@ -23,18 +11,12 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/109.235.246.34=443
-- name: '@v2FreeHub 🇪🇸'
-  network: ws
-  password: bca06828-fc98-4aab-ac9a-99b618badefc
-  port: 81
-  server: 95.85.89.70
-  sni: joss.gpj4.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj4.web.id
-    path: /Free-VPN-CF-Geo-Project/95.85.89.70=81
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
 - name: '@v2FreeHub 🇺🇸'
   network: ws
   password: 034299f4-a5d4-4bdd-a6b0-a2a308ffe6be
@@ -72,13 +54,18 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/89.22.228.125=443
-- cipher: none
-  name: BESTIIVPNBOT
-  network: tcp
-  port: 8443
-  server: 94.103.0.94
-  type: vless
-  uuid: 669be00c-67b4-4b87-b08f-311c45abced2
+- name: '@v2FreeHub 🇪🇸'
+  network: ws
+  password: bca06828-fc98-4aab-ac9a-99b618badefc
+  port: 81
+  server: 95.85.89.70
+  sni: joss.gpj4.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj4.web.id
+    path: /Free-VPN-CF-Geo-Project/95.85.89.70=81
 - name: '@v2FreeHub 🇵🇹'
   network: ws
   password: 6c7d536e-1ecf-448d-83c1-3044dd89ceac
@@ -103,6 +90,13 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/77.37.96.132=443
+- cipher: none
+  name: BESTIIVPNBOT
+  network: tcp
+  port: 8443
+  server: 94.103.0.94
+  type: vless
+  uuid: 669be00c-67b4-4b87-b08f-311c45abced2
 - name: '@v2FreeHub 🇫🇮'
   network: ws
   password: f4c2f31a-813f-411f-892d-68890bff509d
@@ -170,12 +164,6 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/80.211.205.173=2053
-- cipher: chacha20-ietf-poly1305
-  name: il|60b5|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
-  type: ss
 - name: '@v2FreeHub 🇫🇮'
   network: ws
   password: 1e791d71-7981-4b86-902e-a034f2f3706b
@@ -214,15 +202,6 @@ proxies:
   server: plr.strelkavpn.ru
   type: vless
   uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
-- cipher: none
-  name: '@Filter_breaker-16'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - name: '@v2FreeHub 🇮🇱'
   network: ws
   password: 394a715e-3ef1-4aae-bb5e-a48857ed00b7
@@ -249,15 +228,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: '@Filter_breaker-15'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - name: '@v2FreeHub 🇸🇬SG, Trojan`'
   network: ws
   password: feca80bb-378f-4b96-b127-5bb4938cca81
@@ -270,18 +240,6 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/167.99.73.22=443
-- name: '@v2FreeHub 🇩🇪DE, Trojan'
-  network: ws
-  password: 4a2153fd-70fb-41d7-9cea-21e00c8af460
-  port: 8443
-  server: 108.61.211.231
-  sni: joss.gpj4.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj4.web.id
-    path: /Free-VPN-CF-Geo-Project/108.61.211.231=8443
 - name: '@v2FreeHub 🇹🇷'
   network: ws
   password: cb57093e-f983-4e87-b9fb-3b35aa5f9777
@@ -302,13 +260,18 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: BESTIIVPNBOT
-  network: tcp
+- name: '@v2FreeHub 🇩🇪DE, Trojan'
+  network: ws
+  password: 4a2153fd-70fb-41d7-9cea-21e00c8af460
   port: 8443
-  server: fr.atlanta-internet.ru
-  type: vless
-  uuid: 669be00c-67b4-4b87-b08f-311c45abced2
+  server: 108.61.211.231
+  sni: joss.gpj4.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj4.web.id
+    path: /Free-VPN-CF-Geo-Project/108.61.211.231=8443
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -330,12 +293,14 @@ proxies:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/154.53.166.238=2083
 - cipher: none
-  name: 🇰🇿•|•@confegraigan```
-  network: tcp
+  name: '@Filter_breaker-15'
+  network: xhttp
   port: 443
-  server: kz.connect-opengate.ru
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
   type: vless
-  uuid: 2f88363e-497d-42fa-836c-ad3497f84913
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - name: '@v2FreeHub 🇪🇪'
   network: ws
   password: e5e79b65-c5fd-4b06-8f56-6bf8c44a61d9
@@ -367,19 +332,10 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/87.236.146.76=443
-- name: HK TROJAN-21@free-nodes
-  password: BxceQaOe
+- cipher: none
+  name: 🇰🇿•|•@confegraigan```
+  network: tcp
   port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: hk|1c54|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.95
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  server: kz.connect-opengate.ru
+  type: vless
+  uuid: 2f88363e-497d-42fa-836c-ad3497f84913
