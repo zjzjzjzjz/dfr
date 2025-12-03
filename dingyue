@@ -1,11 +1,8 @@
-vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?encryption=none&security=tls&sni=pqh27v5.hiddendom.shop&alpn=h2&type=grpc#%40Daily_Configs
-vless://b278fc13-9be7-4e21-90cb-cb52ac0e2469@plb.tunnelguard.ru:443?encryption=none&security=tls&sni=plb.tunnelguard.ru&fp=firefox&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&path=%2F&mode=auto&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D#%40Filter_breaker-15
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwM0AxODUuMTUzLjE5Ny41Ojk4OQ==#%F0%9F%87%B2%F0%9F%87%A9_MD_%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6-%3E%F0%9F%87%B7%F0%9F%87%BA_RU_%E4%BF%84%E7%BD%97%E6%96%AF
 trojan://034299f4-a5d4-4bdd-a6b0-a2a308ffe6be@192.227.138.249:8443?path=%2FFree-VPN-CF-Geo-Project%2F192.227.138.249%3D8443&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%BA%F0%9F%87%B8
 hysteria2://e9c198e7-ccec-49a8-b558-8688aa8ec515@23.94.211.92:46727?insecure=1&sni=www.bing.com#%E4%BA%91%E6%9C%BA%E5%BD%95-%F0%9F%87%BA%F0%9F%87%B8US_36%7C2.2MB%2Fs%7C50%25%7CGPT%E2%81%BA
 trojan://ee1ff898-84c2-4910-b663-08884a428742@109.235.246.34:443?path=%2FFree-VPN-CF-Geo-Project%2F109.235.246.34%3D443&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%AA%F0%9F%87%AA
 trojan://bca06828-fc98-4aab-ac9a-99b618badefc@95.85.89.70:81?path=%2FFree-VPN-CF-Geo-Project%2F95.85.89.70%3D81&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%AA%F0%9F%87%B8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJRQDgyLjM4LjMxLjIwNTo4MDgw#gb|444a|puddincat07@Telegram
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HrPCfh6cg6Iux5Zu9IFYyQ1JPU1MuQ09NIiwiYWRkIjoibS5jbm1qaW4ubmV0IiwicG9ydCI6IjE2NjQ1IiwidHlwZSI6Im5vbmUiLCJpZCI6Ijc3NDM5NTYxLWRjZWYtNGU0NS04MDNhLTc0M2NmYTdkMjBjMiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IjllOTdkNmM5ZTJlMGFkMzQ0NGNiZjk2ZDM3MDkzNjZkLm1vYmdzbGIudGJjYWNoZS5jb20iLCJ0bHMiOiIifQ==
 trojan://a8f62dd9-4d44-4c10-bbe6-f23466f6afc7@89.22.228.125:443?path=%2FFree-VPN-CF-Geo-Project%2F89.22.228.125%3D443&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%B7%F0%9F%87%BA
 vless://669be00c-67b4-4b87-b08f-311c45abced2@94.103.0.94:8443?security=reality&encryption=none&pbk=FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI&headerType=&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=pingless.com#BESTIIVPNBOT
@@ -26,13 +23,13 @@ trojan://BxceQaOe@58.152.30.175:443?allowInsecure=1&sni=t.me%2Fripaojiedian#12%2
 vless://0e0df131-29f5-4725-b9a3-7b1a6cac4c95@plr.strelkavpn.ru:8443?security=reality&encryption=none&pbk=i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=plr.strelkavpn.ru&sid=5626dfc4162fd4f2#BESTIIVPNBOT
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0bFVFQzkxYzFkOG9lQ2x6RGJZcFhB@45.93.95.187:8618#🇮🇱[By EbraSha] ss-IL 🔒
 trojan://feca80bb-378f-4b96-b127-5bb4938cca81@167.99.73.22:443?path=%2FFree-VPN-CF-Geo-Project%2F167.99.73.22%3D443&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%B8%F0%9F%87%ACSG%2C%20Trojan`
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0bFVFQzkxYzFkOG9lQ2x6RGJZcFhBQDQ1LjkzLjk1LjE4Nzo4NjE4#il|ae6d|puddincat07@Telegram
 trojan://4a2153fd-70fb-41d7-9cea-21e00c8af460@108.61.211.231:8443?path=%2FFree-VPN-CF-Geo-Project%2F108.61.211.231%3D8443&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%A9%F0%9F%87%AADE%2C%20Trojan
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0bFVFQzkxYzFkOG9lQ2x6RGJZcFhBQDQ1LjkzLjk1LjE4Nzo4NjE4#il|59a4|puddincat07@Telegram
 trojan://cb57093e-f983-4e87-b9fb-3b35aa5f9777@212.64.201.193:443?path=%2FFree-VPN-CF-Geo-Project%2F212.64.201.193%3D443&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%B9%F0%9F%87%B7
 trojan://BxceQaOe@58.152.53.8:443?allowInsecure=1&sni=t.me%2Fripaojiedian#12%2C13%7C%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
 trojan://BxceQaOe@112.118.116.66:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
 trojan://736aa3ef-3c9a-44fc-be20-46d9f3424299@154.53.166.238:2083?path=%2FFree-VPN-CF-Geo-Project%2F154.53.166.238%3D2083&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%B9%F0%9F%87%B7
 trojan://e5e79b65-c5fd-4b06-8f56-6bf8c44a61d9@193.42.112.66:2053?path=%2FFree-VPN-CF-Geo-Project%2F193.42.112.66%3D2053&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%AA%F0%9F%87%AA
-trojan://68b147df-fec7-4859-8f67-3ef0a3d8d3b4@87.236.146.76:443?path=%2FFree-VPN-CF-Geo-Project%2F87.236.146.76%3D443&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%A8%F0%9F%87%BF
 trojan://79314e99f0a473fe86efc7827942ad00@58.152.18.192:443?allowInsecure=0&sni=www.nintendogames.net#12%2C13%7C%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0bFVFQzkxYzFkOG9lQ2x6RGJZcFhBQDQ1LjkzLjk1LjE4Nzo4NjE4#il|ae6d|puddincat07@Telegram
+trojan://68b147df-fec7-4859-8f67-3ef0a3d8d3b4@87.236.146.76:443?path=%2FFree-VPN-CF-Geo-Project%2F87.236.146.76%3D443&security=tls&host=joss.gpj4.web.id&fp=randomized&type=ws&sni=joss.gpj4.web.id#%40v2FreeHub%20%F0%9F%87%A8%F0%9F%87%BF
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0bFVFQzkxYzFkOG9lQ2x6RGJZcFhBQDQ1LjkzLjk1LjE4Nzo4NjE4#il|59a4|puddincat07@Telegram
