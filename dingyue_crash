@@ -1,22 +1,4 @@
 proxies:
-- cipher: none
-  name: '@Daily_Configs'
-  network: grpc
-  port: 443
-  server: all.tellmethetrue.shop
-  servername: pqh27v5.hiddendom.shop
-  tls: true
-  type: vless
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-- cipher: none
-  name: '@Filter_breaker-15'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
@@ -59,12 +41,6 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/95.85.89.70=81
-- cipher: chacha20-ietf-poly1305
-  name: gb|444a|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇬🇧 英国 V2CROSS.COM
@@ -271,12 +247,6 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/167.99.73.22=443
-- cipher: chacha20-ietf-poly1305
-  name: il|ae6d|puddincat07@Telegram
-  password: 4lUEC91c1d8oeClzDbYpXA
-  port: 8618
-  server: 45.93.95.187
-  type: ss
 - name: '@v2FreeHub 🇩🇪DE, Trojan'
   network: ws
   password: 4a2153fd-70fb-41d7-9cea-21e00c8af460
@@ -289,6 +259,12 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/108.61.211.231=8443
+- cipher: chacha20-ietf-poly1305
+  name: il|59a4|puddincat07@Telegram
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 45.93.95.187
+  type: ss
 - name: '@v2FreeHub 🇹🇷'
   network: ws
   password: cb57093e-f983-4e87-b9fb-3b35aa5f9777
@@ -341,6 +317,13 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/193.42.112.66=2053
+- name: 12,13|香港3|@ripaojiedian
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 443
+  server: 58.152.18.192
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - name: '@v2FreeHub 🇨🇿'
   network: ws
   password: 68b147df-fec7-4859-8f67-3ef0a3d8d3b4
@@ -353,15 +336,8 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/87.236.146.76=443
-- name: 12,13|香港3|@ripaojiedian
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 443
-  server: 58.152.18.192
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: il|ae6d|puddincat07@Telegram
+  name: il|59a4|puddincat07@Telegram
   password: 4lUEC91c1d8oeClzDbYpXA
   port: 8618
   server: 45.93.95.187
