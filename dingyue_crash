@@ -5,6 +5,12 @@ proxies:
   port: 443
   server: 87.121.162.249
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: tr|6f00|puddincat07@Telegram
+  password: bSlgCoGhApOb55tIMD0zxY
+  port: 33563
+  server: 185.39.204.161
+  type: ss
 - name: 12,13|香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -47,3 +53,20 @@ proxies:
   port: 33563
   server: 185.39.204.161
   type: ss
+- name: HK TROJAN-88 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.175
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
+  name: '@Filter_breaker-16'
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
