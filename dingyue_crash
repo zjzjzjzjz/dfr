@@ -13,12 +13,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🔴46@oneclickvpnkeys
-  password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
-  port: 443
-  server: 87.121.162.249
-  type: ss
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
@@ -27,6 +21,12 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴46@oneclickvpnkeys
+  password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
+  port: 443
+  server: 87.121.162.249
+  type: ss
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -47,16 +47,3 @@ proxies:
   port: 33563
   server: 185.39.204.161
   type: ss
-- cipher: none
-  name: '@Filter_breaker-10'
-  network: ws
-  port: 2096
-  server: 25.25.25.253
-  servername: alanconf.info
-  tls: true
-  type: vless
-  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
-  ws-opts:
-    headers:
-      Host: alanconf.info
-    path: /
