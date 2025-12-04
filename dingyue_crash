@@ -29,12 +29,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: tr|d0ea|puddincat07@Telegram
-  password: bSlgCoGhApOb55tIMD0zxY
-  port: 33563
-  server: 185.39.204.161
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇹🇷[By EbraSha] ss-TR 🔒
   password: bSlgCoGhApOb55tIMD0zxY
   port: 33563
@@ -53,37 +47,19 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: tr|d0ea|puddincat07@Telegram
-  password: bSlgCoGhApOb55tIMD0zxY
-  port: 33563
-  server: 185.39.204.161
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: TR SS-46 | free-nodes
-  password: bSlgCoGhApOb55tIMD0zxY
-  port: 33563
-  server: 185.39.204.161
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: tr|2fbd|puddincat07@Telegram
-  password: bSlgCoGhApOb55tIMD0zxY
-  port: 33563
-  server: 185.39.204.161
-  type: ss
-- cipher: none
-  name: '@Filter_breaker-9'
-  network: tcp
-  port: 27121
-  server: wolfy.ufavpn.ru
-  type: vless
-  uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
+- name: 🇭🇰 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.175
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
