@@ -1,35 +1,38 @@
 proxies:
+- name: hk|32f5|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.175
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: VN_speednode_0016
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.38
   type: ss
-- cipher: aes-256-cfb
-  name: VN_speednode_0015
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.54
-  type: ss
-- cipher: none
-  name: 未知 VLESS-55 | free-nodes
-  network: tcp
-  port: 49943
-  server: s3.nobaddays.site
-  type: vless
-  uuid: _911331
+- name: HK TROJAN-14 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: lt|1a23|puddincat07@Telegram
+  name: lt|d495|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 45.87.175.155
   type: ss
-- name: hk|e082|puddincat07@Telegram
+- name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
-  server: 58.152.25.20
+  server: 58.152.30.175
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -39,30 +42,18 @@ proxies:
   server: 87.121.162.249
   type: ss
 - cipher: none
-  name: '@Filter_breaker-16'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
-- cipher: none
-  name: '@Filter_breaker-15'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
-- cipher: none
   name: BESTIIVPNBOT
   network: tcp
   port: 8443
   server: plr.strelkavpn.ru
   type: vless
   uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- cipher: chacha20-ietf-poly1305
+  name: lt|d495|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.155
+  type: ss
 - name: TR TROJAN-83 | free-nodes
   password: BxceQaOe
   port: 443
@@ -79,12 +70,14 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: lt|1a23|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
+- name: hk|e082|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: lt|d495|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -105,32 +98,11 @@ proxies:
   port: 33563
   server: 185.39.204.161
   type: ss
-- name: 🇭🇰 香港 电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 112.118.116.66
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: none
-  name: 未知 VLESS-22 | free-nodes
-  network: tcp
-  port: 443
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  type: vless
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - cipher: chacha20-ietf-poly1305
   name: 🔴46@oneclickvpnkeys
   password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
   port: 443
   server: 87.121.162.249
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|d495|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
   type: ss
 - name: 🇭🇰 香港3|@stairnode
   password: 79314e99f0a473fe86efc7827942ad00
@@ -139,57 +111,9 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-54 | free-nodes
-  password: bSlgCoGhApOb55tIMD0zxY
-  port: 33563
-  server: 185.39.204.161
-  type: ss
-- cipher: none
-  name: 未知 VLESS-75 | free-nodes
-  network: tcp
-  port: 6093
-  server: easygovpnkeys16.com
-  type: vless
-  uuid: e5603527-ac9b-4f69-906e-34bea11c5835
 - alterId: 0
   cipher: auto
   name: 🇺🇸 US美国(mibei77.com 米贝节点分享)
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 FR法国(mibei77.com 米贝节点分享)
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇭🇰 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国 V2CROSS.COM
   network: tcp
   port: 180
   server: 82.198.246.97
