@@ -1,40 +1,49 @@
 proxies:
-- name: '[OpenRay] 🇺🇸 US-6965'
-  network: ws
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+- cipher: aes-256-cfb
+  name: vn|88f0|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.232
+  type: ss
+- cipher: none
+  name: 未知 VLESS-143 | free-nodes
+  network: grpc
+  port: 56089
+  server: 141.227.172.96
+  type: vless
+  uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
   port: 443
-  server: 104.16.148.8
-  sni: cm3-bpg.filegear-sg.me
+  server: 58.152.30.175
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=tw.ttzxw.cf:443
-- name: '[OpenRay] 🇺🇸 US-6957'
-  network: ws
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+- name: 🇭🇰 香港4|@ripaojiedian
+  password: BxceQaOe
   port: 443
-  server: 104.16.149.8
-  sni: cm3-bpg.filegear-sg.me
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=tw.ttzxw.cf:443
-- name: '[OpenRay] 🇺🇸 US-6963'
-  network: ws
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+- name: 未知 TROJAN-219 | free-nodes
+  password: BxceQaOe
   port: 443
-  server: 104.16.148.9
-  sni: cm3-bpg.filegear-sg.me
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=tw.ttzxw.cf:443
+- name: hk|af90|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🔴46@oneclickvpnkeys
   password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
