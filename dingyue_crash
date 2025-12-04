@@ -1,77 +1,11 @@
 proxies:
-- name: hk|3620|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.175
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 未知 TROJAN-224 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港 电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: bg|bbd4|puddincat07@Telegram
-  password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
-  port: 443
-  server: 87.121.162.249
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: bg|517a|puddincat07@Telegram
   password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
   port: 443
   server: 87.121.162.249
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: DE SS-04 | free-nodes
-  password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
-  port: 443
-  server: 87.121.162.249
-  type: ss
-- name: hk|5fbc|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: DE SS-04 | free-nodes
-  password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
-  port: 443
-  server: 87.121.162.249
-  type: ss
-- name: HK TROJAN-89 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港5|@ripaojiedian
+- name: 12,13|香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 58.152.30.175
@@ -79,6 +13,12 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴46@oneclickvpnkeys
+  password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
+  port: 443
+  server: 87.121.162.249
+  type: ss
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
@@ -87,31 +27,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: tr|e910|puddincat07@Telegram
-  password: bSlgCoGhApOb55tIMD0zxY
-  port: 33563
-  server: 185.39.204.161
-  type: ss
 - cipher: none
-  name: DE VLESS-84 | free-nodes
+  name: BESTIIVPNBOT
   network: tcp
-  port: 6093
-  server: easygovpnkeys16.com
+  port: 8443
+  server: plr.strelkavpn.ru
   type: vless
-  uuid: e5603527-ac9b-4f69-906e-34bea11c5835
-- cipher: chacha20-ietf-poly1305
-  name: 🔴46@oneclickvpnkeys
-  password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
-  port: 443
-  server: 87.121.162.249
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷[By EbraSha] ss-TR 🔒
-  password: bSlgCoGhApOb55tIMD0zxY
-  port: 33563
-  server: 185.39.204.161
-  type: ss
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
 - name: 🇭🇰 香港3|@stairnode
   password: 79314e99f0a473fe86efc7827942ad00
   port: 443
@@ -120,8 +42,21 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: TR SS-51 | free-nodes
+  name: 🇹🇷[By EbraSha] ss-TR 🔒
   password: bSlgCoGhApOb55tIMD0zxY
   port: 33563
   server: 185.39.204.161
   type: ss
+- cipher: none
+  name: '@Filter_breaker-10'
+  network: ws
+  port: 2096
+  server: 25.25.25.253
+  servername: alanconf.info
+  tls: true
+  type: vless
+  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
+  ws-opts:
+    headers:
+      Host: alanconf.info
+    path: /
