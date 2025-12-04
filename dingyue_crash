@@ -1,57 +1,9 @@
 proxies:
-- name: '[OpenRay] 🇺🇸 US-6963'
+- name: '[OpenRay] 🇺🇸 US-6962'
   network: ws
   password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
   port: 443
-  server: 104.16.148.9
-  sni: cm3-bpg.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=tw.ttzxw.cf:443
-- name: '[OpenRay] 🇺🇸 US-6959'
-  network: ws
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  port: 443
-  server: 104.16.148.6
-  sni: cm3-bpg.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=tw.ttzxw.cf:443
-- name: '[OpenRay] 🇺🇸 US-6956'
-  network: ws
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  port: 443
-  server: 104.16.149.6
-  sni: cm3-bpg.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=tw.ttzxw.cf:443
-- name: '[OpenRay] 🇺🇸 US-6954'
-  network: ws
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  port: 443
-  server: 104.16.148.244
-  sni: cm3-bpg.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=tw.ttzxw.cf:443
-- name: '[OpenRay] 🇺🇸 US-6957'
-  network: ws
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  port: 443
-  server: 104.16.149.8
+  server: 104.16.149.244
   sni: cm3-bpg.filegear-sg.me
   type: trojan
   udp: true
@@ -83,6 +35,18 @@ proxies:
     headers:
       Host: cm3-bpg.filegear-sg.me
     path: /proxyip=tw.ttzxw.cf:443
+- name: '[OpenRay] 🇺🇸 US-6963'
+  network: ws
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  port: 443
+  server: 104.16.148.9
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=tw.ttzxw.cf:443
 - name: '[OpenRay] 🇺🇸 US-6955'
   network: ws
   password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
@@ -95,11 +59,11 @@ proxies:
     headers:
       Host: cm3-bpg.filegear-sg.me
     path: /proxyip=tw.ttzxw.cf:443
-- name: '[OpenRay] 🇺🇸 US-6964'
+- name: '[OpenRay] 🇺🇸 US-6959'
   network: ws
   password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
   port: 443
-  server: 104.16.148.3
+  server: 104.16.148.6
   sni: cm3-bpg.filegear-sg.me
   type: trojan
   udp: true
@@ -117,35 +81,21 @@ proxies:
   udp: true
   ws-opts:
     path: /?ed=2560
+- name: 🇭🇰 香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
-  name: 🇫🇷[By EbraSha] vless-FR 🔒
-  network: ws
-  port: 443
-  server: norman.ns.cloudflare.com
-  servername: 639001966536690941.prius-amsiq.info
-  tls: true
+  name: 🇳🇱[By EbraSha] vless-NL 🔒
+  network: tcp
+  port: 49943
+  server: s3.nobaddays.site
   type: vless
-  uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
-  ws-opts:
-    headers:
-      Host: 639001966536690941.prius-amsiq.info
-    path: /cahttingws
-- name: 未知 TROJAN-514 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 未知 TROJAN-332 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  uuid: _911331
 - name: '@v2FreeHub 🇮🇱'
   network: ws
   password: 394a715e-3ef1-4aae-bb5e-a48857ed00b7
@@ -159,73 +109,20 @@ proxies:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/77.91.69.146=443
 - cipher: chacha20-ietf-poly1305
-  name: nl|ff4a|puddincat07@Telegram
-  password: YQCSKoCF3QazW8YlvDBWA4
-  port: 56689
-  server: 109.71.246.210
+  name: 🇹🇷[By EbraSha] ss-TR 🔒
+  password: bSlgCoGhApOb55tIMD0zxY
+  port: 33563
+  server: 185.39.204.161
   type: ss
-- name: HK TROJAN-136 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 112.118.116.66
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: none
-  name: 未知 VLESS-65 | free-nodes
+  name: '@Filter_breaker-9'
   network: tcp
-  port: 49943
-  server: s3.nobaddays.site
+  port: 27121
+  server: wolfy.ufavpn.ru
   type: vless
-  uuid: _911331
-- name: HK TROJAN-108 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.175
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港 电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 112.118.116.66
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
 - cipher: none
   name: FR VLESS-103 | free-nodes
-  network: tcp
-  port: 8443
-  server: fr.atlanta-internet.ru
-  type: vless
-  uuid: 669be00c-67b4-4b87-b08f-311c45abced2
-- name: hk|a621|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.175
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: jp|4d06|puddincat07@Telegram
-  password: NS8BriBL9gcPEHTXiN66aT
-  port: 5223
-  server: 45.83.22.118
-  type: ss
-- name: 未知 TROJAN-648 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: none
-  name: FR VLESS-93 | free-nodes
   network: tcp
   port: 8443
   server: fr.atlanta-internet.ru
@@ -239,6 +136,41 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- name: 🇭🇰 香港 电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 112.118.116.66
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🔴46@oneclickvpnkeys
+  password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
+  port: 443
+  server: 87.121.162.249
+  type: ss
+- cipher: none
+  name: FR VLESS-98 | free-nodes
+  network: tcp
+  port: 8443
+  server: fr.atlanta-internet.ru
+  type: vless
+  uuid: 669be00c-67b4-4b87-b08f-311c45abced2
+- name: HK TROJAN-136 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 112.118.116.66
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: jp|4d06|puddincat07@Telegram
+  password: NS8BriBL9gcPEHTXiN66aT
+  port: 5223
+  server: 45.83.22.118
+  type: ss
 - cipher: none
   name: 🇰🇿•|•@confegraigan```
   network: tcp
@@ -246,33 +178,11 @@ proxies:
   server: kz.connect-opengate.ru
   type: vless
   uuid: 2f88363e-497d-42fa-836c-ad3497f84913
-- cipher: chacha20-ietf-poly1305
-  name: jp|4d06|puddincat07@Telegram
-  password: NS8BriBL9gcPEHTXiN66aT
-  port: 5223
-  server: 45.83.22.118
-  type: ss
-- name: hk|ea85|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港5|@ripaojiedian
+- name: hk|a621|puddincat07@Telegram
   password: BxceQaOe
   port: 443
   server: 58.152.30.175
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 未知 TROJAN-747 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
