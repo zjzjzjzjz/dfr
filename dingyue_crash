@@ -1,11 +1,5 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: lt|4854|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: bg|517a|puddincat07@Telegram
   password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
   port: 443
@@ -18,12 +12,6 @@ proxies:
   server: plr.strelkavpn.ru
   type: vless
   uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
-- cipher: chacha20-ietf-poly1305
-  name: lt|c605|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
 - name: 12,13|香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -59,21 +47,3 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
