@@ -17,16 +17,6 @@ proxies:
   port: 38388
   server: 103.186.154.144
   type: ss
-- name: 未知 TROJAN-183 | free-nodes
-  network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: bg|517a|puddincat07@Telegram
   password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
@@ -76,14 +66,6 @@ proxies:
   type: trojan
   udp: true
 - name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 112.118.116.66
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 未知 TROJAN-197 | free-nodes
   password: BxceQaOe
   port: 443
   server: 112.118.116.66
