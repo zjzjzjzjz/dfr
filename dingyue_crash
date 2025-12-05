@@ -1,15 +1,23 @@
 proxies:
 - cipher: aes-256-cfb
-  name: us|7bd6|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-- cipher: aes-256-cfb
   name: VN_speednode_0023
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.183
+  type: ss
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: us|7bd6|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
   type: ss
 - cipher: aes-256-cfb
   name: VN_speednode_0017
@@ -23,20 +31,6 @@ proxies:
   port: 38388
   server: 103.186.154.208
   type: ss
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0015
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.54
-  type: ss
 - cipher: aes-256-cfb
   name: 🇻🇳 VN | 🔒 SS | @v2ray_free_conf [20]
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -49,12 +43,6 @@ proxies:
   port: 989
   server: 134.209.147.198
   type: ss
-- cipher: aes-256-cfb
-  name: us|a837|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
 - cipher: none
   name: 未知 VLESS-38 | free-nodes
   network: grpc
@@ -62,12 +50,6 @@ proxies:
   server: 141.227.140.217
   type: vless
   uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
-- cipher: aes-256-cfb
-  name: us|7be2|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
 - name: 🇭🇰 香港5|@stairnode
   password: BxceQaOe
   port: 443
@@ -76,12 +58,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: ru|d67e|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
 - cipher: aes-256-cfb
   name: ru|d67e|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
@@ -136,18 +112,22 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: ru|d67e|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.60.223.8
+  type: ss
+- cipher: aes-256-cfb
+  name: ru|d67e|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.60.223.8
+  type: ss
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: TR TROJAN-72 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -167,29 +147,8 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: ru|996c|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
-- cipher: aes-256-cfb
   name: RU_speednode_0017
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 38.60.223.8
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US美国(mibei77.com 米贝节点分享)
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-gcm
-  name: cl|e33d|puddincat07@Telegram
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.54.20.59
   type: ss
