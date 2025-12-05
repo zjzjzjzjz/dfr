@@ -5,45 +5,27 @@ proxies:
   port: 38388
   server: 103.186.154.215
   type: ss
-- cipher: none
-  name: '@Filter_breaker-15'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - cipher: aes-256-cfb
   name: VN_speednode_0015
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.54
   type: ss
-- cipher: none
-  name: '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇷 ⚡ |'
+- name: 未知 TROJAN-183 | free-nodes
   network: ws
-  port: 443
-  server: cosmin.ns.cloudflare.com
-  servername: 639003456256484486.giulia-amsis.info
-  tls: true
-  type: vless
-  uuid: 4f590914-6d75-4f1d-a361-2fddb3cdf669
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  sni: nodes.830901.xyz
+  type: trojan
+  udp: true
   ws-opts:
-    headers:
-      Host: 639003456256484486.giulia-amsis.info
-    path: /ccemutws
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: bg|517a|puddincat07@Telegram
   password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
   port: 443
   server: 87.121.162.249
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|90d1|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
   type: ss
 - cipher: none
   name: '@Filter_breaker-10'
@@ -58,12 +40,13 @@ proxies:
     headers:
       Host: alanconf.info
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: lt|0d5a|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
+- cipher: none
+  name: 未知 VLESS-67 | free-nodes
+  network: tcp
+  port: 49943
+  server: 89.23.113.137
+  type: vless
+  uuid: _911331
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -106,3 +89,15 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-54 | free-nodes
+  password: bSlgCoGhApOb55tIMD0zxY
+  port: 33563
+  server: 185.39.204.161
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|90d1|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.155
+  type: ss
