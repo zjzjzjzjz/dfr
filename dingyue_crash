@@ -1,45 +1,68 @@
 proxies:
-- name: hk|32f5|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.175
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: VN_speednode_0016
+  name: VN_speednode_0017
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.38
+  server: 103.186.154.215
   type: ss
-- name: HK TROJAN-14 | free-nodes
-  password: BxceQaOe
+- cipher: none
+  name: '@Filter_breaker-15'
+  network: xhttp
   port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: lt|d495|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
+- cipher: aes-256-cfb
+  name: VN_speednode_0015
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.54
   type: ss
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
+- cipher: none
+  name: '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇷 ⚡ |'
+  network: ws
   port: 443
-  server: 58.152.30.175
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  server: cosmin.ns.cloudflare.com
+  servername: 639003456256484486.giulia-amsis.info
+  tls: true
+  type: vless
+  uuid: 4f590914-6d75-4f1d-a361-2fddb3cdf669
+  ws-opts:
+    headers:
+      Host: 639003456256484486.giulia-amsis.info
+    path: /ccemutws
 - cipher: chacha20-ietf-poly1305
   name: bg|517a|puddincat07@Telegram
   password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
   port: 443
   server: 87.121.162.249
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|90d1|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.155
+  type: ss
+- cipher: none
+  name: '@Filter_breaker-10'
+  network: ws
+  port: 2096
+  server: 25.25.25.253
+  servername: alanconf.info
+  tls: true
+  type: vless
+  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
+  ws-opts:
+    headers:
+      Host: alanconf.info
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: lt|0d5a|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.155
   type: ss
 - cipher: none
   name: BESTIIVPNBOT
@@ -48,20 +71,6 @@ proxies:
   server: plr.strelkavpn.ru
   type: vless
   uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
-- cipher: chacha20-ietf-poly1305
-  name: lt|d495|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
-- name: TR TROJAN-83 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 12,13|香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -70,20 +79,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: hk|e082|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: lt|d495|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.155
-  type: ss
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
@@ -111,12 +106,3 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US美国(mibei77.com 米贝节点分享)
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
