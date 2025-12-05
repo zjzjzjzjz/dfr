@@ -11,16 +11,6 @@ proxies:
   port: 38388
   server: 103.186.154.54
   type: ss
-- name: 未知 TROJAN-183 | free-nodes
-  network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: bg|517a|puddincat07@Telegram
   password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
@@ -28,25 +18,34 @@ proxies:
   server: 87.121.162.249
   type: ss
 - cipher: none
-  name: '@Filter_breaker-10'
-  network: ws
-  port: 2096
-  server: 25.25.25.253
-  servername: alanconf.info
-  tls: true
+  name: RU VLESS-47 | free-nodes
+  network: tcp
+  port: 443
+  server: bg.fasssst.ru
   type: vless
-  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
-  ws-opts:
-    headers:
-      Host: alanconf.info
-    path: /
+  uuid: c1853115-eb6b-4592-b01f-05037d33505d
 - cipher: none
-  name: 未知 VLESS-67 | free-nodes
+  name: 未知 VLESS-75 | free-nodes
+  network: tcp
+  port: 6093
+  server: easygovpnkeys16.com
+  type: vless
+  uuid: e5603527-ac9b-4f69-906e-34bea11c5835
+- cipher: none
+  name: 未知 VLESS-55 | free-nodes
   network: tcp
   port: 49943
-  server: 89.23.113.137
+  server: s3.nobaddays.site
   type: vless
   uuid: _911331
+- name: TR TROJAN-83 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -62,6 +61,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: RU VLESS-45 | free-nodes
+  network: tcp
+  port: 8443
+  server: plr.strelkavpn.ru
+  type: vless
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
@@ -82,6 +88,14 @@ proxies:
   port: 443
   server: 87.121.162.249
   type: ss
+- name: hk|eedf|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - name: 🇭🇰 香港3|@stairnode
   password: 79314e99f0a473fe86efc7827942ad00
   port: 443
@@ -90,10 +104,16 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-54 | free-nodes
-  password: bSlgCoGhApOb55tIMD0zxY
-  port: 33563
-  server: 185.39.204.161
+  name: lt|90d1|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.155
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: lt|90d1|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.155
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: lt|90d1|puddincat07@Telegram
