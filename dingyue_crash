@@ -1,33 +1,9 @@
 proxies:
 - cipher: aes-256-cfb
-  name: in|95b5|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.209.147.198
-  type: ss
-- cipher: aes-256-cfb
-  name: in|95b5|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.209.147.198
-  type: ss
-- cipher: aes-256-cfb
-  name: ru|e057|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
-- cipher: aes-256-cfb
   name: VN_speednode_0017
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.215
-  type: ss
-- cipher: aes-256-cfb
-  name: in|95b5|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.209.147.198
   type: ss
 - cipher: aes-256-cfb
   name: VN_speednode_0015
@@ -47,12 +23,6 @@ proxies:
   port: 989
   server: 134.209.147.198
   type: ss
-- cipher: aes-256-cfb
-  name: in|95b5|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.209.147.198
-  type: ss
 - cipher: none
   name: 未知 VLESS-38 | free-nodes
   network: grpc
@@ -60,30 +30,6 @@ proxies:
   server: 141.227.140.217
   type: vless
   uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
-- cipher: aes-256-cfb
-  name: in|95b5|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.209.147.198
-  type: ss
-- cipher: aes-256-cfb
-  name: ru|e057|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
-- cipher: aes-256-cfb
-  name: in|95b5|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.209.147.198
-  type: ss
-- cipher: aes-256-cfb
-  name: ru|e057|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
 - cipher: aes-256-cfb
   name: ru|c653|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
@@ -117,12 +63,6 @@ proxies:
   server: plr.strelkavpn.ru
   type: vless
   uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
-- cipher: aes-256-cfb
-  name: ru|e057|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -131,18 +71,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: us|3812|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-- cipher: aes-256-cfb
-  name: us|3812|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -157,12 +85,6 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
-- cipher: aes-256-cfb
-  name: us|3812|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -171,15 +93,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: us|3812|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-- cipher: aes-256-cfb
-  name: us|3812|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
