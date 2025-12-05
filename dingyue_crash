@@ -1,21 +1,15 @@
 proxies:
 - cipher: aes-256-cfb
-  name: vn|cb8f|puddincat07@Telegram
+  name: VN_speednode_0017
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.174
+  server: 103.186.154.215
   type: ss
 - cipher: aes-256-cfb
   name: VN_speednode_0015
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.54
-  type: ss
-- cipher: aes-256-cfb
-  name: VN_speednode_0017
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.215
   type: ss
 - cipher: aes-256-cfb
   name: 🇻🇳 VN | 🔒 SS | @v2ray_free_conf [20]
@@ -36,14 +30,6 @@ proxies:
   server: plr.strelkavpn.ru
   type: vless
   uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 12,13|香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -52,19 +38,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 未知 VLESS-02 | free-nodes
-  network: tcp
-  port: 8443
-  server: 89.110.68.47
-  type: vless
-  uuid: 787ae54e-40ad-4caf-899b-ad3a19ff1103
-- cipher: aes-256-gcm
-  name: us|6601|puddincat07@Telegram
-  password: 57dtozbdQRZT9MaL
-  port: 26351
-  server: 67.209.177.69
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇷[By EbraSha] ss-TR 🔒
   password: bSlgCoGhApOb55tIMD0zxY
@@ -78,6 +51,12 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  name: us|6601|puddincat07@Telegram
+  password: 57dtozbdQRZT9MaL
+  port: 26351
+  server: 67.209.177.69
+  type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
