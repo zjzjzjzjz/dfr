@@ -17,12 +17,22 @@ proxies:
   port: 38388
   server: 103.186.154.144
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: lt|17f8|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.197
-  type: ss
+- name: HK TROJAN-24 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: HK TROJAN-84 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: 🇭🇰 香港5|@stairnode
   password: BxceQaOe
   port: 443
@@ -31,6 +41,19 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: 未知 VLESS-42 | free-nodes
+  network: tcp
+  port: 49943
+  server: s3.nobaddays.site
+  type: vless
+  uuid: _911331
+- cipher: chacha20-ietf-poly1305
+  name: lt|17f8|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.197
+  type: ss
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -46,12 +69,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷[By EbraSha] ss-TR 🔒
-  password: bSlgCoGhApOb55tIMD0zxY
-  port: 33563
-  server: 185.39.204.161
-  type: ss
 - name: 🇭🇰 香港3|@stairnode
   password: 79314e99f0a473fe86efc7827942ad00
   port: 443
@@ -75,12 +92,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: '@Filter_breaker-15'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
