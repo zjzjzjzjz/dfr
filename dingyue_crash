@@ -18,13 +18,6 @@ proxies:
   server: 103.186.154.144
   type: ss
 - cipher: none
-  name: 未知 VLESS-39 | free-nodes
-  network: grpc
-  port: 33919
-  server: 141.227.162.151
-  type: vless
-  uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
-- cipher: none
   name: 未知 VLESS-38 | free-nodes
   network: grpc
   port: 23990
