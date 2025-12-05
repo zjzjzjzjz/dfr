@@ -1,23 +1,17 @@
 proxies:
-- cipher: aes-256-cfb
-  name: VN_speednode_0023
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.183
-  type: ss
-- name: 🇭🇰 香港4|@stairnode
+- name: 🇭🇰 香港5|@stairnode
   password: BxceQaOe
   port: 443
-  server: 219.79.186.107
+  server: 58.152.25.242
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: us|7bd6|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
+  name: VN_speednode_0023
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.183
   type: ss
 - cipher: aes-256-cfb
   name: VN_speednode_0017
@@ -31,11 +25,24 @@ proxies:
   port: 38388
   server: 103.186.154.208
   type: ss
+- cipher: none
+  name: 未知 VLESS-51 | free-nodes
+  network: tcp
+  port: 49943
+  server: 89.23.113.137
+  type: vless
+  uuid: _911331
 - cipher: aes-256-cfb
   name: 🇻🇳 VN | 🔒 SS | @v2ray_free_conf [20]
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.144
+  type: ss
+- cipher: aes-256-cfb
+  name: us|0104|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
   type: ss
 - cipher: aes-256-cfb
   name: in|c4f4|puddincat07@Telegram
@@ -50,26 +57,33 @@ proxies:
   server: 141.227.140.217
   type: vless
   uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: ru|d67e|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
+- cipher: none
+  name: 未知 VLESS-02 | free-nodes
+  network: ws
+  port: 2096
+  server: 25.25.25.253
+  servername: spplesh.hatlikarious.org
+  tls: true
+  type: vless
+  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
+  ws-opts:
+    headers:
+      Host: spplesh.hatlikarious.org
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: lt|17f8|puddincat07@Telegram
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 45.87.175.197
   type: ss
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: ru|c653|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
@@ -104,6 +118,12 @@ proxies:
   server: plr.strelkavpn.ru
   type: vless
   uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- cipher: aes-256-gcm
+  name: 未知 SS-63 | free-nodes
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 38.54.20.59
+  type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -112,18 +132,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: ru|d67e|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
-- cipher: aes-256-cfb
-  name: ru|d67e|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -152,3 +160,12 @@ proxies:
   port: 989
   server: 38.60.223.8
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  udp: false
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
