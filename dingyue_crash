@@ -5,14 +5,6 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -29,10 +21,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 未知 VLESS-139 | free-nodes
-  network: tcp
-  port: 35728
-  server: 178.236.16.98
-  type: vless
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
