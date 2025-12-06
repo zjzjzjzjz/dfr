@@ -1,32 +1,69 @@
 proxies:
 - cipher: aes-256-cfb
-  name: hk|218e|puddincat07@Telegram
+  name: hk|7442|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 216.250.97.82
   type: ss
-- cipher: aes-256-cfb
-  name: hk|218e|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 216.250.97.82
-  type: ss
-- cipher: aes-256-cfb
-  name: hk|218e|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 216.250.97.82
-  type: ss
+- cipher: none
+  name: 🇨🇿[By EbraSha] vless-CZ 🔒
+  network: grpc
+  port: 18925
+  server: 141.227.134.118
+  type: vless
+  uuid: d3f74fb2-9c47-4689-bfec-aabdf7612582
+- cipher: none
+  name: 未知 VLESS-87 | free-nodes
+  network: grpc
+  port: 23991
+  server: 141.227.140.217
+  type: vless
+  uuid: d016da91-83a9-42dc-a246-b27c192e40af
 - cipher: aes-256-cfb
   name: 🇲🇩MD-185.153.197.5-0331
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
+- cipher: none
+  name: FR VLESS-26 | free-nodes
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
+  tls: true
+  type: vless
+  uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
+  ws-opts:
+    headers:
+      Host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
+- cipher: none
+  name: 未知 VLESS-04 | free-nodes
+  network: grpc
+  port: 18925
+  server: 141.227.134.118
+  type: vless
+  uuid: d3f74fb2-9c47-4689-bfec-aabdf7612582
+- cipher: none
+  name: 未知 VLESS-100 | free-nodes
+  network: tcp
+  port: 49943
+  server: 89.23.113.137
+  type: vless
+  uuid: _911331
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -47,3 +84,18 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: be|b4ba|puddincat07@Telegram
+  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
+  port: 443
+  server: 45.83.20.206
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US美国(mibei77.com 米贝节点分享)
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  udp: false
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
