@@ -1,4 +1,11 @@
 proxies:
+- cipher: none
+  name: RU VLESS-75 | free-nodes
+  network: tcp
+  port: 443
+  server: bg.fasssst.ru
+  type: vless
+  uuid: c1853115-eb6b-4592-b01f-05037d33505d
 - cipher: aes-256-cfb
   name: in|c4f4|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
@@ -6,22 +13,54 @@ proxies:
   server: 134.209.147.198
   type: ss
 - cipher: none
-  name: 未知 VLESS-38 | free-nodes
-  network: grpc
-  port: 23990
-  server: 141.227.140.217
+  name: RU VLESS-73 | free-nodes
+  network: tcp
+  port: 8443
+  server: plr.strelkavpn.ru
   type: vless
-  uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- name: hk|2944|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 🇲🇩MD-185.153.197.5-0331
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
+- name: HK TROJAN-39 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: HK TROJAN-37 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -48,16 +87,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 🇳🇱[openproxylist.com]
-  network: ws
-  port: 443
-  server: cc.cybsecguru.com
-  servername: jnir-cdn.6006900.xyz
-  tls: true
-  type: vless
-  uuid: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  ws-opts:
-    headers:
-      Host: jnir-cdn.6006900.xyz
-    path: /@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/
