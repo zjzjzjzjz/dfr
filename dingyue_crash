@@ -5,31 +5,13 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+- cipher: none
+  name: 未知 VLESS-02 | free-nodes
   network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇭🇰 香港3|@stairnode
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 443
-  server: 58.152.110.154
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
+  port: 23940
+  server: 65.109.215.51
+  type: vless
+  uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
 - cipher: none
   name: SG VLESS-15 | free-nodes
   network: ws
@@ -51,13 +33,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 🇦🇱Telegram @Ettehad_vpn اتحاد وی‌پی‌ان
-  network: tcp
-  port: 22599
-  server: 45.15.170.188
-  type: vless
-  uuid: 019aefe0-f33f-7000-be8d-9d35610b8f72
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -66,3 +41,10 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: DE VLESS-142 | free-nodes
+  network: grpc
+  port: 28485
+  server: 62.60.248.14
+  type: vless
+  uuid: 5abcaaa5-85a8-4a2d-85c6-7f7d8a7ccda1
