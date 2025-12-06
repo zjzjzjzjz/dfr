@@ -1,30 +1,12 @@
 proxies:
-- name: 未知 TROJAN-726 | free-nodes
+- name: 未知 TROJAN-1836 | free-nodes
   password: BxceQaOe
   port: 443
-  server: 219.79.186.107
+  server: 58.152.25.242
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: DE VLESS-27 | free-nodes
-  network: ws
-  port: 80
-  server: usaa.fastlynew.hosting-ip.com
-  type: vless
-  uuid: 13c72182-9869-4956-83bb-f8ec486e0a1b
-  ws-opts:
-    headers:
-      Host: mojhsjd.global.ssl.fastly.net
-    path: /
-- cipher: none
-  name: 未知 VLESS-146 | free-nodes
-  network: tcp
-  port: 35728
-  server: 178.236.16.98
-  type: vless
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
 - cipher: aes-256-cfb
   name: 🇻🇳 VN | 🔒 SS | @v2ray_free_conf [20]
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -45,12 +27,39 @@ proxies:
   type: vless
   uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
 - cipher: none
+  name: DE VLESS-27 | free-nodes
+  network: ws
+  port: 80
+  server: usaa.fastlynew.hosting-ip.com
+  type: vless
+  uuid: 13c72182-9869-4956-83bb-f8ec486e0a1b
+  ws-opts:
+    headers:
+      Host: mojhsjd.global.ssl.fastly.net
+    path: /
+- name: 未知 TROJAN-402 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
   name: BESTIIVPNBOT
   network: tcp
   port: 8443
   server: plr.strelkavpn.ru
   type: vless
   uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- name: HK TROJAN-32 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: '@Filter_breaker'
   network: ws
@@ -73,31 +82,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 未知 TROJAN-881 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 🇭🇰 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 未知 TROJAN-402 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 未知 TROJAN-1571 | free-nodes
   password: BxceQaOe
   port: 443
   server: 219.79.186.107
