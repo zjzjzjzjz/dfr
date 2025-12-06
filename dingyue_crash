@@ -1,46 +1,16 @@
 proxies:
-- cipher: none
-  name: RU VLESS-75 | free-nodes
-  network: tcp
-  port: 443
-  server: bg.fasssst.ru
-  type: vless
-  uuid: c1853115-eb6b-4592-b01f-05037d33505d
 - cipher: aes-256-cfb
   name: in|c4f4|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 134.209.147.198
   type: ss
-- cipher: none
-  name: RU VLESS-73 | free-nodes
-  network: tcp
-  port: 8443
-  server: plr.strelkavpn.ru
-  type: vless
-  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
-- name: hk|2944|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: 🇲🇩MD-185.153.197.5-0331
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
-- name: HK TROJAN-39 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -49,22 +19,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: HK TROJAN-37 | free-nodes
-  password: BxceQaOe
+- cipher: none
+  name: 未知 VLESS-02 | free-nodes
+  network: tcp
   port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - cipher: none
   name: '@Filter_breaker'
   network: ws
