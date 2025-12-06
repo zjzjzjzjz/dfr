@@ -5,13 +5,22 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
-- cipher: none
-  name: 未知 VLESS-02 | free-nodes
-  network: tcp
-  port: 23940
-  server: 65.109.215.51
-  type: vless
-  uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: SG VLESS-15 | free-nodes
   network: ws
@@ -25,14 +34,6 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: /
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -41,10 +42,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: DE VLESS-142 | free-nodes
-  network: grpc
-  port: 28485
-  server: 62.60.248.14
-  type: vless
-  uuid: 5abcaaa5-85a8-4a2d-85c6-7f7d8a7ccda1
