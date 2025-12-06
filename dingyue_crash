@@ -1,31 +1,43 @@
 proxies:
+- cipher: aes-256-cfb
+  name: hk|218e|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
+- cipher: aes-256-cfb
+  name: hk|218e|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
+- cipher: aes-256-cfb
+  name: hk|218e|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
+- cipher: aes-256-cfb
+  name: hk|218e|puddincat07@Telegram
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
 - cipher: none
-  name: us|01b9|puddincat07@Telegram
-  network: ws
+  name: '[OpenRay] Dynamic-2072'
+  network: grpc
   port: 443
-  server: 69.84.182.13
-  servername: fr-1-fr-1.aiopen.sbs
+  server: all.tellmethetrue.shop
+  servername: pqh30v1.hiddendom.shop
   tls: true
   type: vless
-  uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
-  ws-opts:
-    headers:
-      Host: fr-1-fr-1.aiopen.sbs
-    path: /kbjc/fr1
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - cipher: aes-256-cfb
   name: 🇲🇩MD-185.153.197.5-0331
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -34,6 +46,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: 未知 VLESS-02 | free-nodes
+  network: tcp
+  port: 23940
+  server: 65.109.215.51
+  type: vless
+  uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -42,12 +61,11 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
