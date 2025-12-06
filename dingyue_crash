@@ -5,6 +5,44 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  udp: false
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  udp: false
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇭🇰 香港3|@stairnode
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 443
+  server: 58.152.110.154
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- cipher: none
+  name: SG VLESS-15 | free-nodes
+  network: ws
+  port: 8443
+  server: news.zoom.us
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: /
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -13,6 +51,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: 🇦🇱Telegram @Ettehad_vpn اتحاد وی‌پی‌ان
+  network: tcp
+  port: 22599
+  server: 45.15.170.188
+  type: vless
+  uuid: 019aefe0-f33f-7000-be8d-9d35610b8f72
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
