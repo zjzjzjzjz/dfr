@@ -1,8 +1,49 @@
 proxies:
-- name: 🇭🇰 香港5|@stairnode
+- cipher: none
+  name: xx|4056|puddincat07@Telegram
+  network: ws
+  port: 8443
+  server: news.zoom.us
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: /
+- cipher: none
+  name: 未知 VLESS-90 | free-nodes
+  network: grpc
+  port: 25687
+  server: 141.227.136.51
+  type: vless
+  uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
+- cipher: chacha20-ietf-poly1305
+  name: ae|13bc|puddincat07@Telegram
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.153
+  type: ss
+- name: HK TROJAN-51 | free-nodes
   password: BxceQaOe
   port: 443
-  server: 58.152.25.242
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: HK TROJAN-28 | free-nodes
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 443
+  server: 58.152.110.154
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -17,6 +58,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: HK TROJAN-107 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -38,9 +87,32 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
+  name: 未知 VLESS-02 | free-nodes
+  network: tcp
+  port: 23940
+  server: 65.109.215.51
+  type: vless
+  uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
+- cipher: none
+  name: fi|fc0b|puddincat07@Telegram
+  network: tcp
+  port: 23940
+  server: 65.109.215.51
+  type: vless
+  uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
+- cipher: none
   name: RU VLESS-85 | free-nodes
   network: tcp
   port: 8443
   server: plr.strelkavpn.ru
   type: vless
   uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  udp: false
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
