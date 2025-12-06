@@ -1,4 +1,12 @@
 proxies:
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 🇲🇩MD-185.153.197.5-0331
   password: f8f7aCzcPKbsF8p3
@@ -21,19 +29,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: SG VLESS-15 | free-nodes
-  network: ws
-  port: 8443
-  server: news.zoom.us
-  servername: premium.vkehi.shop
-  tls: true
-  type: vless
-  uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: /
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -42,3 +37,10 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: RU VLESS-85 | free-nodes
+  network: tcp
+  port: 8443
+  server: plr.strelkavpn.ru
+  type: vless
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
