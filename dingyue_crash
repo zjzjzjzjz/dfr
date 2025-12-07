@@ -1,5 +1,34 @@
 proxies:
 - cipher: none
+  name: 未知 VLESS-106 | free-nodes
+  network: grpc
+  port: 23991
+  server: 141.227.140.217
+  type: vless
+  uuid: d016da91-83a9-42dc-a246-b27c192e40af
+- cipher: none
+  name: GB VLESS-31 | free-nodes
+  network: grpc
+  port: 32415
+  server: 141.227.174.26
+  type: vless
+  uuid: 6a3ca433-b1ec-43bd-aede-cae68ee535f1
+- cipher: none
+  name: RU VLESS-113 | free-nodes
+  network: tcp
+  port: 8443
+  server: plr.strelkavpn.ru
+  type: vless
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- name: 未知 TROJAN-537 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
   name: 🇨🇿[By EbraSha] vless-CZ 🔒
   network: grpc
   port: 18925
@@ -21,3 +50,22 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: برای اتصال دائمی جوین شو🗾 TelegramID ⌲Express_freevpn 🪩
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
+- cipher: none
+  name: 🇷🇺+Uvpn_org
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
