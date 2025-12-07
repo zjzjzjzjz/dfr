@@ -21,3 +21,11 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- name: 12,13|香港4|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
