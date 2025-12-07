@@ -13,12 +13,6 @@ proxies:
   server: 141.227.174.26
   type: vless
   uuid: 6a3ca433-b1ec-43bd-aede-cae68ee535f1
-- cipher: chacha20-ietf-poly1305
-  name: lv|23c7|puddincat07@Telegram
-  password: 8afc633eb63227e9
-  port: 57456
-  server: 103.231.73.211
-  type: ss
 - cipher: none
   name: 未知 VLESS-08 | free-nodes
   network: tcp
