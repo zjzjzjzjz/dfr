@@ -1,5 +1,12 @@
 proxies:
 - cipher: none
+  name: 未知 VLESS-48 | free-nodes
+  network: grpc
+  port: 29803
+  server: 141.227.178.242
+  type: vless
+  uuid: aa4f8c93-e4ec-48fe-8043-2f8e4f1c006d
+- cipher: none
   name: 🇨🇿[By EbraSha] vless-CZ 🔒
   network: grpc
   port: 18925
@@ -13,6 +20,21 @@ proxies:
   server: 141.227.174.26
   type: vless
   uuid: 6a3ca433-b1ec-43bd-aede-cae68ee535f1
+- cipher: none
+  name: 未知 VLESS-33 | free-nodes
+  network: tcp
+  port: 8443
+  server: v547154.hosted-by-vdsina.com
+  type: vless
+  uuid: TrueVPN_91780028
+- name: HK TROJAN-112 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
@@ -21,11 +43,12 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 12,13|香港4|@ripaojiedian
-  password: BxceQaOe
+- cipher: none
+  name: 🇷🇺+Uvpn_org
+  network: xhttp
   port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
