@@ -1,47 +1,11 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-144 | free-nodes
-  password: 4SaCIazlgumYkM8FkPzlmwjpyWBDZFBk
-  port: 443
-  server: 103.106.3.82
-  type: ss
 - cipher: none
-  name: '[OpenRay] Dynamic-2072'
-  network: grpc
-  port: 443
-  server: all.tellmethetrue.shop
-  servername: pqh30v1.hiddendom.shop
-  tls: true
-  type: vless
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-- cipher: chacha20-ietf-poly1305
-  name: lv|85ae|puddincat07@Telegram
-  password: 8afc633eb63227e9
-  port: 57456
-  server: 103.231.73.211
-  type: ss
-- cipher: none
-  name: SG VLESS-12 | free-nodes
-  network: grpc
-  port: 443
-  server: 38.134.189.186
-  type: vless
-  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
-- name: 未知 TROJAN-522 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: none
-  name: 未知 VLESS-01 | free-nodes
+  name: 未知 VLESS-24 | free-nodes
   network: tcp
   port: 8443
-  server: 88.218.94.97
+  server: 167.17.70.16
   type: vless
-  uuid: 62b0e46b-d2a5-423d-8457-95bde707fc19
+  uuid: 55975415-43c0-461c-8752-d5b8013364e3
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
@@ -51,12 +15,12 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: GB VLESS-55 | free-nodes
-  network: grpc
-  port: 32416
-  server: 141.227.174.26
+  name: 未知 VLESS-38 | free-nodes
+  network: tcp
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
   type: vless
-  uuid: 04065d54-10f3-4e11-95d3-f98f8429c3ea
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - cipher: none
   name: 未知 VLESS-08 | free-nodes
   network: tcp
@@ -64,12 +28,3 @@ proxies:
   server: 167.17.70.16
   type: vless
   uuid: 55975415-43c0-461c-8752-d5b8013364e3
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: false
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
