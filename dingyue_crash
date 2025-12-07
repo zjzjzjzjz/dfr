@@ -1,42 +1,20 @@
 proxies:
-- cipher: none
-  name: DE VLESS-131 | free-nodes
-  network: ws
-  port: 80
-  server: speedtest.net
-  type: vless
-  uuid: 77fb812d-2eb5-430e-afea-ccacc9795a86
-  ws-opts:
-    headers:
-      Host: downloadha.global.ssl.fastly.net
-    path: /Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN
-- name: 未知 TROJAN-1106 | free-nodes
+- cipher: chacha20-ietf-poly1305
+  name: lv|a6d3|puddincat07@Telegram
+  password: 8afc633eb63227e9
+  port: 57456
+  server: 103.231.73.211
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇲🇩MD-185.153.197.5-0331
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 未知 TROJAN-927 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: none
-  name: 未知 VLESS-119 | free-nodes
-  network: grpc
-  port: 23991
-  server: 141.227.140.217
-  type: vless
-  uuid: d016da91-83a9-42dc-a246-b27c192e40af
-- name: 未知 TROJAN-1202 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
+  server: 58.152.30.120
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -50,30 +28,6 @@ proxies:
   type: vmess
   udp: false
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 未知 TROJAN-1235 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 未知 TROJAN-420 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: none
   name: 未知 VLESS-08 | free-nodes
   network: tcp
