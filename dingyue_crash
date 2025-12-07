@@ -1,18 +1,38 @@
 proxies:
-- cipher: none
-  name: 🇨🇿[By EbraSha] vless-CZ 🔒
-  network: grpc
-  port: 18925
-  server: 141.227.134.118
-  type: vless
-  uuid: d3f74fb2-9c47-4689-bfec-aabdf7612582
-- cipher: none
-  name: 🇬🇧[By EbraSha] vless-GB 🔒
-  network: grpc
-  port: 32415
-  server: 141.227.174.26
-  type: vless
-  uuid: 6a3ca433-b1ec-43bd-aede-cae68ee535f1
+- cipher: chacha20-ietf-poly1305
+  name: lv|23c7|puddincat07@Telegram
+  password: 8afc633eb63227e9
+  port: 57456
+  server: 103.231.73.211
+  type: ss
+- name: 未知 TROJAN-1222 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 未知 TROJAN-976 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: hr|c16b|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
+- cipher: aes-256-cfb
+  name: hr|c16b|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
 - cipher: none
   name: 未知 VLESS-08 | free-nodes
   network: tcp
@@ -20,3 +40,23 @@ proxies:
   server: 167.17.70.16
   type: vless
   uuid: 55975415-43c0-461c-8752-d5b8013364e3
+- cipher: aes-256-cfb
+  name: hr|8ae8|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
+- cipher: none
+  name: RU VLESS-140 | free-nodes
+  network: tcp
+  port: 8443
+  server: plr.strelkavpn.ru
+  type: vless
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- cipher: none
+  name: 未知 VLESS-18 | free-nodes
+  network: tcp
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
