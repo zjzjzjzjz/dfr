@@ -7,12 +7,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: hr|4297|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.60
-  type: ss
 - cipher: none
   name: 未知 VLESS-08 | free-nodes
   network: tcp
