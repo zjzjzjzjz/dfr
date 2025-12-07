@@ -1,11 +1,55 @@
 proxies:
 - cipher: none
-  name: 未知 VLESS-24 | free-nodes
-  network: tcp
-  port: 8443
-  server: 167.17.70.16
+  name: DE VLESS-131 | free-nodes
+  network: ws
+  port: 80
+  server: speedtest.net
   type: vless
-  uuid: 55975415-43c0-461c-8752-d5b8013364e3
+  uuid: 77fb812d-2eb5-430e-afea-ccacc9795a86
+  ws-opts:
+    headers:
+      Host: downloadha.global.ssl.fastly.net
+    path: /Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN
+- name: 未知 TROJAN-1106 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 未知 TROJAN-927 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
+  name: 未知 VLESS-119 | free-nodes
+  network: grpc
+  port: 23991
+  server: 141.227.140.217
+  type: vless
+  uuid: d016da91-83a9-42dc-a246-b27c192e40af
+- name: 未知 TROJAN-1202 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  udp: false
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
@@ -14,13 +58,22 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 未知 VLESS-38 | free-nodes
-  network: tcp
+- name: 未知 TROJAN-1235 | free-nodes
+  password: BxceQaOe
   port: 443
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  type: vless
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 未知 TROJAN-420 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: 未知 VLESS-08 | free-nodes
   network: tcp
