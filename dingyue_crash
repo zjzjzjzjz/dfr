@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: hr|8e60|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
 - cipher: none
   name: 🇨🇿[By EbraSha] vless-CZ 🔒
   network: grpc
@@ -22,15 +28,25 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: '@Filter_breaker'
-  network: ws
-  port: 2096
-  server: 25.25.25.253
-  servername: spplesh.hatlikarious.org
+  name: 🇷🇺+Uvpn_org
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
   tls: true
   type: vless
-  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
-  ws-opts:
-    headers:
-      Host: spplesh.hatlikarious.org
-    path: /
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
+- cipher: none
+  name: 未知 VLESS-108 | free-nodes
+  network: tcp
+  port: 49943
+  server: s3.nobaddays.site
+  type: vless
+  uuid: _911331
+- cipher: none
+  name: 未知 VLESS-10 | free-nodes
+  network: tcp
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
