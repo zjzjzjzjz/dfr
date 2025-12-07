@@ -21,3 +21,10 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: 未知 VLESS-02 | free-nodes
+  network: tcp
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
