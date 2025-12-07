@@ -7,6 +7,20 @@ proxies:
   type: vless
   uuid: aa4f8c93-e4ec-48fe-8043-2f8e4f1c006d
 - cipher: none
+  name: 未知 VLESS-48 | free-nodes
+  network: tcp
+  port: 8443
+  server: v547154.hosted-by-vdsina.com
+  type: vless
+  uuid: TrueVPN_91780028
+- cipher: none
+  name: GB VLESS-62 | free-nodes
+  network: grpc
+  port: 32415
+  server: 141.227.174.26
+  type: vless
+  uuid: 6a3ca433-b1ec-43bd-aede-cae68ee535f1
+- cipher: none
   name: 🇨🇿[By EbraSha] vless-CZ 🔒
   network: grpc
   port: 18925
@@ -35,3 +49,16 @@ proxies:
   server: 167.17.70.16
   type: vless
   uuid: 55975415-43c0-461c-8752-d5b8013364e3
+- cipher: none
+  name: '@Filter_breaker'
+  network: ws
+  port: 2096
+  server: 25.25.25.253
+  servername: spplesh.hatlikarious.org
+  tls: true
+  type: vless
+  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
+  ws-opts:
+    headers:
+      Host: spplesh.hatlikarious.org
+    path: /
