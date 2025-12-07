@@ -1,4 +1,13 @@
 proxies:
+- cipher: none
+  name: 🇷🇺+Uvpn_org
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - name: 🟢70@oneclickvpnkeys
   password: BxceQaOe
   port: 443
@@ -7,12 +16,36 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: برای اتصال دائمی جوین شو🗾 TelegramID ⌲Express_freevpn 🪩
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
+- cipher: none
+  name: 未知 VLESS-04 | free-nodes
+  network: grpc
+  port: 18925
+  server: 141.227.134.118
+  type: vless
+  uuid: d3f74fb2-9c47-4689-bfec-aabdf7612582
 - cipher: aes-256-cfb
   name: 🇲🇩MD-185.153.197.5-0331
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
+- cipher: none
+  name: GB VLESS-05 | free-nodes
+  network: grpc
+  port: 32415
+  server: 141.227.174.26
+  type: vless
+  uuid: 6a3ca433-b1ec-43bd-aede-cae68ee535f1
 - cipher: none
   name: 🇨🇿[By EbraSha] vless-CZ 🔒
   network: grpc
@@ -28,19 +61,25 @@ proxies:
   type: vless
   uuid: 6a3ca433-b1ec-43bd-aede-cae68ee535f1
 - cipher: none
+  name: FR VLESS-26 | free-nodes
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
+  tls: true
+  type: vless
+  uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
+  ws-opts:
+    headers:
+      Host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
+- cipher: none
   name: 未知 VLESS-99 | free-nodes
   network: grpc
   port: 25687
   server: 141.227.136.51
   type: vless
   uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
-- name: HK TROJAN-36 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 443
-  server: 58.152.110.154
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -65,14 +104,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 🇭🇰 香港 电讯盈科有限公司
-  password: BxceQaOe
+- cipher: none
+  name: 未知 VLESS-07 | free-nodes
+  network: tcp
   port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - alterId: 0
   cipher: auto
   name: 🇬🇧 英国 V2CROSS.COM
