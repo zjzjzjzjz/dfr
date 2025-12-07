@@ -21,16 +21,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: '@Filter_breaker'
-  network: ws
-  port: 2096
-  server: 25.25.25.253
-  servername: spplesh.hatlikarious.org
-  tls: true
-  type: vless
-  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
-  ws-opts:
-    headers:
-      Host: spplesh.hatlikarious.org
-    path: /
