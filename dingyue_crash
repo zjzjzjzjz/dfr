@@ -13,6 +13,21 @@ proxies:
   server: 141.227.174.26
   type: vless
   uuid: 6a3ca433-b1ec-43bd-aede-cae68ee535f1
+- cipher: none
+  name: RU VLESS-137 | free-nodes
+  network: tcp
+  port: 8443
+  server: plr.strelkavpn.ru
+  type: vless
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- name: 未知 TROJAN-1380 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
