@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇲🇩MD-185.153.197.5-0331
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
 - cipher: none
   name: 🇨🇿[By EbraSha] vless-CZ 🔒
   network: grpc
