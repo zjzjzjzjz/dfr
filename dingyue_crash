@@ -1,14 +1,5 @@
 proxies:
 - cipher: none
-  name: '[OpenRay] Dynamic-2072'
-  network: grpc
-  port: 443
-  server: all.tellmethetrue.shop
-  servername: pqh30v1.hiddendom.shop
-  tls: true
-  type: vless
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-- cipher: none
   name: BESTIIVPNBOT
   network: tcp
   port: 443
@@ -35,13 +26,6 @@ proxies:
   server: antimage.fonixapp.org
   type: vless
   uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
-- cipher: none
-  name: BESTIIVPNBOT
-  network: tcp
-  port: 8443
-  server: 176.123.162.253
-  type: vless
-  uuid: 2a2a6062-003c-0012-b293-ee0d0416afee
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -72,24 +56,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: kr|5b25|puddincat07@Telegram
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: kr|5b25|puddincat07@Telegram
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
-  type: ss
-- cipher: none
-  name: '@Daily_Configs'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
