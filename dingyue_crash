@@ -1,4 +1,18 @@
 proxies:
+- cipher: none
+  name: BESTIIVPNBOT
+  network: tcp
+  port: 443
+  server: 144.124.252.219
+  type: vless
+  uuid: 2a2a6062-003c-4f44-b293-ee0d0416afee
+- cipher: none
+  name: 未知 VLESS-13 | free-nodes
+  network: tcp
+  port: 8443
+  server: 87.242.102.127
+  type: vless
+  uuid: 2a2a6062-003c-000b-b293-ee0d0416afee
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
@@ -13,6 +27,40 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: '@Filter_breaker'
+  network: tcp
+  port: 443
+  server: antimage.fonixapp.org
+  type: vless
+  uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
+- cipher: none
+  name: BESTIIVPNBOT
+  network: tcp
+  port: 443
+  server: 144.124.249.145
+  type: vless
+  uuid: 2a2a6062-003c-4f44-b293-ee0d0416afee
+- cipher: none
+  name: '@Filter_breaker'
+  network: tcp
+  port: 443
+  server: lifestealer.fonixapp.org
+  type: vless
+  uuid: e3af49ba-6a41-4fa1-8f21-f40d1f154c68
+- cipher: none
+  name: RU VLESS-17 | free-nodes
+  network: tcp
+  port: 8443
+  server: 176.123.162.253
+  type: vless
+  uuid: 2a2a6062-003c-0012-b293-ee0d0416afee
+- cipher: aes-256-gcm
+  name: kr|a1e0|puddincat07@Telegram
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -21,3 +69,10 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: '@Filter_breaker'
+  network: tcp
+  port: 8443
+  server: 176.123.162.253
+  type: vless
+  uuid: 2a2a6062-003c-0004-b293-ee0d0416afee
