@@ -1,19 +1,4 @@
 proxies:
-- name: 🇭🇰 香港 电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: none
-  name: 未知 VLESS-130 | free-nodes
-  network: tcp
-  port: 49943
-  server: 89.23.113.137
-  type: vless
-  uuid: _911331
 - cipher: none
   name: 未知 VLESS-08 | free-nodes
   network: tcp
