@@ -1,46 +1,4 @@
 proxies:
-- cipher: none
-  name: 未知 VLESS-53 | free-nodes
-  network: grpc
-  port: 29803
-  server: 141.227.178.242
-  type: vless
-  uuid: aa4f8c93-e4ec-48fe-8043-2f8e4f1c006d
-- cipher: none
-  name: 未知 VLESS-94 | free-nodes
-  network: ws
-  port: 2096
-  server: 25.25.25.253
-  servername: spplesh.hatlikarious.org
-  tls: true
-  type: vless
-  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
-  ws-opts:
-    headers:
-      Host: spplesh.hatlikarious.org
-    path: /
-- cipher: none
-  name: DE VLESS-41 | free-nodes
-  network: tcp
-  port: 443
-  server: node2.svoy.run
-  type: vless
-  uuid: 7e281f58-63b0-4e9a-a3fe-537e33e374b9
-- name: HK TROJAN-93 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: none
-  name: 未知 VLESS-06 | free-nodes
-  network: tcp
-  port: 443
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  type: vless
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - name: 🇭🇰 香港 电讯盈科有限公司
   password: BxceQaOe
   port: 443
@@ -50,12 +8,12 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: 未知 VLESS-43 | free-nodes
+  name: 未知 VLESS-130 | free-nodes
   network: tcp
-  port: 8443
-  server: v547154.hosted-by-vdsina.com
+  port: 49943
+  server: 89.23.113.137
   type: vless
-  uuid: TrueVPN_91780028
+  uuid: _911331
 - cipher: none
   name: 未知 VLESS-08 | free-nodes
   network: tcp
