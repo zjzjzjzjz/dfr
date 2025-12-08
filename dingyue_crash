@@ -5,18 +5,6 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: be|5f47|puddincat07@Telegram
-  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
-  port: 443
-  server: 45.83.20.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: be|5f47|puddincat07@Telegram
-  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
-  port: 443
-  server: 45.83.20.206
-  type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
