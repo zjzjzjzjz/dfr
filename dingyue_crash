@@ -5,14 +5,6 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -21,6 +13,12 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  name: kr|dcd5|puddincat07@Telegram
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -29,17 +27,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: RU VLESS-18 | free-nodes
-  network: tcp
-  port: 8443
-  server: 176.123.162.253
-  type: vless
-  uuid: 2a2a6062-003c-0012-b293-ee0d0416afee
-- cipher: none
-  name: GB VLESS-20 | free-nodes
-  network: tcp
-  port: 443
-  server: uk1.oomz.ru
-  type: vless
-  uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
