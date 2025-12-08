@@ -9,16 +9,9 @@ proxies:
   type: vless
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - cipher: none
-  name: SG VLESS-37 | free-nodes
-  network: grpc
-  port: 443
-  server: 38.134.189.186
-  type: vless
-  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
-- cipher: none
-  name: DE VLESS-64 | free-nodes
+  name: GB VLESS-21 | free-nodes
   network: tcp
   port: 443
-  server: node2.svoy.run
+  server: uk1.oomz.ru
   type: vless
-  uuid: 7e281f58-63b0-4e9a-a3fe-537e33e374b9
+  uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
