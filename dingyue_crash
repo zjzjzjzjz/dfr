@@ -1,10 +1,18 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
+- cipher: none
+  name: 未知 VLESS-42 | free-nodes
+  network: tcp
+  port: 8443
+  server: 167.17.70.16
+  type: vless
+  uuid: 55975415-43c0-461c-8752-d5b8013364e3
+- cipher: none
+  name: 未知 VLESS-34 | free-nodes
+  network: tcp
+  port: 62728
+  server: 213.165.63.234
+  type: vless
+  uuid: e03b538a-91c9-4d3c-a2cb-8a6b1d8df54f
 - cipher: none
   name: 未知 VLESS-61 | free-nodes
   network: tcp
@@ -12,6 +20,27 @@ proxies:
   server: v547154.hosted-by-vdsina.com
   type: vless
   uuid: TrueVPN_91780028
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
+  name: GB VLESS-71 | free-nodes
+  network: grpc
+  port: 32416
+  server: 141.227.174.26
+  type: vless
+  uuid: 04065d54-10f3-4e11-95d3-f98f8429c3ea
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -20,6 +49,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: none
+  name: 未知 VLESS-11 | free-nodes
+  network: tcp
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
