@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: none
+  name: 未知 VLESS-67 | free-nodes
+  network: tcp
+  port: 8443
+  server: v547154.hosted-by-vdsina.com
+  type: vless
+  uuid: TrueVPN_91780028
