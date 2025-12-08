@@ -1,1 +1,39 @@
-proxies: []
+proxies:
+- cipher: none
+  name: '[OpenRay] Dynamic-2072'
+  network: grpc
+  port: 443
+  server: all.tellmethetrue.shop
+  servername: pqh30v1.hiddendom.shop
+  tls: true
+  type: vless
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+- name: 🇭🇰 香港 电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
+  name: DE VLESS-43 | free-nodes
+  network: grpc
+  port: 443
+  server: 148.251.132.120
+  type: vless
+  uuid: 5c52ef02-dbee-4b4a-a608-9fcdcc23d5f5
+- cipher: none
+  name: US VLESS-27 | free-nodes
+  network: tcp
+  port: 8443
+  server: us.connect-opengate.ru
+  type: vless
+  uuid: 7039f4f0-4733-49ce-8925-2852a42d9a37
+- cipher: none
+  name: SG VLESS-33 | free-nodes
+  network: grpc
+  port: 443
+  server: 38.134.189.186
+  type: vless
+  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
