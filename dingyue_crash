@@ -6,6 +6,13 @@ proxies:
   server: mnk.sernett.ir
   type: vless
   uuid: SERVERNETT-SERVERNETT1
+- cipher: none
+  name: '@Filter_breaker'
+  network: tcp
+  port: 443
+  server: antimage.fonixapp.org
+  type: vless
+  uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
@@ -41,32 +48,12 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 未知 VLESS-39 | free-nodes
-  network: tcp
-  port: 8443
-  server: 167.17.70.16
-  type: vless
-  uuid: 55975415-43c0-461c-8752-d5b8013364e3
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-105 | free-nodes
-  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
-  port: 443
-  server: 45.83.20.206
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: be|229a|puddincat07@Telegram
   password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
   port: 443
   server: 45.83.20.206
   type: ss
-- cipher: none
-  name: US VLESS-23 | free-nodes
-  network: tcp
-  port: 443
-  server: 154.31.113.124
-  type: vless
-  uuid: b964cfbe-5f8a-47ae-9f14-4a6e36bfed2b
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -74,12 +61,6 @@ proxies:
   server: 45.8.144.27
   type: vless
   uuid: 3b13042c-f6af-4a21-9872-00c09ff7e5b9
-- cipher: chacha20-ietf-poly1305
-  name: be|229a|puddincat07@Telegram
-  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
-  port: 443
-  server: 45.83.20.206
-  type: ss
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -95,6 +76,12 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: be|229a|puddincat07@Telegram
+  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
+  port: 443
+  server: 45.83.20.206
+  type: ss
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -102,14 +89,3 @@ proxies:
   server: 176.109.105.24
   type: vless
   uuid: 2a2a6062-003c-000c-b293-ee0d0416afee
-- cipher: none
-  name: 未知 VLESS-04 | free-nodes
-  network: ws
-  port: 80
-  server: nl-78w-c.southnetworks.cloud
-  type: vless
-  uuid: 094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa
-  ws-opts:
-    headers:
-      Host: nl-78w-c.southnetworks.cloud
-    path: /getWorkerUpdates
