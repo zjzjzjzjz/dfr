@@ -1,32 +1,35 @@
 proxies:
 - cipher: none
-  name: '[OpenRay] Dynamic-2072'
-  network: grpc
-  port: 443
-  server: all.tellmethetrue.shop
-  servername: pqh30v1.hiddendom.shop
-  tls: true
-  type: vless
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-- cipher: none
-  name: 未知 VLESS-37 | free-nodes
+  name: 🇱🇻[openproxylist.com] vless-LV
   network: tcp
   port: 62728
   server: 213.165.63.234
   type: vless
   uuid: e03b538a-91c9-4d3c-a2cb-8a6b1d8df54f
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺[By EbraSha] ss-RU 🔒
+  password: AqZbt1QCs3ngEfXo1p7T-w
+  port: 1080
+  server: 81.200.158.206
+  type: ss
 - cipher: none
-  name: GB VLESS-20 | free-nodes
+  name: 🇳🇱[By EbraSha] vless-NL 🔒
+  network: tcp
+  port: 8443
+  server: 167.17.70.16
+  type: vless
+  uuid: 55975415-43c0-461c-8752-d5b8013364e3
+- cipher: none
+  name: RU VLESS-18 | free-nodes
+  network: tcp
+  port: 8443
+  server: 176.123.162.253
+  type: vless
+  uuid: 2a2a6062-003c-0012-b293-ee0d0416afee
+- cipher: none
+  name: 未知 VLESS-29 | free-nodes
   network: tcp
   port: 443
-  server: uk1.oomz.ru
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
   type: vless
-  uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
-- name: 🇭🇰 香港 电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
