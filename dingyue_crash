@@ -1,7 +1,23 @@
 proxies:
+- cipher: none
+  name: '[OpenRay] Dynamic-2072'
+  network: grpc
+  port: 443
+  server: all.tellmethetrue.shop
+  servername: pqh30v1.hiddendom.shop
+  tls: true
+  type: vless
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
+- cipher: none
+  name: 未知 VLESS-87 | free-nodes
+  network: tcp
+  port: 443
+  server: 72.56.74.74
+  type: vless
+  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
