@@ -1,9 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: au|6bea|puddincat07@Telegram
-  password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
-  port: 443
-  server: 95.111.222.113
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: au|6bea|puddincat07@Telegram
@@ -48,3 +48,14 @@ proxies:
   server: 51.250.109.47
   type: vless
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- cipher: none
+  name: xx|eb00|puddincat07@Telegram
+  network: ws
+  port: 80
+  server: nl-78w-c.southnetworks.cloud
+  type: vless
+  uuid: 094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa
+  ws-opts:
+    headers:
+      Host: nl-78w-c.southnetworks.cloud
+    path: /getWorkerUpdates
