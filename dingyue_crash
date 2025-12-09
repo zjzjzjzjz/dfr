@@ -11,49 +11,11 @@ proxies:
   port: 989
   server: 192.71.166.100
   type: ss
-- cipher: aes-256-cfb
-  name: gr|73e8|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: be|3b82|puddincat07@Telegram
-  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
-  port: 443
-  server: 45.83.20.206
-  type: ss
-- cipher: aes-256-cfb
-  name: gr|73e8|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: aes-256-cfb
-  name: gr|73e8|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: https://t.me/v2raynplus |🇸🇬
   password: 8Ij4seif85QQHfLmR0zYkQ
   port: 48918
   server: 209.74.82.196
-  type: ss
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: be|3b82|puddincat07@Telegram
-  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
-  port: 443
-  server: 45.83.20.206
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: https://t.me/v2raynplus |🇸🇬
@@ -73,6 +35,32 @@ proxies:
   port: 989
   server: 192.71.166.100
   type: ss
+- cipher: aes-256-cfb
+  name: gr|73e8|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: https://t.me/v2raynplus |🇹🇷
+  password: YHtXD4pojvormVWRiHgIfv
+  port: 25232
+  server: 83.217.9.17
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: be|3b82|puddincat07@Telegram
+  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
+  port: 443
+  server: 45.83.20.206
+  type: ss
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-121 | free-nodes
   password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
@@ -85,41 +73,38 @@ proxies:
   port: 443
   server: 45.83.20.206
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: https://t.me/v2raynplus |🇹🇷
-  password: YHtXD4pojvormVWRiHgIfv
-  port: 25232
-  server: 83.217.9.17
-  type: ss
-- name: hk|cd33|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: hk|1889|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
-- cipher: none
-  name: 未知 VLESS-59 | free-nodes
-  network: tcp
-  port: 8443
-  server: 167.17.70.16
-  type: vless
-  uuid: 55975415-43c0-461c-8752-d5b8013364e3
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-121 | free-nodes
+  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
+  port: 443
+  server: 45.83.20.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: be|3b82|puddincat07@Telegram
+  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
+  port: 443
+  server: 45.83.20.206
+  type: ss
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: be|3b82|puddincat07@Telegram
+  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
+  port: 443
+  server: 45.83.20.206
+  type: ss
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -151,20 +136,6 @@ proxies:
   type: vless
   uuid: 0a21d713-6e6f-4274-8b84-464019325513
 - cipher: none
-  name: SG VLESS-52 | free-nodes
-  network: grpc
-  port: 443
-  server: 38.134.189.186
-  type: vless
-  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
-- cipher: none
-  name: 未知 VLESS-01 | free-nodes
-  network: tcp
-  port: 443
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  type: vless
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-- cipher: none
   name: 🇺🇸@ghalagyann2
   network: ws
   port: 80
@@ -182,6 +153,13 @@ proxies:
   server: 94.72.99.160
   type: vless
   uuid: f5d7d068-3325-43d8-85bd-e8ed665abcd5
+- cipher: none
+  name: 未知 VLESS-01 | free-nodes
+  network: tcp
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - cipher: none
   name: GB VLESS-11 | free-nodes
   network: grpc
