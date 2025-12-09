@@ -1,18 +1,17 @@
 proxies:
+- cipher: none
+  name: 未知 VLESS-80 | free-nodes
+  network: tcp
+  port: 8443
+  server: v547154.hosted-by-vdsina.com
+  type: vless
+  uuid: TrueVPN_91780028
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -35,6 +34,21 @@ proxies:
   type: vless
   uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
 - cipher: none
+  name: 未知 VLESS-24 | free-nodes
+  network: tcp
+  port: 8443
+  server: 146.19.143.8
+  type: vless
+  uuid: 787ae54e-40ad-4caf-899b-ad3a19ff1103
+- name: 🇭🇰 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
   name: BESTIIVPNBOT
   network: tcp
   port: 443
@@ -56,3 +70,43 @@ proxies:
   server: 51.250.109.47
   type: vless
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- name: hk|4919|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
+  name: '@Daily_Configs'
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
+- cipher: none
+  name: '@Filter_breaker'
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
+- cipher: none
+  name: BESTIIVPNBOT
+  network: tcp
+  port: 8443
+  server: 176.123.162.253
+  type: vless
+  uuid: 2a2a6062-003c-0012-b293-ee0d0416afee
+- cipher: none
+  name: 未知 VLESS-06 | free-nodes
+  network: tcp
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
