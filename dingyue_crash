@@ -1,4 +1,12 @@
 proxies:
+- name: hk|e6d1|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: https://t.me/v2raynplus |🇸🇬
   password: 8Ij4seif85QQHfLmR0zYkQ
@@ -24,12 +32,6 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: https://t.me/v2raynplus |🇹🇷
-  password: YHtXD4pojvormVWRiHgIfv
-  port: 25232
-  server: 83.217.9.17
-  type: ss
 - cipher: none
   name: 未知 VLESS-19 | free-nodes
   network: grpc
@@ -37,7 +39,21 @@ proxies:
   server: 208.69.78.5
   type: vless
   uuid: 0a21d713-6e6f-4274-8b84-464019325513
-- name: hk|5c23|puddincat07@Telegram
+- name: hk|f1d8|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: https://t.me/v2raynplus |🇹🇷
+  password: YHtXD4pojvormVWRiHgIfv
+  port: 25232
+  server: 83.217.9.17
+  type: ss
+- name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 219.79.186.107
@@ -45,7 +61,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 🇭🇰 香港4|@ripaojiedian
+- name: hk|5c23|puddincat07@Telegram
   password: BxceQaOe
   port: 443
   server: 219.79.186.107
@@ -61,13 +77,14 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 未知 VLESS-60 | free-nodes
-  network: tcp
-  port: 8443
-  server: 167.17.70.16
-  type: vless
-  uuid: 55975415-43c0-461c-8752-d5b8013364e3
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -75,6 +92,14 @@ proxies:
   server: 51.250.109.47
   type: vless
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- name: hk|69af|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: 🇬🇧[By EbraSha] vless-GB 🔒
   network: tcp
@@ -82,24 +107,14 @@ proxies:
   server: 94.72.99.160
   type: vless
   uuid: f5d7d068-3325-43d8-85bd-e8ed665abcd5
-- cipher: none
-  name: 未知 VLESS-30 | free-nodes
-  network: tcp
+- name: hk|ed26|puddincat07@Telegram
+  password: BxceQaOe
   port: 443
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  type: vless
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-- cipher: none
-  name: 🇺🇸@ghalagyann2
-  network: ws
-  port: 80
-  server: 172.66.156.81
-  type: vless
-  uuid: 03702488-a7b1-445e-98db-db2166e9a656
-  ws-opts:
-    headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: '@Filter_breaker'
   network: xhttp
