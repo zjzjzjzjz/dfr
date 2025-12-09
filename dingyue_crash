@@ -1,4 +1,53 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: https://t.me/v2raynplus |🇸🇬
+  password: q92MrrP9oJ3lMEzbQFpyuU
+  port: 21166
+  server: 209.74.81.149
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|72a5|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
+  name: VN_speednode_0037
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.192
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|72a5|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
+  name: gr|72a5|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- cipher: aes-256-cfb
+  name: VN_speednode_0039
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.50
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: https://t.me/v2raynplus |🇸🇬
+  password: 8Ij4seif85QQHfLmR0zYkQ
+  port: 48918
+  server: 209.74.82.196
+  type: ss
+- cipher: none
+  name: IL_speednode_0022
+  network: tcp
+  port: 24170
+  server: 185.136.132.171
+  type: vless
+  uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
@@ -36,9 +85,34 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
+  name: RU_speednode_0027
+  network: tcp
+  port: 52900
+  server: wolfy.ufavpn.ru
+  type: vless
+  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
+- cipher: none
   name: BESTIIVPNBOT
   network: tcp
   port: 1488
   server: 51.250.109.47
   type: vless
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- cipher: none
+  name: 🌿🌲4
+  network: xhttp
+  port: 80
+  server: mnk.sernett.ir
+  type: vless
+  uuid: SERVERNETT-SERVERNETT1
+- cipher: none
+  name: 🇺🇸@ghalagyann2
+  network: ws
+  port: 80
+  server: 172.66.156.81
+  type: vless
+  uuid: 03702488-a7b1-445e-98db-db2166e9a656
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
