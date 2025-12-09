@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: SG SS-01 | free-nodes
+  password: q92MrrP9oJ3lMEzbQFpyuU
+  port: 21166
+  server: 209.74.81.149
+  type: ss
 - cipher: aes-256-cfb
   name: VN_speednode_0038
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -30,6 +36,27 @@ proxies:
   port: 17454
   server: 146.70.90.196
   type: ss
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: be|3411|puddincat07@Telegram
+  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
+  port: 443
+  server: 45.83.20.206
+  type: ss
+- cipher: none
+  name: 未知 VLESS-66 | free-nodes
+  network: tcp
+  port: 8443
+  server: 167.17.70.16
+  type: vless
+  uuid: 55975415-43c0-461c-8752-d5b8013364e3
 - cipher: chacha20-ietf-poly1305
   name: https://t.me/v2raynplus |🇹🇷
   password: YHtXD4pojvormVWRiHgIfv
@@ -59,6 +86,14 @@ proxies:
   server: 51.250.109.47
   type: vless
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- name: hk|bd41|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: 🇬🇧[By EbraSha] vless-GB 🔒
   network: tcp
