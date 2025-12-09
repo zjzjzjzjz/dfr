@@ -29,14 +29,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
