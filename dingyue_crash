@@ -5,12 +5,6 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
-- cipher: aes-256-cfb
-  name: gr|11ef|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
