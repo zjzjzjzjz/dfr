@@ -1,18 +1,4 @@
 proxies:
-- name: hk|3691|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: be|006e|puddincat07@Telegram
-  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
-  port: 443
-  server: 45.83.20.206
-  type: ss
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -27,16 +13,12 @@ proxies:
   server: 185.153.197.5
   type: ss
 - cipher: none
-  name: xx|3cf5|puddincat07@Telegram
-  network: ws
-  port: 80
-  server: nl-78w-c.southnetworks.cloud
+  name: DE VLESS-59 | free-nodes
+  network: tcp
+  port: 443
+  server: node2.svoy.run
   type: vless
-  uuid: 094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa
-  ws-opts:
-    headers:
-      Host: nl-78w-c.southnetworks.cloud
-    path: /getWorkerUpdates
+  uuid: 7e281f58-63b0-4e9a-a3fe-537e33e374b9
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -68,6 +50,26 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-109 | free-nodes
+  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
+  port: 443
+  server: 45.83.20.206
+  type: ss
+- cipher: none
+  name: SG VLESS-34 | free-nodes
+  network: grpc
+  port: 443
+  server: 38.134.189.186
+  type: vless
+  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
+- cipher: none
+  name: 未知 VLESS-57 | free-nodes
+  network: tcp
+  port: 443
+  server: node.svoy.run
+  type: vless
+  uuid: 7e281f58-63b0-4e9a-a3fe-537e33e374b9
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -75,6 +77,20 @@ proxies:
   server: 45.8.144.27
   type: vless
   uuid: 3b13042c-f6af-4a21-9872-00c09ff7e5b9
+- cipher: chacha20-ietf-poly1305
+  name: be|22bb|puddincat07@Telegram
+  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
+  port: 443
+  server: 45.83.20.206
+  type: ss
+- name: hk|f946|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
