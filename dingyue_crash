@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: au|cd60|puddincat07@Telegram
-  password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
-  port: 443
-  server: 95.111.222.113
-  type: ss
 - cipher: none
   name: 未知 VLESS-16 | free-nodes
   network: tcp
@@ -12,13 +6,12 @@ proxies:
   server: 51.250.109.47
   type: vless
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-- cipher: none
-  name: 未知 VLESS-100 | free-nodes
-  network: tcp
-  port: 8443
-  server: v547154.hosted-by-vdsina.com
-  type: vless
-  uuid: TrueVPN_91780028
+- cipher: chacha20-ietf-poly1305
+  name: au|6bea|puddincat07@Telegram
+  password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
+  port: 443
+  server: 95.111.222.113
+  type: ss
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -57,18 +50,16 @@ proxies:
   type: vless
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
 - cipher: none
-  name: SG VLESS-74 | free-nodes
-  network: grpc
+  name: 未知 VLESS-23 | free-nodes
+  network: tcp
   port: 443
-  server: 38.134.189.186
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
   type: vless
-  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
 - cipher: none
-  name: 未知 VLESS-46 | free-nodes
-  network: ws
-  port: 80
-  server: nl-78w-c.southnetworks.cloud
+  name: 未知 VLESS-36 | free-nodes
+  network: tcp
+  port: 4443
+  server: 146.103.113.79
   type: vless
-  uuid: 094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa
-  ws-opts:
-    path: /getWorkerUpdates
+  uuid: 3121850a-24aa-41f9-936d-dbdf10a3b31f
