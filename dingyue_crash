@@ -1,4 +1,11 @@
 proxies:
+- cipher: none
+  name: 🌿🌲4
+  network: xhttp
+  port: 80
+  server: mnk.sernett.ir
+  type: vless
+  uuid: SERVERNETT-SERVERNETT1
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
@@ -26,6 +33,15 @@ proxies:
   server: antimage.fonixapp.org
   type: vless
   uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
+- cipher: none
+  name: '@Daily_Configs'
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
