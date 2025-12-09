@@ -1,17 +1,18 @@
 proxies:
-- cipher: none
-  name: 🌿🌲4
-  network: xhttp
-  port: 80
-  server: mnk.sernett.ir
-  type: vless
-  uuid: SERVERNETT-SERVERNETT1
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
+- name: 🇭🇰 香港5|@ripaojiedian
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -33,29 +34,6 @@ proxies:
   server: antimage.fonixapp.org
   type: vless
   uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: none
-  name: 未知 VLESS-47 | free-nodes
-  network: tcp
-  port: 62728
-  server: 213.165.63.234
-  type: vless
-  uuid: e03b538a-91c9-4d3c-a2cb-8a6b1d8df54f
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -72,23 +50,9 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
-  name: RU VLESS-32 | free-nodes
-  network: tcp
-  port: 8443
-  server: 176.123.162.253
-  type: vless
-  uuid: 2a2a6062-003c-0012-b293-ee0d0416afee
-- cipher: none
   name: BESTIIVPNBOT
   network: tcp
   port: 1488
   server: 51.250.109.47
   type: vless
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-- cipher: none
-  name: '@Daily_Configs'
-  network: tcp
-  port: 8443
-  server: 176.123.162.253
-  type: vless
-  uuid: 2a2a6062-003c-0004-b293-ee0d0416afee
