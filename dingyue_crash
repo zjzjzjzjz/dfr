@@ -1,12 +1,5 @@
 proxies:
 - cipher: none
-  name: '@HiByeVPNN❤️‍🔥⚡☘️'
-  network: xhttp
-  port: 80
-  server: mnk.sernett.ir
-  type: vless
-  uuid: SERVERNETT-SERVERNETT1
-- cipher: none
   name: BESTIIVPNBOT
   network: tcp
   port: 443
@@ -44,16 +37,9 @@ proxies:
   type: vless
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
 - cipher: none
-  name: BESTIIVPNBOT
+  name: 未知 VLESS-22 | free-nodes
   network: tcp
-  port: 8443
-  server: 176.109.105.24
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
   type: vless
-  uuid: 2a2a6062-003c-0009-b293-ee0d0416afee
-- cipher: none
-  name: 未知 VLESS-08 | free-nodes
-  network: tcp
-  port: 8443
-  server: 167.17.70.16
-  type: vless
-  uuid: 55975415-43c0-461c-8752-d5b8013364e3
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
