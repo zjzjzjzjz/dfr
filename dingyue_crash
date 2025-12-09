@@ -1,49 +1,4 @@
 proxies:
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: none
-  name: '@Filter_breaker'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
-- cipher: none
-  name: BESTIIVPNBOT
-  network: tcp
-  port: 443
-  server: uk1.oomz.ru
-  type: vless
-  uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
-- cipher: none
-  name: GB VLESS-19 | free-nodes
-  network: tcp
-  port: 443
-  server: uk1.oomz.ru
-  type: vless
-  uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
-- cipher: none
-  name: DE VLESS-59 | free-nodes
-  network: tcp
-  port: 443
-  server: node2.svoy.run
-  type: vless
-  uuid: 7e281f58-63b0-4e9a-a3fe-537e33e374b9
-- cipher: none
-  name: BESTIIVPNBOT
-  network: tcp
-  port: 443
-  server: 144.124.252.219
-  type: vless
-  uuid: 2a2a6062-003c-4f44-b293-ee0d0416afee
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
@@ -51,12 +6,12 @@ proxies:
   server: 185.153.197.5
   type: ss
 - cipher: none
-  name: SG VLESS-34 | free-nodes
-  network: grpc
+  name: BESTIIVPNBOT
+  network: tcp
   port: 443
-  server: 38.134.189.186
+  server: 144.124.252.219
   type: vless
-  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
+  uuid: 2a2a6062-003c-4f44-b293-ee0d0416afee
 - cipher: none
   name: BESTIIVPNBOT
   network: tcp
@@ -75,14 +30,6 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
@@ -109,32 +56,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: none
-  name: 未知 VLESS-57 | free-nodes
-  network: tcp
-  port: 443
-  server: node.svoy.run
-  type: vless
-  uuid: 7e281f58-63b0-4e9a-a3fe-537e33e374b9
-- name: hk|f946|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- cipher: none
-  name: 未知 VLESS-02 | free-nodes
-  network: tcp
-  port: 443
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  type: vless
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-- cipher: none
-  name: BESTIIVPNBOT
-  network: tcp
-  port: 8443
-  server: 176.123.162.253
-  type: vless
-  uuid: 2a2a6062-003c-0012-b293-ee0d0416afee
