@@ -12,6 +12,13 @@ proxies:
   server: 209.74.82.196
   type: ss
 - cipher: none
+  name: GB VLESS-17 | free-nodes
+  network: tcp
+  port: 8443
+  server: 94.72.99.160
+  type: vless
+  uuid: f5d7d068-3325-43d8-85bd-e8ed665abcd5
+- cipher: none
   name: '@Filter_breaker'
   network: xhttp
   port: 2082
@@ -31,16 +38,16 @@ proxies:
   server: 146.70.90.196
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: be|d5f2|puddincat07@Telegram
-  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
-  port: 443
-  server: 45.83.20.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: https://t.me/v2raynplus |🇹🇷
   password: YHtXD4pojvormVWRiHgIfv
   port: 25232
   server: 83.217.9.17
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: be|d5f2|puddincat07@Telegram
+  password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
+  port: 443
+  server: 45.83.20.206
   type: ss
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
