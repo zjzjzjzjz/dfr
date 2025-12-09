@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: SG SS-04 | free-nodes
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
+  name: SG SS-01 | free-nodes
+  password: q92MrrP9oJ3lMEzbQFpyuU
+  port: 21166
+  server: 209.74.81.149
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: sg|5b00|puddincat07@Telegram
@@ -11,34 +11,19 @@ proxies:
   port: 21166
   server: 209.74.81.149
   type: ss
-- name: hk|f83e|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: VN_speednode_0038
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.46
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: SG SS-04 | free-nodes
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
-  type: ss
+- cipher: none
+  name: GB VLESS-21 | free-nodes
+  network: grpc
+  port: 443
+  server: 94.72.99.160
+  type: vless
+  uuid: f5d7d068-3325-43d8-85bd-e8ed665abcd5
 - cipher: chacha20-ietf-poly1305
   name: SG SS-04 | free-nodes
   password: 8Ij4seif85QQHfLmR0zYkQ
@@ -47,6 +32,12 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: https://t.me/v2raynplus |🇸🇬
+  password: 8Ij4seif85QQHfLmR0zYkQ
+  port: 48918
+  server: 209.74.82.196
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: SG SS-04 | free-nodes
   password: 8Ij4seif85QQHfLmR0zYkQ
   port: 48918
   server: 209.74.82.196
@@ -60,18 +51,39 @@ proxies:
   type: trojan
   udp: true
 - cipher: none
+  name: 未知 VLESS-27 | free-nodes
+  network: tcp
+  port: 1488
+  server: 51.250.99.190
+  type: vless
+  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- cipher: chacha20-ietf-poly1305
+  name: SG SS-01 | free-nodes
+  password: q92MrrP9oJ3lMEzbQFpyuU
+  port: 21166
+  server: 209.74.81.149
+  type: ss
+- name: HK TROJAN-118 | free-nodes
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: none
   name: '@Filter_breaker'
   network: xhttp
   port: 2082
   server: vv.vipirvcip.sbs
   type: vless
   uuid: 969695f5-6a06-4297-86a8-2d464e4cb356
-- name: 🇭🇰 香港4|@stairnode
+- name: hk|f83e|puddincat07@Telegram
   password: BxceQaOe
   port: 443
-  server: 219.79.186.107
+  server: 58.152.25.20
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -80,26 +92,41 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
+- cipher: none
+  name: US VLESS-05 | free-nodes
+  network: tcp
+  port: 4443
+  server: 103.35.190.51
+  type: vless
+  uuid: 3121850a-24aa-41f9-936d-dbdf10a3b31f
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
   name: Channel+id:+@ShadowProxy66+🇮🇪 🇨🇭
   password: u8gp148iz90ddoo6ms37
   port: 17454
   server: 146.70.90.196
   type: ss
-- name: hk|bd41|puddincat07@Telegram
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: https://t.me/v2raynplus |🇹🇷
   password: YHtXD4pojvormVWRiHgIfv
   port: 25232
   server: 83.217.9.17
   type: ss
+- name: hk|2303|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - name: 🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -142,28 +169,3 @@ proxies:
   port: 8080
   server: 82.38.31.184
   type: ss
-- cipher: none
-  name: 未知 VLESS-19 | free-nodes
-  network: tcp
-  port: 443
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  type: vless
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-- cipher: none
-  name: '@Filter_breaker'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
-- cipher: none
-  name: '@Daily_Configs'
-  network: xhttp
-  port: 443
-  server: plb.tunnelguard.ru
-  servername: plb.tunnelguard.ru
-  tls: true
-  type: vless
-  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
