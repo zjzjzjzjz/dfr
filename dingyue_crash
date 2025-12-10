@@ -1,15 +1,15 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: sg|48bf|puddincat07@Telegram
+  password: q92MrrP9oJ3lMEzbQFpyuU
+  port: 21166
+  server: 209.74.81.149
+  type: ss
 - cipher: aes-256-cfb
   name: VN_speednode_0038
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.46
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸 US美国(mibei77.com 米贝节点分享)
-  password: 63d7c17506d1f48b
-  port: 60120
-  server: 203.32.26.157
   type: ss
 - cipher: aes-256-gcm
   name: 🇳🇱 NL荷兰(mibei77.com 米贝节点分享)
@@ -22,6 +22,12 @@ proxies:
   password: 8Ij4seif85QQHfLmR0zYkQ
   port: 48918
   server: 209.74.82.196
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸 US美国(mibei77.com 米贝节点分享)
+  password: 63d7c17506d1f48b
+  port: 60120
+  server: 203.32.26.157
   type: ss
 - cipher: none
   name: '@Filter_breaker'
