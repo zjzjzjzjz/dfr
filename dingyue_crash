@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: SG SS-01 | free-nodes
-  password: q92MrrP9oJ3lMEzbQFpyuU
-  port: 21166
-  server: 209.74.81.149
-  type: ss
 - cipher: aes-256-cfb
   name: VN_speednode_0038
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -24,12 +18,6 @@ proxies:
   server: vv.vipirvcip.sbs
   type: vless
   uuid: 969695f5-6a06-4297-86a8-2d464e4cb356
-- cipher: chacha20-ietf-poly1305
-  name: SG SS-01 | free-nodes
-  password: q92MrrP9oJ3lMEzbQFpyuU
-  port: 21166
-  server: 209.74.81.149
-  type: ss
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
@@ -47,12 +35,6 @@ proxies:
   password: YHtXD4pojvormVWRiHgIfv
   port: 25232
   server: 83.217.9.17
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: sg|7ade|puddincat07@Telegram
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
   type: ss
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
