@@ -1,29 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: VN_speednode_0038
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.46
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: SG SS-04 | free-nodes
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: https://t.me/v2raynplus |🇸🇬
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
-  type: ss
-- cipher: none
-  name: '@Filter_breaker'
-  network: xhttp
-  port: 2082
-  server: vv.vipirvcip.sbs
-  type: vless
-  uuid: 969695f5-6a06-4297-86a8-2d464e4cb356
 - name: hk|9e5a|puddincat07@Telegram
   password: BxceQaOe
   port: 443
@@ -32,6 +7,53 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG SS-01 | free-nodes
+  password: q92MrrP9oJ3lMEzbQFpyuU
+  port: 21166
+  server: 209.74.81.149
+  type: ss
+- cipher: none
+  name: '@Filter_breaker'
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
+- cipher: aes-256-cfb
+  name: VN_speednode_0038
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.46
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: https://t.me/v2raynplus |🇸🇬
+  password: 8Ij4seif85QQHfLmR0zYkQ
+  port: 48918
+  server: 209.74.82.196
+  type: ss
+- cipher: none
+  name: 🌿🌲4
+  network: xhttp
+  port: 80
+  server: mnk.sernett.ir
+  type: vless
+  uuid: SERVERNETT-SERVERNETT1
+- cipher: chacha20-ietf-poly1305
+  name: SG SS-01 | free-nodes
+  password: q92MrrP9oJ3lMEzbQFpyuU
+  port: 21166
+  server: 209.74.81.149
+  type: ss
+- cipher: none
+  name: '@Filter_breaker'
+  network: xhttp
+  port: 2082
+  server: vv.vipirvcip.sbs
+  type: vless
+  uuid: 969695f5-6a06-4297-86a8-2d464e4cb356
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
@@ -44,31 +66,26 @@ proxies:
   port: 21166
   server: 209.74.81.149
   type: ss
+- cipher: none
+  name: '@Daily_Configs'
+  network: xhttp
+  port: 443
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - cipher: aes-128-gcm
   name: Channel+id:+@ShadowProxy66+🇮🇪 🇨🇭
   password: u8gp148iz90ddoo6ms37
   port: 17454
   server: 146.70.90.196
   type: ss
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: sg|dcf4|puddincat07@Telegram
-  password: q92MrrP9oJ3lMEzbQFpyuU
-  port: 21166
-  server: 209.74.81.149
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: sg|dcf4|puddincat07@Telegram
-  password: q92MrrP9oJ3lMEzbQFpyuU
-  port: 21166
-  server: 209.74.81.149
+  name: SG SS-04 | free-nodes
+  password: 8Ij4seif85QQHfLmR0zYkQ
+  port: 48918
+  server: 209.74.82.196
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: https://t.me/v2raynplus |🇹🇷
@@ -83,25 +100,20 @@ proxies:
   server: 209.74.81.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: SG SS-01 | free-nodes
-  password: q92MrrP9oJ3lMEzbQFpyuU
-  port: 21166
-  server: 209.74.81.149
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: sg|dcf4|puddincat07@Telegram
   password: q92MrrP9oJ3lMEzbQFpyuU
   port: 21166
   server: 209.74.81.149
   type: ss
-- name: HK TROJAN-118 | free-nodes
-  password: BxceQaOe
+- cipher: none
+  name: '@Filter_breaker'
+  network: xhttp
   port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  server: plb.tunnelguard.ru
+  servername: plb.tunnelguard.ru
+  tls: true
+  type: vless
+  uuid: b278fc13-9be7-4e21-90cb-cb52ac0e2469
 - name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
@@ -111,16 +123,22 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG SS-01 | free-nodes
+  name: SG SS-04 | free-nodes
+  password: 8Ij4seif85QQHfLmR0zYkQ
+  port: 48918
+  server: 209.74.82.196
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: sg|dcf4|puddincat07@Telegram
   password: q92MrrP9oJ3lMEzbQFpyuU
   port: 21166
   server: 209.74.81.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: sg|7ade|puddincat07@Telegram
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
+  name: sg|dcf4|puddincat07@Telegram
+  password: q92MrrP9oJ3lMEzbQFpyuU
+  port: 21166
+  server: 209.74.81.149
   type: ss
 - cipher: none
   name: BESTIIVPNBOT
@@ -129,29 +147,19 @@ proxies:
   server: 51.250.109.47
   type: vless
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- name: hk|bf40|puddincat07@Telegram
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: SG SS-01 | free-nodes
   password: q92MrrP9oJ3lMEzbQFpyuU
   port: 21166
   server: 209.74.81.149
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: SG SS-04 | free-nodes
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: SG SS-04 | free-nodes
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: SG SS-04 | free-nodes
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
   type: ss
 - cipher: none
   name: 🇬🇧[By EbraSha] vless-GB 🔒
@@ -161,16 +169,10 @@ proxies:
   type: vless
   uuid: f5d7d068-3325-43d8-85bd-e8ed665abcd5
 - cipher: chacha20-ietf-poly1305
-  name: sg|dcf4|puddincat07@Telegram
+  name: SG SS-01 | free-nodes
   password: q92MrrP9oJ3lMEzbQFpyuU
   port: 21166
   server: 209.74.81.149
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: sg|7ade|puddincat07@Telegram
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱[Telegram:NetifyVpn]
@@ -183,10 +185,4 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.184
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: sg|7ade|puddincat07@Telegram
-  password: 8Ij4seif85QQHfLmR0zYkQ
-  port: 48918
-  server: 209.74.82.196
   type: ss
